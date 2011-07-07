@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* CutifyAppPrototypeAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1131}}";
+			sepNavSelRange = "{449, 0}";
+			sepNavVisRange = "{0, 803}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* CutifyAppPrototype */ = {
+		activeExec = 0;
+		executables = (
+			B6B9241A13B3E6C00040F074 /* CutifyAppPrototype */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B6B9241A13B3E6C00040F074 /* CutifyAppPrototype */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* CutifyAppPrototype */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* CutifyAppPrototype */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = B6B9242413B3E6C50040F074 /* Code sense */;
+		executables = (
+			B6B9241A13B3E6C00040F074 /* CutifyAppPrototype */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 331587265;
+			PBXWorkspaceStateSaveDate = 331587265;
+		};
+		perUserProjectItems = {
+			B6013B7F13BCF839007B33D4 = B6013B7F13BCF839007B33D4 /* PBXBookmark */;
+			B6013B8013BCF839007B33D4 = B6013B8013BCF839007B33D4 /* PlistBookmark */;
+			B6013B8113BCF839007B33D4 = B6013B8113BCF839007B33D4 /* PBXTextBookmark */;
+			B6013B8213BCF839007B33D4 = B6013B8213BCF839007B33D4 /* PBXTextBookmark */;
+			B6013BE113BD3AA2007B33D4 = B6013BE113BD3AA2007B33D4 /* PBXTextBookmark */;
+			B66FE92013BCEB4D00C350F9 = B66FE92013BCEB4D00C350F9 /* PBXBookmark */;
+			B66FE92113BCEB4D00C350F9 = B66FE92113BCEB4D00C350F9 /* PBXBookmark */;
+			B66FE92213BCEB4D00C350F9 = B66FE92213BCEB4D00C350F9 /* PBXBookmark */;
+			B66FE92413BCEB4D00C350F9 = B66FE92413BCEB4D00C350F9 /* PBXTextBookmark */;
+			B66FE92513BCEB4D00C350F9 = B66FE92513BCEB4D00C350F9 /* PBXTextBookmark */;
+			B67CE87E13C3AD60004038BD /* XCBuildMessageTextBookmark */ = B67CE87E13C3AD60004038BD /* XCBuildMessageTextBookmark */;
+			B67CE87F13C3AD60004038BD /* PBXTextBookmark */ = B67CE87F13C3AD60004038BD /* PBXTextBookmark */;
+			B67CE88813C3AD63004038BD /* PBXTextBookmark */ = B67CE88813C3AD63004038BD /* PBXTextBookmark */;
+			B67CE88913C3AD63004038BD /* XCBuildMessageTextBookmark */ = B67CE88913C3AD63004038BD /* XCBuildMessageTextBookmark */;
+			B67CE88A13C3AD63004038BD /* PBXTextBookmark */ = B67CE88A13C3AD63004038BD /* PBXTextBookmark */;
+			B67CE89713C3B1FC004038BD /* PBXTextBookmark */ = B67CE89713C3B1FC004038BD /* PBXTextBookmark */;
+			B67CE89C13C3B245004038BD /* PBXTextBookmark */ = B67CE89C13C3B245004038BD /* PBXTextBookmark */;
+			B67CE89F13C3B62C004038BD /* PBXTextBookmark */ = B67CE89F13C3B62C004038BD /* PBXTextBookmark */;
+			B67CE8A013C3B62C004038BD /* PBXTextBookmark */ = B67CE8A013C3B62C004038BD /* PBXTextBookmark */;
+			B67CE8A713C3C104004038BD /* PBXTextBookmark */ = B67CE8A713C3C104004038BD /* PBXTextBookmark */;
+			B67CE8A813C3C474004038BD /* PBXTextBookmark */ = B67CE8A813C3C474004038BD /* PBXTextBookmark */;
+			B67CE8A913C3C474004038BD /* PBXTextBookmark */ = B67CE8A913C3C474004038BD /* PBXTextBookmark */;
+			B67CE8AA13C3C474004038BD /* PBXTextBookmark */ = B67CE8AA13C3C474004038BD /* PBXTextBookmark */;
+			B6A0C49513B416BC00365454 = B6A0C49513B416BC00365454 /* PBXTextBookmark */;
+			B6B9244613B3EADC0040F074 = B6B9244613B3EADC0040F074 /* PBXBookmark */;
+			B6B9244713B3EADC0040F074 = B6B9244713B3EADC0040F074 /* PBXTextBookmark */;
+			B6B9245713B3EC1F0040F074 = B6B9245713B3EC1F0040F074 /* PBXTextBookmark */;
+			B6ED294613B7F2FB00E8BB61 = B6ED294613B7F2FB00E8BB61 /* PBXTextBookmark */;
+			B6ED299A13B7F9B600E8BB61 = B6ED299A13B7F9B600E8BB61 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B6B9242313B3E6C50040F074 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 460}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 374}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* CutifyAppPrototype_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 460}}";
+			sepNavSelRange = "{230, 0}";
+			sepNavVisRange = "{0, 273}";
+		};
+	};
+	8D1107310486CEB800E47090 /* CutifyAppPrototype-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {821, 774}}";
+		};
+	};
+	B6013B7F13BCF839007B33D4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B66FE90013BC3B7500C350F9 /* Default@2x.png */;
+	};
+	B6013B8013BCF839007B33D4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CutifyAppPrototype-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDisplayName,
+		);
+		name = "/Users/danlipert/Documents/CutifyAppPrototype/CutifyAppPrototype-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	B6013B8113BCF839007B33D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9243813B3E9C30040F074 /* CutifyStickerView.m */;
+		name = "CutifyStickerView.m: 48";
+		rLen = 0;
+		rLoc = 1027;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 327;
+	};
+	B6013B8213BCF839007B33D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		name = "ComposingViewController.m: 87";
+		rLen = 0;
+		rLoc = 3416;
+		rType = 0;
+		vrLen = 1183;
+		vrLoc = 2660;
+	};
+	B6013BE113BD3AA2007B33D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		name = "ComposingViewController.m: 157";
+		rLen = 0;
+		rLoc = 6239;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 4952;
+	};
+	B66FE92013BCEB4D00C350F9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B6B9243A13B3E9CC0040F074 /* easterislandheadicon.gif */;
+	};
+	B66FE92113BCEB4D00C350F9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B66FE8F413BC392D00C350F9 /* Icon.png */;
+	};
+	B66FE92213BCEB4D00C350F9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B66FE8F613BC393700C350F9 /* Icon@2x.png */;
+	};
+	B66FE92413BCEB4D00C350F9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242713B3E7120040F074 /* ComposingViewController.h */;
+		name = "ComposingViewController.h: 17";
+		rLen = 0;
+		rLoc = 338;
+		rType = 0;
+		vrLen = 833;
+		vrLoc = 0;
+	};
+	B66FE92513BCEB4D00C350F9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CutifyAppPrototypeAppDelegate.m */;
+		name = "CutifyAppPrototypeAppDelegate.m: 20";
+		rLen = 0;
+		rLoc = 449;
+		rType = 0;
+		vrLen = 803;
+		vrLoc = 0;
+	};
+	B67CE87E13C3AD60004038BD /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ';' before ']' token";
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 137;
+		rType = 1;
+	};
+	B67CE87F13C3AD60004038BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		name = "ComposingViewController.m: 138";
+		rLen = 0;
+		rLoc = 5092;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 4888;
+	};
+	B67CE88813C3AD63004038BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242713B3E7120040F074 /* ComposingViewController.h */;
+		name = "ComposingViewController.h: 20";
+		rLen = 0;
+		rLoc = 561;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 0;
+	};
+	B67CE88913C3AD63004038BD /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ';' before ']' token";
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 137;
+		rType = 1;
+	};
+	B67CE88A13C3AD63004038BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		name = "ComposingViewController.m: 65";
+		rLen = 0;
+		rLoc = 2520;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 710;
+	};
+	B67CE89713C3B1FC004038BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		name = "ComposingViewController.m: 138";
+		rLen = 0;
+		rLoc = 5092;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 4888;
+	};
+	B67CE89C13C3B245004038BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		name = "ComposingViewController.m: 138";
+		rLen = 0;
+		rLoc = 5092;
+		rType = 0;
+		vrLen = 275;
+		vrLoc = 4867;
+	};
+	B67CE89F13C3B62C004038BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		name = "ComposingViewController.m: 54";
+		rLen = 0;
+		rLoc = 1941;
+		rType = 0;
+		vrLen = 1978;
+		vrLoc = 1190;
+	};
+	B67CE8A013C3B62C004038BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		name = "ComposingViewController.m: 181";
+		rLen = 0;
+		rLoc = 6476;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 5815;
+	};
+	B67CE8A713C3C104004038BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		name = "ComposingViewController.m: 160";
+		rLen = 0;
+		rLoc = 5869;
+		rType = 0;
+		vrLen = 1240;
+		vrLoc = 4960;
+	};
+	B67CE8A813C3C474004038BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9243713B3E9C30040F074 /* CutifyStickerView.h */;
+		name = "CutifyStickerView.h: 18";
+		rLen = 0;
+		rLoc = 311;
+		rType = 0;
+		vrLen = 316;
+		vrLoc = 0;
+	};
+	B67CE8A913C3C474004038BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		name = "ComposingViewController.m: 248";
+		rLen = 0;
+		rLoc = 8886;
+		rType = 0;
+		vrLen = 1642;
+		vrLoc = 8542;
+	};
+	B67CE8AA13C3C474004038BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		name = "ComposingViewController.m: 251";
+		rLen = 0;
+		rLoc = 9027;
+		rType = 0;
+		vrLen = 1649;
+		vrLoc = 8535;
+	};
+	B6A0C3FC13B408AD00365454 /* PuzzlePickerTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 448}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 359}";
+		};
+	};
+	B6A0C3FD13B408AD00365454 /* PuzzlePickerTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 2327}}";
+			sepNavSelRange = "{4382, 0}";
+			sepNavVisRange = "{1521, 1256}";
+		};
+	};
+	B6A0C49513B416BC00365454 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6A0C3FC13B408AD00365454 /* PuzzlePickerTableViewController.h */;
+		name = "PuzzlePickerTableViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 359;
+		vrLoc = 0;
+	};
+	B6B9241A13B3E6C00040F074 /* CutifyAppPrototype */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CutifyAppPrototype;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	B6B9242313B3E6C50040F074 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B6B9242413B3E6C50040F074 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B6B9242713B3E7120040F074 /* ComposingViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 503}}";
+			sepNavSelRange = "{561, 0}";
+			sepNavVisRange = "{0, 890}";
+		};
+	};
+	B6B9242813B3E7120040F074 /* ComposingViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {656, 4810}}";
+			sepNavSelRange = "{5092, 0}";
+			sepNavVisRange = "{5364, 540}";
+		};
+	};
+	B6B9243713B3E9C30040F074 /* CutifyStickerView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 503}}";
+			sepNavSelRange = "{311, 0}";
+			sepNavVisRange = "{0, 316}";
+		};
+	};
+	B6B9243813B3E9C30040F074 /* CutifyStickerView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1272, 754}}";
+			sepNavSelRange = "{1027, 0}";
+			sepNavVisRange = "{327, 704}";
+		};
+	};
+	B6B9244613B3EADC0040F074 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B6B9243C13B3EA3D0040F074 /* egg.jpg */;
+	};
+	B6B9244713B3EADC0040F074 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 0;
+	};
+	B6B9245713B3EC1F0040F074 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* CutifyAppPrototype_Prefix.pch */;
+		name = "CutifyAppPrototype_Prefix.pch: 9";
+		rLen = 0;
+		rLoc = 230;
+		rType = 0;
+		vrLen = 273;
+		vrLoc = 0;
+	};
+	B6ED294613B7F2FB00E8BB61 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6A0C3FD13B408AD00365454 /* PuzzlePickerTableViewController.m */;
+		name = "PuzzlePickerTableViewController.m: 150";
+		rLen = 0;
+		rLoc = 4382;
+		rType = 0;
+		vrLen = 1256;
+		vrLoc = 1521;
+	};
+	B6ED299A13B7F9B600E8BB61 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9243713B3E9C30040F074 /* CutifyStickerView.h */;
+		name = "CutifyStickerView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 317;
+		vrLoc = 0;
+	};
+}
