@@ -20,6 +20,13 @@
 		B6C087D513CC004800BA7D4E /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C087D413CC004800BA7D4E /* TakePhotoViewController.m */; };
 		B6C087DF13CC00F900BA7D4E /* OptionsAndSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C087DE13CC00F900BA7D4E /* OptionsAndSharingViewController.m */; };
 		B6EBD0A713CCEABA00389177 /* ApplyStickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EBD0A613CCEABA00389177 /* ApplyStickersViewController.m */; };
+		B6EBD11713CD08D000389177 /* SharePhotoButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11113CD08D000389177 /* SharePhotoButton@2x.png */; };
+		B6EBD11813CD08D000389177 /* InAppPurchaseKittyPack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11213CD08D000389177 /* InAppPurchaseKittyPack@2x.png */; };
+		B6EBD11913CD08D000389177 /* InAppPurchaseBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11313CD08D000389177 /* InAppPurchaseBackground@2x.png */; };
+		B6EBD11A13CD08D000389177 /* GetPackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11413CD08D000389177 /* GetPackButton@2x.png */; };
+		B6EBD11B13CD08D000389177 /* DeleteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11513CD08D000389177 /* DeleteButton@2x.png */; };
+		B6EBD11C13CD08D000389177 /* BuyPackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11613CD08D000389177 /* BuyPackButton@2x.png */; };
+		B6EBD12113CD092400389177 /* PhotoViewSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EBD12013CD092400389177 /* PhotoViewSharingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +50,14 @@
 		B6C087DE13CC00F900BA7D4E /* OptionsAndSharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsAndSharingViewController.m; sourceTree = "<group>"; };
 		B6EBD0A513CCEABA00389177 /* ApplyStickersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplyStickersViewController.h; sourceTree = "<group>"; };
 		B6EBD0A613CCEABA00389177 /* ApplyStickersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplyStickersViewController.m; sourceTree = "<group>"; };
+		B6EBD11113CD08D000389177 /* SharePhotoButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SharePhotoButton@2x.png"; sourceTree = "<group>"; };
+		B6EBD11213CD08D000389177 /* InAppPurchaseKittyPack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InAppPurchaseKittyPack@2x.png"; sourceTree = "<group>"; };
+		B6EBD11313CD08D000389177 /* InAppPurchaseBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InAppPurchaseBackground@2x.png"; sourceTree = "<group>"; };
+		B6EBD11413CD08D000389177 /* GetPackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GetPackButton@2x.png"; sourceTree = "<group>"; };
+		B6EBD11513CD08D000389177 /* DeleteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DeleteButton@2x.png"; sourceTree = "<group>"; };
+		B6EBD11613CD08D000389177 /* BuyPackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BuyPackButton@2x.png"; sourceTree = "<group>"; };
+		B6EBD11F13CD092400389177 /* PhotoViewSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewSharingViewController.h; sourceTree = "<group>"; };
+		B6EBD12013CD092400389177 /* PhotoViewSharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewSharingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +105,8 @@
 				B6C087D413CC004800BA7D4E /* TakePhotoViewController.m */,
 				B6C087DD13CC00F900BA7D4E /* OptionsAndSharingViewController.h */,
 				B6C087DE13CC00F900BA7D4E /* OptionsAndSharingViewController.m */,
+				B6EBD11F13CD092400389177 /* PhotoViewSharingViewController.h */,
+				B6EBD12013CD092400389177 /* PhotoViewSharingViewController.m */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -126,6 +143,12 @@
 		B672F2E013CC0431005FEF8A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				B6EBD11113CD08D000389177 /* SharePhotoButton@2x.png */,
+				B6EBD11213CD08D000389177 /* InAppPurchaseKittyPack@2x.png */,
+				B6EBD11313CD08D000389177 /* InAppPurchaseBackground@2x.png */,
+				B6EBD11413CD08D000389177 /* GetPackButton@2x.png */,
+				B6EBD11513CD08D000389177 /* DeleteButton@2x.png */,
+				B6EBD11613CD08D000389177 /* BuyPackButton@2x.png */,
 				B672F2EE13CC043E005FEF8A /* TableviewBackground@2x.png */,
 				B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */,
 				B672F2F013CC043E005FEF8A /* DoneButton@2x.png */,
@@ -188,6 +211,12 @@
 				B672F2F313CC043E005FEF8A /* NavigationBar@2x.png in Resources */,
 				B672F2F413CC043E005FEF8A /* DoneButton@2x.png in Resources */,
 				B672F2F513CC043E005FEF8A /* BackButton@2x.png in Resources */,
+				B6EBD11713CD08D000389177 /* SharePhotoButton@2x.png in Resources */,
+				B6EBD11813CD08D000389177 /* InAppPurchaseKittyPack@2x.png in Resources */,
+				B6EBD11913CD08D000389177 /* InAppPurchaseBackground@2x.png in Resources */,
+				B6EBD11A13CD08D000389177 /* GetPackButton@2x.png in Resources */,
+				B6EBD11B13CD08D000389177 /* DeleteButton@2x.png in Resources */,
+				B6EBD11C13CD08D000389177 /* BuyPackButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +232,7 @@
 				B6C087D513CC004800BA7D4E /* TakePhotoViewController.m in Sources */,
 				B6C087DF13CC00F900BA7D4E /* OptionsAndSharingViewController.m in Sources */,
 				B6EBD0A713CCEABA00389177 /* ApplyStickersViewController.m in Sources */,
+				B6EBD12113CD092400389177 /* PhotoViewSharingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

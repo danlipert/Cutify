@@ -272,7 +272,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>18</integer>
+									<integer>5</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -314,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TakePhotoViewController.m</string>
+								<string>CutifyAppFrameAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,21 +323,29 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TakePhotoViewController.m</string>
+										<string>CutifyAppFrameAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B6EBD10C13CCF28400389177</string>
+										<string>B6EBD13213CD0B0D00389177</string>
 										<key>history</key>
 										<array>
-											<string>B6C087EB13CC034200BA7D4E</string>
 											<string>B6EBD08313CCE48D00389177</string>
+											<string>B6EBD12413CD0B0D00389177</string>
+											<string>B6EBD12513CD0B0D00389177</string>
+											<string>B6EBD12613CD0B0D00389177</string>
+											<string>B6EBD12713CD0B0D00389177</string>
+											<string>B6EBD12813CD0B0D00389177</string>
+											<string>B6EBD12913CD0B0D00389177</string>
+											<string>B6EBD12A13CD0B0D00389177</string>
+											<string>B6EBD12B13CD0B0D00389177</string>
+											<string>B6EBD12C13CD0B0D00389177</string>
+											<string>B6EBD12D13CD0B0D00389177</string>
+											<string>B6EBD12E13CD0B0D00389177</string>
+											<string>B6EBD12F13CD0B0D00389177</string>
+											<string>B6EBD13013CD0B0D00389177</string>
+											<string>B6EBD13113CD0B0D00389177</string>
 											<string>B6EBD08D13CCE51600389177</string>
-											<string>B6EBD0AC13CCEB7300389177</string>
-											<string>B6EBD0BB13CCEBF900389177</string>
-											<string>B6EBD0BC13CCEBF900389177</string>
-											<string>B6EBD0CC13CCEF4D00389177</string>
-											<string>B6EBD0CD13CCEF4D00389177</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
