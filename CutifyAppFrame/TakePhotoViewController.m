@@ -7,41 +7,56 @@
 //
 
 #import "TakePhotoViewController.h"
-
+#import "ApplyStickersViewController.h"
 
 @implementation TakePhotoViewController
 
-// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-/*
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization.
-    }
-    return self;
-}
-*/
+@synthesize takePhotoButton, flashButton, photoLibraryButton, maskImageView;
 
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-}
-*/
-
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	//UIBarButtonItem *_takePhotoButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCamera target:self action:@selector(takePhotoButtonPressed:)];
+//	self.takePhotoButton = _takePhotoButton;
+//	[_takePhotoButton release];
+//	
+//	UIBarButtonItem *_photoLibraryButton = [[UIBarButtonItem alloc] initWithTitle:@"Photo Library" style:UIBarButtonItemStylePlain target:self action:@selector(photoLibraryButtonPressed:)];	
+//	self.photoLibraryButton = _photoLibraryButton;
+//	[_photoLibraryButton release];
+//	
+//	UIBarButtonItem *_flexibleSpaceButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+	
+	UIButton *_takePhotoButton = [[UIButton alloc] initWithFrame:CGRectMake(0,0,100,44)];
+	self.takePhotoButton = _takePhotoButton;
+	[_takePhotoButton release];
+	[self.takePhotoButton setTitle:@"Take Photo" forState:UIControlStateNormal];
+	[self.takePhotoButton addTarget:self action:@selector(takePhotoButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	
+	UIButton *_photoLibraryButton = [[UIButton alloc] initWithFrame:CGRectMake(200,0,100,44)];
+	self.photoLibraryButton = _photoLibraryButton;
+	[_photoLibraryButton release];
+	[self.photoLibraryButton setTitle:@"Library" forState:UIControlStateNormal];
+	[self.photoLibraryButton addTarget:self action:@selector(photoLibraryButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	
+	UIView *customToolbarView = [[UIView alloc] initWithFrame:CGRectMake(0,372,320,44)];
+	[customToolbarView setBackgroundColor:[UIColor purpleColor]];
+	
+	[customToolbarView addSubview:self.photoLibraryButton];
+	[customToolbarView addSubview:self.takePhotoButton];
+	
+	[self.view addSubview:customToolbarView];
+	[customToolbarView release];
 }
-*/
 
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations.
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+-(void)takePhotoButtonPressed:(id)sender
+{
+	ApplyStickersViewController *applyStickersViewController = [[ApplyStickersViewController alloc] init];
+	[self.navigationController pushViewController:applyStickersViewController animated:YES];
+	[self.navigationController setToolbarHidden:TRUE animated:YES];
+	[applyStickersViewController release];
+	
 }
-*/
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.

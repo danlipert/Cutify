@@ -14,4 +14,13 @@
 
 }
 
+@property (nonatomic, retain) UIButton *takePhotoButton;
+@property (nonatomic, retain) UIButton *flashButton;
+@property (nonatomic, retain) UIButton *photoLibraryButton;
+@property (nonatomic, retain) UIImageView *maskImageView;
+
+-(void)takePhotoButtonPressed:(id)sender;
+-(void)photoLibraryButtonPressed:(id)sender;
+-(void)flashButtonPressed:(id)sender;
+
 @end

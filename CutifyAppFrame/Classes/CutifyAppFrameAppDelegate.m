@@ -8,6 +8,7 @@
 
 #import "CutifyAppFrameAppDelegate.h"
 #import "OptionsAndSharingViewController.h"
+#import "TakePhotoViewController.h"
 
 @implementation CutifyAppFrameAppDelegate
 
@@ -21,8 +22,9 @@
     
     // Override point for customization after application launch.
     
-	OptionsAndSharingViewController *optionsAndSharingViewController = [[OptionsAndSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
-	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:optionsAndSharingViewController];
+//	OptionsAndSharingViewController *optionsAndSharingViewController = [[OptionsAndSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
+	TakePhotoViewController *takePhotoViewController = [[TakePhotoViewController alloc] init];
+	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:takePhotoViewController];
 	
 	[self.window addSubview:navigationController.view];
 	
