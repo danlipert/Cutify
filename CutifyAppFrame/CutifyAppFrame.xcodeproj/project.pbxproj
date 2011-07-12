@@ -13,6 +13,10 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		B672F2F213CC043E005FEF8A /* TableviewBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2EE13CC043E005FEF8A /* TableviewBackground@2x.png */; };
+		B672F2F313CC043E005FEF8A /* NavigationBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */; };
+		B672F2F413CC043E005FEF8A /* DoneButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2F013CC043E005FEF8A /* DoneButton@2x.png */; };
+		B672F2F513CC043E005FEF8A /* BackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2F113CC043E005FEF8A /* BackButton@2x.png */; };
 		B6C087D513CC004800BA7D4E /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C087D413CC004800BA7D4E /* TakePhotoViewController.m */; };
 		B6C087DF13CC00F900BA7D4E /* OptionsAndSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C087DE13CC00F900BA7D4E /* OptionsAndSharingViewController.m */; };
 /* End PBXBuildFile section */
@@ -28,6 +32,10 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* CutifyAppFrame_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutifyAppFrame_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CutifyAppFrame-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CutifyAppFrame-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B672F2EE13CC043E005FEF8A /* TableviewBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableviewBackground@2x.png"; sourceTree = "<group>"; };
+		B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBar@2x.png"; sourceTree = "<group>"; };
+		B672F2F013CC043E005FEF8A /* DoneButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DoneButton@2x.png"; sourceTree = "<group>"; };
+		B672F2F113CC043E005FEF8A /* BackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackButton@2x.png"; sourceTree = "<group>"; };
 		B6C087D313CC004800BA7D4E /* TakePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoViewController.h; sourceTree = "<group>"; };
 		B6C087D413CC004800BA7D4E /* TakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoViewController.m; sourceTree = "<group>"; };
 		B6C087DD13CC00F900BA7D4E /* OptionsAndSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsAndSharingViewController.h; sourceTree = "<group>"; };
@@ -93,6 +101,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B672F2E013CC0431005FEF8A /* Assets */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* CutifyAppFrame-Info.plist */,
 			);
@@ -107,6 +116,17 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B672F2E013CC0431005FEF8A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B672F2EE13CC043E005FEF8A /* TableviewBackground@2x.png */,
+				B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */,
+				B672F2F013CC043E005FEF8A /* DoneButton@2x.png */,
+				B672F2F113CC043E005FEF8A /* BackButton@2x.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				B672F2F213CC043E005FEF8A /* TableviewBackground@2x.png in Resources */,
+				B672F2F313CC043E005FEF8A /* NavigationBar@2x.png in Resources */,
+				B672F2F413CC043E005FEF8A /* DoneButton@2x.png in Resources */,
+				B672F2F513CC043E005FEF8A /* BackButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

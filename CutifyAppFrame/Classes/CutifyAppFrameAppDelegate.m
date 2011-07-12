@@ -21,7 +21,7 @@
     
     // Override point for customization after application launch.
     
-	OptionsAndSharingViewController *optionsAndSharingViewController = [[OptionsAndSharingViewController alloc] init];
+	OptionsAndSharingViewController *optionsAndSharingViewController = [[OptionsAndSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
 	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:optionsAndSharingViewController];
 	
 	[self.window addSubview:navigationController.view];
@@ -86,4 +86,14 @@
 }
 
 
+@end
+
+@interface UINavigationBar (MyCustomNavBar)
+@end
+
+@implementation UINavigationBar (MyCustomNavBar)
+- (void) drawRect:(CGRect)rect {
+    UIImage *barImage = [UIImage imageNamed:@"NavigationBar.png"];
+    [barImage drawInRect:rect];
+}
 @end

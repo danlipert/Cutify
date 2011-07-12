@@ -11,12 +11,14 @@
 
 @implementation OptionsAndSharingViewController
 
-- (id)init {
-	if (self = [super initWithStyle:UITableViewStyleGrouped]) {
+
+-(id)initWithStyle:(UITableViewStyle)style
+{
+	if(self = [super initWithStyle:style])
+	{
 	}
 	return self;
-} 
-
+}
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -25,20 +27,40 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	UIBarButtonItem *cancelButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Cancel" style:UIBarButtonItemStylePlain target:self action:@selector(cancelButtonPressed:)];
-	
+	//setup buttons
+	UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	UIImage *cancelButtonImage = [UIImage imageNamed:@"BackButton.png"];
+	[cancelButton setFrame:CGRectMake(0,0,cancelButtonImage.size.width, cancelButtonImage.size.height)];
+	[cancelButton addTarget:self action:@selector(cancelButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[cancelButton setImage:cancelButtonImage forState:UIControlStateNormal];
+	UIBarButtonItem *cancelButtonItem = [[UIBarButtonItem alloc] initWithCustomView:cancelButton];
+
 	self.navigationItem.leftBarButtonItem = cancelButtonItem;
 	[cancelButtonItem release];
 	
-	UIBarButtonItem *doneButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStylePlain target:self action:@selector(doneButtonPressed:)];
+	UIButton *doneButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	UIImage *doneButtonImage = [UIImage imageNamed:@"DoneButton.png"];
+	[doneButton setFrame:CGRectMake(0,0,doneButtonImage.size.width, doneButtonImage.size.height)];
+	[doneButton addTarget:self action:@selector(doneButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[doneButton setImage:doneButtonImage forState:UIControlStateNormal];
+	UIBarButtonItem *doneButtonItem = [[UIBarButtonItem alloc] initWithCustomView:doneButton];
 	
 	self.navigationItem.rightBarButtonItem = doneButtonItem;
 	[doneButtonItem release];
+	
+//	//setup background
+	[self.tableView setBackgroundColor:[UIColor clearColor]];
+	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"TableviewBackground.png"]]];	
 }
 
 
 #pragma mark -
 #pragma mark Table view data source
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+	return 44;
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
@@ -48,9 +70,39 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 1;
+    if(section == 0)
+	{
+		return 1;
+	} else if(section == 1) {
+		return 3;
+	} else if(section == 2) {
+		return 1;
+	}
 }
 
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+	UIView *tableHeaderView = [[[UIView alloc] initWithFrame:CGRectMake(0,0,320,44)] autorelease];
+	[tableHeaderView setBackgroundColor:[UIColor clearColor]];
+	
+	UILabel *headerLabel = [[[UILabel alloc] initWithFrame:CGRectMake(10,0,320,44)] autorelease];
+	[headerLabel setBackgroundColor:[UIColor clearColor]];
+	[headerLabel setTextColor:[UIColor colorWithRed:184.0/255.0 green:246.0/255.0 blue:229.0/255.0 alpha:1.0]];
+	[headerLabel setShadowColor:[UIColor colorWithRed:96.0/255.0 green:72.0/255.0 blue:113/255.0 alpha:1.0]];
+	[headerLabel setShadowOffset:CGSizeMake(1,1)];
+	[headerLabel setFont:[UIFont fontWithName:@"Helvetica-Bold" size:17.0]];
+	if(section == 0)
+	{
+		[headerLabel setText:@"Caption"];
+	} else if(section == 1) {
+		[headerLabel setText:@"Sharing"];
+	} else if(section == 2) {
+		[headerLabel setText:@"Email"];
+	}
+	
+	[tableHeaderView addSubview:headerLabel];
+	
+	return tableHeaderView;
+}
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -63,63 +115,38 @@
     }
     
     // Configure the cell...
-    
+
+	if(indexPath.section == 0)
+	{
+		[[cell textLabel] setText:@"Enter your caption here..."];
+		[[cell textLabel] setTextColor:[UIColor colorWithRed:137.0/255.0 green:137.0/255.0 blue:137.0/255.0 alpha:1.0]];
+	} else if (indexPath.section == 1) {
+		UISwitch *sharingSwitch = [[UISwitch alloc] initWithFrame:CGRectMake(200,8,100,44)];
+		[cell addSubview:sharingSwitch];
+		[sharingSwitch release];
+		if(indexPath.row == 0) {
+			[[cell textLabel] setText:@"Twitter"];
+		} else if(indexPath.row == 1) {
+			[[cell textLabel] setText:@"Facebook"];
+		} else if(indexPath.row == 2) {
+			[[cell textLabel] setText:@"Tumblr"];
+		}
+	} else if (indexPath.section == 2) {
+		[[cell textLabel] setText:@"Send as Email"];
+		[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
+	}
+	
     return cell;
 }
 
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source.
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }   
-}
-*/
-
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 
 #pragma mark -
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-    */
+
 }
 
 
