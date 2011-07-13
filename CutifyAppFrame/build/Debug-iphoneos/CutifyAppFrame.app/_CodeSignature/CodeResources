@@ -4,13 +4,37 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>ApplyStickerImage@2x.png</key>
+		<data>
+		DA12ZcCJxPyJ4IB9eoR6tnqF5a4=
+		</data>
 		<key>BackButton@2x.png</key>
 		<data>
 		zdLEfGWhXJga/9/2ZxVTgcqSYqU=
 		</data>
+		<key>BuyPackButton@2x.png</key>
+		<data>
+		qx57j625cMPFqPUZEHzU4dmiByg=
+		</data>
+		<key>DeleteButton@2x.png</key>
+		<data>
+		4ckEWtoCTRntpkABZ+ovCpRGueY=
+		</data>
 		<key>DoneButton@2x.png</key>
 		<data>
 		C83R7MhR8jdyYOMQiRjM+dVLKd8=
+		</data>
+		<key>GetPackButton@2x.png</key>
+		<data>
+		khN8ZR+K1Ls3A5EspvwhDdDy0fk=
+		</data>
+		<key>InAppPurchaseBackground@2x.png</key>
+		<data>
+		/rKuv5vReJ8ctn8qmS3ktn70Sfg=
+		</data>
+		<key>InAppPurchaseKittyPack@2x.png</key>
+		<data>
+		jFUhBUf3dFxPOUGJrcjE/D35t5w=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
@@ -23,6 +47,10 @@
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>SharePhotoButton@2x.png</key>
+		<data>
+		mL4GhuXQ/UKcP/optt+oC696hxE=
 		</data>
 		<key>TableviewBackground@2x.png</key>
 		<data>

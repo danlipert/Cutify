@@ -50,6 +50,11 @@
 	//	//setup background
 	[self.tableView setBackgroundColor:[UIColor clearColor]];
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"TableviewBackground.png"]]];	
+	
+	UIImageView *photoImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ApplyStickerImage.png"]];
+	self.tableView.tableHeaderView = photoImageView;
+	[photoImageView release];
+	
 }
 
 
@@ -58,12 +63,17 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-	return 44;
+	if(section == 2)
+	{
+		return 37;
+	} else {
+		return 44;
+	}
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 3;
+    return 4;
 }
 
 
@@ -75,7 +85,11 @@
 	} else if(section == 1) {
 		return 3;
 	} else if(section == 2) {
+		return 0;
+	} else if(section == 3) {
 		return 1;
+	} else {
+		return 99;
 	}
 }
 
@@ -94,12 +108,21 @@
 		[headerLabel setText:@"Caption"];
 	} else if(section == 1) {
 		[headerLabel setText:@"Sharing"];
-	} else if(section == 2) {
+	} else if(section == 3) {
 		[headerLabel setText:@"Email"];
 	}
 	
-	[tableHeaderView addSubview:headerLabel];
-	
+	if(section == 2)
+	{
+		UIButton *shareButton = [UIButton buttonWithType:UIButtonTypeCustom];
+		[shareButton setFrame:CGRectMake(0,0,320,37)];
+		[shareButton setImage:[UIImage imageNamed:@"SharePhotoButton.png"] forState:UIControlStateNormal];
+		[tableHeaderView setFrame:shareButton.frame];
+		[tableHeaderView addSubview:shareButton];
+	} else {
+		[tableHeaderView addSubview:headerLabel];
+	}
+		
 	return tableHeaderView;
 }
 
@@ -121,7 +144,10 @@
 		[[cell textLabel] setTextColor:[UIColor colorWithRed:137.0/255.0 green:137.0/255.0 blue:137.0/255.0 alpha:1.0]];
 	} else if (indexPath.section == 1) {
 		UISwitch *sharingSwitch = [[UISwitch alloc] initWithFrame:CGRectMake(200,8,100,44)];
-		[cell addSubview:sharingSwitch];
+		if(indexPath.row != 3)
+		{
+			[cell addSubview:sharingSwitch];
+		}
 		[sharingSwitch release];
 		if(indexPath.row == 0) {
 			[[cell textLabel] setText:@"Twitter"];
@@ -129,8 +155,8 @@
 			[[cell textLabel] setText:@"Facebook"];
 		} else if(indexPath.row == 2) {
 			[[cell textLabel] setText:@"Tumblr"];
-		}
-	} else if (indexPath.section == 2) {
+		} 
+	} else if (indexPath.section == 3) {
 		[[cell textLabel] setText:@"Send as Email"];
 		[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
 	}
