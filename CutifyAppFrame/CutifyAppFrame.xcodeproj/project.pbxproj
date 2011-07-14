@@ -22,6 +22,9 @@
 		320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320CC833B8AF0ACFD35E6224 /* libThree20Style.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
+		B6370D8413CE649C00E1FD29 /* PhotoGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */; };
+		B64E26C813CE695800AEBA32 /* ApplyStickerImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */; };
+		B64E26D813CE6A5500AEBA32 /* BreadcrumbSample@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64E26D713CE6A5500AEBA32 /* BreadcrumbSample@2x.png */; };
 		B672F2F213CC043E005FEF8A /* TableviewBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2EE13CC043E005FEF8A /* TableviewBackground@2x.png */; };
 		B672F2F313CC043E005FEF8A /* NavigationBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */; };
 		B672F2F413CC043E005FEF8A /* DoneButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2F013CC043E005FEF8A /* DoneButton@2x.png */; };
@@ -141,49 +144,49 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* Three20UnitTests.octest */;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
 			remoteInfo = Three20UnitTests;
 		};
 		B6370D6F13CE623E00E1FD29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 320A2827FEC940B25BC42C60 /* Three20Core.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* Three20UnitTests.octest */;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
 			remoteInfo = Three20CoreUnitTests;
 		};
 		B6370D7213CE623E00E1FD29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 320A5A189C235877202780D0 /* Three20Network.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* Three20UnitTests.octest */;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
 			remoteInfo = Three20NetworkUnitTests;
 		};
 		B6370D7513CE623E00E1FD29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 320CC833B8AF0ACFD35E6220 /* Three20Style.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* Three20UnitTests.octest */;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
 			remoteInfo = Three20StyleUnitTests;
 		};
 		B6370D7813CE623E00E1FD29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* Three20UnitTests.octest */;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
 			remoteInfo = Three20UIUnitTests;
 		};
 		B6370D7B13CE623E00E1FD29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3201088596B4756681693700 /* Three20UICommon.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* Three20UnitTests.octest */;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
 			remoteInfo = Three20UICommonUnitTests;
 		};
 		B6370D7E13CE623E00E1FD29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 320A737074758E53BA54BE90 /* Three20UINavigator.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C /* Three20UnitTests.octest */;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
 			remoteInfo = Three20UINavigatorUnitTests;
 		};
 /* End PBXContainerItemProxy section */
@@ -208,6 +211,10 @@
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../../../Downloads/three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* CutifyAppFrame_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutifyAppFrame_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CutifyAppFrame-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CutifyAppFrame-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B6370D8213CE649C00E1FD29 /* PhotoGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoGridViewController.h; path = ../PhotoGridViewController.h; sourceTree = "<group>"; };
+		B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoGridViewController.m; path = ../PhotoGridViewController.m; sourceTree = "<group>"; };
+		B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ApplyStickerImage@2x.png"; sourceTree = "<group>"; };
+		B64E26D713CE6A5500AEBA32 /* BreadcrumbSample@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BreadcrumbSample@2x.png"; sourceTree = "<group>"; };
 		B672F2EE13CC043E005FEF8A /* TableviewBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableviewBackground@2x.png"; sourceTree = "<group>"; };
 		B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBar@2x.png"; sourceTree = "<group>"; };
 		B672F2F013CC043E005FEF8A /* DoneButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DoneButton@2x.png"; sourceTree = "<group>"; };
@@ -263,6 +270,8 @@
 				B6EBD12013CD092400389177 /* PhotoViewSharingViewController.m */,
 				B6EBD0A513CCEABA00389177 /* ApplyStickersViewController.h */,
 				B6EBD0A613CCEABA00389177 /* ApplyStickersViewController.m */,
+				B6370D8213CE649C00E1FD29 /* PhotoGridViewController.h */,
+				B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -391,6 +400,8 @@
 		B672F2E013CC0431005FEF8A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				B64E26D713CE6A5500AEBA32 /* BreadcrumbSample@2x.png */,
+				B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */,
 				B6EBD11113CD08D000389177 /* SharePhotoButton@2x.png */,
 				B6EBD11213CD08D000389177 /* InAppPurchaseKittyPack@2x.png */,
 				B6EBD11313CD08D000389177 /* InAppPurchaseBackground@2x.png */,
@@ -604,6 +615,8 @@
 				B6EBD11A13CD08D000389177 /* GetPackButton@2x.png in Resources */,
 				B6EBD11B13CD08D000389177 /* DeleteButton@2x.png in Resources */,
 				B6EBD11C13CD08D000389177 /* BuyPackButton@2x.png in Resources */,
+				B64E26C813CE695800AEBA32 /* ApplyStickerImage@2x.png in Resources */,
+				B64E26D813CE6A5500AEBA32 /* BreadcrumbSample@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +633,7 @@
 				B6C087DF13CC00F900BA7D4E /* OptionsAndSharingViewController.m in Sources */,
 				B6EBD0A713CCEABA00389177 /* ApplyStickersViewController.m in Sources */,
 				B6EBD12113CD092400389177 /* PhotoViewSharingViewController.m in Sources */,
+				B6370D8413CE649C00E1FD29 /* PhotoGridViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

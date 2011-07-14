@@ -35,6 +35,20 @@
 	self.navigationItem.rightBarButtonItem = doneButtonItem;
 	[doneButtonItem release];	
 	
+	UIImageView *photoImageBackgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"TableviewBackground.png"]];
+	[photoImageBackgroundView setFrame:CGRectMake(0,0,320,480-44-20)];
+	[self.view addSubview:photoImageBackgroundView];
+	[photoImageBackgroundView release];
+	
+	UIImageView *interfaceDemoImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"BreadcrumbSample.png"]];
+	[interfaceDemoImageView setFrame:CGRectMake(0,480-20-44-100,320,100)];
+	[self.view addSubview:interfaceDemoImageView];
+	[interfaceDemoImageView release];
+	
+	UIImageView *photoImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ApplyStickerImage.png"]];
+	[photoImageView setFrame:CGRectMake(0,0,320,314)];
+	[self.view addSubview:photoImageView];
+	[photoImageView release];
 }
 
 -(void)viewWillAppear:(BOOL)animated
