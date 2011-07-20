@@ -7,7 +7,7 @@
 //
 
 #import "PhotoGridViewController.h"
-
+#import "PhotoViewSharingViewController.h"
 
 @implementation PhotoGridViewController
 
@@ -46,11 +46,12 @@
 	int x = space;
 	int y = space;
 	for (int i=1; i<=imagesArray.count; i++) {
-		UIImageView *image= [[UIImageView alloc] initWithFrame:CGRectMake(x,y,width,height)];
-		[image setContentMode:UIViewContentModeScaleAspectFit];
-		image.image = [imagesArray objectAtIndex:i-1];
-		[s addSubview:image];
-		[image release];
+		UIButton *imageButton = [[UIButton alloc] initWithFrame:CGRectMake(x,y,width,height)];
+		[imageButton setImage:[imagesArray objectAtIndex:i-1] forState:UIControlStateNormal];
+		[imageButton addTarget:self action:@selector(imageButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+		[imageButton setTag:i-1];
+		[s addSubview:imageButton];
+		[imageButton release];
 		if (i%numOfColumns == 0) {
 			y += space+height;
 			x = space;
@@ -73,6 +74,13 @@
 	
 	self.navigationItem.leftBarButtonItem = cancelButtonItem;
 	[cancelButtonItem release];
+}
+
+-(void)imageButtonPressed:(id)sender
+{
+	PhotoViewSharingViewController *photoViewSharingViewController = [[PhotoViewSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
+	[self.navigationController pushViewController:photoViewSharingViewController animated:YES];
+	[photoViewSharingViewController release];
 }
 
 -(void)cancelButtonPressed:(id)sender

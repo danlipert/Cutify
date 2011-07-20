@@ -37,15 +37,15 @@
 	self.navigationItem.leftBarButtonItem = cancelButtonItem;
 	[cancelButtonItem release];
 	
-	UIButton *doneButton = [UIButton buttonWithType:UIButtonTypeCustom];
-	UIImage *doneButtonImage = [UIImage imageNamed:@"DoneButton.png"];
-	[doneButton setFrame:CGRectMake(0,0,doneButtonImage.size.width, doneButtonImage.size.height)];
-	[doneButton addTarget:self action:@selector(doneButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-	[doneButton setImage:doneButtonImage forState:UIControlStateNormal];
-	UIBarButtonItem *doneButtonItem = [[UIBarButtonItem alloc] initWithCustomView:doneButton];
+	UIButton *deleteButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	UIImage *deleteButtonImage = [UIImage imageNamed:@"DeleteButton.png"];
+	[deleteButton setFrame:CGRectMake(0,0,deleteButtonImage.size.width, deleteButtonImage.size.height)];
+	[deleteButton addTarget:self action:@selector(deleteButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[deleteButton setImage:deleteButtonImage forState:UIControlStateNormal];
+	UIBarButtonItem *deleteButtonItem = [[UIBarButtonItem alloc] initWithCustomView:deleteButton];
 	
-	self.navigationItem.rightBarButtonItem = doneButtonItem;
-	[doneButtonItem release];
+	self.navigationItem.rightBarButtonItem = deleteButtonItem;
+	[deleteButtonItem release];
 	
 	//	//setup background
 	[self.tableView setBackgroundColor:[UIColor clearColor]];
@@ -57,6 +57,15 @@
 	
 }
 
+-(void)cancelButtonPressed:(id)sender
+{
+	[self.navigationController popViewControllerAnimated:YES];
+}
+
+-(void)deleteButtonPressed:(id)sender
+{
+	
+}
 
 #pragma mark -
 #pragma mark Table view data source

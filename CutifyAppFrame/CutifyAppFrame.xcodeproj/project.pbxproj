@@ -22,6 +22,7 @@
 		320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320CC833B8AF0ACFD35E6224 /* libThree20Style.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
+		B62F4CCB13CEA9FA0034B982 /* IAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62F4CCA13CEA9FA0034B982 /* IAPViewController.m */; };
 		B6370D8413CE649C00E1FD29 /* PhotoGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */; };
 		B64E26C813CE695800AEBA32 /* ApplyStickerImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */; };
 		B64E26D813CE6A5500AEBA32 /* BreadcrumbSample@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64E26D713CE6A5500AEBA32 /* BreadcrumbSample@2x.png */; };
@@ -211,6 +212,8 @@
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../../../Downloads/three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* CutifyAppFrame_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutifyAppFrame_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CutifyAppFrame-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CutifyAppFrame-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B62F4CC913CEA9FA0034B982 /* IAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPViewController.h; sourceTree = "<group>"; };
+		B62F4CCA13CEA9FA0034B982 /* IAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPViewController.m; sourceTree = "<group>"; };
 		B6370D8213CE649C00E1FD29 /* PhotoGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoGridViewController.h; path = ../PhotoGridViewController.h; sourceTree = "<group>"; };
 		B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoGridViewController.m; path = ../PhotoGridViewController.m; sourceTree = "<group>"; };
 		B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ApplyStickerImage@2x.png"; sourceTree = "<group>"; };
@@ -260,6 +263,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B62F4CC913CEA9FA0034B982 /* IAPViewController.h */,
+				B62F4CCA13CEA9FA0034B982 /* IAPViewController.m */,
 				1D3623240D0F684500981E51 /* CutifyAppFrameAppDelegate.h */,
 				1D3623250D0F684500981E51 /* CutifyAppFrameAppDelegate.m */,
 				B6C087D313CC004800BA7D4E /* TakePhotoViewController.h */,
@@ -634,6 +639,7 @@
 				B6EBD0A713CCEABA00389177 /* ApplyStickersViewController.m in Sources */,
 				B6EBD12113CD092400389177 /* PhotoViewSharingViewController.m in Sources */,
 				B6370D8413CE649C00E1FD29 /* PhotoGridViewController.m in Sources */,
+				B62F4CCB13CEA9FA0034B982 /* IAPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

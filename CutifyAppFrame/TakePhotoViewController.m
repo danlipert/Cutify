@@ -8,6 +8,7 @@
 
 #import "TakePhotoViewController.h"
 #import "ApplyStickersViewController.h"
+#import "PhotoGridViewController.h"
 
 @implementation TakePhotoViewController
 
@@ -17,16 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	//UIBarButtonItem *_takePhotoButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCamera target:self action:@selector(takePhotoButtonPressed:)];
-//	self.takePhotoButton = _takePhotoButton;
-//	[_takePhotoButton release];
-//	
-//	UIBarButtonItem *_photoLibraryButton = [[UIBarButtonItem alloc] initWithTitle:@"Photo Library" style:UIBarButtonItemStylePlain target:self action:@selector(photoLibraryButtonPressed:)];	
-//	self.photoLibraryButton = _photoLibraryButton;
-//	[_photoLibraryButton release];
-//	
-//	UIBarButtonItem *_flexibleSpaceButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+	//setup buttons
+	UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	UIImage *cancelButtonImage = [UIImage imageNamed:@"BackButton.png"];
+	[cancelButton setFrame:CGRectMake(0,0,cancelButtonImage.size.width, cancelButtonImage.size.height)];
+	[cancelButton addTarget:self action:@selector(cancelButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[cancelButton setImage:cancelButtonImage forState:UIControlStateNormal];
+	UIBarButtonItem *cancelButtonItem = [[UIBarButtonItem alloc] initWithCustomView:cancelButton];
 	
+	self.navigationItem.leftBarButtonItem = cancelButtonItem;
+	[cancelButtonItem release];
+
 	UIButton *_takePhotoButton = [[UIButton alloc] initWithFrame:CGRectMake(0,0,100,44)];
 	self.takePhotoButton = _takePhotoButton;
 	[_takePhotoButton release];
@@ -56,6 +58,14 @@
 	[self.navigationController setToolbarHidden:TRUE animated:YES];
 	[applyStickersViewController release];
 	
+}
+
+-(void)cancelButtonPressed:(id)sender
+{
+	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
+	[self.navigationController pushViewController:photoGridViewController animated:YES];
+	[self.navigationController setToolbarHidden:TRUE animated:YES];
+	[photoGridViewController release];
 }
 
 -(void)photoLibraryButtonPressed:(id)sender
