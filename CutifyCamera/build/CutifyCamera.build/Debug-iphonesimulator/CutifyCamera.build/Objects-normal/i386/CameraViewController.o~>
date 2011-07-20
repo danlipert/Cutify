@@ -1,0 +1,40 @@
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:14: error: no declaration of property 'captureSession' found in the interface
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:15: error: no declaration of property 'imageView' found in the interface
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:16: error: no declaration of property 'customLayer' found in the interface
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:17: error: no declaration of property 'prevLayer' found in the interface
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m: In function '-[CameraViewController init]':
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:23: error: request for member 'imageView' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:24: error: request for member 'prevLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:25: error: request for member 'customLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m: In function '-[CameraViewController viewDidLoad]':
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:39: warning: 'CameraViewController' may not respond to '-initCapture'
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:39: warning: (Messages without a matching method signature
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:39: warning: will be assumed to return 'id' and accept
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:39: warning: '...' as arguments.)
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m: In function '-[CameraViewController initCapture]':
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:69: error: request for member 'captureSession' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:71: error: request for member 'captureSession' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:72: error: request for member 'captureSession' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:74: error: request for member 'captureSession' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:76: error: request for member 'customLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:77: error: request for member 'customLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:78: error: request for member 'customLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:79: error: request for member 'customLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:80: error: request for member 'customLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:82: error: request for member 'imageView' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:83: error: request for member 'imageView' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:84: error: request for member 'imageView' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:86: error: request for member 'prevLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:86: error: request for member 'captureSession' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:87: error: request for member 'prevLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:88: error: request for member 'prevLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:89: error: request for member 'prevLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m: In function '-[CameraViewController captureOutput:didOutputSampleBuffer:fromConnection:]':
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:124: error: request for member 'customLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:133: error: request for member 'imageView' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m: In function '-[CameraViewController viewDidUnload]':
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:145: error: request for member 'imageView' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:146: error: request for member 'customLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:147: error: request for member 'prevLayer' in something not a structure or union
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m: In function '-[CameraViewController dealloc]':
+/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m:151: error: request for member 'captureSession' in something not a structure or union

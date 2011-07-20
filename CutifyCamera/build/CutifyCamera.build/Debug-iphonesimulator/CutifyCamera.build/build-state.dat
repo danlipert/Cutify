@@ -1,0 +1,299 @@
+TCutifyCamera
+v7
+r0
+t332737937.104035
+cCheck dependencies
+cProcessInfoPlistFile /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/Info.plist CutifyCamera-Info.plist
+cCompileXIB /Users/danlipert/github/Cutify/CutifyCamera/MainWindow.xib
+cProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyCamera_Prefix-fthxlcukqclrixaozqcgdgllwjpn/CutifyCamera_Prefix.pch.gch CutifyCamera_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/main.o /Users/danlipert/github/Cutify/CutifyCamera/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/CutifyCameraAppDelegate.o /Users/danlipert/github/Cutify/CutifyCamera/Classes/CutifyCameraAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/CameraViewController.o /Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/CutifyCamera normal i386
+
+N/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.h
+c000000004E24F61000000000000004E0
+t1311045136
+s1248
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<CoreVideo/CoreVideo.h>
+i<CoreMedia/CoreMedia.h>
+
+N/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m
+c000000004E24F5B500000000000019A2
+t1311045045
+s6562
+i"CameraViewController.h"
+
+N/Users/danlipert/github/Cutify/CutifyCamera/Classes/CutifyCameraAppDelegate.h
+c000000004E24F28A0000000000000158
+t1311044234
+s344
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/CutifyCamera/Classes/CutifyCameraAppDelegate.m
+c000000004E24F3880000000000000A8B
+t1311044488
+s2699
+i"CutifyCameraAppDelegate.h"
+i"CameraViewController.h"
+
+N/Users/danlipert/github/Cutify/CutifyCamera/CutifyCamera_Prefix.pch
+c000000004E24F28A00000000000000C1
+t1311044234
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/CutifyCamera/MainWindow.xib
+c000000004E24F28A0000000000002121
+t1311044234
+s8481
+
+N/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/CameraViewController.o
+t1311045137
+s63832
+
+N/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/CutifyCamera.LinkFileList
+c000000004E24F38D00000000000001BE
+t1311044493
+s446
+
+N/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/CutifyCameraAppDelegate.o
+t1311045137
+s52332
+
+N/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/main.o
+t1311044495
+s6372
+
+N/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app
+t1311045137
+s170
+
+N/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app.dSYM
+t1311044679
+s102
+
+N/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/CutifyCamera
+t2
+s0
+
+N/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/Info.plist
+t1311044493
+s611
+
+N/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/MainWindow.nib
+t1311044494
+s1536
+
+N/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/PkgInfo
+t1311044493
+s8
+
+N/Users/danlipert/github/Cutify/CutifyCamera/main.m
+c000000004E24F28A0000000000000170
+t1311044234
+s368
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004D5EBEBB00000000000007D0
+t1298054843
+s2000
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004D54CF0300000000000004FE
+t1297403651
+s1278
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004D5C9AE3000000000006A720
+t1297914595
+s436000
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h
+c000000004D5C9AE000000000000001F4
+t1297914592
+s500
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004D54D0CD0000000000019010
+t1297404109
+s102416
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CoreVideo.h
+c000000004D54D0BC00000000000004DB
+t1297404092
+s1243
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyCamera_Prefix-fthxlcukqclrixaozqcgdgllwjpn/CutifyCamera_Prefix.pch.gch
+t1311044495
+s15818160
+
+NCutifyCamera-Info.plist
+c000000004E24F28A000000000000038D
+t1311044234
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies332737936#332737936#0(0"0(0#1#0"8602475488#0"0#
+
+CCompileC build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/CameraViewController.o /Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332737936.921511
+e332737937.023275
+r1
+xCompileC
+xbuild/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/CameraViewController.o
+x/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m332737936#332737937#0(0"0(0#0#66"/Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m8613476512#2215"    cd /Users/danlipert/github/Cutify/CutifyCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyCamera_Prefix-fthxlcukqclrixaozqcgdgllwjpn/CutifyCamera_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyCamera/CameraViewController.m -o /Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/CameraViewController.o0#
+
+CCompileC build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/CutifyCameraAppDelegate.o /Users/danlipert/github/Cutify/CutifyCamera/Classes/CutifyCameraAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332737936.920554
+e332737937.003125
+r1
+xCompileC
+xbuild/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/CutifyCameraAppDelegate.o
+x/Users/danlipert/github/Cutify/CutifyCamera/Classes/CutifyCameraAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/danlipert/github/Cutify/CutifyCamera/Classes/CutifyCameraAppDelegate.m332737936#332737937#0(0"0(0#0#77"/Users/danlipert/github/Cutify/CutifyCamera/Classes/CutifyCameraAppDelegate.m8614175840#2229"    cd /Users/danlipert/github/Cutify/CutifyCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyCamera_Prefix-fthxlcukqclrixaozqcgdgllwjpn/CutifyCamera_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyCamera/Classes/CutifyCameraAppDelegate.m -o /Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/CutifyCameraAppDelegate.o0#
+
+CCompileC build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/main.o /Users/danlipert/github/Cutify/CutifyCamera/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332737295.229607
+e332737295.487343
+r1
+xCompileC
+xbuild/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/main.o
+x/Users/danlipert/github/Cutify/CutifyCamera/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/danlipert/github/Cutify/CutifyCamera/main.m332737295#332737295#0(0"0(0#0#50"/Users/danlipert/github/Cutify/CutifyCamera/main.m8618290208#2183"    cd /Users/danlipert/github/Cutify/CutifyCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyCamera_Prefix-fthxlcukqclrixaozqcgdgllwjpn/CutifyCamera_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyCamera/main.m -o /Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/danlipert/github/Cutify/CutifyCamera/MainWindow.xib
+s332737293.872273
+e332737294.318261
+r1
+xCompileXIB
+x/Users/danlipert/github/Cutify/CutifyCamera/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib332737293#332737294#0(0"0(0#0#58"/Users/danlipert/github/Cutify/CutifyCamera/MainWindow.xib8615419840#704"    cd /Users/danlipert/github/Cutify/CutifyCamera    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/MainWindow.nib /Users/danlipert/github/Cutify/CutifyCamera/MainWindow.xib --sdk /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app.dSYM /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/CutifyCamera
+s332737479.816688
+e332737479.854762
+r1
+xGenerateDSYMFile
+x/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app.dSYM
+x/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/CutifyCamera
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/CutifyCamera.app.dSYM build/Debug-iphonesimulator/CutifyCamera.app/CutifyCamera332737479#332737479#0(0"0(0#0#101"/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/CutifyCamera8614348160#514"    cd /Users/danlipert/github/Cutify/CutifyCamera    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/dsymutil /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/CutifyCamera -o /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app.dSYM0#
+
+CLd /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/CutifyCamera normal i386
+s332737937.023345
+e332737937.103954
+r0
+xLd
+x/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/CutifyCamera
+xnormal
+xi386
+oUndefined symbols:
+o  "_OBJC_CLASS_$_AVCaptureVideoPreviewLayer", referenced from:
+o      objc-class-ref-to-AVCaptureVideoPreviewLayer in CameraViewController.o
+o  "_OBJC_CLASS_$_AVCaptureDevice", referenced from:
+o      objc-class-ref-to-AVCaptureDevice in CameraViewController.o
+o  "_CATransform3DIdentity", referenced from:
+o      _CATransform3DIdentity$non_lazy_ptr in CameraViewController.o
+o     (maybe you meant: _CATransform3DIdentity$non_lazy_ptr)
+o  "_OBJC_CLASS_$_CALayer", referenced from:
+o      objc-class-ref-to-CALayer in CameraViewController.o
+o  "_AVLayerVideoGravityResizeAspectFill", referenced from:
+o      _AVLayerVideoGravityResizeAspectFill$non_lazy_ptr in CameraViewController.o
+o     (maybe you meant: _AVLayerVideoGravityResizeAspectFill$non_lazy_ptr)
+o  "_CATransform3DRotate", referenced from:
+o      -[CameraViewController initCapture] in CameraViewController.o
+o  "_OBJC_CLASS_$_AVCaptureSession", referenced from:
+o      objc-class-ref-to-AVCaptureSession in CameraViewController.o
+o  "_AVMediaTypeVideo", referenced from:
+o      _AVMediaTypeVideo$non_lazy_ptr in CameraViewController.o
+o     (maybe you meant: _AVMediaTypeVideo$non_lazy_ptr)
+o  "_OBJC_CLASS_$_AVCaptureDeviceInput", referenced from:
+o      objc-class-ref-to-AVCaptureDeviceInput in CameraViewController.o
+o  "_kCAGravityResizeAspectFill", referenced from:
+o      _kCAGravityResizeAspectFill$non_lazy_ptr in CameraViewController.o
+o     (maybe you meant: _kCAGravityResizeAspectFill$non_lazy_ptr)
+o  "_OBJC_CLASS_$_AVCaptureVideoDataOutput", referenced from:
+o      objc-class-ref-to-AVCaptureVideoDataOutput in CameraViewController.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@106"Link /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/CutifyCamera332737937#332737937#0(1668"Undefined symbols:  "_OBJC_CLASS_$_AVCaptureVideoPreviewLayer", referenced from:      objc-class-ref-to-AVCaptureVideoPreviewLayer in CameraViewController.o  "_OBJC_CLASS_$_AVCaptureDevice", referenced from:      objc-class-ref-to-AVCaptureDevice in CameraViewController.o  "_CATransform3DIdentity", referenced from:      _CATransform3DIdentity$non_lazy_ptr in CameraViewController.o     (maybe you meant: _CATransform3DIdentity$non_lazy_ptr)  "_OBJC_CLASS_$_CALayer", referenced from:      objc-class-ref-to-CALayer in CameraViewController.o  "_AVLayerVideoGravityResizeAspectFill", referenced from:      _AVLayerVideoGravityResizeAspectFill$non_lazy_ptr in CameraViewController.o     (maybe you meant: _AVLayerVideoGravityResizeAspectFill$non_lazy_ptr)  "_CATransform3DRotate", referenced from:      -[CameraViewController initCapture] in CameraViewController.o  "_OBJC_CLASS_$_AVCaptureSession", referenced from:      objc-class-ref-to-AVCaptureSession in CameraViewController.o  "_AVMediaTypeVideo", referenced from:      _AVMediaTypeVideo$non_lazy_ptr in CameraViewController.o     (maybe you meant: _AVMediaTypeVideo$non_lazy_ptr)  "_OBJC_CLASS_$_AVCaptureDeviceInput", referenced from:      objc-class-ref-to-AVCaptureDeviceInput in CameraViewController.o  "_kCAGravityResizeAspectFill", referenced from:      _kCAGravityResizeAspectFill$non_lazy_ptr in CameraViewController.o     (maybe you meant: _kCAGravityResizeAspectFill$non_lazy_ptr)  "_OBJC_CLASS_$_AVCaptureVideoDataOutput", referenced from:      objc-class-ref-to-AVCaptureVideoDataOutput in CameraViewController.old: symbol(s) not foundcollect2: ld returned 1 exit status28(4@60""_OBJC_CLASS_$_AVCaptureVideoPreviewLayer", referenced from:332737937#19#63#0(6@0"332737937#0#0#0#0#0"0(13@70"Objc-class-ref-to-AVCaptureVideoPreviewLayer in CameraViewController.o332737937#82#77#0(6@0"332737937#0#0#0#0#0"0(4@49""_OBJC_CLASS_$_AVCaptureDevice", referenced from:332737937#159#52#0(6@0"332737937#0#0#0#0#0"0(13@59"Objc-class-ref-to-AVCaptureDevice in CameraViewController.o332737937#211#66#0(6@0"332737937#0#0#0#0#0"0(4@42""_CATransform3DIdentity", referenced from:332737937#277#45#0(6@0"332737937#0#0#0#0#0"0(13@61"_CATransform3DIdentity$non_lazy_ptr in CameraViewController.o332737937#322#68#0(6@0"332737937#0#0#0#0#0"0(13@54"(maybe you meant: _CATransform3DIdentity$non_lazy_ptr)332737937#390#60#0(6@0"332737937#0#0#0#0#0"0(4@41""_OBJC_CLASS_$_CALayer", referenced from:332737937#450#44#0(6@0"332737937#0#0#0#0#0"0(13@51"Objc-class-ref-to-CALayer in CameraViewController.o332737937#494#58#0(6@0"332737937#0#0#0#0#0"0(4@56""_AVLayerVideoGravityResizeAspectFill", referenced from:332737937#552#59#0(6@0"332737937#0#0#0#0#0"0(13@75"_AVLayerVideoGravityResizeAspectFill$non_lazy_ptr in CameraViewController.o332737937#611#82#0(6@0"332737937#0#0#0#0#0"0(13@68"(maybe you meant: _AVLayerVideoGravityResizeAspectFill$non_lazy_ptr)332737937#693#74#0(6@0"332737937#0#0#0#0#0"0(4@40""_CATransform3DRotate", referenced from:332737937#767#43#0(6@0"332737937#0#0#0#0#0"0(13@61"-[CameraViewController initCapture] in CameraViewController.o332737937#810#68#0(6@0"332737937#0#0#0#0#0"0(4@50""_OBJC_CLASS_$_AVCaptureSession", referenced from:332737937#878#53#0(6@0"332737937#0#0#0#0#0"0(13@60"Objc-class-ref-to-AVCaptureSession in CameraViewController.o332737937#931#67#0(6@0"332737937#0#0#0#0#0"0(4@37""_AVMediaTypeVideo", referenced from:332737937#998#40#0(6@0"332737937#0#0#0#0#0"0(13@56"_AVMediaTypeVideo$non_lazy_ptr in CameraViewController.o332737937#1038#63#0(6@0"332737937#0#0#0#0#0"0(13@49"(maybe you meant: _AVMediaTypeVideo$non_lazy_ptr)332737937#1101#55#0(6@0"332737937#0#0#0#0#0"0(4@54""_OBJC_CLASS_$_AVCaptureDeviceInput", referenced from:332737937#1156#57#0(6@0"332737937#0#0#0#0#0"0(13@64"Objc-class-ref-to-AVCaptureDeviceInput in CameraViewController.o332737937#1213#71#0(6@0"332737937#0#0#0#0#0"0(4@47""_kCAGravityResizeAspectFill", referenced from:332737937#1284#50#0(6@0"332737937#0#0#0#0#0"0(13@66"_kCAGravityResizeAspectFill$non_lazy_ptr in CameraViewController.o332737937#1334#73#0(6@0"332737937#0#0#0#0#0"0(13@59"(maybe you meant: _kCAGravityResizeAspectFill$non_lazy_ptr)332737937#1407#65#0(6@0"332737937#0#0#0#0#0"0(4@58""_OBJC_CLASS_$_AVCaptureVideoDataOutput", referenced from:332737937#1472#61#0(6@0"332737937#0#0#0#0#0"0(13@68"Objc-class-ref-to-AVCaptureVideoDataOutput in CameraViewController.o332737937#1533#75#0(6@0"332737937#0#0#0#0#0"0(13@19"Symbol(s) not found332737937#1608#24#0(6@0"332737937#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status332737937#1632#36#0(6@0"332737937#0#0#0#0#0"0(0#0#0"8614630688#1106"    cd /Users/danlipert/github/Cutify/CutifyCamera    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator -F/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator -filelist /Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/Objects-normal/i386/CutifyCamera.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreMedia -framework CoreVideo -o /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/CutifyCamera1#
+
+CProcessInfoPlistFile /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/Info.plist CutifyCamera-Info.plist
+s332737293.806407
+e332737293.872199
+r1
+xProcessInfoPlistFile
+x/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/Info.plist
+xCutifyCamera-Info.plist
+lSLF07#2@31"Process CutifyCamera-Info.plist332737293#332737293#0(0"0(0#0#67"/Users/danlipert/github/Cutify/CutifyCamera/CutifyCamera-Info.plist31525394967363688#597"    cd /Users/danlipert/github/Cutify/CutifyCamera    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility CutifyCamera-Info.plist -genpkginfo /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app/Info.plist0#
+
+CProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyCamera_Prefix-fthxlcukqclrixaozqcgdgllwjpn/CutifyCamera_Prefix.pch.gch CutifyCamera_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s332737294.318457
+e332737295.229505
+r1
+xProcessPCH
+x/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyCamera_Prefix-fthxlcukqclrixaozqcgdgllwjpn/CutifyCamera_Prefix.pch.gch
+xCutifyCamera_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile CutifyCamera_Prefix.pch332737294#332737295#0(0"0(0#0#67"/Users/danlipert/github/Cutify/CutifyCamera/CutifyCamera_Prefix.pch8618475104#2065"    cd /Users/danlipert/github/Cutify/CutifyCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/CutifyCamera-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyCamera/build/CutifyCamera.build/Debug-iphonesimulator/CutifyCamera.build/DerivedSources -c /Users/danlipert/github/Cutify/CutifyCamera/CutifyCamera_Prefix.pch -o /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyCamera_Prefix-fthxlcukqclrixaozqcgdgllwjpn/CutifyCamera_Prefix.pch.gch0#
+
+CTouch /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app
+s332737479.854827
+e332737479.856308
+r1
+xTouch
+x/Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app
+lSLF07#2@94"Touch /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app332737479#332737479#0(0"0(0#0#0"8612055840#381"    cd /Users/danlipert/github/Cutify/CutifyCamera    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/danlipert/github/Cutify/CutifyCamera/build/Debug-iphonesimulator/CutifyCamera.app0#
+

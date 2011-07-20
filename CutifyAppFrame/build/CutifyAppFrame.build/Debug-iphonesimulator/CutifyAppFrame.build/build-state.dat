@@ -1,20 +1,32 @@
 TCutifyAppFrame
 v7
 r0
-t332198890.713591
+t332395126.578741
 cCheck dependencies
 cProcessInfoPlistFile /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/Info.plist CutifyAppFrame-Info.plist
+cCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/Three20.bundle ../../../Downloads/three20/src/Three20.bundle
 cCompileXIB /Users/danlipert/github/Cutify/CutifyAppFrame/MainWindow.xib
 cCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/TableviewBackground@2x.png TableviewBackground@2x.png
 cCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/NavigationBar@2x.png NavigationBar@2x.png
 cCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/DoneButton@2x.png DoneButton@2x.png
 cCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/BackButton@2x.png BackButton@2x.png
-cProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bqbqubkfvmdptoajnwhponrcujbo/CutifyAppFrame_Prefix.pch.gch CutifyAppFrame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/SharePhotoButton@2x.png SharePhotoButton@2x.png
+cCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/InAppPurchaseKittyPack@2x.png InAppPurchaseKittyPack@2x.png
+cCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/InAppPurchaseBackground@2x.png InAppPurchaseBackground@2x.png
+cCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/GetPackButton@2x.png GetPackButton@2x.png
+cCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/DeleteButton@2x.png DeleteButton@2x.png
+cCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/BuyPackButton@2x.png BuyPackButton@2x.png
+cCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/ApplyStickerImage@2x.png ApplyStickerImage@2x.png
+cCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/BreadcrumbSample@2x.png BreadcrumbSample@2x.png
+cProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bpswxguirsbewiegxrgigqfddjbr/CutifyAppFrame_Prefix.pch.gch CutifyAppFrame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/main.o /Users/danlipert/github/Cutify/CutifyAppFrame/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/CutifyAppFrameAppDelegate.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/TakePhotoViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/TakePhotoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/OptionsAndSharingViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/OptionsAndSharingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/ApplyStickersViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/ApplyStickersViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/TakePhotoViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/OptionsAndSharingViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/ApplyStickersViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../ApplyStickersViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoViewSharingViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoViewSharingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoGridViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/IAPViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/IAPViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame normal i386
 cGenerateDSYMFile /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app.dSYM /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame
 cTouch /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app
@@ -119,6 +131,51 @@ t1310443672
 s370
 i<UIKit/UIKit.h>
 
+N/Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20.a
+c000000004E1E700500000000000010E0
+t1310617605
+s4320
+
+N/Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a
+c000000004E1E6FF90000000000041A40
+t1310617593
+s268864
+
+N/Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a
+c000000004E1E6FFB0000000000053290
+t1310617595
+s340624
+
+N/Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a
+c000000004E1E6FFE0000000000129FB8
+t1310617598
+s1220536
+
+N/Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a
+c000000004E1E700400000000005D8AB8
+t1310617604
+s6130360
+
+N/Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a
+c000000004E1E6FFA000000000004BAB0
+t1310617594
+s309936
+
+N/Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a
+c000000004E1E6FFF00000000000908F0
+t1310617599
+s592112
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/../../../Downloads/three20/src/Three20.bundle
+c000000004D7982F20000000000000220
+t1299809010
+s544
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/ApplyStickerImage@2x.png
+c000000004E1CD3D60000000000095C3F
+t1310512086
+s613439
+
 N/Users/danlipert/github/Cutify/CutifyAppFrame/ApplyStickersViewController.h
 c000000004E1CB3E70000000000000104
 t1310503911
@@ -137,6 +194,82 @@ c000000004E1BCC7C0000000000000F49
 t1310444668
 s3913
 
+N/Users/danlipert/github/Cutify/CutifyAppFrame/BreadcrumbSample@2x.png
+c000000004E1CD3D6000000000000173B
+t1310512086
+s5947
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/BuyPackButton@2x.png
+c000000004E1CD1350000000000003411
+t1310511413
+s13329
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../ApplyStickersViewController.h
+c000000004E1CB3E70000000000000104
+t1310503911
+s260
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../ApplyStickersViewController.m
+c000000004E1E743F0000000000000F73
+t1310618687
+s3955
+i"ApplyStickersViewController.h"
+i"OptionsAndSharingViewController.h"
+i"IAPViewController.h"
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.h
+c000000004E1BD2F50000000000000111
+t1310446325
+s273
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.m
+c000000004E1E37630000000000001672
+t1310603107
+s5746
+i"OptionsAndSharingViewController.h"
+i"PhotoGridViewController.h"
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.h
+c000000004E1E2F2C00000000000000FB
+t1310601004
+s251
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m
+c000000004E1E71850000000000000E55
+t1310617989
+s3669
+i"PhotoGridViewController.h"
+i"PhotoViewSharingViewController.h"
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoViewSharingViewController.h
+c000000004E1CD1E5000000000000010E
+t1310511589
+s270
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoViewSharingViewController.m
+c000000004E1E72450000000000001800
+t1310618181
+s6144
+i"PhotoViewSharingViewController.h"
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.h
+c000000004E1CABCF000000000000025F
+t1310501839
+s607
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m
+c000000004E1E6F6E0000000000000D33
+t1310617454
+s3379
+i"TakePhotoViewController.h"
+i"ApplyStickersViewController.h"
+i"PhotoGridViewController.h"
+
 N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.h
 c000000004E1BCC7E000000000000015E
 t1310444670
@@ -144,12 +277,27 @@ s350
 i<UIKit/UIKit.h>
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m
-c000000004E1CAD810000000000000CDB
-t1310502273
-s3291
+c000000004E1E36840000000000000EAE
+t1310602884
+s3758
 i"CutifyAppFrameAppDelegate.h"
 i"OptionsAndSharingViewController.h"
 i"TakePhotoViewController.h"
+i"PhotoViewSharingViewController.h"
+i"PhotoGridViewController.h"
+i"ApplyStickersViewController.h"
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/IAPViewController.h
+c000000004E1E727A00000000000000EF
+t1310618234
+s239
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/IAPViewController.m
+c000000004E1E75980000000000000925
+t1310619032
+s2341
+i"IAPViewController.h"
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/CutifyAppFrame_Prefix.pch
 c000000004E1BCC7E00000000000000C5
@@ -158,10 +306,30 @@ s197
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
+N/Users/danlipert/github/Cutify/CutifyAppFrame/DeleteButton@2x.png
+c000000004E1CD1350000000000000C93
+t1310511413
+s3219
+
 N/Users/danlipert/github/Cutify/CutifyAppFrame/DoneButton@2x.png
 c000000004E1BCC7C0000000000000BBE
 t1310444668
 s3006
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/GetPackButton@2x.png
+c000000004E1CD13500000000000030CD
+t1310511413
+s12493
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/InAppPurchaseBackground@2x.png
+c000000004E1CD13500000000000BAA9E
+t1310511413
+s764574
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/InAppPurchaseKittyPack@2x.png
+c000000004E1CD135000000000000847D
+t1310511413
+s33917
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/MainWindow.xib
 c000000004E1BCC7E000000000000212B
@@ -185,6 +353,35 @@ t1310447236
 s5354
 i"OptionsAndSharingViewController.h"
 
+N/Users/danlipert/github/Cutify/CutifyAppFrame/PhotoGridViewController.h
+c000000004E1E2F2C00000000000000FB
+t1310601004
+s251
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/PhotoGridViewController.m
+c000000004E1E2D1C000000000000063C
+t1310600476
+s1596
+i"PhotoGridViewController.h"
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/PhotoViewSharingViewController.h
+c000000004E1CD1E5000000000000010E
+t1310511589
+s270
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/PhotoViewSharingViewController.m
+c000000004E1CDA900000000000001751
+t1310513808
+s5969
+i"PhotoViewSharingViewController.h"
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/SharePhotoButton@2x.png
+c000000004E1CD1350000000000002047
+t1310511413
+s8263
+
 N/Users/danlipert/github/Cutify/CutifyAppFrame/TableviewBackground@2x.png
 c000000004E1BCC7C00000000000B53B7
 t1310444668
@@ -204,69 +401,117 @@ i"TakePhotoViewController.h"
 i"ApplyStickersViewController.h"
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/ApplyStickersViewController.o
-t1310506090
-s46484
+t1310618690
+s50504
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/CutifyAppFrame.LinkFileList
-c000000004E1CB3E70000000000000325
-t1310503911
-s805
+c000000004E1E7438000000000000050C
+t1310618680
+s1292
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/CutifyAppFrameAppDelegate.o
-t1310502274
-s54612
+t1310617607
+s54620
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/IAPViewController.o
+t1310702324
+s45540
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/OptionsAndSharingViewController.o
-t1310447237
-s54848
+t1310617607
+s56660
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoGridViewController.o
+t1310617990
+s47956
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoViewSharingViewController.o
+t1310618184
+s57664
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/TakePhotoViewController.o
-t1310505731
-s49924
+t1310617607
+s53044
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/main.o
-t1310445254
+t1310617607
 s6376
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app
-t1310506090
-s340
+t1310702326
+s646
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app.dSYM
-t1310506090
+t1310702326
 s102
 
+N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/ApplyStickerImage@2x.png
+t1310617606
+s613439
+
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/BackButton@2x.png
-t1310445253
+t1310617606
 s3913
 
+N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/BreadcrumbSample@2x.png
+t1310617606
+s5947
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/BuyPackButton@2x.png
+t1310617606
+s13329
+
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame
-t1310506090
-s33040
+t1310702325
+s1764620
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/DeleteButton@2x.png
+t1310617606
+s3219
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/DoneButton@2x.png
-t1310445253
+t1310617606
 s3006
 
+N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/GetPackButton@2x.png
+t1310617606
+s12493
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/InAppPurchaseBackground@2x.png
+t1310617606
+s764574
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/InAppPurchaseKittyPack@2x.png
+t1310617606
+s33917
+
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/Info.plist
-t1310444670
+t1310617606
 s619
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/MainWindow.nib
-t1310444670
+t1310617606
 s1538
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/NavigationBar@2x.png
-t1310445253
+t1310617606
 s16192
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/PkgInfo
-t1310444670
+t1310617606
 s8
 
+N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/SharePhotoButton@2x.png
+t1310617606
+s8263
+
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/TableviewBackground@2x.png
-t1310445253
+t1310617606
 s742327
+
+N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/Three20.bundle
+t1310617606
+s544
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/main.m
 c000000004E1BCC7E0000000000000172
@@ -294,6 +539,11 @@ c000000004D54CFB80000000000001466
 t1297403832
 s5222
 
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D4200000000000162C50
+t1297404960
+s1453136
+
 N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000004D5615B40000000000000AA1
 t1297487284
@@ -303,6 +553,10 @@ N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhon
 c000000004D5616030000000000766870
 t1297487363
 s7759984
+
+N/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bpswxguirsbewiegxrgigqfddjbr/CutifyAppFrame_Prefix.pch.gch
+t1310617607
+s15818160
 
 N/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bqbqubkfvmdptoajnwhponrcujbo/CutifyAppFrame_Prefix.pch.gch
 t1310445254
@@ -319,7 +573,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies332198890#332198890#0(0"0(0#1#0"8618296928#0"0#
+lSLF07#2@18"Check dependencies332395123#332395123#0(0"0(0#1#0"8642278976#0"0#
 
 CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/ApplyStickersViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/ApplyStickersViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s332198890.553539
@@ -333,6 +587,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@83"Compile /Users/danlipert/github/Cutify/CutifyAppFrame/ApplyStickersViewController.m332198890#332198890#0(0"0(0#0#75"/Users/danlipert/github/Cutify/CutifyAppFrame/ApplyStickersViewController.m8613313120#2291"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bqbqubkfvmdptoajnwhponrcujbo/CutifyAppFrame_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyAppFrame/ApplyStickersViewController.m -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/ApplyStickersViewController.o0#
+
+CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/ApplyStickersViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../ApplyStickersViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332311490.242766
+e332311490.327764
+r1
+xCompileC
+xbuild/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/ApplyStickersViewController.o
+x/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../ApplyStickersViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../ApplyStickersViewController.m332311490#332311490#0(0"0(0#0#86"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../ApplyStickersViewController.m8622705504#2531"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../../three20 -I../../../Downloads/three20/Build/Products/three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bpswxguirsbewiegxrgigqfddjbr/CutifyAppFrame_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../ApplyStickersViewController.m -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/ApplyStickersViewController.o0#
 
 CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/CutifyAppFrameAppDelegate.o /Users/danlipert/Documents/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s332137229.009015
@@ -348,8 +615,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@85"Compile /Users/danlipert/Documents/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m332137229#332137229#0(0"0(0#0#77"/Users/danlipert/Documents/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m8615522016#2251"    cd /Users/danlipert/Documents/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-chzupfsqqxoasygkwypxwsqstwdl/CutifyAppFrame_Prefix.pch -c /Users/danlipert/Documents/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m -o /Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/CutifyAppFrameAppDelegate.o0#
 
 CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/CutifyAppFrameAppDelegate.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s332195074.703877
-e332195074.792933
+s332310407.356548
+e332310407.444920
 r1
 xCompileC
 xbuild/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/CutifyAppFrameAppDelegate.o
@@ -358,7 +625,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@89"Compile /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m332195074#332195074#0(0"0(0#0#81"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m8612976768#2295"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bqbqubkfvmdptoajnwhponrcujbo/CutifyAppFrame_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/CutifyAppFrameAppDelegate.o0#
+lSLF07#2@89"Compile /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m332310407#332310407#0(0"0(0#0#81"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m8590401472#2524"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../../three20 -I../../../Downloads/three20/Build/Products/three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bpswxguirsbewiegxrgigqfddjbr/CutifyAppFrame_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/CutifyAppFrameAppDelegate.o0#
+
+CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/IAPViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/IAPViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332395123.292104
+e332395124.578037
+r1
+xCompileC
+xbuild/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/IAPViewController.o
+x/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/IAPViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/IAPViewController.m332395123#332395124#0(0"0(0#0#73"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/IAPViewController.m8600640064#2508"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../../three20 -I../../../Downloads/three20/Build/Products/three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bpswxguirsbewiegxrgigqfddjbr/CutifyAppFrame_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/IAPViewController.m -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/IAPViewController.o0#
 
 CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/OptionsAndSharingViewController.o /Users/danlipert/Documents/CutifyAppFrame/OptionsAndSharingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s332137255.149854
@@ -372,6 +652,21 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@83"Compile /Users/danlipert/Documents/CutifyAppFrame/OptionsAndSharingViewController.m332137255#332137255#0(0"0(0#0#75"/Users/danlipert/Documents/CutifyAppFrame/OptionsAndSharingViewController.m8614176192#2255"    cd /Users/danlipert/Documents/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-chzupfsqqxoasygkwypxwsqstwdl/CutifyAppFrame_Prefix.pch -c /Users/danlipert/Documents/CutifyAppFrame/OptionsAndSharingViewController.m -o /Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/OptionsAndSharingViewController.o0#
+
+CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/OptionsAndSharingViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332310407.358070
+e332310407.483081
+r1
+xCompileC
+xbuild/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/OptionsAndSharingViewController.o
+x/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.m: In function '-[OptionsAndSharingViewController tableView:numberOfRowsInSection:]':
+o/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.m:92: warning: control reaches end of non-void function
+lSLF07#2@98"Compile /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.m332310407#332310407#0(320"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.m: In function '-[OptionsAndSharingViewController tableView:numberOfRowsInSection:]':/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.m:92: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function332310407#175#145#0(6@90"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.m332295907#92#0#92#0#40"control reaches end of non-void function0(0#0#90"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.m8615858144#2539"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../../three20 -I../../../Downloads/three20/Build/Products/three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bpswxguirsbewiegxrgigqfddjbr/CutifyAppFrame_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.m -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/OptionsAndSharingViewController.o0#
 
 CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/OptionsAndSharingViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/OptionsAndSharingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s332140037.722697
@@ -388,6 +683,48 @@ o/Users/danlipert/github/Cutify/CutifyAppFrame/OptionsAndSharingViewController.m
 o/Users/danlipert/github/Cutify/CutifyAppFrame/OptionsAndSharingViewController.m:81: warning: control reaches end of non-void function
 lSLF07#2@87"Compile /Users/danlipert/github/Cutify/CutifyAppFrame/OptionsAndSharingViewController.m332140037#332140037#0(298"/Users/danlipert/github/Cutify/CutifyAppFrame/OptionsAndSharingViewController.m: In function '-[OptionsAndSharingViewController tableView:numberOfRowsInSection:]':/Users/danlipert/github/Cutify/CutifyAppFrame/OptionsAndSharingViewController.m:81: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function332140037#164#134#0(6@79"/Users/danlipert/github/Cutify/CutifyAppFrame/OptionsAndSharingViewController.m332140036#81#0#81#0#40"control reaches end of non-void function0(0#0#79"/Users/danlipert/github/Cutify/CutifyAppFrame/OptionsAndSharingViewController.m8615707680#2299"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bqbqubkfvmdptoajnwhponrcujbo/CutifyAppFrame_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyAppFrame/OptionsAndSharingViewController.m -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/OptionsAndSharingViewController.o0#
 
+CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoGridViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332310790.455414
+e332310790.539488
+r1
+xCompileC
+xbuild/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoGridViewController.o
+x/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m332310790#332310790#0(0"0(0#0#82"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m8622780800#2523"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../../three20 -I../../../Downloads/three20/Build/Products/three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bpswxguirsbewiegxrgigqfddjbr/CutifyAppFrame_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoGridViewController.o0#
+
+CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoGridViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/PhotoGridViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoViewSharingViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoViewSharingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332310984.276660
+e332310984.372837
+r1
+xCompileC
+xbuild/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoViewSharingViewController.o
+x/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoViewSharingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoViewSharingViewController.m332310984#332310984#0(0"0(0#0#89"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoViewSharingViewController.m8611263680#2537"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../../three20 -I../../../Downloads/three20/Build/Products/three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bpswxguirsbewiegxrgigqfddjbr/CutifyAppFrame_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoViewSharingViewController.m -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoViewSharingViewController.o0#
+
+CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoViewSharingViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/PhotoViewSharingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332291426.514816
+e332291428.339526
+r1
+xCompileC
+xbuild/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoViewSharingViewController.o
+x/Users/danlipert/github/Cutify/CutifyAppFrame/PhotoViewSharingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/danlipert/github/Cutify/CutifyAppFrame/PhotoViewSharingViewController.m332291426#332291428#0(0"0(0#0#78"/Users/danlipert/github/Cutify/CutifyAppFrame/PhotoViewSharingViewController.m7881706469734760448#2297"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bqbqubkfvmdptoajnwhponrcujbo/CutifyAppFrame_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyAppFrame/PhotoViewSharingViewController.m -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/PhotoViewSharingViewController.o0#
+
 CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/TakePhotoViewController.o /Users/danlipert/Documents/CutifyAppFrame/TakePhotoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s332137081.842833
 e332137082.138910
@@ -400,6 +737,21 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@75"Compile /Users/danlipert/Documents/CutifyAppFrame/TakePhotoViewController.m332137081#332137082#0(0"0(0#0#67"/Users/danlipert/Documents/CutifyAppFrame/TakePhotoViewController.m8616007072#2239"    cd /Users/danlipert/Documents/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-chzupfsqqxoasygkwypxwsqstwdl/CutifyAppFrame_Prefix.pch -c /Users/danlipert/Documents/CutifyAppFrame/TakePhotoViewController.m -o /Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/TakePhotoViewController.o0#
+
+CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/TakePhotoViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332310407.357248
+e332310407.487256
+r1
+xCompileC
+xbuild/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/TakePhotoViewController.o
+x/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m:95: warning: incomplete implementation of class 'TakePhotoViewController'
+o/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m:95: warning: method definition for '-flashButtonPressed:' not found
+lSLF07#2@90"Compile /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m332310407#332310407#0(308"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m:95: warning: incomplete implementation of class 'TakePhotoViewController'/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m:95: warning: method definition for '-flashButtonPressed:' not found2(22@60"Incomplete implementation of class 'TakePhotoViewController'332310407#0#157#0(6@82"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m332310254#95#0#95#0#38"incomplete implementation of class '*'0(22@54"Method definition for '-flashButtonPressed:' not found332310407#157#151#0(6@82"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m332310254#95#0#95#0#35"method definition for '*' not found0(0#0#82"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m8621048480#2523"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../../three20 -I../../../Downloads/three20/Build/Products/three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bpswxguirsbewiegxrgigqfddjbr/CutifyAppFrame_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/TakePhotoViewController.o0#
 
 CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/TakePhotoViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/TakePhotoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s332198531.703784
@@ -431,8 +783,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@56"Compile /Users/danlipert/Documents/CutifyAppFrame/main.m332137081#332137082#0(0"0(0#0#48"/Users/danlipert/Documents/CutifyAppFrame/main.m8612396864#2201"    cd /Users/danlipert/Documents/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-chzupfsqqxoasygkwypxwsqstwdl/CutifyAppFrame_Prefix.pch -c /Users/danlipert/Documents/CutifyAppFrame/main.m -o /Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/main.o0#
 
 CCompileC build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/main.o /Users/danlipert/github/Cutify/CutifyAppFrame/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s332138054.083730
-e332138054.132542
+s332310407.355650
+e332310407.401640
 r1
 xCompileC
 xbuild/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/main.o
@@ -441,7 +793,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/danlipert/github/Cutify/CutifyAppFrame/main.m332138054#332138054#0(0"0(0#0#52"/Users/danlipert/github/Cutify/CutifyAppFrame/main.m8619582016#2245"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bqbqubkfvmdptoajnwhponrcujbo/CutifyAppFrame_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyAppFrame/main.m -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/main.o0#
+lSLF07#2@60"Compile /Users/danlipert/github/Cutify/CutifyAppFrame/main.m332310407#332310407#0(0"0(0#0#52"/Users/danlipert/github/Cutify/CutifyAppFrame/main.m8608528032#2474"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../../three20 -I../../../Downloads/three20/Build/Products/three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bpswxguirsbewiegxrgigqfddjbr/CutifyAppFrame_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyAppFrame/main.m -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/danlipert/Documents/CutifyAppFrame/MainWindow.xib
 s332137080.162048
@@ -452,43 +804,129 @@ x/Users/danlipert/Documents/CutifyAppFrame/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib332137080#332137080#0(0"0(0#0#56"/Users/danlipert/Documents/CutifyAppFrame/MainWindow.xib8615816192#700"    cd /Users/danlipert/Documents/CutifyAppFrame    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/MainWindow.nib /Users/danlipert/Documents/CutifyAppFrame/MainWindow.xib --sdk /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
 
 CCompileXIB /Users/danlipert/github/Cutify/CutifyAppFrame/MainWindow.xib
-r0
+s332310406.057592
+e332310406.754624
+r1
+xCompileXIB
+x/Users/danlipert/github/Cutify/CutifyAppFrame/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib332310406#332310406#0(0"0(0#0#60"/Users/danlipert/github/Cutify/CutifyAppFrame/MainWindow.xib8605923104#712"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/MainWindow.nib /Users/danlipert/github/Cutify/CutifyAppFrame/MainWindow.xib --sdk /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/ApplyStickerImage@2x.png ApplyStickerImage@2x.png
+s332310406.156414
+e332310406.546482
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyAppFrame.app/ApplyStickerImage@2x.png
+xApplyStickerImage@2x.png
+lSLF07#2@29"Copy ApplyStickerImage@2x.png332310406#332310406#0(0"0(0#0#70"/Users/danlipert/github/Cutify/CutifyAppFrame/ApplyStickerImage@2x.png8625313888#611"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/ApplyStickerImage@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
 
 CCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/BackButton@2x.png BackButton@2x.png
-s332138053.471262
-e332138053.487086
+s332310406.071649
+e332310406.155609
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/CutifyAppFrame.app/BackButton@2x.png
 xBackButton@2x.png
-lSLF07#2@22"Copy BackButton@2x.png332138053#332138053#0(0"0(0#0#63"/Users/danlipert/github/Cutify/CutifyAppFrame/BackButton@2x.png8617349472#604"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/BackButton@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
+lSLF07#2@22"Copy BackButton@2x.png332310406#332310406#0(0"0(0#0#63"/Users/danlipert/github/Cutify/CutifyAppFrame/BackButton@2x.png8616413408#604"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/BackButton@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
+
+CCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/BreadcrumbSample@2x.png BreadcrumbSample@2x.png
+s332310406.157915
+e332310406.211078
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyAppFrame.app/BreadcrumbSample@2x.png
+xBreadcrumbSample@2x.png
+lSLF07#2@28"Copy BreadcrumbSample@2x.png332310406#332310406#0(0"0(0#0#69"/Users/danlipert/github/Cutify/CutifyAppFrame/BreadcrumbSample@2x.png8624643424#610"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/BreadcrumbSample@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
+
+CCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/BuyPackButton@2x.png BuyPackButton@2x.png
+s332310406.153749
+e332310406.204815
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyAppFrame.app/BuyPackButton@2x.png
+xBuyPackButton@2x.png
+lSLF07#2@25"Copy BuyPackButton@2x.png332310406#332310406#0(0"0(0#0#66"/Users/danlipert/github/Cutify/CutifyAppFrame/BuyPackButton@2x.png8636581536#607"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/BuyPackButton@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
+
+CCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/DeleteButton@2x.png DeleteButton@2x.png
+s332310406.100122
+e332310406.195922
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyAppFrame.app/DeleteButton@2x.png
+xDeleteButton@2x.png
+lSLF07#2@24"Copy DeleteButton@2x.png332310406#332310406#0(0"0(0#0#65"/Users/danlipert/github/Cutify/CutifyAppFrame/DeleteButton@2x.png8606347776#606"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/DeleteButton@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
 
 CCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/DoneButton@2x.png DoneButton@2x.png
-s332138053.470643
-e332138053.481449
+s332310406.059616
+e332310406.100023
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/CutifyAppFrame.app/DoneButton@2x.png
 xDoneButton@2x.png
-lSLF07#2@22"Copy DoneButton@2x.png332138053#332138053#0(0"0(0#0#63"/Users/danlipert/github/Cutify/CutifyAppFrame/DoneButton@2x.png8618106528#604"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/DoneButton@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
+lSLF07#2@22"Copy DoneButton@2x.png332310406#332310406#0(0"0(0#0#63"/Users/danlipert/github/Cutify/CutifyAppFrame/DoneButton@2x.png8620151808#604"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/DoneButton@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
+
+CCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/GetPackButton@2x.png GetPackButton@2x.png
+s332310406.074663
+e332310406.156210
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyAppFrame.app/GetPackButton@2x.png
+xGetPackButton@2x.png
+lSLF07#2@25"Copy GetPackButton@2x.png332310406#332310406#0(0"0(0#0#66"/Users/danlipert/github/Cutify/CutifyAppFrame/GetPackButton@2x.png8615689024#607"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/GetPackButton@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
+
+CCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/InAppPurchaseBackground@2x.png InAppPurchaseBackground@2x.png
+s332310406.074013
+e332310406.539058
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyAppFrame.app/InAppPurchaseBackground@2x.png
+xInAppPurchaseBackground@2x.png
+lSLF07#2@35"Copy InAppPurchaseBackground@2x.png332310406#332310406#0(0"0(0#0#76"/Users/danlipert/github/Cutify/CutifyAppFrame/InAppPurchaseBackground@2x.png8608237760#617"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/InAppPurchaseBackground@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
+
+CCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/InAppPurchaseKittyPack@2x.png InAppPurchaseKittyPack@2x.png
+s332310406.073195
+e332310406.224674
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyAppFrame.app/InAppPurchaseKittyPack@2x.png
+xInAppPurchaseKittyPack@2x.png
+lSLF07#2@34"Copy InAppPurchaseKittyPack@2x.png332310406#332310406#0(0"0(0#0#75"/Users/danlipert/github/Cutify/CutifyAppFrame/InAppPurchaseKittyPack@2x.png8598982208#616"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/InAppPurchaseKittyPack@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
 
 CCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/NavigationBar@2x.png NavigationBar@2x.png
-s332138053.470071
-e332138053.480213
+s332310406.059022
+e332310406.099872
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/CutifyAppFrame.app/NavigationBar@2x.png
 xNavigationBar@2x.png
-lSLF07#2@25"Copy NavigationBar@2x.png332138053#332138053#0(0"0(0#0#66"/Users/danlipert/github/Cutify/CutifyAppFrame/NavigationBar@2x.png8619551936#607"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/NavigationBar@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
+lSLF07#2@25"Copy NavigationBar@2x.png332310406#332310406#0(0"0(0#0#66"/Users/danlipert/github/Cutify/CutifyAppFrame/NavigationBar@2x.png8622078080#607"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/NavigationBar@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
+
+CCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/SharePhotoButton@2x.png SharePhotoButton@2x.png
+s332310406.072497
+e332310406.155872
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyAppFrame.app/SharePhotoButton@2x.png
+xSharePhotoButton@2x.png
+lSLF07#2@28"Copy SharePhotoButton@2x.png332310406#332310406#0(0"0(0#0#69"/Users/danlipert/github/Cutify/CutifyAppFrame/SharePhotoButton@2x.png8620090144#610"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/SharePhotoButton@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
 
 CCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/TableviewBackground@2x.png TableviewBackground@2x.png
-s332138053.467719
-e332138053.478455
+s332310406.058355
+e332310406.546763
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/CutifyAppFrame.app/TableviewBackground@2x.png
 xTableviewBackground@2x.png
-lSLF07#2@31"Copy TableviewBackground@2x.png332138053#332138053#0(0"0(0#0#72"/Users/danlipert/github/Cutify/CutifyAppFrame/TableviewBackground@2x.png23644099914498160#613"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/TableviewBackground@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
+lSLF07#2@31"Copy TableviewBackground@2x.png332310406#332310406#0(0"0(0#0#72"/Users/danlipert/github/Cutify/CutifyAppFrame/TableviewBackground@2x.png8605624608#613"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/TableviewBackground@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
+
+CCpResource build/Debug-iphonesimulator/CutifyAppFrame.app/Three20.bundle ../../../Downloads/three20/src/Three20.bundle
+s332310406.057042
+e332310406.588081
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyAppFrame.app/Three20.bundle
+x../../../Downloads/three20/src/Three20.bundle
+lSLF07#2@50"Copy ../../../Downloads/three20/src/Three20.bundle332310406#332310406#0(0"0(0#0#91"/Users/danlipert/github/Cutify/CutifyAppFrame/../../../Downloads/three20/src/Three20.bundle8606354112#632"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/../../../Downloads/three20/src/Three20.bundle /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
 
 CGenerateDSYMFile /Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app.dSYM /Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame
 s332137255.754227
@@ -500,13 +938,13 @@ x/Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyApp
 lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/CutifyAppFrame.app.dSYM build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame332137255#332137255#0(0"0(0#0#103"/Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame8614600096#514"    cd /Users/danlipert/Documents/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/dsymutil /Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame -o /Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app.dSYM0#
 
 CGenerateDSYMFile /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app.dSYM /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame
-s332198890.666091
-e332198890.711725
+s332395126.004757
+e332395126.566745
 r1
 xGenerateDSYMFile
 x/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app.dSYM
 x/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame
-lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/CutifyAppFrame.app.dSYM build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame332198890#332198890#0(0"0(0#0#107"/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame8618619264#526"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/dsymutil /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app.dSYM0#
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/CutifyAppFrame.app.dSYM build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame332395126#332395126#0(0"0(0#0#107"/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame8622219584#526"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/dsymutil /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app.dSYM0#
 
 CLd /Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame normal i386
 s332137255.197860
@@ -519,14 +957,14 @@ xi386
 lSLF07#2@108"Link /Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame332137255#332137255#0(0"0(0#0#0"8616024512#1064"    cd /Users/danlipert/Documents/CutifyAppFrame    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator -F/Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator -filelist /Users/danlipert/Documents/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/CutifyAppFrame.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame0#
 
 CLd /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame normal i386
-s332198890.644675
-e332198890.666008
+s332395124.578195
+e332395126.004669
 r1
 xLd
 x/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame
 xnormal
 xi386
-lSLF07#2@112"Link /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame332198890#332198890#0(0"0(0#0#0"8618812032#1084"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -filelist /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/CutifyAppFrame.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame0#
+lSLF07#2@112"Link /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame332395124#332395126#0(0"0(0#0#0"29555370778492996#1744"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -filelist /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/Objects-normal/i386/CutifyAppFrame.LinkFileList -mmacosx-version-min=10.6 -ObjC -Xlinker -objc_abi_version -Xlinker 2 /Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a /Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20.a /Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a /Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a /Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a -framework QuartzCore /Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a /Users/danlipert/Downloads/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/CutifyAppFrame0#
 
 CProcessInfoPlistFile /Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/Info.plist CutifyAppFrame-Info.plist
 s332137080.113050
@@ -538,7 +976,26 @@ xCutifyAppFrame-Info.plist
 lSLF07#2@33"Process CutifyAppFrame-Info.plist332137080#332137080#0(0"0(0#0#67"/Users/danlipert/Documents/CutifyAppFrame/CutifyAppFrame-Info.plist31525394967363688#597"    cd /Users/danlipert/Documents/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility CutifyAppFrame-Info.plist -genpkginfo /Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/Info.plist0#
 
 CProcessInfoPlistFile /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/Info.plist CutifyAppFrame-Info.plist
-r0
+s332310406.053163
+e332310406.056942
+r1
+xProcessInfoPlistFile
+x/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/Info.plist
+xCutifyAppFrame-Info.plist
+lSLF07#2@33"Process CutifyAppFrame-Info.plist332310406#332310406#0(0"0(0#0#71"/Users/danlipert/github/Cutify/CutifyAppFrame/CutifyAppFrame-Info.plist8611344928#609"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility CutifyAppFrame-Info.plist -genpkginfo /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app/Info.plist0#
+
+CProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bpswxguirsbewiegxrgigqfddjbr/CutifyAppFrame_Prefix.pch.gch CutifyAppFrame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s332310406.754718
+e332310407.355530
+r1
+xProcessPCH
+x/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bpswxguirsbewiegxrgigqfddjbr/CutifyAppFrame_Prefix.pch.gch
+xCutifyAppFrame_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile CutifyAppFrame_Prefix.pch332310406#332310407#0(0"0(0#0#71"/Users/danlipert/github/Cutify/CutifyAppFrame/CutifyAppFrame_Prefix.pch8605104768#2352"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/CutifyAppFrame-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/../../three20 -I../../../Downloads/three20/Build/Products/three20 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphonesimulator/CutifyAppFrame.build/DerivedSources -c /Users/danlipert/github/Cutify/CutifyAppFrame/CutifyAppFrame_Prefix.pch -o /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bpswxguirsbewiegxrgigqfddjbr/CutifyAppFrame_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppFrame_Prefix-bqbqubkfvmdptoajnwhponrcujbo/CutifyAppFrame_Prefix.pch.gch CutifyAppFrame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s332138053.487239
@@ -575,10 +1032,10 @@ x/Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyApp
 lSLF07#2@94"Touch /Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app332137255#332137255#0(0"0(0#0#0"8614221920#379"    cd /Users/danlipert/Documents/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/danlipert/Documents/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
 
 CTouch /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app
-s332198890.711828
-e332198890.713547
+s332395126.567142
+e332395126.578693
 r1
 xTouch
 x/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app
-lSLF07#2@98"Touch /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app332198890#332198890#0(0"0(0#0#0"8617698336#387"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
+lSLF07#2@98"Touch /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app332395126#332395126#0(0"0(0#0#0"8621826816#387"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphonesimulator/CutifyAppFrame.app0#
 

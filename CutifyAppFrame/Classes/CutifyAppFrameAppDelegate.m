@@ -9,6 +9,9 @@
 #import "CutifyAppFrameAppDelegate.h"
 #import "OptionsAndSharingViewController.h"
 #import "TakePhotoViewController.h"
+#import "PhotoViewSharingViewController.h"
+#import "PhotoGridViewController.h"
+#import "ApplyStickersViewController.h"
 
 @implementation CutifyAppFrameAppDelegate
 
@@ -24,6 +27,9 @@
     
 //	OptionsAndSharingViewController *optionsAndSharingViewController = [[OptionsAndSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
 	TakePhotoViewController *takePhotoViewController = [[TakePhotoViewController alloc] init];
+//	PhotoViewSharingViewController *photoViewSharingViewController = [[PhotoViewSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
+//	ApplyStickersViewController *applyStickersViewController = [[ApplyStickersViewController alloc] init];
+//	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
 	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:takePhotoViewController];
 	
 	[self.window addSubview:navigationController.view];

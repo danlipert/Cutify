@@ -7,7 +7,7 @@
 //
 
 #import "OptionsAndSharingViewController.h"
-
+#import "PhotoGridViewController.h"
 
 @implementation OptionsAndSharingViewController
 
@@ -53,6 +53,17 @@
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"TableviewBackground.png"]]];	
 }
 
+-(void)cancelButtonPressed:(id)sender
+{
+	[self.navigationController popViewControllerAnimated:YES];
+}
+
+-(void)doneButtonPressed:(id)sender
+{
+	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
+	[self.navigationController pushViewController:photoGridViewController animated:YES];
+	[photoGridViewController release];
+}
 
 #pragma mark -
 #pragma mark Table view data source
