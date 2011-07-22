@@ -86,7 +86,7 @@
 		<array>
 			<dict>
 				<key>Name</key>
-				<string>Faces</string>
+				<string>Ears</string>
 				<key>Type</key>
 				<string>Category</string>
 				<key>Image</key>
@@ -121,7 +121,7 @@
 			</dict>
 			<dict>
 				<key>Name</key>
-				<string>Eyes</string>
+				<string>Noses</string>
 				<key>Type</key>
 				<string>Category</string>
 				<key>Image</key>

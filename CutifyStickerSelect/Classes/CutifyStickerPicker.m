@@ -8,16 +8,18 @@
 
 #import "CutifyStickerPicker.h"
 #import "CutifyStickerMeta.h"
-#import "CutifyStickerButton.h"
+#import "CutifyStickerSelectButton.h"
 
 @implementation CutifyStickerPicker
 
-@synthesize s;
+@synthesize s, plistArray;
 
 - (id)initWithFrame:(CGRect)frame {
     
     self = [super initWithFrame:frame];
     if (self) {
+		self.plistArray = nil;
+		
 		NSMutableArray *stickerArray = [[NSMutableArray alloc] init];
 		
 		UIScrollView *_s = [[UIScrollView alloc] initWithFrame:CGRectMake(0,0,320,100)];
@@ -33,59 +35,67 @@
 
 -(void)imageButtonPressed:(id)sender
 {
-	if([sender isKindOfClass:[CutifyStickerButton class]])
+	if([sender isKindOfClass:[CutifyStickerSelectButton class]])
 	{
 		CutifyStickerSelectButton *button = (CutifyStickerSelectButton *)sender;
 		[self loadStickersFromMetadata:button.stickerMeta];
 	}
-//	NSMutableArray *imagesArray = [[NSMutableArray alloc] init];
-//	
-//	UIImage *testImage = [UIImage imageNamed:@"InAppPurchaseKittyPack.png"]; 
-//	for(int j = 0; j< 3; j++)
-//	{
-//		[imagesArray addObject:testImage];
-//	}
-//	
-//	[self loadStickers:imagesArray];
-//	[imagesArray release];
 }
 
 -(void)loadStickersFromMetadata:(CutifyStickerMeta *)metadata
 {
+	NSMutableArray *stickerArray = [[NSMutableArray alloc] init];
+
+	if(self.plistArray == nil)
+	{
+		[self loadStickersFromPlist:@"StickerDemoPack.plist"];
+	}
+	
 	if([metadata.type isEqualToString:@"Pack"])
 	{
+		for(NSDictionary *categoryDictionary in metadata.child)
+		{
+			CutifyStickerMeta *stickerMeta = [[CutifyStickerMeta alloc] init];
+			stickerMeta.stickerLabelString = [NSString stringWithString:[categoryDictionary objectForKey:@"Name"]];
+			stickerMeta.stickerImage = [UIImage imageNamed:[categoryDictionary objectForKey:@"Image"]];
+			stickerMeta.parent = self.plistArray;
+			stickerMeta.child = [categoryDictionary objectForKey:@"Stickers"];
+			stickerMeta.type = [categoryDictionary objectForKey:@"Category"];
+			[stickerArray addObject:stickerMeta];
+		}
 		
+	} else if([metadata.type isEqualToString:@"Category"]) {
+		
+	} else if([metadata.type isEqualToString:@"Sticker"]) {
+		
+	}
+	
+	[self loadStickers:stickerArray];
+	[stickerArray release];
 }
 
 -(void)loadStickersFromPlist:(NSString *)plistName
 {
-	//find plist file
-
-	
-	// If it's not there, copy it from the bundle 
-	NSFileManager *fileManager = [NSFileManager defaultManager]; 
-
-	NSString *pathToSettingsInBundle = [[NSBundle mainBundle] pathForResource:plistName ofType:@"plist"]; 
-	
+	NSString *pathToPlistInBundle = [[NSBundle mainBundle] pathForResource:plistName ofType:@"plist"]; 
 	
 	//load file
-	NSMutableArray *plistArray = [[NSMutableArray alloc] initWithContentsOfFile:pathToSettingsInBundle];
+	NSMutableArray *_plistArray = [[NSMutableArray alloc] initWithContentsOfFile:pathToPlistInBundle];
+	self.plistArray = _plistArray;
+	[_plistArray release];
 	
 	NSMutableArray *stickerArray = [[NSMutableArray alloc] init];
 	
-	for(NSDictionary *setDictionary in plistArray)
+	for(NSDictionary *setDictionary in self.plistArray)
 	{
 		CutifyStickerMeta *stickerMeta = [[CutifyStickerMeta alloc] init];
 		stickerMeta.stickerLabelString = [NSString stringWithString:[setDictionary objectForKey:@"Name"]];
 		stickerMeta.stickerImage = [UIImage imageNamed:[setDictionary objectForKey:@"Image"]];
-		stickerMeta.parent = plistArray;
+		stickerMeta.parent = self.plistArray;
 		stickerMeta.child = [setDictionary objectForKey:@"Categories"];
 		stickerMeta.type = [setDictionary objectForKey:@"Type"];
 		[stickerArray addObject:stickerMeta];
 	}
-	
-	[plistArray release];
-	
+		
 	[self loadStickers:stickerArray];
 	[stickerArray release];
 }
@@ -105,12 +115,11 @@
 	int x = space;
 	int y = 10;
 	for (int i=1; i<=stickerArray.count; i++) {
-		CutifyStickerButton *imageButton = [[CutifyStickerButton alloc] initWithFrame:CGRectMake(x,y,width,height)];
+		CutifyStickerSelectButton *imageButton = [[CutifyStickerSelectButton alloc] initWithFrame:CGRectMake(x,y,width,height)];
 		[imageButton setImage:[[stickerArray objectAtIndex:i-1] stickerImage] forState:UIControlStateNormal];
 		[imageButton addTarget:self action:@selector(imageButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 		[imageButton setTag:i-1];
 		[imageButton setStickerMeta:[stickerArray objectAtIndex:i-1]];
-		imageButton.type = [[stickerArray objectAtIndex:i-1] type];
 		[self.s addSubview:imageButton];
 		[imageButton release];
 		

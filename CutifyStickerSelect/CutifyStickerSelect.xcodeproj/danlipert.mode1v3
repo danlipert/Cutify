@@ -216,10 +216,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>B63BE1B913D4D95400C1F12F</string>
+						<string>B6CA0EAF13D9F939009A22DA</string>
 						<key>history</key>
 						<array>
-							<string>B63BE1AC13D4D8F800C1F12F</string>
+							<string>B6CA0EAE13D9F939009A22DA</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -312,7 +312,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>10</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -367,17 +367,18 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B63BE1B813D4D95400C1F12F</string>
+										<string>B6CA0EAD13D9F939009A22DA</string>
 										<key>history</key>
 										<array>
 											<string>B655396613CF79470071D504</string>
-											<string>B63BE12F13D4CF0000C1F12F</string>
 											<string>B63BE18713D4D81700C1F12F</string>
-											<string>B63BE18813D4D81700C1F12F</string>
-											<string>B63BE18913D4D81700C1F12F</string>
 											<string>B63BE1A013D4D87D00C1F12F</string>
 											<string>B63BE1A113D4D87D00C1F12F</string>
-											<string>B63BE1A213D4D87D00C1F12F</string>
+											<string>B6CA0E8613D9F599009A22DA</string>
+											<string>B6CA0E8713D9F599009A22DA</string>
+											<string>B6CA0E8813D9F599009A22DA</string>
+											<string>B6CA0EAB13D9F939009A22DA</string>
+											<string>B6CA0EAC13D9F939009A22DA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -389,14 +390,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 480}}</string>
+								<string>{{0, 0}, {1072, 603}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>480pt</string>
+							<string>603pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -409,14 +410,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 485}, {1072, 193}}</string>
+								<string>{{0, 608}, {1072, 70}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>193pt</string>
+							<string>70pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -435,9 +436,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B63BE10A13D4C9BC00C1F12F</string>
+				<string>B6CA0E6213D9F0ED009A22DA</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>B63BE10B13D4C9BC00C1F12F</string>
+				<string>B6CA0E6313D9F0ED009A22DA</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -575,9 +576,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>B63BE1B613D4D93600C1F12F</string>
-		<string>B63BE18F13D4D81700C1F12F</string>
-		<string>B63BE14B13D4D02C00C1F12F</string>
+		<string>B6CA0EB013D9F939009A22DA</string>
+		<string>B6CA0E9513D9F5D6009A22DA</string>
+		<string>B6CA0E8E13D9F599009A22DA</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>B655396F13CF79470071D504</string>
@@ -662,7 +663,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>B655396F13CF79470071D504</string>
-				<string>B63BE10C13D4C9BC00C1F12F</string>
+				<string>B6CA0E6513D9F0ED009A22DA</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -706,8 +707,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 194}}</string>
-											<string>{{316, 0}, {378, 194}}</string>
+											<string>{{0, 0}, {316, 198}}</string>
+											<string>{{316, 0}, {378, 198}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -722,8 +723,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 194}}</string>
-											<string>{{0, 194}, {694, 187}}</string>
+											<string>{{0, 0}, {694, 198}}</string>
+											<string>{{0, 198}, {694, 183}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -756,7 +757,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 194}}</string>
+									<string>{{316, 0}, {378, 198}}</string>
 									<key>RubberWindowFrame</key>
 									<string>63 287 694 422 0 0 1280 778 </string>
 								</dict>
@@ -784,13 +785,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>B63BE12113D4CDE100C1F12F</string>
+				<string>B6CA0E7013D9F409009A22DA</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>B63BE12213D4CDE100C1F12F</string>
-				<string>B63BE12313D4CDE100C1F12F</string>
-				<string>B63BE12413D4CDE100C1F12F</string>
-				<string>B63BE12513D4CDE100C1F12F</string>
-				<string>B63BE12613D4CDE100C1F12F</string>
+				<string>B6CA0E7113D9F409009A22DA</string>
+				<string>B6CA0E7213D9F409009A22DA</string>
+				<string>B6CA0E7313D9F409009A22DA</string>
+				<string>B6CA0E7413D9F409009A22DA</string>
+				<string>B6CA0E7513D9F409009A22DA</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -954,7 +955,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>B63BE12713D4CDE100C1F12F</string>
+				<string>B6CA0E8C13D9F599009A22DA</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

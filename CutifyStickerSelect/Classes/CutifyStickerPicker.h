@@ -15,6 +15,7 @@
 }
 
 @property (nonatomic, retain) UIScrollView *s;
+@property (nonatomic, retain) NSArray *plistArray;
 
 -(void)loadStickers:(NSArray *)stickerArray;
 -(void)loadStickersFromPlist:(NSString *)plistName;
