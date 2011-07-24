@@ -99,10 +99,42 @@
 -(void)photoCaptureSessionDidCaptureImage:(UIImage *)capturedImage
 {
 	ApplyStickersViewController *applyStickersViewController = [[ApplyStickersViewController alloc] init];
-	applyStickersViewController.photoImage = capturedImage;
+	applyStickersViewController.photoImage = [self cropImage:capturedImage withRect:CGRectMake(10,10,306,306)];
 	[self.navigationController pushViewController:applyStickersViewController animated:YES];
 	[applyStickersViewController release];
 }
+
+// get sub image http://stackoverflow.com/questions/2635371/how-to-crop-the-uiimage
+- (UIImage*)cropImage: (UIImage*)img withRect:(CGRect)rect 
+{
+	if([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2)
+	{
+		//iPhone 4
+		rect = CGRectMake(rect.origin.x, rect.origin.y, rect.size.width*2.0, rect.size.height*2.0);
+	}
+	   
+	
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+	
+    // translated rectangle for drawing sub image 
+    CGRect drawRect = CGRectMake(-rect.origin.x, -rect.origin.y, img.size.width, img.size.height);
+	
+    // clip to the bounds of the image context
+    // not strictly necessary as it will get clipped anyway?
+    CGContextClipToRect(context, CGRectMake(0, 0, rect.size.width, rect.size.height));
+	
+    // draw image
+    [img drawInRect:drawRect];
+	
+    // grab image
+    UIImage* subImage = UIGraphicsGetImageFromCurrentImageContext();
+	
+    UIGraphicsEndImageContext();
+	
+    return subImage;
+}
+
 
 - (void)toggleCamera
 {

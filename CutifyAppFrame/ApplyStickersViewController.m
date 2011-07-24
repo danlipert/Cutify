@@ -10,6 +10,8 @@
 #import "OptionsAndSharingViewController.h"
 #import "IAPViewController.h"
 
+#import <QuartzCore/QuartzCore.h>
+
 @implementation ApplyStickersViewController
 
 @synthesize photoImageView, photoImage;
@@ -52,7 +54,14 @@
 	self.photoImageView = _photoImageView;
 	[_photoImageView release];
 	
-	[self.photoImageView setFrame:CGRectMake(0,0,320,314)];
+	//add shadow
+	self.photoImageView.layer.masksToBounds = NO;
+//	self.photoImageView.layer.cornerRadius = 8; // if you like rounded corners
+	self.photoImageView.layer.shadowOffset = CGSizeMake(2,2);
+	self.photoImageView.layer.shadowRadius = 1;
+	self.photoImageView.layer.shadowOpacity = 0.5;
+	
+	[self.photoImageView setFrame:CGRectMake(7,5,306,306)];
 	self.photoImageView.image = self.photoImage;
 	[self.view addSubview:self.photoImageView];
 	
