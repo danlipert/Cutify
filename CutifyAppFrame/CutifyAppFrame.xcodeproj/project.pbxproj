@@ -26,6 +26,15 @@
 		B6370D8413CE649C00E1FD29 /* PhotoGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */; };
 		B64E26C813CE695800AEBA32 /* ApplyStickerImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */; };
 		B64E26D813CE6A5500AEBA32 /* BreadcrumbSample@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64E26D713CE6A5500AEBA32 /* BreadcrumbSample@2x.png */; };
+		B65A96EE13DCA3240012E260 /* PhotoPreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65A96E613DCA3240012E260 /* PhotoPreviewViewController.xib */; };
+		B65A96EF13DCA3240012E260 /* PhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A96E713DCA3240012E260 /* PhotoPreviewViewController.m */; };
+		B65A96F013DCA3240012E260 /* PhotoCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65A96E913DCA3240012E260 /* PhotoCaptureViewController.xib */; };
+		B65A96F113DCA3240012E260 /* PhotoCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A96EA13DCA3240012E260 /* PhotoCaptureViewController.m */; };
+		B65A96F213DCA3240012E260 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A96EC13DCA3240012E260 /* CaptureSessionManager.m */; };
+		B65A96FF13DCA59E0012E260 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65A96FE13DCA59E0012E260 /* AVFoundation.framework */; };
+		B65A970513DCA5BF0012E260 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65A970413DCA5BF0012E260 /* CoreMedia.framework */; };
+		B65A973A13DCA6EC0012E260 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65A973913DCA6EC0012E260 /* CoreVideo.framework */; };
+		B65A974013DCA7090012E260 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65A973F13DCA7090012E260 /* ImageIO.framework */; };
 		B672F2F213CC043E005FEF8A /* TableviewBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2EE13CC043E005FEF8A /* TableviewBackground@2x.png */; };
 		B672F2F313CC043E005FEF8A /* NavigationBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */; };
 		B672F2F413CC043E005FEF8A /* DoneButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2F013CC043E005FEF8A /* DoneButton@2x.png */; };
@@ -218,6 +227,18 @@
 		B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoGridViewController.m; path = ../PhotoGridViewController.m; sourceTree = "<group>"; };
 		B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ApplyStickerImage@2x.png"; sourceTree = "<group>"; };
 		B64E26D713CE6A5500AEBA32 /* BreadcrumbSample@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BreadcrumbSample@2x.png"; sourceTree = "<group>"; };
+		B65A96E613DCA3240012E260 /* PhotoPreviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoPreviewViewController.xib; sourceTree = "<group>"; };
+		B65A96E713DCA3240012E260 /* PhotoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPreviewViewController.m; sourceTree = "<group>"; };
+		B65A96E813DCA3240012E260 /* PhotoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPreviewViewController.h; sourceTree = "<group>"; };
+		B65A96E913DCA3240012E260 /* PhotoCaptureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCaptureViewController.xib; sourceTree = "<group>"; };
+		B65A96EA13DCA3240012E260 /* PhotoCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCaptureViewController.m; sourceTree = "<group>"; };
+		B65A96EB13DCA3240012E260 /* PhotoCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCaptureViewController.h; sourceTree = "<group>"; };
+		B65A96EC13DCA3240012E260 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		B65A96ED13DCA3240012E260 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		B65A96FE13DCA59E0012E260 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B65A970413DCA5BF0012E260 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B65A973913DCA6EC0012E260 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B65A973F13DCA7090012E260 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		B672F2EE13CC043E005FEF8A /* TableviewBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableviewBackground@2x.png"; sourceTree = "<group>"; };
 		B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBar@2x.png"; sourceTree = "<group>"; };
 		B672F2F013CC043E005FEF8A /* DoneButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DoneButton@2x.png"; sourceTree = "<group>"; };
@@ -254,6 +275,10 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				B65A96FF13DCA59E0012E260 /* AVFoundation.framework in Frameworks */,
+				B65A970513DCA5BF0012E260 /* CoreMedia.framework in Frameworks */,
+				B65A973A13DCA6EC0012E260 /* CoreVideo.framework in Frameworks */,
+				B65A974013DCA7090012E260 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +288,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B65A96E413DCA3140012E260 /* Daves Code */,
 				B62F4CC913CEA9FA0034B982 /* IAPViewController.h */,
 				B62F4CCA13CEA9FA0034B982 /* IAPViewController.m */,
 				1D3623240D0F684500981E51 /* CutifyAppFrameAppDelegate.h */,
@@ -335,6 +361,10 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				B65A96FE13DCA59E0012E260 /* AVFoundation.framework */,
+				B65A970413DCA5BF0012E260 /* CoreMedia.framework */,
+				B65A973913DCA6EC0012E260 /* CoreVideo.framework */,
+				B65A973F13DCA7090012E260 /* ImageIO.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -400,6 +430,21 @@
 				B6370D7913CE623E00E1FD29 /* UIUnitTests.octest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B65A96E413DCA3140012E260 /* Daves Code */ = {
+			isa = PBXGroup;
+			children = (
+				B65A96E613DCA3240012E260 /* PhotoPreviewViewController.xib */,
+				B65A96E713DCA3240012E260 /* PhotoPreviewViewController.m */,
+				B65A96E813DCA3240012E260 /* PhotoPreviewViewController.h */,
+				B65A96E913DCA3240012E260 /* PhotoCaptureViewController.xib */,
+				B65A96EA13DCA3240012E260 /* PhotoCaptureViewController.m */,
+				B65A96EB13DCA3240012E260 /* PhotoCaptureViewController.h */,
+				B65A96EC13DCA3240012E260 /* CaptureSessionManager.m */,
+				B65A96ED13DCA3240012E260 /* CaptureSessionManager.h */,
+			);
+			name = "Daves Code";
 			sourceTree = "<group>";
 		};
 		B672F2E013CC0431005FEF8A /* Assets */ = {
@@ -622,6 +667,8 @@
 				B6EBD11C13CD08D000389177 /* BuyPackButton@2x.png in Resources */,
 				B64E26C813CE695800AEBA32 /* ApplyStickerImage@2x.png in Resources */,
 				B64E26D813CE6A5500AEBA32 /* BreadcrumbSample@2x.png in Resources */,
+				B65A96EE13DCA3240012E260 /* PhotoPreviewViewController.xib in Resources */,
+				B65A96F013DCA3240012E260 /* PhotoCaptureViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,6 +687,9 @@
 				B6EBD12113CD092400389177 /* PhotoViewSharingViewController.m in Sources */,
 				B6370D8413CE649C00E1FD29 /* PhotoGridViewController.m in Sources */,
 				B62F4CCB13CEA9FA0034B982 /* IAPViewController.m in Sources */,
+				B65A96EF13DCA3240012E260 /* PhotoPreviewViewController.m in Sources */,
+				B65A96F113DCA3240012E260 /* PhotoCaptureViewController.m in Sources */,
+				B65A96F213DCA3240012E260 /* CaptureSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

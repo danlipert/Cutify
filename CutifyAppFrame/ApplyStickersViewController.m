@@ -12,6 +12,8 @@
 
 @implementation ApplyStickersViewController
 
+@synthesize photoImageView, photoImage;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
@@ -46,10 +48,13 @@
 	[self.view addSubview:interfaceDemoImageView];
 	[interfaceDemoImageView release];
 	
-	UIImageView *photoImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ApplyStickerImage.png"]];
-	[photoImageView setFrame:CGRectMake(0,0,320,314)];
-	[self.view addSubview:photoImageView];
-	[photoImageView release];
+	UIImageView *_photoImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ApplyStickerImage.png"]];
+	self.photoImageView = _photoImageView;
+	[_photoImageView release];
+	
+	[self.photoImageView setFrame:CGRectMake(0,0,320,314)];
+	self.photoImageView.image = self.photoImage;
+	[self.view addSubview:self.photoImageView];
 	
 	UIButton *iapButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	[iapButton setTitle:@"In-App Purchase" forState:UIControlStateNormal];
@@ -95,6 +100,7 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+	self.photoImageView = nil;
 }
 
 

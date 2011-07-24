@@ -14,4 +14,7 @@
 
 }
 
+@property (nonatomic, retain) UIImageView *photoImageView;
+@property (nonatomic, retain) UIImage *photoImage;
+
 @end

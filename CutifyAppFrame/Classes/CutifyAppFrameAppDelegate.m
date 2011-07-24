@@ -12,6 +12,7 @@
 #import "PhotoViewSharingViewController.h"
 #import "PhotoGridViewController.h"
 #import "ApplyStickersViewController.h"
+#import "PhotoCaptureViewController.h"
 
 @implementation CutifyAppFrameAppDelegate
 
@@ -26,11 +27,12 @@
     // Override point for customization after application launch.
     
 //	OptionsAndSharingViewController *optionsAndSharingViewController = [[OptionsAndSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
-	TakePhotoViewController *takePhotoViewController = [[TakePhotoViewController alloc] init];
+//	TakePhotoViewController *takePhotoViewController = [[TakePhotoViewController alloc] init];
 //	PhotoViewSharingViewController *photoViewSharingViewController = [[PhotoViewSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
 //	ApplyStickersViewController *applyStickersViewController = [[ApplyStickersViewController alloc] init];
 //	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
-	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:takePhotoViewController];
+	PhotoCaptureViewController *photoCaptureViewController = [[PhotoCaptureViewController alloc] initWithNibName:@"PhotoCaptureViewController" bundle:nil];
+	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:photoCaptureViewController];
 	
 	[self.window addSubview:navigationController.view];
 	

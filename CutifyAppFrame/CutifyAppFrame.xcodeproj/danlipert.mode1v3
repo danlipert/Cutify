@@ -267,15 +267,13 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
-								<string>29B97315FDCFA39411CA2CEA</string>
-								<string>29B97317FDCFA39411CA2CEA</string>
-								<string>B672F2E013CC0431005FEF8A</string>
+								<string>B65A96E413DCA3140012E260</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -328,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B666DAA413CFFE150052BA37</string>
+										<string>B65A96E513DCA31E0012E260</string>
 										<key>history</key>
 										<array>
 											<string>B6370D9F13CE66A200E1FD29</string>
@@ -357,7 +355,7 @@
 											<string>B655399913CF81420071D504</string>
 											<string>B655399A13CF81420071D504</string>
 											<string>B655399B13CF81420071D504</string>
-											<string>B666DA3C13CFF2770052BA37</string>
+											<string>B666DAA413CFFE150052BA37</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -369,14 +367,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {981, 622}}</string>
+								<string>{{0, 0}, {981, 620}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>622pt</string>
+							<string>620pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -389,14 +387,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 627}, {981, 51}}</string>
+								<string>{{0, 625}, {981, 53}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>51pt</string>
+							<string>53pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -415,9 +413,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B666DA3E13CFF2770052BA37</string>
+				<string>B65A96D913DCA3050012E260</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>B666DA3F13CFF2770052BA37</string>
+				<string>B65A96DA13DCA3050012E260</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -555,10 +553,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>B666DAA513CFFE150052BA37</string>
-		<string>B666DA4913CFF2770052BA37</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>B6C087F213CC034200BA7D4E</string>
 		<string>/Users/danlipert/github/Cutify/CutifyAppFrame/CutifyAppFrame.xcodeproj</string>
 	</array>
@@ -640,7 +634,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>B6C087F213CC034200BA7D4E</string>
-				<string>B666DA4013CFF2770052BA37</string>
+				<string>B65A96DB13DCA3050012E260</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

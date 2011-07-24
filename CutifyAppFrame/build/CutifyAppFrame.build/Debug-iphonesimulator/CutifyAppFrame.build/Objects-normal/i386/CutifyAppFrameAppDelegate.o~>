@@ -1,0 +1,5 @@
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m: In function '-[CutifyAppFrameAppDelegate application:didFinishLaunchingWithOptions:]':
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m:34: warning: no '-initWithNibNamed:' method found
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m:34: warning: (Messages without a matching method signature
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m:34: warning: will be assumed to return 'id' and accept
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m:34: warning: '...' as arguments.)
