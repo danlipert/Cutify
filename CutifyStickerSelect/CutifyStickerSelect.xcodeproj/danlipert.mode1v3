@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>B63BE1B313D4D93600C1F12F</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>StickerDemoPack.plist</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>B63BE1B413D4D93600C1F12F</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>StickerDemoPack.plist</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>B6CA0EAF13D9F939009A22DA</string>
-						<key>history</key>
-						<array>
-							<string>B6CA0EAE13D9F939009A22DA</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {821, 677}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>371 60 821 718 0 0 1280 778 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -270,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -348,8 +309,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -364,10 +323,6 @@
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
 										<string>CutifyStickerPicker.m</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>B6CA0EAD13D9F939009A22DA</string>
 										<key>history</key>
 										<array>
 											<string>B655396613CF79470071D504</string>
@@ -390,14 +345,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 603}}</string>
+								<string>{{0, 0}, {1072, 601}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>603pt</string>
+							<string>601pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -410,14 +365,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 608}, {1072, 70}}</string>
+								<string>{{0, 606}, {1072, 72}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>70pt</string>
+							<string>72pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -436,9 +391,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B6CA0E6213D9F0ED009A22DA</string>
+				<string>B6CA0EBA13DA25ED009A22DA</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>B6CA0E6313D9F0ED009A22DA</string>
+				<string>B6CA0EBB13DA25ED009A22DA</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -576,13 +531,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>B6CA0EB013D9F939009A22DA</string>
-		<string>B6CA0E9513D9F5D6009A22DA</string>
-		<string>B6CA0E8E13D9F599009A22DA</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>B655396F13CF79470071D504</string>
-		<string>B63BE1B313D4D93600C1F12F</string>
 		<string>/Users/danlipert/github/Cutify/CutifyStickerSelect/CutifyStickerSelect.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -663,7 +613,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>B655396F13CF79470071D504</string>
-				<string>B6CA0E6513D9F0ED009A22DA</string>
+				<string>B6CA0EBC13DA25ED009A22DA</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -707,8 +657,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 198}}</string>
-											<string>{{316, 0}, {378, 198}}</string>
+											<string>{{0, 0}, {316, 201}}</string>
+											<string>{{316, 0}, {378, 201}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -723,8 +673,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 198}}</string>
-											<string>{{0, 198}, {694, 183}}</string>
+											<string>{{0, 0}, {694, 201}}</string>
+											<string>{{0, 201}, {694, 180}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -757,7 +707,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 198}}</string>
+									<string>{{316, 0}, {378, 201}}</string>
 									<key>RubberWindowFrame</key>
 									<string>63 287 694 422 0 0 1280 778 </string>
 								</dict>
@@ -785,13 +735,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>B6CA0E7013D9F409009A22DA</string>
+				<string>B6CA0EBD13DA25ED009A22DA</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>B6CA0E7113D9F409009A22DA</string>
-				<string>B6CA0E7213D9F409009A22DA</string>
-				<string>B6CA0E7313D9F409009A22DA</string>
-				<string>B6CA0E7413D9F409009A22DA</string>
-				<string>B6CA0E7513D9F409009A22DA</string>
+				<string>B6CA0EBE13DA25ED009A22DA</string>
+				<string>B6CA0EBF13DA25ED009A22DA</string>
+				<string>B6CA0EC013DA25ED009A22DA</string>
+				<string>B6CA0EC113DA25ED009A22DA</string>
+				<string>B6CA0EC213DA25ED009A22DA</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
