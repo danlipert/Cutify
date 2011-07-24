@@ -38,6 +38,11 @@
 	if([sender isKindOfClass:[CutifyStickerSelectButton class]])
 	{
 		CutifyStickerSelectButton *button = (CutifyStickerSelectButton *)sender;
+		if([button.stickerMeta.type isEqualToString:@"BackButton"])
+		{
+			//do back button stuff
+			
+		}
 		[self loadStickersFromMetadata:button.stickerMeta];
 	}
 }
@@ -45,7 +50,7 @@
 -(void)loadStickersFromMetadata:(CutifyStickerMeta *)metadata
 {
 	NSMutableArray *stickerArray = [[NSMutableArray alloc] init];
-
+	
 	if(self.plistArray == nil)
 	{
 		[self loadStickersFromPlist:@"StickerDemoPack.plist"];
@@ -53,6 +58,14 @@
 	
 	if([metadata.type isEqualToString:@"Pack"])
 	{
+		CutifyStickerMeta *backButtonMeta = [[CutifyStickerMeta alloc] init];
+		backButtonMeta.stickerLabelString = [NSString stringWithString:@"Back"];
+		backButtonMeta.stickerImage = [UIImage imageNamed:@"ScrollControlBackButton.png"];
+		backButtonMeta.type = [NSString stringWithString:@"BackButton"];
+		
+		[stickerArray addObject:backButtonMeta];
+		[backButtonMeta release];
+		
 		for(NSDictionary *categoryDictionary in metadata.child)
 		{
 			CutifyStickerMeta *stickerMeta = [[CutifyStickerMeta alloc] init];
@@ -85,6 +98,7 @@
 	
 	NSMutableArray *stickerArray = [[NSMutableArray alloc] init];
 	
+		
 	for(NSDictionary *setDictionary in self.plistArray)
 	{
 		CutifyStickerMeta *stickerMeta = [[CutifyStickerMeta alloc] init];
@@ -94,6 +108,8 @@
 		stickerMeta.child = [setDictionary objectForKey:@"Categories"];
 		stickerMeta.type = [setDictionary objectForKey:@"Type"];
 		[stickerArray addObject:stickerMeta];
+		
+		[stickerMeta release];
 	}
 		
 	[self loadStickers:stickerArray];

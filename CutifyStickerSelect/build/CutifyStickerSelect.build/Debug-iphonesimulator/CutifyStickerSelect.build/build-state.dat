@@ -1,13 +1,18 @@
 TCutifyStickerSelect
 v7
 r0
-t333052217.794727
+t333242315.036912
 cCheck dependencies
 cProcessInfoPlistFile /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/Info.plist CutifyStickerSelect-Info.plist
 cCompileXIB /Users/danlipert/github/Cutify/CutifyStickerSelect/MainWindow.xib
 cCpResource build/Debug-iphonesimulator/CutifyStickerSelect.app/ApplyStickerImage@2x.png ApplyStickerImage@2x.png
 cCpResource build/Debug-iphonesimulator/CutifyStickerSelect.app/InAppPurchaseKittyPack@2x.png InAppPurchaseKittyPack@2x.png
 cCopyPlistFile /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/StickerDemoPack.plist Classes/StickerDemoPack.plist
+cCpResource build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlIconMaskClear@2x.png ScrollControlIconMaskClear@2x.png
+cCpResource build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlIconMaskAlpha@2x.png ScrollControlIconMaskAlpha@2x.png
+cCpResource build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlIconMask@2x.png ScrollControlIconMask@2x.png
+cCpResource build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlBackground@2x.png ScrollControlBackground@2x.png
+cCpResource build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlBackButton@2x.png ScrollControlBackButton@2x.png
 cProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyStickerSelect_Prefix-eilmcltorepaaoayxluejuamxhkv/CutifyStickerSelect_Prefix.pch.gch CutifyStickerSelect_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/main.o /Users/danlipert/github/Cutify/CutifyStickerSelect/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/CutifyStickerSelectAppDelegate.o /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerSelectAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -56,9 +61,9 @@ s436
 i<UIKit/UIKit.h>
 
 N/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m
-c000000004E29C207000000000000123F
-t1311359495
-s4671
+c000000004E2CAA30000000000000143B
+t1311550000
+s5179
 i"CutifyStickerPicker.h"
 i"CutifyStickerMeta.h"
 i"CutifyStickerSelectButton.h"
@@ -111,8 +116,33 @@ c000000004E1F362D0000000000002144
 t1310668333
 s8516
 
+N/Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlBackButton@2x.png
+c000000004E29C205000000000000103F
+t1311359493
+s4159
+
+N/Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlBackground@2x.png
+c000000004E29C20500000000000330AB
+t1311359493
+s209067
+
+N/Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlIconMask@2x.png
+c000000004E29C2050000000000000EE5
+t1311359493
+s3813
+
+N/Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlIconMaskAlpha@2x.png
+c000000004E29C205000000000000033E
+t1311359493
+s830
+
+N/Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlIconMaskClear@2x.png
+c000000004E29C205000000000000093F
+t1311359493
+s2367
+
 N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/ApplyStickerViewController.o
-t1311358316
+t1311548964
 s40668
 
 N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/CutifyStickerMeta.o
@@ -120,8 +150,8 @@ t1311359495
 s12464
 
 N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/CutifyStickerPicker.o
-t1311359495
-s56504
+t1311549515
+s57432
 
 N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/CutifyStickerSelect.LinkFileList
 c000000004E29C2070000000000000415
@@ -141,11 +171,11 @@ t1310669094
 s6388
 
 N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app
-t1311359495
-s306
+t1311549515
+s476
 
 N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app.dSYM
-t1311359417
+t1311549515
 s102
 
 N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/ApplyStickerImage@2x.png
@@ -153,7 +183,7 @@ t1310669193
 s613439
 
 N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect
-t1311359495
+t1311549515
 s32256
 
 N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/InAppPurchaseKittyPack@2x.png
@@ -171,6 +201,26 @@ s1543
 N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/PkgInfo
 t1310669093
 s8
+
+N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlBackButton@2x.png
+t1311549469
+s4159
+
+N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlBackground@2x.png
+t1311549469
+s209067
+
+N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlIconMask@2x.png
+t1311549469
+s3813
+
+N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlIconMaskAlpha@2x.png
+t1311549469
+s830
+
+N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlIconMaskClear@2x.png
+t1311549469
+s2367
 
 N/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/StickerDemoPack.plist
 t1311359495
@@ -223,11 +273,11 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies333052217#333052217#0(0"0(0#1#0"8618227936#0"0#
+lSLF07#2@18"Check dependencies333242314#333242314#0(0"0(0#1#0"8646784384#0"0#
 
 CCompileC build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/ApplyStickerViewController.o /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/ApplyStickerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s333051116.323820
-e333051116.438991
+s333241763.574568
+e333241764.641802
 r1
 xCompileC
 xbuild/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/ApplyStickerViewController.o
@@ -236,7 +286,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/ApplyStickerViewController.m333051116#333051116#0(0"0(0#0#87"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/ApplyStickerViewController.m8618808480#2452"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyStickerSelect_Prefix-eilmcltorepaaoayxluejuamxhkv/CutifyStickerSelect_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/ApplyStickerViewController.m -o /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/ApplyStickerViewController.o0#
+lSLF07#2@95"Compile /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/ApplyStickerViewController.m333241763#333241764#0(0"0(0#0#87"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/ApplyStickerViewController.m8603307712#2452"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyStickerSelect_Prefix-eilmcltorepaaoayxluejuamxhkv/CutifyStickerSelect_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/ApplyStickerViewController.m -o /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/ApplyStickerViewController.o0#
 
 CCompileC build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/CutifyStickerMeta.o /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerMeta.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s333051116.324783
@@ -252,8 +302,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@86"Compile /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerMeta.m333051116#333051116#0(0"0(0#0#78"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerMeta.m8617878656#2434"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyStickerSelect_Prefix-eilmcltorepaaoayxluejuamxhkv/CutifyStickerSelect_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerMeta.m -o /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/CutifyStickerMeta.o0#
 
 CCompileC build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/CutifyStickerPicker.o /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s333052217.457015
-e333052217.748065
+s333242314.891204
+e333242315.005021
 r1
 xCompileC
 xbuild/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/CutifyStickerPicker.o
@@ -270,8 +320,8 @@ o/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.
 o/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:41: warning: will be assumed to return 'id' and accept
 o/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:41: warning: '...' as arguments.)
 o/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m: In function '-[CutifyStickerPicker loadStickers:]':
-o/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:111: warning: unused variable 'numOfRows'
-lSLF07#2@88"Compile /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m333052217#333052217#0(1212"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m: In function '-[CutifyStickerPicker initWithFrame:]':/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:23: warning: unused variable 'stickerArray'/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m: In function '-[CutifyStickerPicker imageButtonPressed:]':/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:41: warning: 'CutifyStickerPicker' may not respond to '-loadStickersFromMetadata:'/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:41: warning: (Messages without a matching method signature/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:41: warning: will be assumed to return 'id' and accept/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:41: warning: '...' as arguments.)/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m: In function '-[CutifyStickerPicker loadStickers:]':/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:111: warning: unused variable 'numOfRows'4(22@30"Unused variable 'stickerArray'333052217#135#125#0(6@80"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m333052217#23#0#23#0#19"unused variable '*'0(22@69"'CutifyStickerPicker' may not respond to '-loadStickersFromMetadata:'333052217#400#164#0(6@80"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m333052217#41#0#41#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)333052217#564#140#0(6@80"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m333052217#41#0#41#0#0"0(22@27"Unused variable 'numOfRows'333052217#1089#123#0(6@80"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m333052217#111#0#111#0#19"unused variable '*'0(0#0#80"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m8604793760#2438"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyStickerSelect_Prefix-eilmcltorepaaoayxluejuamxhkv/CutifyStickerSelect_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m -o /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/CutifyStickerPicker.o0#
+o/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:122: warning: unused variable 'numOfRows'
+lSLF07#2@88"Compile /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m333242314#333242315#0(1212"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m: In function '-[CutifyStickerPicker initWithFrame:]':/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:23: warning: unused variable 'stickerArray'/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m: In function '-[CutifyStickerPicker imageButtonPressed:]':/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:41: warning: 'CutifyStickerPicker' may not respond to '-loadStickersFromMetadata:'/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:41: warning: (Messages without a matching method signature/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:41: warning: will be assumed to return 'id' and accept/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:41: warning: '...' as arguments.)/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m: In function '-[CutifyStickerPicker loadStickers:]':/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m:122: warning: unused variable 'numOfRows'4(22@30"Unused variable 'stickerArray'333242314#135#125#0(6@80"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m333242313#23#0#23#0#19"unused variable '*'0(22@69"'CutifyStickerPicker' may not respond to '-loadStickersFromMetadata:'333242314#400#164#0(6@80"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m333242313#41#0#41#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)333242314#564#140#0(6@80"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m333242313#41#0#41#0#0"0(22@27"Unused variable 'numOfRows'333242314#1089#123#0(6@80"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m333242313#122#0#122#0#19"unused variable '*'0(0#0#80"/Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m8640001376#2438"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyStickerSelect_Prefix-eilmcltorepaaoayxluejuamxhkv/CutifyStickerSelect_Prefix.pch -c /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerPicker.m -o /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/CutifyStickerPicker.o0#
 
 CCompileC build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/CutifyStickerSelectAppDelegate.o /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/CutifyStickerSelectAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s332361894.479736
@@ -347,24 +397,69 @@ xbuild/Debug-iphonesimulator/CutifyStickerSelect.app/InAppPurchaseKittyPack@2x.p
 xInAppPurchaseKittyPack@2x.png
 lSLF07#2@34"Copy InAppPurchaseKittyPack@2x.png332364297#332364297#0(0"0(0#0#80"/Users/danlipert/github/Cutify/CutifyStickerSelect/InAppPurchaseKittyPack@2x.png8621704096#636"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyStickerSelect/InAppPurchaseKittyPack@2x.png /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app0#
 
+CCpResource build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlBackButton@2x.png ScrollControlBackButton@2x.png
+s333242268.969704
+e333242269.017642
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlBackButton@2x.png
+xScrollControlBackButton@2x.png
+lSLF07#2@35"Copy ScrollControlBackButton@2x.png333242268#333242269#0(0"0(0#0#81"/Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlBackButton@2x.png8639163456#637"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlBackButton@2x.png /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app0#
+
+CCpResource build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlBackground@2x.png ScrollControlBackground@2x.png
+s333242268.969133
+e333242269.023267
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlBackground@2x.png
+xScrollControlBackground@2x.png
+lSLF07#2@35"Copy ScrollControlBackground@2x.png333242268#333242269#0(0"0(0#0#81"/Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlBackground@2x.png8639798176#637"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlBackground@2x.png /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app0#
+
+CCpResource build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlIconMask@2x.png ScrollControlIconMask@2x.png
+s333242268.968585
+e333242269.017849
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlIconMask@2x.png
+xScrollControlIconMask@2x.png
+lSLF07#2@33"Copy ScrollControlIconMask@2x.png333242268#333242269#0(0"0(0#0#79"/Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlIconMask@2x.png8640259136#635"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlIconMask@2x.png /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app0#
+
+CCpResource build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlIconMaskAlpha@2x.png ScrollControlIconMaskAlpha@2x.png
+s333242268.967996
+e333242269.017102
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlIconMaskAlpha@2x.png
+xScrollControlIconMaskAlpha@2x.png
+lSLF07#2@38"Copy ScrollControlIconMaskAlpha@2x.png333242268#333242269#0(0"0(0#0#84"/Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlIconMaskAlpha@2x.png8641731680#640"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlIconMaskAlpha@2x.png /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app0#
+
+CCpResource build/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlIconMaskClear@2x.png ScrollControlIconMaskClear@2x.png
+s333242268.967283
+e333242269.017462
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CutifyStickerSelect.app/ScrollControlIconMaskClear@2x.png
+xScrollControlIconMaskClear@2x.png
+lSLF07#2@38"Copy ScrollControlIconMaskClear@2x.png333242268#333242269#0(0"0(0#0#84"/Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlIconMaskClear@2x.png8642215360#640"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyStickerSelect/ScrollControlIconMaskClear@2x.png /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app0#
+
 CGenerateDSYMFile /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app.dSYM /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect
-s333052217.779411
-e333052217.792885
+s333242315.021827
+e333242315.035317
 r1
 xGenerateDSYMFile
 x/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app.dSYM
 x/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect
-lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/CutifyStickerSelect.app.dSYM build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect333052217#333052217#0(0"0(0#0#122"/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect8616301664#556"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/dsymutil /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect -o /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app.dSYM0#
+lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/CutifyStickerSelect.app.dSYM build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect333242315#333242315#0(0"0(0#0#122"/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect8655436160#556"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/dsymutil /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect -o /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app.dSYM0#
 
 CLd /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect normal i386
-s333052217.748213
-e333052217.779328
+s333242315.005097
+e333242315.021741
 r1
 xLd
 x/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect
 xnormal
 xi386
-lSLF07#2@127"Link /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect333052217#333052217#0(0"0(0#0#0"8616574976#1134"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator -F/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator -filelist /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/CutifyStickerSelect.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect0#
+lSLF07#2@127"Link /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect333242315#333242315#0(0"0(0#0#0"8658358176#1134"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator -F/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator -filelist /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/Objects-normal/i386/CutifyStickerSelect.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/CutifyStickerSelect0#
 
 CProcessInfoPlistFile /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app/Info.plist CutifyStickerSelect-Info.plist
 s332361893.011038
@@ -389,10 +484,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@41"Precompile CutifyStickerSelect_Prefix.pch332361893#332361894#0(0"0(0#0#81"/Users/danlipert/github/Cutify/CutifyStickerSelect/CutifyStickerSelect_Prefix.pch8642463040#2268"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-generated-files.hmap -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-own-target-headers.hmap -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/CutifyStickerSelect-project-headers.hmap -F/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/CutifyStickerSelect/build/CutifyStickerSelect.build/Debug-iphonesimulator/CutifyStickerSelect.build/DerivedSources -c /Users/danlipert/github/Cutify/CutifyStickerSelect/CutifyStickerSelect_Prefix.pch -o /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyStickerSelect_Prefix-eilmcltorepaaoayxluejuamxhkv/CutifyStickerSelect_Prefix.pch.gch0#
 
 CTouch /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app
-s333052217.792955
-e333052217.794693
+s333242315.035379
+e333242315.036886
 r1
 xTouch
 x/Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app
-lSLF07#2@108"Touch /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app333052217#333052217#0(0"0(0#0#0"8620332448#402"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app0#
+lSLF07#2@108"Touch /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app333242315#333242315#0(0"0(0#0#0"8648602176#402"    cd /Users/danlipert/github/Cutify/CutifyStickerSelect    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/danlipert/github/Cutify/CutifyStickerSelect/build/Debug-iphonesimulator/CutifyStickerSelect.app0#
 

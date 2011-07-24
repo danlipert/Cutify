@@ -20,6 +20,11 @@
 		B655393213CF6E6A0071D504 /* ApplyStickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B655393113CF6E6A0071D504 /* ApplyStickerViewController.m */; };
 		B655393913CF71010071D504 /* ApplyStickerImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B655393813CF71010071D504 /* ApplyStickerImage@2x.png */; };
 		B655398113CF79F00071D504 /* InAppPurchaseKittyPack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B655398013CF79F00071D504 /* InAppPurchaseKittyPack@2x.png */; };
+		B65A97B113DCDF4D0012E260 /* ScrollControlIconMaskClear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B65A97AC13DCDF4D0012E260 /* ScrollControlIconMaskClear@2x.png */; };
+		B65A97B213DCDF4D0012E260 /* ScrollControlIconMaskAlpha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B65A97AD13DCDF4D0012E260 /* ScrollControlIconMaskAlpha@2x.png */; };
+		B65A97B313DCDF4D0012E260 /* ScrollControlIconMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B65A97AE13DCDF4D0012E260 /* ScrollControlIconMask@2x.png */; };
+		B65A97B413DCDF4D0012E260 /* ScrollControlBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B65A97AF13DCDF4D0012E260 /* ScrollControlBackground@2x.png */; };
+		B65A97B513DCDF4D0012E260 /* ScrollControlBackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B65A97B013DCDF4D0012E260 /* ScrollControlBackButton@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +49,11 @@
 		B655393113CF6E6A0071D504 /* ApplyStickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplyStickerViewController.m; sourceTree = "<group>"; };
 		B655393813CF71010071D504 /* ApplyStickerImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ApplyStickerImage@2x.png"; sourceTree = "<group>"; };
 		B655398013CF79F00071D504 /* InAppPurchaseKittyPack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InAppPurchaseKittyPack@2x.png"; sourceTree = "<group>"; };
+		B65A97AC13DCDF4D0012E260 /* ScrollControlIconMaskClear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlIconMaskClear@2x.png"; sourceTree = "<group>"; };
+		B65A97AD13DCDF4D0012E260 /* ScrollControlIconMaskAlpha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlIconMaskAlpha@2x.png"; sourceTree = "<group>"; };
+		B65A97AE13DCDF4D0012E260 /* ScrollControlIconMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlIconMask@2x.png"; sourceTree = "<group>"; };
+		B65A97AF13DCDF4D0012E260 /* ScrollControlBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlBackground@2x.png"; sourceTree = "<group>"; };
+		B65A97B013DCDF4D0012E260 /* ScrollControlBackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlBackButton@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +120,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B65A97AC13DCDF4D0012E260 /* ScrollControlIconMaskClear@2x.png */,
+				B65A97AD13DCDF4D0012E260 /* ScrollControlIconMaskAlpha@2x.png */,
+				B65A97AE13DCDF4D0012E260 /* ScrollControlIconMask@2x.png */,
+				B65A97AF13DCDF4D0012E260 /* ScrollControlBackground@2x.png */,
+				B65A97B013DCDF4D0012E260 /* ScrollControlBackButton@2x.png */,
 				B655393813CF71010071D504 /* ApplyStickerImage@2x.png */,
 				B655398013CF79F00071D504 /* InAppPurchaseKittyPack@2x.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -181,6 +196,11 @@
 				B655393913CF71010071D504 /* ApplyStickerImage@2x.png in Resources */,
 				B655398113CF79F00071D504 /* InAppPurchaseKittyPack@2x.png in Resources */,
 				B63BE15013D4D08000C1F12F /* StickerDemoPack.plist in Resources */,
+				B65A97B113DCDF4D0012E260 /* ScrollControlIconMaskClear@2x.png in Resources */,
+				B65A97B213DCDF4D0012E260 /* ScrollControlIconMaskAlpha@2x.png in Resources */,
+				B65A97B313DCDF4D0012E260 /* ScrollControlIconMask@2x.png in Resources */,
+				B65A97B413DCDF4D0012E260 /* ScrollControlBackground@2x.png in Resources */,
+				B65A97B513DCDF4D0012E260 /* ScrollControlBackButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

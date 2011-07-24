@@ -132,6 +132,11 @@ c000000004E1CD1350000000000003411
 t1310511413
 s13329
 
+N/Users/danlipert/github/Cutify/CutifyAppFrame/CameraBackButton@2x.png
+c000000004E29C2050000000000000FE1
+t1311359493
+s4065
+
 N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../ApplyStickersViewController.h
 c000000004E2C76630000000000000173
 t1311536739
@@ -139,12 +144,13 @@ s371
 i<UIKit/UIKit.h>
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../ApplyStickersViewController.m
-c000000004E2CA13400000000000011A4
-t1311547700
-s4516
+c000000004E2CA16B0000000000001164
+t1311547755
+s4452
 i"ApplyStickersViewController.h"
 i"OptionsAndSharingViewController.h"
 i"IAPViewController.h"
+i<QuartzCore/QuartzCore.h>
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../OptionsAndSharingViewController.h
 c000000004E1BD2F50000000000000111
@@ -508,9 +514,13 @@ N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFra
 t1310512434
 s16041
 
+N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/CameraBackButton@2x.png
+t2
+s0
+
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/CutifyAppFrame
 t1311547710
-s3256616
+s3286624
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/DeleteButton@2x.png
 t1310512434
@@ -651,6 +661,11 @@ N/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.
 c000000004D54D28700000000001B4A20
 t1297404551
 s1788448
+
+N/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D49500000000000000C4
+t1297405077
+s196
 
 N/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 c000000004D54D608000000000026CB10
@@ -1202,6 +1217,9 @@ xCopyPNGFile
 x/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/BuyPackButton@2x.png
 xBuyPackButton@2x.png
 lSLF07#2@93"CopyPNGFile build/Debug-iphoneos/CutifyAppFrame.app/BuyPackButton@2x.png BuyPackButton@2x.png332205234#332205234#0(0"0(0#0#66"/Users/danlipert/github/Cutify/CutifyAppFrame/BuyPackButton@2x.png8613913952#609"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/danlipert/github/Cutify/CutifyAppFrame/BuyPackButton@2x.png /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/BuyPackButton@2x.png0#
+
+CCopyPNGFile /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/CameraBackButton@2x.png CameraBackButton@2x.png
+r0
 
 CCopyPNGFile /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/DeleteButton@2x.png DeleteButton@2x.png
 s332205234.631549
