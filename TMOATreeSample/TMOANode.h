@@ -18,4 +18,6 @@
 @property (nonatomic, retain) NSMutableArray *children;
 @property (nonatomic, retain) NSMutableDictionary *dictionary;
 
+-(BOOL)isLeaf;
+
 @end

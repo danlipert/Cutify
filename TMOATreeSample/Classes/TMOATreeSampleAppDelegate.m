@@ -9,6 +9,7 @@
 #import "TMOATreeSampleAppDelegate.h"
 #import "TMOANode.h"
 #import "TMOATree.h"
+#import "PokemonTableViewController.h"
 
 @implementation TMOATreeSampleAppDelegate
 
@@ -22,47 +23,51 @@
     
     // Override point for customization after application launch.
     
-	TMOANode *rootNode = [[TMOANode alloc] init];
-	[rootNode.dictionary setObject:@"Pokemon" forKey:@"name"];
+//	TMOANode *rootNode = [[TMOANode alloc] init];
+//	[rootNode.dictionary setObject:@"Pokemon" forKey:@"name"];
+//	
+//	TMOATree *tree = [[TMOATree alloc] initWithRootNode:rootNode];
+//	
+//	TMOANode *childNode = [[TMOANode alloc] init];
+//	[childNode.dictionary setObject:@"Magnemite" forKey:@"name"];
+//	if([tree addChild:childNode toNode:rootNode] == FALSE)
+//	{
+//		NSLog(@"ERROR ADDING CHILD TO ROOT NODE");
+//	}
+//	
+//	TMOANode *magnetonNode = [[TMOANode alloc] init];
+//	[magnetonNode.dictionary setObject:@"Magneton" forKey:@"name"];
+//	[tree addChild:magnetonNode toNode:childNode];
+//	
+//	TMOANode *magnezoneNode = [[TMOANode alloc] init];
+//	[magnezoneNode.dictionary setObject:@"Magnezone" forKey:@"name"];
+//	[tree addChild:magnezoneNode toNode:magnetonNode];
+//	
+//	TMOANode *eeveeNode = [[TMOANode alloc] init];
+//	[eeveeNode.dictionary setObject:@"Eevee" forKey:@"name"];
+//	[tree addChild:eeveeNode toNode:rootNode];
+//	
+//	TMOANode *vaporeonNode = [[TMOANode alloc] init];
+//	[vaporeonNode.dictionary setObject:@"Vaporeon" forKey:@"name"];
+//	[tree addChild:vaporeonNode toNode:eeveeNode];
+//	
+//	TMOANode *jolteonNode = [[TMOANode alloc] init];
+//	[jolteonNode.dictionary setObject:@"Jolteon" forKey:@"name"];
+//	[tree addChild:jolteonNode toNode:eeveeNode];
+//	
+//	TMOANode *flareonNode = [[TMOANode alloc] init];
+//	[flareonNode.dictionary setObject:@"Flareon" forKey:@"name"];
+//	[tree addChild:flareonNode toNode:eeveeNode];
+//	
+//	TMOANode *espeonNode = [[TMOANode alloc] init];
+//	[espeonNode.dictionary setObject:@"Espeon" forKey:@"name"];
+//	[tree addChild:espeonNode toNode:eeveeNode];
+//	
+//	[self traverseTree:tree];
 	
-	TMOATree *tree = [[TMOATree alloc] initWithRootNode:rootNode];
-	
-	TMOANode *childNode = [[TMOANode alloc] init];
-	[childNode.dictionary setObject:@"Magnemite" forKey:@"name"];
-	if([tree addChild:childNode toNode:rootNode] == FALSE)
-	{
-		NSLog(@"ERROR ADDING CHILD TO ROOT NODE");
-	}
-	
-	TMOANode *magnetonNode = [[TMOANode alloc] init];
-	[magnetonNode.dictionary setObject:@"Magneton" forKey:@"name"];
-	[tree addChild:magnetonNode toNode:childNode];
-	
-	TMOANode *magnezoneNode = [[TMOANode alloc] init];
-	[magnezoneNode.dictionary setObject:@"Magnezone" forKey:@"name"];
-	[tree addChild:magnezoneNode toNode:magnetonNode];
-	
-	TMOANode *eeveeNode = [[TMOANode alloc] init];
-	[eeveeNode.dictionary setObject:@"Eevee" forKey:@"name"];
-	[tree addChild:eeveeNode toNode:rootNode];
-	
-	TMOANode *vaporeonNode = [[TMOANode alloc] init];
-	[vaporeonNode.dictionary setObject:@"Vaporeon" forKey:@"name"];
-	[tree addChild:vaporeonNode toNode:eeveeNode];
-	
-	TMOANode *jolteonNode = [[TMOANode alloc] init];
-	[jolteonNode.dictionary setObject:@"Jolteon" forKey:@"name"];
-	[tree addChild:jolteonNode toNode:eeveeNode];
-	
-	TMOANode *flareonNode = [[TMOANode alloc] init];
-	[flareonNode.dictionary setObject:@"Flareon" forKey:@"name"];
-	[tree addChild:flareonNode toNode:eeveeNode];
-	
-	TMOANode *espeonNode = [[TMOANode alloc] init];
-	[espeonNode.dictionary setObject:@"Espeon" forKey:@"name"];
-	[tree addChild:espeonNode toNode:eeveeNode];
-	
-	[self traverseTree:tree];
+	PokemonTableViewController *tvc = [[PokemonTableViewController alloc] init];
+	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tvc];
+	[self.window addSubview:navController.view];
 	
     [self.window makeKeyAndVisible];
     

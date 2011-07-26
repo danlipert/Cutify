@@ -7,12 +7,13 @@
 //
 
 #import "PokemonTableViewController.h"
+#import "PokemonDetailViewController.h"
 #import "TMOANode.h"
 #import "TMOATree.h"
 
 @implementation PokemonTableViewController
 
-@synthesize tree;
+@synthesize tree, currentNode;
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -20,48 +21,81 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+	
+	//load back button
+	UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	UIImage *cancelButtonImage = [UIImage imageNamed:@"BackButton.png"];
+	[cancelButton setFrame:CGRectMake(0,0,cancelButtonImage.size.width, cancelButtonImage.size.height)];
+	[cancelButton addTarget:self action:@selector(cancelButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[cancelButton setImage:cancelButtonImage forState:UIControlStateNormal];
+	UIBarButtonItem *cancelButtonItem = [[UIBarButtonItem alloc] initWithCustomView:cancelButton];
+	
+	self.navigationItem.leftBarButtonItem = cancelButtonItem;
+	[cancelButtonItem release];
+	
 	TMOANode *rootNode = [[TMOANode alloc] init];
 	[rootNode.dictionary setObject:@"Pokemon" forKey:@"name"];
 	
-	TMOATree *tree = [[TMOATree alloc] initWithRootNode:rootNode];
+	TMOATree *_tree = [[TMOATree alloc] initWithRootNode:rootNode];
 	
 	TMOANode *childNode = [[TMOANode alloc] init];
 	[childNode.dictionary setObject:@"Magnemite" forKey:@"name"];
-	if([tree addChild:childNode toNode:rootNode] == FALSE)
+	[childNode.dictionary setObject:[UIImage imageNamed:@"081MS.png"] forKey:@"image"];
+	if([_tree addChild:childNode toNode:rootNode] == FALSE)
 	{
 		NSLog(@"ERROR ADDING CHILD TO ROOT NODE");
 	}
 	
 	TMOANode *magnetonNode = [[TMOANode alloc] init];
 	[magnetonNode.dictionary setObject:@"Magneton" forKey:@"name"];
-	[tree addChild:magnetonNode toNode:childNode];
+	[magnetonNode.dictionary setObject:[UIImage imageNamed:@"082MS.png"] forKey:@"image"];
+	[_tree addChild:magnetonNode toNode:childNode];
 	
 	TMOANode *magnezoneNode = [[TMOANode alloc] init];
 	[magnezoneNode.dictionary setObject:@"Magnezone" forKey:@"name"];
-	[tree addChild:magnezoneNode toNode:magnetonNode];
+	[magnezoneNode.dictionary setObject:[UIImage imageNamed:@"462MS.png"] forKey:@"image"];
+	[_tree addChild:magnezoneNode toNode:magnetonNode];
 	
 	TMOANode *eeveeNode = [[TMOANode alloc] init];
 	[eeveeNode.dictionary setObject:@"Eevee" forKey:@"name"];
-	[tree addChild:eeveeNode toNode:rootNode];
+	[eeveeNode.dictionary setObject:[UIImage imageNamed:@"133MS.png"] forKey:@"image"];
+	[_tree addChild:eeveeNode toNode:rootNode];
 	
 	TMOANode *vaporeonNode = [[TMOANode alloc] init];
 	[vaporeonNode.dictionary setObject:@"Vaporeon" forKey:@"name"];
-	[tree addChild:vaporeonNode toNode:eeveeNode];
+	[vaporeonNode.dictionary setObject:[UIImage imageNamed:@"134MS.png"] forKey:@"image"];
+
+	[_tree addChild:vaporeonNode toNode:eeveeNode];
 	
 	TMOANode *jolteonNode = [[TMOANode alloc] init];
 	[jolteonNode.dictionary setObject:@"Jolteon" forKey:@"name"];
-	[tree addChild:jolteonNode toNode:eeveeNode];
+	[jolteonNode.dictionary setObject:[UIImage imageNamed:@"135MS.png"] forKey:@"image"];
+
+	[_tree addChild:jolteonNode toNode:eeveeNode];
 	
 	TMOANode *flareonNode = [[TMOANode alloc] init];
 	[flareonNode.dictionary setObject:@"Flareon" forKey:@"name"];
-	[tree addChild:flareonNode toNode:eeveeNode];
+	[flareonNode.dictionary setObject:[UIImage imageNamed:@"136MS.png"] forKey:@"image"];
+
+	[_tree addChild:flareonNode toNode:eeveeNode];
 	
 	TMOANode *espeonNode = [[TMOANode alloc] init];
 	[espeonNode.dictionary setObject:@"Espeon" forKey:@"name"];
-	[tree addChild:espeonNode toNode:eeveeNode];
+	[espeonNode.dictionary setObject:[UIImage imageNamed:@"196MS.png"] forKey:@"image"];
+	[_tree addChild:espeonNode toNode:eeveeNode];
 	
-	self.tree = tree;
+	self.tree = _tree;
+	self.currentNode = rootNode;
+}
+
+-(void)cancelButtonPressed:(id)sender
+{
+	if(self.currentNode != self.tree.rootNode)
+	{
+		self.currentNode = self.currentNode.parent;
+	}
+	
+	[self.tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationTop];
 }
 
 
@@ -105,7 +139,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return [self.tree count];
+    return [self.currentNode.children count];
 }
 
 
@@ -120,63 +154,29 @@
     }
     
     // Configure the cell...
-	
+	[cell setText:[[[self.currentNode.children objectAtIndex:indexPath.row] dictionary] objectForKey:@"name"]];
+	[cell setImage:[[[self.currentNode.children objectAtIndex:indexPath.row] dictionary] objectForKey:@"image"]];
     return cell;
 }
 
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source.
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }   
-}
-*/
-
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 
 #pragma mark -
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-    */
+	if([[self.currentNode.children objectAtIndex:indexPath.row] isLeaf] == FALSE)
+	{
+		self.currentNode = [self.currentNode.children objectAtIndex:indexPath.row];
+		NSLog(@"loading %i children", [self.currentNode.children count]);
+		[self.tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationTop];		
+	} else {
+		PokemonDetailViewController *detailViewController = [[PokemonDetailViewController alloc] init];
+		detailViewController.name = [[[self.currentNode.children objectAtIndex:indexPath.row] dictionary] objectForKey:@"name"];
+		detailViewController.image = [[[self.currentNode.children objectAtIndex:indexPath.row] dictionary] objectForKey:@"image"];
+		[self.navigationController pushViewController:detailViewController animated:YES];
+		[detailViewController release];
+	}
 }
 
 

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TMOANode.h"
+#import "TMOATree.h"
 
 @interface PokemonTableViewController : UITableViewController 
 {
@@ -15,5 +16,6 @@
 }
 
 @property (nonatomic, retain) TMOATree *tree;
+@property (nonatomic, retain) TMOANode *currentNode;
 
 @end

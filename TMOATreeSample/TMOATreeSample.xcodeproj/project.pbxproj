@@ -13,6 +13,16 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		B62455CF13DF3EF800B726EF /* 462MS.png in Resources */ = {isa = PBXBuildFile; fileRef = B62455CC13DF3EF800B726EF /* 462MS.png */; };
+		B62455D013DF3EF800B726EF /* 082MS.png in Resources */ = {isa = PBXBuildFile; fileRef = B62455CD13DF3EF800B726EF /* 082MS.png */; };
+		B62455D113DF3EF800B726EF /* 081MS.png in Resources */ = {isa = PBXBuildFile; fileRef = B62455CE13DF3EF800B726EF /* 081MS.png */; };
+		B62455D813DF3F4F00B726EF /* 133MS.png in Resources */ = {isa = PBXBuildFile; fileRef = B62455D313DF3F4F00B726EF /* 133MS.png */; };
+		B62455D913DF3F4F00B726EF /* 134MS.png in Resources */ = {isa = PBXBuildFile; fileRef = B62455D413DF3F4F00B726EF /* 134MS.png */; };
+		B62455DA13DF3F4F00B726EF /* 135MS.png in Resources */ = {isa = PBXBuildFile; fileRef = B62455D513DF3F4F00B726EF /* 135MS.png */; };
+		B62455DB13DF3F4F00B726EF /* 136MS.png in Resources */ = {isa = PBXBuildFile; fileRef = B62455D613DF3F4F00B726EF /* 136MS.png */; };
+		B62455DC13DF3F4F00B726EF /* 196MS.png in Resources */ = {isa = PBXBuildFile; fileRef = B62455D713DF3F4F00B726EF /* 196MS.png */; };
+		B624564013DF412A00B726EF /* BackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B624563F13DF412A00B726EF /* BackButton@2x.png */; };
+		B624565C13DF42B200B726EF /* PokemonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B624565B13DF42B200B726EF /* PokemonDetailViewController.m */; };
 		B63EECC113DE174A00BFA806 /* TMOATree.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EECC013DE174A00BFA806 /* TMOATree.m */; };
 		B63EECC813DE176400BFA806 /* TMOANode.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EECC713DE176400BFA806 /* TMOANode.m */; };
 		B63EED4C13DE417900BFA806 /* PokemonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EED4B13DE417900BFA806 /* PokemonTableViewController.m */; };
@@ -29,6 +39,17 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* TMOATreeSample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOATreeSample_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TMOATreeSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TMOATreeSample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B62455CC13DF3EF800B726EF /* 462MS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 462MS.png; sourceTree = "<group>"; };
+		B62455CD13DF3EF800B726EF /* 082MS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 082MS.png; sourceTree = "<group>"; };
+		B62455CE13DF3EF800B726EF /* 081MS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 081MS.png; sourceTree = "<group>"; };
+		B62455D313DF3F4F00B726EF /* 133MS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 133MS.png; sourceTree = "<group>"; };
+		B62455D413DF3F4F00B726EF /* 134MS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 134MS.png; sourceTree = "<group>"; };
+		B62455D513DF3F4F00B726EF /* 135MS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 135MS.png; sourceTree = "<group>"; };
+		B62455D613DF3F4F00B726EF /* 136MS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 136MS.png; sourceTree = "<group>"; };
+		B62455D713DF3F4F00B726EF /* 196MS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 196MS.png; sourceTree = "<group>"; };
+		B624563F13DF412A00B726EF /* BackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackButton@2x.png"; sourceTree = "<group>"; };
+		B624565A13DF42B200B726EF /* PokemonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokemonDetailViewController.h; sourceTree = "<group>"; };
+		B624565B13DF42B200B726EF /* PokemonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokemonDetailViewController.m; sourceTree = "<group>"; };
 		B63EECBF13DE174A00BFA806 /* TMOATree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOATree.h; sourceTree = "<group>"; };
 		B63EECC013DE174A00BFA806 /* TMOATree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOATree.m; sourceTree = "<group>"; };
 		B63EECC613DE176400BFA806 /* TMOANode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOANode.h; sourceTree = "<group>"; };
@@ -54,6 +75,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B624565A13DF42B200B726EF /* PokemonDetailViewController.h */,
+				B624565B13DF42B200B726EF /* PokemonDetailViewController.m */,
 				B63EED4A13DE417900BFA806 /* PokemonTableViewController.h */,
 				B63EED4B13DE417900BFA806 /* PokemonTableViewController.m */,
 				1D3623240D0F684500981E51 /* TMOATreeSampleAppDelegate.h */,
@@ -98,6 +121,15 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B624563F13DF412A00B726EF /* BackButton@2x.png */,
+				B62455CC13DF3EF800B726EF /* 462MS.png */,
+				B62455CD13DF3EF800B726EF /* 082MS.png */,
+				B62455CE13DF3EF800B726EF /* 081MS.png */,
+				B62455D313DF3F4F00B726EF /* 133MS.png */,
+				B62455D413DF3F4F00B726EF /* 134MS.png */,
+				B62455D513DF3F4F00B726EF /* 135MS.png */,
+				B62455D613DF3F4F00B726EF /* 136MS.png */,
+				B62455D713DF3F4F00B726EF /* 196MS.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* TMOATreeSample-Info.plist */,
 			);
@@ -164,6 +196,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				B62455CF13DF3EF800B726EF /* 462MS.png in Resources */,
+				B62455D013DF3EF800B726EF /* 082MS.png in Resources */,
+				B62455D113DF3EF800B726EF /* 081MS.png in Resources */,
+				B62455D813DF3F4F00B726EF /* 133MS.png in Resources */,
+				B62455D913DF3F4F00B726EF /* 134MS.png in Resources */,
+				B62455DA13DF3F4F00B726EF /* 135MS.png in Resources */,
+				B62455DB13DF3F4F00B726EF /* 136MS.png in Resources */,
+				B62455DC13DF3F4F00B726EF /* 196MS.png in Resources */,
+				B624564013DF412A00B726EF /* BackButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +220,7 @@
 				B63EECC113DE174A00BFA806 /* TMOATree.m in Sources */,
 				B63EECC813DE176400BFA806 /* TMOANode.m in Sources */,
 				B63EED4C13DE417900BFA806 /* PokemonTableViewController.m in Sources */,
+				B624565C13DF42B200B726EF /* PokemonDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

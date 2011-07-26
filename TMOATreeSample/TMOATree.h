@@ -13,6 +13,8 @@
 
 }
 
+-(id)initWithRootNode:(TMOANode *)rootNode;
+
 //container methods
 //-(NSNumber)size;
 //-(BOOL)isEmpty;

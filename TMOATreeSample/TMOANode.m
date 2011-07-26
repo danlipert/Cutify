@@ -24,4 +24,14 @@
 	return self;
 }
 
+-(BOOL)isLeaf
+{
+	if([self.children count] == 0)
+	{
+		return TRUE;
+	} else {
+		return FALSE;
+	}
+}
+
 @end
