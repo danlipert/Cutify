@@ -1,0 +1,8 @@
+/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m: In function '-[TMOATree initWithRootNode:]':
+/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:20: warning: local declaration of 'rootNode' hides instance variable
+/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:22: warning: local declaration of 'rootNode' hides instance variable
+/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m: At top level:
+/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: incomplete implementation of class 'TMOATree'
+/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isExternal' not found
+/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isRoot' not found
+/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isInternal' not found

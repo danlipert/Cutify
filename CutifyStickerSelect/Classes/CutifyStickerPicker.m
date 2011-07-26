@@ -12,7 +12,7 @@
 
 @implementation CutifyStickerPicker
 
-@synthesize s, plistArray;
+@synthesize s, plistArray, oldArray, oldestArray, currentArray;
 
 - (id)initWithFrame:(CGRect)frame {
     
@@ -38,17 +38,14 @@
 	if([sender isKindOfClass:[CutifyStickerSelectButton class]])
 	{
 		CutifyStickerSelectButton *button = (CutifyStickerSelectButton *)sender;
-		if([button.stickerMeta.type isEqualToString:@"BackButton"])
-		{
-			//do back button stuff
-			
-		}
+
 		[self loadStickersFromMetadata:button.stickerMeta];
 	}
 }
 
 -(void)loadStickersFromMetadata:(CutifyStickerMeta *)metadata
 {
+	
 	NSMutableArray *stickerArray = [[NSMutableArray alloc] init];
 	
 	if(self.plistArray == nil)
@@ -56,16 +53,19 @@
 		[self loadStickersFromPlist:@"StickerDemoPack.plist"];
 	}
 	
-	if([metadata.type isEqualToString:@"Pack"])
+	if([metadata.type isEqualToString:@"BackButton"])
 	{
+		[stickerArray addObjectsFromArray:oldArray];
+	} else if([metadata.type isEqualToString:@"Pack"]) {
 		CutifyStickerMeta *backButtonMeta = [[CutifyStickerMeta alloc] init];
 		backButtonMeta.stickerLabelString = [NSString stringWithString:@"Back"];
 		backButtonMeta.stickerImage = [UIImage imageNamed:@"ScrollControlBackButton.png"];
 		backButtonMeta.type = [NSString stringWithString:@"BackButton"];
+		backButtonMeta.parent = self.plistArray;
 		
 		[stickerArray addObject:backButtonMeta];
 		[backButtonMeta release];
-		
+				
 		for(NSDictionary *categoryDictionary in metadata.child)
 		{
 			CutifyStickerMeta *stickerMeta = [[CutifyStickerMeta alloc] init];
@@ -73,17 +73,51 @@
 			stickerMeta.stickerImage = [UIImage imageNamed:[categoryDictionary objectForKey:@"Image"]];
 			stickerMeta.parent = self.plistArray;
 			stickerMeta.child = [categoryDictionary objectForKey:@"Stickers"];
-			stickerMeta.type = [categoryDictionary objectForKey:@"Category"];
+			stickerMeta.type = [NSString stringWithString:@"Category"];
 			[stickerArray addObject:stickerMeta];
 		}
 		
 	} else if([metadata.type isEqualToString:@"Category"]) {
+		CutifyStickerMeta *backButtonMeta = [[CutifyStickerMeta alloc] init];
+		backButtonMeta.stickerLabelString = [NSString stringWithString:@"Back"];
+		backButtonMeta.stickerImage = [UIImage imageNamed:@"ScrollControlBackButton.png"];
+		backButtonMeta.type = [NSString stringWithString:@"BackButton"];
+		backButtonMeta.parent = self.plistArray;
+		
+		[stickerArray addObject:backButtonMeta];
+		[backButtonMeta release];
+		
+		for(NSDictionary *stickerDictionary in metadata.child)
+		{
+			CutifyStickerMeta *stickerMeta = [[CutifyStickerMeta alloc] init];
+			stickerMeta.stickerLabelString = [NSString stringWithString:[stickerDictionary objectForKey:@"Name"]];
+			stickerMeta.stickerImage = [UIImage imageNamed:[stickerDictionary objectForKey:@"Image"]];
+			stickerMeta.parent = self.currentArray;
+			stickerMeta.child = nil;
+			stickerMeta.type = @"Sticker";
+			[stickerArray addObject:stickerMeta];
+		}
+		
+		self.oldestArray = self.oldArray;
 		
 	} else if([metadata.type isEqualToString:@"Sticker"]) {
-		
+		NSLog(@"Placing sticker %@", metadata.stickerLabelString);
+		[stickerArray addObjectsFromArray:self.currentArray];
+	} else {
+		NSLog(@"Unexpected flow");
 	}
 	
 	[self loadStickers:stickerArray];
+	
+	//no more drilling down after sticker
+	if ([metadata.type isEqualToString:@"BackButton"] && metadata.child == nil)
+	{
+		self.oldArray = self.oldestArray;
+	} else if([metadata.type isEqualToString:@"Sticker"] == FALSE) {
+		self.oldArray = self.currentArray;
+		self.currentArray = stickerArray;
+	} 
+		
 	[stickerArray release];
 }
 
@@ -96,8 +130,9 @@
 	self.plistArray = _plistArray;
 	[_plistArray release];
 	
-	NSMutableArray *stickerArray = [[NSMutableArray alloc] init];
+	self.oldArray = nil;
 	
+	NSMutableArray *stickerArray = [[NSMutableArray alloc] init];
 		
 	for(NSDictionary *setDictionary in self.plistArray)
 	{
@@ -113,6 +148,7 @@
 	}
 		
 	[self loadStickers:stickerArray];
+	self.currentArray = stickerArray;
 	[stickerArray release];
 }
 

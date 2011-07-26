@@ -1,0 +1,277 @@
+TTMOATreeSample
+v7
+r0
+t333324688.861146
+cCheck dependencies
+cProcessInfoPlistFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app/Info.plist TMOATreeSample-Info.plist
+cCompileXIB /Users/danlipert/github/Cutify/TMOATreeSample/MainWindow.xib
+cProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-cpxegsdtqjwbdqegoamjqhhxguhq/TMOATreeSample_Prefix.pch.gch TMOATreeSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/main.o /Users/danlipert/github/Cutify/TMOATreeSample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOATreeSampleAppDelegate.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOATree.o /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOANode.o /Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.h
+c000000004E2DDFBE000000000000015E
+t1311629246
+s350
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m
+c000000004E2DEA0C0000000000000EC5
+t1311631884
+s3781
+i"TMOATreeSampleAppDelegate.h"
+i"TMOANode.h"
+i"TMOATree.h"
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/MainWindow.xib
+c000000004E2DDFBE000000000000212B
+t1311629246
+s8491
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.h
+c000000004E2DE4220000000000000188
+t1311630370
+s392
+i<Foundation/Foundation.h>
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m
+c000000004E2DE64100000000000001C3
+t1311630913
+s451
+i"TMOANode.h"
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.h
+c000000004E2DE3E100000000000002EE
+t1311630305
+s750
+i<Foundation/Foundation.h>
+i"TMOANode.h"
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m
+c000000004E2DE63D0000000000000694
+t1311630909
+s1684
+i"TMOATree.h"
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/TMOATreeSample_Prefix.pch
+c000000004E2DDFBE00000000000000C5
+t1311629246
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app
+t2
+s0
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app.dSYM
+t2
+s0
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app/Info.plist
+t1311631886
+s619
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app/MainWindow.nib
+t1311631886
+s1538
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app/PkgInfo
+t1311631886
+s8
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app/TMOATreeSample
+t2
+s0
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOANode.o
+t1311631888
+s11236
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOATree.o
+t2
+s0
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOATreeSample.LinkFileList
+c000000004E2DEA0E0000000000000259
+t1311631886
+s601
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOATreeSampleAppDelegate.o
+t2
+s0
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/main.o
+t1311631888
+s6376
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/main.m
+c000000004E2DDFBE0000000000000172
+t1311629246
+s370
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-cpxegsdtqjwbdqegoamjqhhxguhq/TMOATreeSample_Prefix.pch.gch
+t1311631888
+s15818160
+
+NTMOATreeSample-Info.plist
+c000000004E2DDFBE000000000000038D
+t1311629246
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333324686#333324686#0(0"0(0#1#0"8622145344#0"0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOANode.o /Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333324688.770015
+e333324688.861085
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOANode.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m333324688#333324688#0(0"0(0#0#56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m8622619520#2253"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-cpxegsdtqjwbdqegoamjqhhxguhq/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOANode.o0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOATree.o /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333324688.768670
+e333324688.829767
+r0
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOATree.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:9:
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.h:17: error: can not use an object as parameter to a method
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m: In function '-[TMOATree parentOfNode:]':
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:64: error: 'parentNode' undeclared (first use in this function)
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:64: error: (Each undeclared identifier is reported only once
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:64: error: for each function it appears in.)
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:67: error: expected ':' before ']' token
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:67: confused by earlier errors, bailing out
+lSLF07#2@64"Compile /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333324688#333324688#0(836"In file included from /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:9:/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.h:17: error: can not use an object as parameter to a method/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m: In function '-[TMOATree parentOfNode:]':/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:64: error: 'parentNode' undeclared (first use in this function)/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:64: error: (Each undeclared identifier is reported only once/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:64: error: for each function it appears in.)/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:67: error: expected ':' before ']' token/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:67: confused by earlier errors, bailing out4(4@46"Can not use an object as parameter to a method333324688#82#115#2(7@78"In file included from /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333324688#18446744073709551615#0#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333323709#9#0#9#0#0"0(13@106"Can not use an object as parameter to a method in /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.h333324688#18446744073709551615#0#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.h333323105#17#0#17#0#0"0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.h333323105#17#0#17#0#0"0(4@52"'parentNode' undeclared (first use in this function)333324688#296#121#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333323709#64#0#64#0#43"'*' undeclared (first use in this function)0(4@29"Expected ':' before ']' token333324688#637#98#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333323709#67#0#67#0#19"expected * before *0(4@39"Confused by earlier errors, bailing out333324688#735#101#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333323709#67#0#67#0#39"confused by earlier errors, bailing out0(0#0#56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m8612612256#2253"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-cpxegsdtqjwbdqegoamjqhhxguhq/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOATree.o1#
+
+CCompileC build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOATreeSampleAppDelegate.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333324688.767270
+e333324688.847874
+r0
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOATreeSampleAppDelegate.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:11:
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.h:17: error: can not use an object as parameter to a method
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:45: warning: 'TMOATreeSampleAppDelegate' may not respond to '-traverseTree:'
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:45: warning: (Messages without a matching method signature
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:45: warning: will be assumed to return 'id' and accept
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:45: warning: '...' as arguments.)
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate traverseTree:]':
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:56: warning: 'TMOATreeSampleAppDelegate' may not respond to '-visitNode:'
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:57: warning: 'TMOATreeSampleAppDelegate' may not respond to '-spiderNode:'
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate spiderNode:]':
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:64: warning: 'TMOATreeSampleAppDelegate' may not respond to '-visitNode:'
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: At top level:
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:74: error: expected ':' before '-' token
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate visitNode:]':
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:79: error: 'key' undeclared (first use in this function)
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:79: error: (Each undeclared identifier is reported only once
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:79: error: for each function it appears in.)
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:79: warning: format not a string literal and no format arguments
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:80: error: expected ';' before '}' token
+lSLF07#2@89"Compile /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333324688#333324688#0(2732"In file included from /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:11:/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.h:17: error: can not use an object as parameter to a method/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate application:didFinishLaunchingWithOptions:]':/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:45: warning: 'TMOATreeSampleAppDelegate' may not respond to '-traverseTree:'/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:45: warning: (Messages without a matching method signature/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:45: warning: will be assumed to return 'id' and accept/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:45: warning: '...' as arguments.)/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate traverseTree:]':/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:56: warning: 'TMOATreeSampleAppDelegate' may not respond to '-visitNode:'/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:57: warning: 'TMOATreeSampleAppDelegate' may not respond to '-spiderNode:'/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate spiderNode:]':/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:64: warning: 'TMOATreeSampleAppDelegate' may not respond to '-visitNode:'/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: At top level:/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:74: error: expected ':' before '-' token/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate visitNode:]':/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:79: error: 'key' undeclared (first use in this function)/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:79: error: (Each undeclared identifier is reported only once/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:79: error: for each function it appears in.)/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:79: warning: format not a string literal and no format arguments/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:80: error: expected ';' before '}' token11(4@46"Can not use an object as parameter to a method333324688#108#115#2(7@103"In file included from /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333324688#18446744073709551615#0#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333324684#11#0#11#0#0"0(13@106"Can not use an object as parameter to a method in /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.h333324688#18446744073709551615#0#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.h333323105#17#0#17#0#0"0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.h333323105#17#0#17#0#0"0(22@63"'TMOATreeSampleAppDelegate' may not respond to '-traverseTree:'333324688#393#159#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333324684#45#0#45#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)333324688#552#141#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333324684#45#0#45#0#0"0(22@60"'TMOATreeSampleAppDelegate' may not respond to '-visitNode:'333324688#1087#156#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333324684#56#0#56#0#26"'*' may not respond to '*'0(22@61"'TMOATreeSampleAppDelegate' may not respond to '-spiderNode:'333324688#1243#157#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333324684#57#0#57#0#26"'*' may not respond to '*'0(22@60"'TMOATreeSampleAppDelegate' may not respond to '-visitNode:'333324688#1539#156#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333324684#64#0#64#0#26"'*' may not respond to '*'0(23@13"At top level:333324688#1695#97#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333324684#0#0#0#0#0"0(4@29"Expected ':' before '-' token333324688#1792#123#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333324684#74#0#74#0#19"expected * before *0(4@45"'key' undeclared (first use in this function)333324688#2053#139#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333324684#79#0#79#0#43"'*' undeclared (first use in this function)0(22@51"Format not a string literal and no format arguments333324688#2462#147#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333324684#79#0#79#0#51"format not a string literal and no format arguments0(4@29"Expected ';' before '}' token333324688#2609#123#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333324684#80#0#80#0#19"expected * before *0(0#0#81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m8622667680#2295"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-cpxegsdtqjwbdqegoamjqhhxguhq/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/TMOATreeSampleAppDelegate.o1#
+
+CCompileC build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/main.o /Users/danlipert/github/Cutify/TMOATreeSample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333324688.755341
+e333324688.850937
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/main.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/danlipert/github/Cutify/TMOATreeSample/main.m333324688#333324688#0(0"0(0#0#52"/Users/danlipert/github/Cutify/TMOATreeSample/main.m8622713312#2245"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-cpxegsdtqjwbdqegoamjqhhxguhq/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/main.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/danlipert/github/Cutify/TMOATreeSample/MainWindow.xib
+s333324686.164487
+e333324686.533264
+r1
+xCompileXIB
+x/Users/danlipert/github/Cutify/TMOATreeSample/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib333324686#333324686#0(0"0(0#0#60"/Users/danlipert/github/Cutify/TMOATreeSample/MainWindow.xib8620048096#712"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app/MainWindow.nib /Users/danlipert/github/Cutify/TMOATreeSample/MainWindow.xib --sdk /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app.dSYM /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app/TMOATreeSample
+r0
+
+CLd /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app/TMOATreeSample normal i386
+r0
+
+CProcessInfoPlistFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app/Info.plist TMOATreeSample-Info.plist
+s333324686.131971
+e333324686.164415
+r1
+xProcessInfoPlistFile
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app/Info.plist
+xTMOATreeSample-Info.plist
+lSLF07#2@33"Process TMOATreeSample-Info.plist333324686#333324686#0(0"0(0#0#71"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATreeSample-Info.plist8622023712#609"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility TMOATreeSample-Info.plist -genpkginfo /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app/Info.plist0#
+
+CProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-cpxegsdtqjwbdqegoamjqhhxguhq/TMOATreeSample_Prefix.pch.gch TMOATreeSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s333324686.533385
+e333324688.755141
+r1
+xProcessPCH
+x/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-cpxegsdtqjwbdqegoamjqhhxguhq/TMOATreeSample_Prefix.pch.gch
+xTMOATreeSample_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile TMOATreeSample_Prefix.pch333324686#333324688#0(0"0(0#0#71"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATreeSample_Prefix.pch8622161728#2123"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphonesimulator/TMOATreeSample.build/DerivedSources -c /Users/danlipert/github/Cutify/TMOATreeSample/TMOATreeSample_Prefix.pch -o /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-cpxegsdtqjwbdqegoamjqhhxguhq/TMOATreeSample_Prefix.pch.gch0#
+
+CTouch /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphonesimulator/TMOATreeSample.app
+r0
+
