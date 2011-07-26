@@ -142,6 +142,11 @@
 			B624569413DF452F00B726EF /* PBXTextBookmark */ = B624569413DF452F00B726EF /* PBXTextBookmark */;
 			B624569513DF452F00B726EF /* PBXTextBookmark */ = B624569513DF452F00B726EF /* PBXTextBookmark */;
 			B624569913DF455900B726EF /* PBXTextBookmark */ = B624569913DF455900B726EF /* PBXTextBookmark */;
+			B624569B13DF466700B726EF /* PBXTextBookmark */ = B624569B13DF466700B726EF /* PBXTextBookmark */;
+			B624569E13DF467E00B726EF /* PBXTextBookmark */ = B624569E13DF467E00B726EF /* PBXTextBookmark */;
+			B624569F13DF467E00B726EF /* PBXTextBookmark */ = B624569F13DF467E00B726EF /* PBXTextBookmark */;
+			B62456A013DF467E00B726EF /* PBXTextBookmark */ = B62456A013DF467E00B726EF /* PBXTextBookmark */;
+			B62456A113DF467E00B726EF /* PBXTextBookmark */ = B62456A113DF467E00B726EF /* PBXTextBookmark */;
 			B63EECE413DE223700BFA806 = B63EECE413DE223700BFA806 /* PBXTextBookmark */;
 			B63EED3513DE23B900BFA806 = B63EED3513DE23B900BFA806 /* PBXTextBookmark */;
 			B63EED4F13DE433900BFA806 = B63EED4F13DE433900BFA806 /* PBXTextBookmark */;
@@ -654,9 +659,9 @@
 	};
 	B624565B13DF42B200B726EF /* PokemonDetailViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 663}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 728}}";
 			sepNavSelRange = "{492, 0}";
-			sepNavVisRange = "{0, 875}";
+			sepNavVisRange = "{438, 830}";
 		};
 	};
 	B624565F13DF437500B726EF /* PBXTextBookmark */ = {
@@ -929,6 +934,56 @@
 		vrLen = 875;
 		vrLoc = 0;
 	};
+	B624569B13DF466700B726EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B63EED4B13DE417900BFA806 /* PokemonTableViewController.m */;
+		name = "PokemonTableViewController.m: 39";
+		rLen = 0;
+		rLoc = 1206;
+		rType = 0;
+		vrLen = 1206;
+		vrLoc = 263;
+	};
+	B624569E13DF467E00B726EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B624565B13DF42B200B726EF /* PokemonDetailViewController.m */;
+		name = "PokemonDetailViewController.m: 22";
+		rLen = 0;
+		rLoc = 492;
+		rType = 0;
+		vrLen = 830;
+		vrLoc = 438;
+	};
+	B624569F13DF467E00B726EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B63EED4A13DE417900BFA806 /* PokemonTableViewController.h */;
+		name = "PokemonTableViewController.h: 16";
+		rLen = 0;
+		rLoc = 297;
+		rType = 0;
+		vrLen = 404;
+		vrLoc = 0;
+	};
+	B62456A013DF467E00B726EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B624565A13DF42B200B726EF /* PokemonDetailViewController.h */;
+		name = "PokemonDetailViewController.h: 17";
+		rLen = 0;
+		rLoc = 345;
+		rType = 0;
+		vrLen = 352;
+		vrLoc = 0;
+	};
+	B62456A113DF467E00B726EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B63EED4B13DE417900BFA806 /* PokemonTableViewController.m */;
+		name = "PokemonTableViewController.m: 171";
+		rLen = 0;
+		rLoc = 5762;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 0;
+	};
 	B63EECB313DE173E00BFA806 /* TMOATreeSample */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -1032,9 +1087,9 @@
 	};
 	B63EED4B13DE417900BFA806 /* PokemonTableViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 2847}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 2678}}";
 			sepNavSelRange = "{5762, 0}";
-			sepNavVisRange = "{5389, 1386}";
+			sepNavVisRange = "{0, 1097}";
 		};
 	};
 	B63EED4F13DE433900BFA806 /* PBXTextBookmark */ = {

@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -271,7 +273,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>7</integer>
 									<integer>3</integer>
 									<integer>0</integer>
 								</array>
@@ -307,14 +309,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>PokemonDetailViewController.m</string>
+								<string>PokemonTableViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,11 +322,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>PokemonDetailViewController.m</string>
+										<string>PokemonTableViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B624569913DF455900B726EF</string>
+										<string>B62456A113DF467E00B726EF</string>
 										<key>history</key>
 										<array>
 											<string>B62455F013DF407F00B726EF</string>
@@ -339,14 +339,14 @@
 											<string>B62455F713DF407F00B726EF</string>
 											<string>B62455F813DF407F00B726EF</string>
 											<string>B62455F913DF407F00B726EF</string>
-											<string>B624565F13DF437500B726EF</string>
 											<string>B624566813DF43E500B726EF</string>
 											<string>B624567F13DF445C00B726EF</string>
 											<string>B624568513DF44A000B726EF</string>
 											<string>B624569213DF452F00B726EF</string>
+											<string>B624569E13DF467E00B726EF</string>
+											<string>B624569F13DF467E00B726EF</string>
+											<string>B62456A013DF467E00B726EF</string>
 											<string>B624569313DF452F00B726EF</string>
-											<string>B624569413DF452F00B726EF</string>
-											<string>B624568713DF44A000B726EF</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -544,7 +544,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>B624569A13DF455900B726EF</string>
 		<string>B62455C413DF3E9F00B726EF</string>
 		<string>B62455B913DF3E4D00B726EF</string>
 		<string>B63EECED13DE223700BFA806</string>
@@ -769,7 +768,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
