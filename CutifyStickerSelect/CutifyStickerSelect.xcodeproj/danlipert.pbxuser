@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* CutifyStickerSelectAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 565}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 563}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 365}";
 		};
 	};
 	1D3623250D0F684500981E51 /* CutifyStickerSelectAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 975}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1105}}";
 			sepNavSelRange = "{673, 0}";
-			sepNavVisRange = "{0, 1676}";
+			sepNavVisRange = "{1330, 1371}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* CutifyStickerSelect */ = {
@@ -57,24 +57,28 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 333308123;
-			PBXWorkspaceStateSaveDate = 333308123;
+			PBXPerProjectTemplateStateSaveDate = 333412541;
+			PBXWorkspaceStateSaveDate = 333412541;
 		};
 		perUserProjectItems = {
-			B63EEC5213DDEA8300BFA806 /* PBXTextBookmark */ = B63EEC5213DDEA8300BFA806 /* PBXTextBookmark */;
-			B63EEC5313DDEA8300BFA806 /* PBXTextBookmark */ = B63EEC5313DDEA8300BFA806 /* PBXTextBookmark */;
-			B63EEC5513DDEA8300BFA806 /* PBXTextBookmark */ = B63EEC5513DDEA8300BFA806 /* PBXTextBookmark */;
 			B63EEC5613DDEA8300BFA806 /* PBXTextBookmark */ = B63EEC5613DDEA8300BFA806 /* PBXTextBookmark */;
-			B63EEC5713DDEA8300BFA806 /* PBXTextBookmark */ = B63EEC5713DDEA8300BFA806 /* PBXTextBookmark */;
-			B63EEC8213DDEE5700BFA806 /* PBXTextBookmark */ = B63EEC8213DDEE5700BFA806 /* PBXTextBookmark */;
-			B63EEC8313DDEE5700BFA806 /* PlistBookmark */ = B63EEC8313DDEE5700BFA806 /* PlistBookmark */;
-			B63EEC8413DDEE5700BFA806 /* PBXTextBookmark */ = B63EEC8413DDEE5700BFA806 /* PBXTextBookmark */;
-			B63EEC8713DDEE5700BFA806 /* PlistBookmark */ = B63EEC8713DDEE5700BFA806 /* PlistBookmark */;
-			B63EEC9D13DDF04C00BFA806 /* PBXTextBookmark */ = B63EEC9D13DDF04C00BFA806 /* PBXTextBookmark */;
-			B63EEC9E13DDF04C00BFA806 /* PBXTextBookmark */ = B63EEC9E13DDF04C00BFA806 /* PBXTextBookmark */;
-			B63EECAE13DE172900BFA806 /* PBXTextBookmark */ = B63EECAE13DE172900BFA806 /* PBXTextBookmark */;
-			B63EECAF13DE172900BFA806 /* PlistBookmark */ = B63EECAF13DE172900BFA806 /* PlistBookmark */;
-			B6CA0E8613D9F599009A22DA /* PBXTextBookmark */ = B6CA0E8613D9F599009A22DA /* PBXTextBookmark */;
+			B6F3FB5913DF81560033C3C5 /* PlistBookmark */ = B6F3FB5913DF81560033C3C5 /* PlistBookmark */;
+			B6F3FB5B13DF81560033C3C5 /* PBXTextBookmark */ = B6F3FB5B13DF81560033C3C5 /* PBXTextBookmark */;
+			B6F3FB6213DF81560033C3C5 /* PlistBookmark */ = B6F3FB6213DF81560033C3C5 /* PlistBookmark */;
+			B6F3FBE813DF83D10033C3C5 /* PBXTextBookmark */ = B6F3FBE813DF83D10033C3C5 /* PBXTextBookmark */;
+			B6F3FBFD13DF844E0033C3C5 /* PBXTextBookmark */ = B6F3FBFD13DF844E0033C3C5 /* PBXTextBookmark */;
+			B6F3FBFE13DF844E0033C3C5 /* PBXTextBookmark */ = B6F3FBFE13DF844E0033C3C5 /* PBXTextBookmark */;
+			B6F3FBFF13DF844E0033C3C5 /* PBXTextBookmark */ = B6F3FBFF13DF844E0033C3C5 /* PBXTextBookmark */;
+			B6F3FC0013DF844E0033C3C5 /* PBXTextBookmark */ = B6F3FC0013DF844E0033C3C5 /* PBXTextBookmark */;
+			B6F3FC0113DF844E0033C3C5 /* PBXTextBookmark */ = B6F3FC0113DF844E0033C3C5 /* PBXTextBookmark */;
+			B6F3FC2713DF86780033C3C5 /* PBXTextBookmark */ = B6F3FC2713DF86780033C3C5 /* PBXTextBookmark */;
+			B6F3FC2813DF86780033C3C5 /* PBXTextBookmark */ = B6F3FC2813DF86780033C3C5 /* PBXTextBookmark */;
+			B6F3FC2913DF86780033C3C5 /* PBXTextBookmark */ = B6F3FC2913DF86780033C3C5 /* PBXTextBookmark */;
+			B6F3FC4013DF88040033C3C5 /* PBXTextBookmark */ = B6F3FC4013DF88040033C3C5 /* PBXTextBookmark */;
+			B6F3FC4113DF88040033C3C5 /* PBXTextBookmark */ = B6F3FC4113DF88040033C3C5 /* PBXTextBookmark */;
+			B6F3FC4213DF88040033C3C5 /* PBXTextBookmark */ = B6F3FC4213DF88040033C3C5 /* PBXTextBookmark */;
+			B6F3FC4A13DF88280033C3C5 /* PBXTextBookmark */ = B6F3FC4A13DF88280033C3C5 /* PBXTextBookmark */;
+			B6F3FC4B13DF88280033C3C5 /* PlistBookmark */ = B6F3FC4B13DF88280033C3C5 /* PlistBookmark */;
 		};
 		sourceControlManager = B655392913CF6DCC0071D504 /* Source Control */;
 		userBuildSettings = {
@@ -82,15 +86,15 @@
 	};
 	B63BE10F13D4CBAC00C1F12F /* CutifyStickerMeta.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 565}}";
-			sepNavSelRange = "{352, 0}";
-			sepNavVisRange = "{0, 487}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 563}}";
+			sepNavSelRange = "{482, 0}";
+			sepNavVisRange = "{0, 489}";
 			sepNavWindowFrame = "{{15, 4}, {821, 774}}";
 		};
 	};
 	B63BE11013D4CBAC00C1F12F /* CutifyStickerMeta.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 442}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 563}}";
 			sepNavSelRange = "{291, 0}";
 			sepNavVisRange = "{0, 299}";
 		};
@@ -102,47 +106,17 @@
 	};
 	B63BE1BC13D4DD4000C1F12F /* CutifyStickerSelectButton.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 565}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 563}}";
 			sepNavSelRange = "{346, 0}";
 			sepNavVisRange = "{0, 353}";
 		};
 	};
 	B63BE1BD13D4DD4000C1F12F /* CutifyStickerSelectButton.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 565}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 540}}";
 			sepNavSelRange = "{275, 0}";
 			sepNavVisRange = "{0, 281}";
 		};
-	};
-	B63EEC5213DDEA8300BFA806 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B63BE1BC13D4DD4000C1F12F /* CutifyStickerSelectButton.h */;
-		name = "CutifyStickerSelectButton.h: 16";
-		rLen = 0;
-		rLoc = 346;
-		rType = 0;
-		vrLen = 353;
-		vrLoc = 0;
-	};
-	B63EEC5313DDEA8300BFA806 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* CutifyStickerSelectAppDelegate.h */;
-		name = "CutifyStickerSelectAppDelegate.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 365;
-		vrLoc = 0;
-	};
-	B63EEC5513DDEA8300BFA806 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* CutifyStickerSelectAppDelegate.m */;
-		name = "CutifyStickerSelectAppDelegate.m: 23";
-		rLen = 0;
-		rLoc = 673;
-		rType = 0;
-		vrLen = 1676;
-		vrLoc = 0;
 	};
 	B63EEC5613DDEA8300BFA806 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -153,99 +127,6 @@
 		rType = 0;
 		vrLen = 263;
 		vrLoc = 0;
-	};
-	B63EEC5713DDEA8300BFA806 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B655393113CF6E6A0071D504 /* ApplyStickerViewController.m */;
-		name = "ApplyStickerViewController.m: 13";
-		rLen = 0;
-		rLoc = 287;
-		rType = 0;
-		vrLen = 892;
-		vrLoc = 0;
-	};
-	B63EEC8213DDEE5700BFA806 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B63BE10F13D4CBAC00C1F12F /* CutifyStickerMeta.h */;
-		name = "CutifyStickerMeta.h: 17";
-		rLen = 0;
-		rLoc = 352;
-		rType = 0;
-		vrLen = 487;
-		vrLoc = 0;
-	};
-	B63EEC8313DDEE5700BFA806 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = B63BE14F13D4D08000C1F12F /* StickerDemoPack.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/StickerDemoPack.plist;
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	B63EEC8413DDEE5700BFA806 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B63BE1BD13D4DD4000C1F12F /* CutifyStickerSelectButton.m */;
-		name = "CutifyStickerSelectButton.m: 15";
-		rLen = 0;
-		rLoc = 275;
-		rType = 0;
-		vrLen = 281;
-		vrLoc = 0;
-	};
-	B63EEC8713DDEE5700BFA806 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = B63BE14F13D4D08000C1F12F /* StickerDemoPack.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/StickerDemoPack.plist;
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	B63EEC9D13DDF04C00BFA806 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B655392B13CF6E030071D504 /* CutifyStickerPicker.h */;
-		name = "CutifyStickerPicker.h: 21";
-		rLen = 0;
-		rLoc = 485;
-		rType = 0;
-		vrLen = 590;
-		vrLoc = 0;
-	};
-	B63EEC9E13DDF04C00BFA806 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B655392C13CF6E030071D504 /* CutifyStickerPicker.m */;
-		name = "CutifyStickerPicker.m: 15";
-		rLen = 0;
-		rLoc = 349;
-		rType = 0;
-		vrLen = 1053;
-		vrLoc = 0;
-	};
-	B63EECAE13DE172900BFA806 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B655392C13CF6E030071D504 /* CutifyStickerPicker.m */;
-		name = "CutifyStickerPicker.m: 113";
-		rLen = 0;
-		rLoc = 3758;
-		rType = 0;
-		vrLen = 1890;
-		vrLoc = 1054;
-	};
-	B63EECAF13DE172900BFA806 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = B63BE14F13D4D08000C1F12F /* StickerDemoPack.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/StickerDemoPack.plist;
-		rLen = 0;
-		rLoc = 9223372036854775807;
 	};
 	B655391713CF6DAD0071D504 /* CutifyStickerSelect */ = {
 		isa = PBXExecutable;
@@ -295,16 +176,16 @@
 	};
 	B655392B13CF6E030071D504 /* CutifyStickerPicker.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 565}}";
-			sepNavSelRange = "{485, 0}";
-			sepNavVisRange = "{0, 590}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 540}}";
+			sepNavSelRange = "{766, 0}";
+			sepNavVisRange = "{0, 773}";
 		};
 	};
 	B655392C13CF6E030071D504 /* CutifyStickerPicker.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 2639}}";
-			sepNavSelRange = "{3758, 0}";
-			sepNavVisRange = "{1054, 1890}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 4043}}";
+			sepNavSelRange = "{10241, 0}";
+			sepNavVisRange = "{8544, 1024}";
 		};
 	};
 	B655393013CF6E6A0071D504 /* ApplyStickerViewController.h */ = {
@@ -316,12 +197,133 @@
 	};
 	B655393113CF6E6A0071D504 /* ApplyStickerViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 565}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 546}}";
 			sepNavSelRange = "{287, 0}";
 			sepNavVisRange = "{0, 892}";
 		};
 	};
-	B6CA0E8613D9F599009A22DA /* PBXTextBookmark */ = {
+	B6F3FB3513DF78E60033C3C5 /* TMOANode.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 563}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 408}";
+		};
+	};
+	B6F3FB3613DF78E60033C3C5 /* TMOANode.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 563}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 549}";
+		};
+	};
+	B6F3FB3713DF78E60033C3C5 /* TMOATree.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 563}}";
+			sepNavSelRange = "{434, 45}";
+			sepNavVisRange = "{0, 814}";
+		};
+	};
+	B6F3FB3813DF78E60033C3C5 /* TMOATree.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1209}}";
+			sepNavSelRange = "{1649, 0}";
+			sepNavVisRange = "{40, 818}";
+		};
+	};
+	B6F3FB5913DF81560033C3C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = B63BE14F13D4D08000C1F12F /* StickerDemoPack.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			0,
+		);
+		name = /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/StickerDemoPack.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	B6F3FB5B13DF81560033C3C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CutifyStickerSelectAppDelegate.h */;
+		name = "CutifyStickerSelectAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 365;
+		vrLoc = 0;
+	};
+	B6F3FB6213DF81560033C3C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = B63BE14F13D4D08000C1F12F /* StickerDemoPack.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/StickerDemoPack.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	B6F3FBE813DF83D10033C3C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6F3FB3513DF78E60033C3C5 /* TMOANode.h */;
+		name = "TMOANode.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 0;
+	};
+	B6F3FBFD13DF844E0033C3C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6F3FB3813DF78E60033C3C5 /* TMOATree.m */;
+		name = "TMOATree.m: 84";
+		rLen = 0;
+		rLoc = 1649;
+		rType = 0;
+		vrLen = 818;
+		vrLoc = 40;
+	};
+	B6F3FBFE13DF844E0033C3C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B655392B13CF6E030071D504 /* CutifyStickerPicker.h */;
+		name = "CutifyStickerPicker.h: 33";
+		rLen = 0;
+		rLoc = 766;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 0;
+	};
+	B6F3FBFF13DF844E0033C3C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B63BE1BD13D4DD4000C1F12F /* CutifyStickerSelectButton.m */;
+		name = "CutifyStickerSelectButton.m: 15";
+		rLen = 0;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 281;
+		vrLoc = 0;
+	};
+	B6F3FC0013DF844E0033C3C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B655393113CF6E6A0071D504 /* ApplyStickerViewController.m */;
+		name = "ApplyStickerViewController.m: 13";
+		rLen = 0;
+		rLoc = 287;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 0;
+	};
+	B6F3FC0113DF844E0033C3C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CutifyStickerSelectAppDelegate.m */;
+		name = "CutifyStickerSelectAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 673;
+		rType = 0;
+		vrLen = 1371;
+		vrLoc = 1330;
+	};
+	B6F3FC2713DF86780033C3C5 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B63BE11013D4CBAC00C1F12F /* CutifyStickerMeta.m */;
 		name = "CutifyStickerMeta.m: 14";
@@ -330,5 +332,76 @@
 		rType = 0;
 		vrLen = 299;
 		vrLoc = 0;
+	};
+	B6F3FC2813DF86780033C3C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B63BE10F13D4CBAC00C1F12F /* CutifyStickerMeta.h */;
+		name = "CutifyStickerMeta.h: 22";
+		rLen = 0;
+		rLoc = 482;
+		rType = 0;
+		vrLen = 489;
+		vrLoc = 0;
+	};
+	B6F3FC2913DF86780033C3C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B63BE1BC13D4DD4000C1F12F /* CutifyStickerSelectButton.h */;
+		name = "CutifyStickerSelectButton.h: 16";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 0;
+	};
+	B6F3FC4013DF88040033C3C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6F3FB3613DF78E60033C3C5 /* TMOANode.m */;
+		name = "TMOANode.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 549;
+		vrLoc = 0;
+	};
+	B6F3FC4113DF88040033C3C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6F3FB3713DF78E60033C3C5 /* TMOATree.h */;
+		name = "TMOATree.h: 26";
+		rLen = 45;
+		rLoc = 434;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 0;
+	};
+	B6F3FC4213DF88040033C3C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B655392C13CF6E030071D504 /* CutifyStickerPicker.m */;
+		name = "CutifyStickerPicker.m: 138";
+		rLen = 0;
+		rLoc = 3867;
+		rType = 0;
+		vrLen = 947;
+		vrLoc = 3466;
+	};
+	B6F3FC4A13DF88280033C3C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B655392C13CF6E030071D504 /* CutifyStickerPicker.m */;
+		name = "CutifyStickerPicker.m: 152";
+		rLen = 0;
+		rLoc = 4349;
+		rType = 0;
+		vrLen = 1523;
+		vrLoc = 8723;
+	};
+	B6F3FC4B13DF88280033C3C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = B63BE14F13D4D08000C1F12F /* StickerDemoPack.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/danlipert/github/Cutify/CutifyStickerSelect/Classes/StickerDemoPack.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 }

@@ -25,6 +25,8 @@
 		B65A97B313DCDF4D0012E260 /* ScrollControlIconMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B65A97AE13DCDF4D0012E260 /* ScrollControlIconMask@2x.png */; };
 		B65A97B413DCDF4D0012E260 /* ScrollControlBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B65A97AF13DCDF4D0012E260 /* ScrollControlBackground@2x.png */; };
 		B65A97B513DCDF4D0012E260 /* ScrollControlBackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B65A97B013DCDF4D0012E260 /* ScrollControlBackButton@2x.png */; };
+		B6F3FB3913DF78E60033C3C5 /* TMOANode.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F3FB3613DF78E60033C3C5 /* TMOANode.m */; };
+		B6F3FB3A13DF78E60033C3C5 /* TMOATree.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F3FB3813DF78E60033C3C5 /* TMOATree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,10 @@
 		B65A97AE13DCDF4D0012E260 /* ScrollControlIconMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlIconMask@2x.png"; sourceTree = "<group>"; };
 		B65A97AF13DCDF4D0012E260 /* ScrollControlBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlBackground@2x.png"; sourceTree = "<group>"; };
 		B65A97B013DCDF4D0012E260 /* ScrollControlBackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlBackButton@2x.png"; sourceTree = "<group>"; };
+		B6F3FB3513DF78E60033C3C5 /* TMOANode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOANode.h; sourceTree = "<group>"; };
+		B6F3FB3613DF78E60033C3C5 /* TMOANode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOANode.m; sourceTree = "<group>"; };
+		B6F3FB3713DF78E60033C3C5 /* TMOATree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOATree.h; sourceTree = "<group>"; };
+		B6F3FB3813DF78E60033C3C5 /* TMOATree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOATree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B6F3FB3513DF78E60033C3C5 /* TMOANode.h */,
+				B6F3FB3613DF78E60033C3C5 /* TMOANode.m */,
+				B6F3FB3713DF78E60033C3C5 /* TMOATree.h */,
+				B6F3FB3813DF78E60033C3C5 /* TMOATree.m */,
 				B63BE14F13D4D08000C1F12F /* StickerDemoPack.plist */,
 				B63BE10F13D4CBAC00C1F12F /* CutifyStickerMeta.h */,
 				B63BE11013D4CBAC00C1F12F /* CutifyStickerMeta.m */,
@@ -217,6 +227,8 @@
 				B655393213CF6E6A0071D504 /* ApplyStickerViewController.m in Sources */,
 				B63BE11113D4CBAC00C1F12F /* CutifyStickerMeta.m in Sources */,
 				B63BE1BE13D4DD4000C1F12F /* CutifyStickerSelectButton.m in Sources */,
+				B6F3FB3913DF78E60033C3C5 /* TMOANode.m in Sources */,
+				B6F3FB3A13DF78E60033C3C5 /* TMOATree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
