@@ -63,6 +63,7 @@
 	
 	[self.photoImageView setFrame:CGRectMake(7,5,306,306)];
 	self.photoImageView.image = self.photoImage;
+	[self.photoImageView setContentMode:UIViewContentModeScaleAspectFit];
 	[self.view addSubview:self.photoImageView];
 	
 	UIButton *iapButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
@@ -87,6 +88,8 @@
 -(void)doneButtonPressed:(id)sender
 {
 	OptionsAndSharingViewController *optionsAndSharingViewController = [[OptionsAndSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
+	//attach image
+	optionsAndSharingViewController.image = photoImage;
 	[self.navigationController pushViewController:optionsAndSharingViewController animated:YES]; 
 	[optionsAndSharingViewController release];
 }

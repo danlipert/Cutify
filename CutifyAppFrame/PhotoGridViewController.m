@@ -11,43 +11,34 @@
 
 @implementation PhotoGridViewController
 
-
-
-
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-//- (void)loadView {
-//	
-//
-//	
-//}
-
-
+@synthesize imagesArray;
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
 	//create images
-	NSMutableArray *imagesArray = [[NSMutableArray alloc] init];
 	
-	UIImage *testImage = [UIImage imageNamed:@"ApplyStickerImage.png"]; 
-	for(int j = 0; j< 20; j++)
-	{
-		[imagesArray addObject:testImage];
-	}
+	//UIImage *testImage = [UIImage imageNamed:@"ApplyStickerImage.png"]; 
+//	for(int j = 0; j< 20; j++)
+//	{
+//		[imagesArray addObject:testImage];
+//	}
+	
+	[self loadImagesFromDocumentsDirectory];
 	
 	UIScrollView *s = [[UIScrollView alloc] initWithFrame:CGRectMake(0,0,320,480-20-44)];
 	[s setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"TableviewBackground.png"]]];
 	int numOfColumns = 3;
-	int numOfRows = imagesArray.count/numOfColumns+1;
+	int numOfRows = self.imagesArray.count/numOfColumns+1;
 	int space = 10;
 	int width = (s.frame.size.width-(numOfColumns+1)*space)/numOfColumns;
 	int height = width;
 	int x = space;
 	int y = space;
-	for (int i=1; i<=imagesArray.count; i++) {
+	for (int i=1; i<=self.imagesArray.count; i++) {
 		UIButton *imageButton = [[UIButton alloc] initWithFrame:CGRectMake(x,y,width,height)];
-		[imageButton setImage:[imagesArray objectAtIndex:i-1] forState:UIControlStateNormal];
+		[imageButton setImage:[self.imagesArray objectAtIndex:i-1] forState:UIControlStateNormal];
 		[imageButton addTarget:self action:@selector(imageButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 		[imageButton setTag:i-1];
 		[s addSubview:imageButton];
@@ -65,36 +56,50 @@
 	[self.view addSubview:s];
 	
 	//setup buttons
-	UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
-	UIImage *cancelButtonImage = [UIImage imageNamed:@"BackButton.png"];
-	[cancelButton setFrame:CGRectMake(0,0,cancelButtonImage.size.width, cancelButtonImage.size.height)];
-	[cancelButton addTarget:self action:@selector(cancelButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-	[cancelButton setImage:cancelButtonImage forState:UIControlStateNormal];
-	UIBarButtonItem *cancelButtonItem = [[UIBarButtonItem alloc] initWithCustomView:cancelButton];
+	UIButton *photoButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	UIImage *photoButtonImage = [UIImage imageNamed:@"CameraBackButton.png"];
+	[photoButton setFrame:CGRectMake(0,0,photoButtonImage.size.width, photoButtonImage.size.height)];
+	[photoButton addTarget:self action:@selector(photoButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[photoButton setImage:photoButtonImage forState:UIControlStateNormal];
+	UIBarButtonItem *photoButtonItem = [[UIBarButtonItem alloc] initWithCustomView:photoButton];
 	
-	self.navigationItem.leftBarButtonItem = cancelButtonItem;
-	[cancelButtonItem release];
+	self.navigationItem.leftBarButtonItem = photoButtonItem;
+	[photoButtonItem release];
 }
 
--(void)imageButtonPressed:(id)sender
+-(void)imageButtonPressed:(UIButton *)sender
 {
 	PhotoViewSharingViewController *photoViewSharingViewController = [[PhotoViewSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
+	photoViewSharingViewController.image = sender.imageView.image;
 	[self.navigationController pushViewController:photoViewSharingViewController animated:YES];
 	[photoViewSharingViewController release];
 }
 
--(void)cancelButtonPressed:(id)sender
+-(void)photoButtonPressed:(id)sender
 {
 	[self.navigationController popToRootViewControllerAnimated:YES];
 }
 
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations.
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
+-(void)loadImagesFromDocumentsDirectory
+{
+	NSMutableArray *_imagesArray = [[NSMutableArray alloc] init];
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	
+	NSArray *paths = NSSearchPathForDirectoriesInDomains( NSDocumentDirectory, NSUserDomainMask, YES); 
+	NSString *documentsDirectory = [paths objectAtIndex:0]; 
+	
+	for (NSString *fileName in [fileManager contentsOfDirectoryAtPath:documentsDirectory error:NULL]) 
+	{
+		NSLog(@"Found file %@", fileName);
+		if([fileName hasSuffix:@"jpg"])
+		{
+			NSString *filePath = [documentsDirectory stringByAppendingPathComponent:fileName];
+			[_imagesArray addObject:[UIImage imageWithContentsOfFile:filePath]];
+		}
+	}
+	self.imagesArray = _imagesArray;
+	[_imagesArray release];
+}	
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.

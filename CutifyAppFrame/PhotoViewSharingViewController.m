@@ -11,6 +11,8 @@
 
 @implementation PhotoViewSharingViewController
 
+@synthesize image;
+
 -(id)initWithStyle:(UITableViewStyle)style
 {
 	if(self = [super initWithStyle:style])
@@ -51,7 +53,8 @@
 	[self.tableView setBackgroundColor:[UIColor clearColor]];
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"TableviewBackground.png"]]];	
 	
-	UIImageView *photoImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ApplyStickerImage.png"]];
+	UIImageView *photoImageView = [[UIImageView alloc] initWithImage:self.image];
+	[photoImageView setFrame:CGRectMake(0,0,306,306)];
 	self.tableView.tableHeaderView = photoImageView;
 	[photoImageView release];
 	
