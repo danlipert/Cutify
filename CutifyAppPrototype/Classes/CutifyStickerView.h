@@ -7,12 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CutifyStickerMeta.h"
 
 @interface CutifyStickerView : UIView 
 {
-	UIImageView *stickerImageView;
+
 }
 
 @property (nonatomic, retain) UIImageView *stickerImageView;
+@property (nonatomic, retain) NSNumber *rotationDegrees;
+
+-(id)initWithStickerMeta:(CutifyStickerMeta *)stickerMeta;
+
 @end

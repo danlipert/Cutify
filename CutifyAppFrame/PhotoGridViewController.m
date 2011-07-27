@@ -11,7 +11,7 @@
 
 @implementation PhotoGridViewController
 
-@synthesize imagesArray;
+@synthesize imagesArray, fileNamesArray, scrollView;
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
@@ -41,6 +41,7 @@
 		[imageButton setImage:[self.imagesArray objectAtIndex:i-1] forState:UIControlStateNormal];
 		[imageButton addTarget:self action:@selector(imageButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 		[imageButton setTag:i-1];
+		[imageButton setTitle:[self.fileNamesArray objectAtIndex:i-1] forState:UIControlStateReserved];
 		[s addSubview:imageButton];
 		[imageButton release];
 		if (i%numOfColumns == 0) {
@@ -54,6 +55,8 @@
 	int contentHeight = numOfRows*(space+height)+space;
 	[s setContentSize:CGSizeMake(contentWidth, contentHeight)];
 	[self.view addSubview:s];
+	self.scrollView = s;
+	[s release];
 	
 	//setup buttons
 	UIButton *photoButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -67,10 +70,49 @@
 	[photoButtonItem release];
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+	//this will be triggered when a user deletes a photo
+	[self loadImagesFromDocumentsDirectory];
+	
+	for(id eachView in [self.scrollView.subviews copy])
+	{
+		[eachView removeFromSuperview];
+	}
+	
+	int numOfColumns = 3;
+	int numOfRows = self.imagesArray.count/numOfColumns+1;
+	int space = 10;
+	int width = (self.scrollView.frame.size.width-(numOfColumns+1)*space)/numOfColumns;
+	int height = width;
+	int x = space;
+	int y = space;
+	for (int i=1; i<=self.imagesArray.count; i++) {
+		UIButton *imageButton = [[UIButton alloc] initWithFrame:CGRectMake(x,y,width,height)];
+		[imageButton setImage:[self.imagesArray objectAtIndex:i-1] forState:UIControlStateNormal];
+		[imageButton addTarget:self action:@selector(imageButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+		[imageButton setTag:i-1];
+		[imageButton setTitle:[self.fileNamesArray objectAtIndex:i-1] forState:UIControlStateReserved];
+		[self.scrollView addSubview:imageButton];
+		[imageButton release];
+		if (i%numOfColumns == 0) {
+			y += space+height;
+			x = space;
+		} else {
+			x+=space+width;
+		}
+	}
+	int contentWidth = numOfColumns*(space+width)+space;
+	int contentHeight = numOfRows*(space+height)+space;
+	[self.scrollView setContentSize:CGSizeMake(contentWidth, contentHeight)];
+}	
+	
+
 -(void)imageButtonPressed:(UIButton *)sender
 {
 	PhotoViewSharingViewController *photoViewSharingViewController = [[PhotoViewSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
 	photoViewSharingViewController.image = sender.imageView.image;
+	photoViewSharingViewController.fileName = [self.fileNamesArray objectAtIndex:sender.tag];
 	[self.navigationController pushViewController:photoViewSharingViewController animated:YES];
 	[photoViewSharingViewController release];
 }
@@ -83,6 +125,7 @@
 -(void)loadImagesFromDocumentsDirectory
 {
 	NSMutableArray *_imagesArray = [[NSMutableArray alloc] init];
+	NSMutableArray *_fileNamesArray = [[NSMutableArray alloc] init];
 	NSFileManager *fileManager = [NSFileManager defaultManager];
 	
 	NSArray *paths = NSSearchPathForDirectoriesInDomains( NSDocumentDirectory, NSUserDomainMask, YES); 
@@ -95,10 +138,13 @@
 		{
 			NSString *filePath = [documentsDirectory stringByAppendingPathComponent:fileName];
 			[_imagesArray addObject:[UIImage imageWithContentsOfFile:filePath]];
+			[_fileNamesArray addObject:fileName];
 		}
 	}
 	self.imagesArray = _imagesArray;
+	self.fileNamesArray = _fileNamesArray;
 	[_imagesArray release];
+	[_fileNamesArray release];
 }	
 
 - (void)didReceiveMemoryWarning {

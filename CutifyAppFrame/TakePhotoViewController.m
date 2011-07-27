@@ -70,7 +70,9 @@
 
 -(void)photoLibraryButtonPressed:(id)sender
 {
-	
+	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
+	[self.navigationController pushViewController:photoGridViewController animated:YES];
+	[photoGridViewController release];
 }
 
 - (void)didReceiveMemoryWarning {

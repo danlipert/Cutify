@@ -11,7 +11,7 @@
 
 @implementation PhotoViewSharingViewController
 
-@synthesize image;
+@synthesize image, fileName;
 
 -(id)initWithStyle:(UITableViewStyle)style
 {
@@ -27,6 +27,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	NSLog(@"file name is: %@", self.fileName);
 	
 	//setup buttons
 	UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -57,7 +59,6 @@
 	[photoImageView setFrame:CGRectMake(0,0,306,306)];
 	self.tableView.tableHeaderView = photoImageView;
 	[photoImageView release];
-	
 }
 
 -(void)cancelButtonPressed:(id)sender
@@ -67,7 +68,13 @@
 
 -(void)deleteButtonPressed:(id)sender
 {
-	
+	//save file
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	NSString *imagePath = [documentsDirectory stringByAppendingPathComponent:self.fileName];
+	[fileManager removeItemAtPath:imagePath error:nil];
+	[self.navigationController popViewControllerAnimated:YES];
 }
 
 #pragma mark -

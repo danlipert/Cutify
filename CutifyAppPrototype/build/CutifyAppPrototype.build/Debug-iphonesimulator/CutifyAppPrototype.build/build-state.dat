@@ -281,6 +281,173 @@ t1308864320
 s374
 i<UIKit/UIKit.h>
 
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/Classes/../ComposingViewController.m
+c000000004E138FC400000000000032AA
+t1309904836
+s12970
+i"ComposingViewController.h"
+i"CutifyStickerView.h"
+i<QuartzCore/QuartzCore.h>
+i"PuzzlePickerTableViewController.h"
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/Classes/CutifyAppPrototypeAppDelegate.h
+c000000004E03AF40000000000000016A
+t1308864320
+s362
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/Classes/CutifyAppPrototypeAppDelegate.m
+c000000004E0C059C0000000000000AD5
+t1309410716
+s2773
+i"CutifyAppPrototypeAppDelegate.h"
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/Classes/CutifyStickerView.h
+c000000004E308D6F00000000000001B0
+t1311804783
+s432
+i<UIKit/UIKit.h>
+i"CutifyStickerMeta.h"
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/Classes/CutifyStickerView.m
+c000000004E308CE3000000000000066B
+t1311804643
+s1643
+i"CutifyStickerView.h"
+i"CutifyStickerMeta.h"
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.h
+c000000004D24CF180000000000000167
+t1294257944
+s359
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m
+c000000004E03DF3A000000000000130D
+t1308876602
+s4877
+i"PuzzlePickerTableViewController.h"
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/ComposingViewController.h
+c000000004E1367E1000000000000037A
+t1309894625
+s890
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/CutifyAppPrototype_Prefix.pch
+c000000004E03B4820000000000000111
+t1308865666
+s273
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"CutifyStickerView.h"
+i"ComposingViewController.h"
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/Default@2x.png
+c000000004E0C03F000000000000413DD
+t1309410288
+s267229
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/Icon.png
+c000000004E0C01A200000000000017D5
+t1309409698
+s6101
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/Icon@2x.png
+c000000004E0C01A30000000000005BD7
+t1309409699
+s23511
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/MainWindow.xib
+c000000004E03AF40000000000000213F
+t1308864320
+s8511
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/ComposingViewController.o
+t1309895176
+s93464
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/CutifyAppPrototype.LinkFileList
+c000000004E03D2370000000000000347
+t1308873271
+s839
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/CutifyAppPrototypeAppDelegate.o
+t1309894917
+s51200
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/CutifyStickerView.o
+t1309894917
+s43440
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/PuzzlePickerTableViewController.o
+t1309894917
+s47976
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/main.o
+t1309894917
+s6308
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app
+t1309895176
+s680
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app.dSYM
+t1309895176
+s102
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/CutifyAppPrototype
+t1309895176
+s47120
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/Default@2x.png
+t1309894914
+s267229
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/Icon.png
+t1309894914
+s6101
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/Icon@2x.png
+t1309894914
+s23511
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/Info.plist
+t1309894914
+s748
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/MainWindow.nib
+t1309129110
+s995
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/PkgInfo
+t1309894914
+s8
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/easterislandheadicon.gif
+t1309129110
+s1126
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/egg.jpg
+t1309129110
+s3054
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/easterislandheadicon.gif
+c000000004B10AEDC0000000000000466
+t1259384540
+s1126
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/egg.jpg
+c000000004E03B2B40000000000000BEE
+t1308865204
+s3054
+
+N/Users/danlipert/github/Cutify/CutifyAppPrototype/main.m
+c000000004E03AF400000000000000176
+t1308864320
+s374
+i<UIKit/UIKit.h>
+
 N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
 c000000004D5C9B4E0000000000000110
 t1297914702
@@ -328,6 +495,10 @@ s15826416
 N/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppPrototype_Prefix-fmhmmlkqjxgxjygzcepuwpgkxitj/CutifyAppPrototype_Prefix.pch.gch
 t1309894916
 s15478032
+
+N/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppPrototype_Prefix-gyqfeypdwdkmegalrdcdagpwrmha/CutifyAppPrototype_Prefix.pch.gch
+t2
+s0
 
 N/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppPrototype_Prefix-hchlniuzbevgpjgscwptlwllwekt/CutifyAppPrototype_Prefix.pch.gch
 t1308865694
@@ -413,6 +584,9 @@ lSLF07#2@90"Compile /Users/danlipert/Documents/CutifyAppPrototype/Classes/../Com
 CCompileC build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/ComposingViewController.o /Users/danlipert/Documents/CutifyAppPrototype/ComposingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/ComposingViewController.o /Users/danlipert/github/Cutify/CutifyAppPrototype/Classes/../ComposingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/CutifyAppPrototypeAppDelegate.o /Users/danlipert/Documents/CutifyAppPrototype/Classes/CutifyAppPrototypeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s331587717.084000
 e331587717.500247
@@ -428,6 +602,9 @@ o/Users/danlipert/Documents/CutifyAppPrototype/Classes/CutifyAppPrototypeAppDele
 o/Users/danlipert/Documents/CutifyAppPrototype/Classes/CutifyAppPrototypeAppDelegate.m:21: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:271)
 lSLF07#2@93"Compile /Users/danlipert/Documents/CutifyAppPrototype/Classes/CutifyAppPrototypeAppDelegate.m331587717#331587717#0(488"/Users/danlipert/Documents/CutifyAppPrototype/Classes/CutifyAppPrototypeAppDelegate.m: In function '-[CutifyAppPrototypeAppDelegate application:didFinishLaunchingWithOptions:]':/Users/danlipert/Documents/CutifyAppPrototype/Classes/CutifyAppPrototypeAppDelegate.m:21: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:271)1(22@210"'setStatusBarHidden:animated:' is deprecated (declared at /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:271)331587717#178#310#0(6@85"/Users/danlipert/Documents/CutifyAppPrototype/Classes/CutifyAppPrototypeAppDelegate.m331103516#21#0#21#0#33"'*' is deprecated (declared at *)0(0#0#85"/Users/danlipert/Documents/CutifyAppPrototype/Classes/CutifyAppPrototypeAppDelegate.m8614188736#2323"    cd /Users/danlipert/Documents/CutifyAppPrototype    setenv LANG en_US.US-ASCII    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-generated-files.hmap -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-own-target-headers.hmap -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-all-target-headers.hmap -iquote /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-project-headers.hmap -F/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator -I/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/include -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/DerivedSources/i386 -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppPrototype_Prefix-fmhmmlkqjxgxjygzcepuwpgkxitj/CutifyAppPrototype_Prefix.pch -c /Users/danlipert/Documents/CutifyAppPrototype/Classes/CutifyAppPrototypeAppDelegate.m -o /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/CutifyAppPrototypeAppDelegate.o0#
 
+CCompileC build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/CutifyAppPrototypeAppDelegate.o /Users/danlipert/github/Cutify/CutifyAppPrototype/Classes/CutifyAppPrototypeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/CutifyStickerView.o /Users/danlipert/Documents/CutifyAppPrototype/Classes/CutifyStickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s331587717.085489
 e331587717.500976
@@ -440,6 +617,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/danlipert/Documents/CutifyAppPrototype/Classes/CutifyStickerView.m331587717#331587717#0(0"0(0#0#73"/Users/danlipert/Documents/CutifyAppPrototype/Classes/CutifyStickerView.m8613644896#2299"    cd /Users/danlipert/Documents/CutifyAppPrototype    setenv LANG en_US.US-ASCII    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-generated-files.hmap -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-own-target-headers.hmap -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-all-target-headers.hmap -iquote /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-project-headers.hmap -F/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator -I/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/include -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/DerivedSources/i386 -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppPrototype_Prefix-fmhmmlkqjxgxjygzcepuwpgkxitj/CutifyAppPrototype_Prefix.pch -c /Users/danlipert/Documents/CutifyAppPrototype/Classes/CutifyStickerView.m -o /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/CutifyStickerView.o0#
+
+CCompileC build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/CutifyStickerView.o /Users/danlipert/github/Cutify/CutifyAppPrototype/Classes/CutifyStickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/PuzzlePickerTableViewController.o /Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s331587717.474048
@@ -463,6 +643,9 @@ o/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewCont
 o/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m:149: warning: '...' as arguments.)
 lSLF07#2@95"Compile /Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m331587717#331587717#0(1641"/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m: In function '-[PuzzlePickerTableViewController tableView:cellForRowAtIndexPath:]':/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m:92: warning: 'setText:' is deprecated (declared at /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m:98: warning: 'setImage:' is deprecated (declared at /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m:94: warning: unused variable 'fileManager'/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m: In function '-[PuzzlePickerTableViewController tableView:didSelectRowAtIndexPath:]':/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m:149: warning: no '-puzzlePickerDidPickPuzzleWithFilename:' method found/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m:149: warning: (Messages without a matching method signature/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m:149: warning: will be assumed to return 'id' and accept/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m:149: warning: '...' as arguments.)5(22@192"'setText:' is deprecated (declared at /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)331587717#172#294#0(6@87"/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m330569402#92#0#92#0#33"'*' is deprecated (declared at *)0(22@193"'setImage:' is deprecated (declared at /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)331587717#466#295#0(6@87"/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m330569402#98#0#98#0#33"'*' is deprecated (declared at *)0(22@29"Unused variable 'fileManager'331587717#761#131#0(6@87"/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m330569402#94#0#94#0#19"unused variable '*'0(22@57"No '-puzzlePickerDidPickPuzzleWithFilename:' method found331587717#1066#160#0(6@87"/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m330569402#149#0#149#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)331587717#1226#148#0(6@87"/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m330569402#149#0#149#0#0"0(0#0#87"/Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m8825495407039833088#2327"    cd /Users/danlipert/Documents/CutifyAppPrototype    setenv LANG en_US.US-ASCII    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-generated-files.hmap -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-own-target-headers.hmap -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-all-target-headers.hmap -iquote /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-project-headers.hmap -F/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator -I/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/include -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/DerivedSources/i386 -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppPrototype_Prefix-fmhmmlkqjxgxjygzcepuwpgkxitj/CutifyAppPrototype_Prefix.pch -c /Users/danlipert/Documents/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m -o /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/PuzzlePickerTableViewController.o0#
 
+CCompileC build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/PuzzlePickerTableViewController.o /Users/danlipert/github/Cutify/CutifyAppPrototype/Classes/PuzzlePickerTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/main.o /Users/danlipert/Documents/CutifyAppPrototype/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s331587717.083187
 e331587717.473970
@@ -476,6 +659,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@60"Compile /Users/danlipert/Documents/CutifyAppPrototype/main.m331587717#331587717#0(0"0(0#0#52"/Users/danlipert/Documents/CutifyAppPrototype/main.m8615501280#2265"    cd /Users/danlipert/Documents/CutifyAppPrototype    setenv LANG en_US.US-ASCII    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-generated-files.hmap -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-own-target-headers.hmap -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-all-target-headers.hmap -iquote /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-project-headers.hmap -F/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator -I/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/include -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/DerivedSources/i386 -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppPrototype_Prefix-fmhmmlkqjxgxjygzcepuwpgkxitj/CutifyAppPrototype_Prefix.pch -c /Users/danlipert/Documents/CutifyAppPrototype/main.m -o /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/main.o0#
 
+CCompileC build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/main.o /Users/danlipert/github/Cutify/CutifyAppPrototype/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileXIB /Users/danlipert/Documents/CutifyAppPrototype/MainWindow.xib
 s330821910.646818
 e330821910.858252
@@ -483,6 +669,9 @@ r1
 xCompileXIB
 x/Users/danlipert/Documents/CutifyAppPrototype/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib330821910#330821910#0(0"0(0#0#60"/Users/danlipert/Documents/CutifyAppPrototype/MainWindow.xib8615776896#656"    cd /Users/danlipert/Documents/CutifyAppPrototype    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/MainWindow.nib /Users/danlipert/Documents/CutifyAppPrototype/MainWindow.xib --sdk /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/danlipert/github/Cutify/CutifyAppPrototype/MainWindow.xib
+r0
 
 CCpResource build/Debug-iphonesimulator/CutifyAppPrototype.app/Default@2x.png Default@2x.png
 s331587714.183186
@@ -622,6 +811,9 @@ x/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/Cutif
 x/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/CutifyAppPrototype
 lSLF07#2@142"GenerateDSYMFile build/Debug-iphonesimulator/CutifyAppPrototype.app.dSYM build/Debug-iphonesimulator/CutifyAppPrototype.app/CutifyAppPrototype331587976#331587976#0(0"0(0#0#115"/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/CutifyAppPrototype8614016000#493"    cd /Users/danlipert/Documents/CutifyAppPrototype    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/usr/bin/dsymutil /Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/CutifyAppPrototype -o /Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app.dSYM0#
 
+CGenerateDSYMFile /Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app.dSYM /Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/CutifyAppPrototype
+r0
+
 CLd /Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/CutifyAppPrototype normal i386
 s331587976.742299
 e331587976.761042
@@ -632,6 +824,9 @@ xnormal
 xi386
 lSLF07#2@120"Link /Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/CutifyAppPrototype331587976#331587976#0(0"0(0#0#0"8600208416#1066"    cd /Users/danlipert/Documents/CutifyAppPrototype    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator -F/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator -filelist /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/Objects-normal/i386/CutifyAppPrototype.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/CutifyAppPrototype0#
 
+CLd /Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/CutifyAppPrototype normal i386
+r0
+
 CProcessInfoPlistFile /Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/Info.plist CutifyAppPrototype-Info.plist
 s331587714.114157
 e331587714.169958
@@ -640,6 +835,9 @@ xProcessInfoPlistFile
 x/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/Info.plist
 xCutifyAppPrototype-Info.plist
 lSLF07#2@37"Process CutifyAppPrototype-Info.plist331587714#331587714#0(0"0(0#0#75"/Users/danlipert/Documents/CutifyAppPrototype/CutifyAppPrototype-Info.plist31525614006435940#591"    cd /Users/danlipert/Documents/CutifyAppPrototype    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility CutifyAppPrototype-Info.plist -genpkginfo /Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app/Info.plist CutifyAppPrototype-Info.plist
+r0
 
 CProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppPrototype_Prefix-evknqznfkpbitzeopnzpemrrsehg/CutifyAppPrototype_Prefix.pch.gch CutifyAppPrototype_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s330565686.345885
@@ -667,6 +865,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@40"Precompile CutifyAppPrototype_Prefix.pch331587714#331587717#0(0"0(0#0#75"/Users/danlipert/Documents/CutifyAppPrototype/CutifyAppPrototype_Prefix.pch8607645568#2139"    cd /Users/danlipert/Documents/CutifyAppPrototype    setenv LANG en_US.US-ASCII    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-generated-files.hmap -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-own-target-headers.hmap -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-all-target-headers.hmap -iquote /Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/CutifyAppPrototype-project-headers.hmap -F/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator -I/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/include -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/DerivedSources/i386 -I/Users/danlipert/Documents/CutifyAppPrototype/build/CutifyAppPrototype.build/Debug-iphonesimulator/CutifyAppPrototype.build/DerivedSources -c /Users/danlipert/Documents/CutifyAppPrototype/CutifyAppPrototype_Prefix.pch -o /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppPrototype_Prefix-fmhmmlkqjxgxjygzcepuwpgkxitj/CutifyAppPrototype_Prefix.pch.gch0#
 
+CProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppPrototype_Prefix-gyqfeypdwdkmegalrdcdagpwrmha/CutifyAppPrototype_Prefix.pch.gch CutifyAppPrototype_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CutifyAppPrototype_Prefix-hchlniuzbevgpjgscwptlwllwekt/CutifyAppPrototype_Prefix.pch.gch CutifyAppPrototype_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s330558493.988655
 e330558494.695211
@@ -687,4 +888,7 @@ r1
 xTouch
 x/Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app
 lSLF07#2@102"Touch /Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app331587976#331587976#0(0"0(0#0#0"8613715648#361"    cd /Users/danlipert/Documents/CutifyAppPrototype    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/danlipert/Documents/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app0#
+
+CTouch /Users/danlipert/github/Cutify/CutifyAppPrototype/build/Debug-iphonesimulator/CutifyAppPrototype.app
+r0
 
