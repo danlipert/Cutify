@@ -36,6 +36,11 @@
 	[super didReceiveMemoryWarning];
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+	[self.navigationController setNavigationBarHidden:YES animated:NO];
+}
+
 - (void)viewDidLoad 
 {
 	
@@ -82,6 +87,8 @@
 
 -(void)libraryButtonPressed:(id)sender
 {
+	[self.navigationController setNavigationBarHidden:NO animated:NO];
+
 	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
 	[self.navigationController pushViewController:photoGridViewController animated:YES];
 	[photoGridViewController release];
@@ -112,6 +119,8 @@
 
 -(void)photoCaptureSessionDidCaptureImage:(UIImage *)capturedImage
 {
+	[self.navigationController setNavigationBarHidden:NO animated:NO];
+
 	ApplyStickersViewController *applyStickersViewController = [[ApplyStickersViewController alloc] init];
 	applyStickersViewController.photoImage = [self cropImage:capturedImage withRect:CGRectMake(10,10,306,306)];
 	[self.navigationController pushViewController:applyStickersViewController animated:YES];

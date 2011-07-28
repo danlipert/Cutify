@@ -111,21 +111,46 @@
 //	UIGraphicsEndImageContext();  
 		
 	UIGraphicsBeginImageContext(self.photoImage.size);
+	NSLog(@"created ctx with size: %f, %f", self.photoImage.size.width, self.photoImage.size.height);
+	
 	CGContextRef ctx = UIGraphicsGetCurrentContext();
 	
 	[self.photoImage drawInRect:CGRectMake(0, 0, self.photoImage.size.width, self.photoImage.size.height)];  
 
+
 	for(CutifyStickerView *eachStickerView in self.stickersArray)
 	{
 		CGContextSaveGState(ctx);
-		CGContextTranslateCTM (ctx, eachStickerView.bounds.size.width/2, eachStickerView.bounds.size.height/2);
-		CGContextRotateCTM(ctx, [eachStickerView.rotationDegrees floatValue] * M_PI/180.0);
-		CGContextTranslateCTM (ctx, -eachStickerView.bounds.size.width/2, -eachStickerView.bounds.size.height/2);
+
+		eachStickerView.layer.anchorPoint = CGPointMake(0.5, 0.5);
 		
-		[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x, eachStickerView.frame.origin.y, eachStickerView.frame.size.width, eachStickerView.frame.size.height)];
+//		CGContextTranslateCTM (ctx, eachStickerView.center.x * 2.0, eachStickerView.center.y * 2.0);
+//////		CGContextRotateCTM(ctx, [eachStickerView.rotationDegrees floatValue] * M_PI/180.0);
+//				
+//		CGContextRotateCTM(ctx, M_PI/180.0*40.1);
+//		CGContextTranslateCTM (ctx, -eachStickerView.center.x * 2.0, -eachStickerView.center.y * 2.0);
+
+		
+		if([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2)
+		{
+			
+			CGContextTranslateCTM (ctx, eachStickerView.center.x * 2.0, eachStickerView.center.y * 2.0);			
+			CGContextRotateCTM(ctx, [eachStickerView.rotationDegrees floatValue] * M_PI/180.0);
+			CGContextTranslateCTM (ctx, -eachStickerView.center.x * 2.0, -eachStickerView.center.y * 2.0);
+			
+			//iPhone 4
+			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0, eachStickerView.frame.size.width * 2.0, eachStickerView.frame.size.height * 2.0)];
+		} else {
+			CGContextTranslateCTM (ctx, eachStickerView.center.x, eachStickerView.center.y);			
+			CGContextRotateCTM(ctx, [eachStickerView.rotationDegrees floatValue] * M_PI/180.0);
+			CGContextTranslateCTM (ctx, -eachStickerView.center.x, -eachStickerView.center.y);
+			
+			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x, eachStickerView.frame.origin.y, eachStickerView.frame.size.width, eachStickerView.frame.size.height)];
+		}
 		
 		CGContextRestoreGState(ctx);
 	}
+		
 	
 	UIImage *resultingImage = UIGraphicsGetImageFromCurrentImageContext();  
 	
