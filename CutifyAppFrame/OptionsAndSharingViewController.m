@@ -73,7 +73,6 @@
 	//save file in iphoto
 	UIImageWriteToSavedPhotosAlbum(self.image, nil,nil,nil);
 
-	
 	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
 	[self.navigationController pushViewController:photoGridViewController animated:YES];
 	[photoGridViewController release];

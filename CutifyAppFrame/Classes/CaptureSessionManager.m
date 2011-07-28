@@ -93,6 +93,7 @@
                                                          }
                                                          NSData *imageData = [AVCaptureStillImageOutput jpegStillImageNSDataRepresentation:imageSampleBuffer];    
                                                          UIImage *image = [[UIImage alloc] initWithData:imageData];
+														   NSLog(@"Captured image size: %f, %f", image.size.width, image.size.height);
                                                          [self setStillImage:image];
                                                          [image release];
 //                                                         [[NSNotificationCenter defaultCenter] postNotificationName:kImageCapturedSuccessfully object:nil];

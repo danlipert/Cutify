@@ -83,13 +83,32 @@
 	
 	UIButton *libraryButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	[libraryButton setFrame:CGRectMake(10,480-20-44,100,43)];
-	[libraryButton setTitle:@"Library" forState:UIControlStateNormal];
+	[libraryButton setTitle:@"View Photos" forState:UIControlStateNormal];
 	[libraryButton addTarget:self action:@selector(libraryButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:libraryButton];
+	
+	UIButton *iPhotoButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+	[iPhotoButton setFrame:CGRectMake(210,480-20-44,100,43)];
+	[iPhotoButton setTitle:@"Load Photo" forState:UIControlStateNormal];
+	[iPhotoButton addTarget:self action:@selector(iPhotoButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[self.view addSubview:iPhotoButton];
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(displayImagePreview) name:kImageCapturedSuccessfully object:nil];
 	[[captureManager captureSession] startRunning];
 }
+									  
+-(void)iPhotoButtonPressed:(id)sender
+{
+	UIImagePickerController * picker = [[UIImagePickerController alloc] init];
+	picker.delegate = self;
+	
+	picker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
+	picker.allowsImageEditing = YES;
+	
+	
+	[self presentModalViewController:picker animated:YES];
+	
+}	
 
 -(void)libraryButtonPressed:(id)sender
 {
@@ -99,6 +118,25 @@
 	[self.navigationController pushViewController:photoGridViewController animated:YES];
 	[photoGridViewController release];
 }
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo {
+    [picker dismissModalViewControllerAnimated:YES];
+	
+//    imageView.image = image;
+//    CGSize size = [imageView.image size];
+//    CGRect cropRect = CGRectMake(0.0, 0.0, size.width, size.height);
+//    NSLog(@"Original image size = (%f, %f)", size.width, size.height);
+//	
+//    NSValue *cropRectValue = [editingInfo objectForKey:@"UIImagePickerControllerCropRect"];
+//    cropRect = [cropRectValue CGRectValue];
+//    UIImageWriteToSavedPhotosAlbum(imageView.image, self, nil, nil);
+	
+	ApplyStickersViewController *applyStickersViewController = [[ApplyStickersViewController alloc] init];
+	applyStickersViewController.photoImage = image;
+	[self.navigationController setNavigationBarHidden:FALSE animated:NO];
+	[self.navigationController pushViewController:applyStickersViewController animated:YES];
+	[applyStickersViewController release];
+} 
 
 - (void)takePhoto 
 {
@@ -128,7 +166,7 @@
 	[self.navigationController setNavigationBarHidden:NO animated:NO];
 
 	ApplyStickersViewController *applyStickersViewController = [[ApplyStickersViewController alloc] init];
-	applyStickersViewController.photoImage = [self cropImage:capturedImage withRect:CGRectMake(8,63,306,306)];
+	applyStickersViewController.photoImage = [self cropImage:capturedImage withRect:CGRectMake(6,120,306,306)];
 	[self.navigationController pushViewController:applyStickersViewController animated:YES];
 	[applyStickersViewController release];
 }
@@ -136,27 +174,34 @@
 // get sub image http://stackoverflow.com/questions/2635371/how-to-crop-the-uiimage
 - (UIImage*)cropImage: (UIImage*)img withRect:(CGRect)rect 
 {
+	//actually first we are going to resize the image
+	
 	if([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2)
 	{
 		//iPhone 4
 		rect = CGRectMake(rect.origin.x * 2.0, rect.origin.y * 2.0, rect.size.width*2.0, rect.size.height*2.0);
 	}
 	   
-	
     UIGraphicsBeginImageContext(rect.size);
     CGContextRef context = UIGraphicsGetCurrentContext();
 	
     // translated rectangle for drawing sub image 
-    CGRect drawRect = CGRectMake(-rect.origin.x, -rect.origin.y, img.size.width, img.size.height);
+	CGRect drawRect;
+	if([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2)
+	{
+//		drawRect = CGRectMake(-rect.origin.x, -rect.origin.y, img.size.width, img.size.height);
+		drawRect = CGRectMake(-rect.origin.x, -rect.origin.y, 612, 1088);
+	} else {
+		drawRect = CGRectMake(-rect.origin.x, -rect.origin.y, img.size.width, img.size.height);
+	}	
 	
     // clip to the bounds of the image context
     // not strictly necessary as it will get clipped anyway?
 //    CGContextClipToRect(context, CGRectMake(0, 0, rect.size.width, rect.size.height));
 	
     // draw image
-//    [img drawInRect:drawRect];
-	[img drawAtPoint:CGPointMake(-rect.origin.x, -rect.origin.y)];
-	
+	[img drawInRect:drawRect];
+	//	[img drawAtPoint:CGPointMake(-rect.origin.x, -rect.origin.y)];
 	
     // grab image
     UIImage* subImage = UIGraphicsGetImageFromCurrentImageContext();
@@ -166,6 +211,38 @@
     return subImage;
 }
 
+//- (UIImage*)imageByCropping:(UIImage *)imageToCrop toRect:(CGRect)rect
+//{
+//	//create a context to do our clipping in
+//	UIGraphicsBeginImageContext(rect.size);
+//	CGContextRef currentContext = UIGraphicsGetCurrentContext();
+//	
+//	//create a rect with the size we want to crop the image to
+//	//the X and Y here are zero so we start at the beginning of our
+//	//newly created context
+//	CGRect clippedRect = CGRectMake(0, 0, rect.size.width, rect.size.height);
+//	CGContextClipToRect( currentContext, clippedRect);
+//	
+//	//create a rect equivalent to the full size of the image
+//	//offset the rect by the X and Y we want to start the crop
+//	//from in order to cut off anything before them
+//	CGRect drawRect = CGRectMake(rect.origin.x * -1,
+//								 rect.origin.y * -1,
+//								 imageToCrop.size.width,
+//								 imageToCrop.size.height);
+//	
+//	//draw the image to our clipped context using our offset rect
+//	CGContextDrawImage(currentContext, drawRect, imageToCrop.CGImage);
+//	
+//	//pull the image from our cropped context
+//	UIImage *cropped = UIGraphicsGetImageFromCurrentImageContext();
+//	
+//	//pop the context to get back to the default
+//	UIGraphicsEndImageContext();
+//	
+//	//Note: this is autoreleased
+//	return cropped;
+//}
 
 - (void)toggleCamera
 {
