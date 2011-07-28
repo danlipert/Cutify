@@ -8,6 +8,7 @@
 
 #import "PhotoCaptureViewController.h"
 #import "ApplyStickersViewController.h"
+#import "PhotoGridViewController.h"
 
 @interface PhotoCaptureViewController()
 
@@ -69,8 +70,21 @@
 	[takePhotoButton addTarget:self action:@selector(takePhoto) forControlEvents:UIControlEventTouchUpInside];
 	[[self view] addSubview:takePhotoButton];
 	
+	UIButton *libraryButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+	[libraryButton setFrame:CGRectMake(0,0,100,44)];
+	[libraryButton setTitle:@"Library" forState:UIControlStateNormal];
+	[libraryButton addTarget:self action:@selector(libraryButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[self.view addSubview:libraryButton];
+	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(displayImagePreview) name:kImageCapturedSuccessfully object:nil];
 	[[captureManager captureSession] startRunning];
+}
+
+-(void)libraryButtonPressed:(id)sender
+{
+	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
+	[self.navigationController pushViewController:photoGridViewController animated:YES];
+	[photoGridViewController release];
 }
 
 - (void)takePhoto 

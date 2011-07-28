@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CutifyStickerView.h"
 
 @interface ApplyStickersViewController : UIViewController 
 {
@@ -16,5 +16,7 @@
 
 @property (nonatomic, retain) UIImageView *photoImageView;
 @property (nonatomic, retain) UIImage *photoImage;
+@property (nonatomic, retain) CutifyStickerView *stickerForReset;
+@property (nonatomic, retain) NSMutableArray *stickersArray;
 
 @end

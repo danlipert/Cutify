@@ -1,0 +1,778 @@
+TTMOATreeSample
+v7
+r0
+t333399378.994489
+cCheck dependencies
+cCpResource build/Debug-iphoneos/TMOATreeSample.app/ResourceRules.plist /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/Info.plist TMOATreeSample-Info.plist
+cCompileXIB /Users/danlipert/github/Cutify/TMOATreeSample/MainWindow.xib
+cCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/462MS.png 462MS.png
+cCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/082MS.png 082MS.png
+cCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/081MS.png 081MS.png
+cCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/133MS.png 133MS.png
+cCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/134MS.png 134MS.png
+cCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/135MS.png 135MS.png
+cCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/136MS.png 136MS.png
+cCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/196MS.png 196MS.png
+cCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/BackButton@2x.png BackButton@2x.png
+cProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-fxsruztplitifvhgsegvwktdqdsf/TMOATreeSample_Prefix.pch.gch TMOATreeSample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-ecrtnldtmwwwntgliyryqucdbllq/TMOATreeSample_Prefix.pch.gch TMOATreeSample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/main.o /Users/danlipert/github/Cutify/TMOATreeSample/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSampleAppDelegate.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATree.o /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOANode.o /Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/PokemonTableViewController.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/PokemonDetailViewController.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/main.o /Users/danlipert/github/Cutify/TMOATreeSample/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSampleAppDelegate.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATree.o /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOANode.o /Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/PokemonTableViewController.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSample normal armv6
+cCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/PokemonDetailViewController.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSample normal armv7
+cCreateUniversalBinary /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/TMOATreeSample normal "armv6 armv7"
+cGenerateDSYMFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app.dSYM /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/TMOATreeSample
+cProcessProductPackaging "/Users/danlipert/Library/MobileDevice/Provisioning Profiles/AC8582F1-CE35-4C7C-9B11-14E43754FB58.mobileprovision" /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/embedded.mobileprovision
+cTouch /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app
+cProcessProductPackaging /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample.xcent
+cCodeSign /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app
+
+N/Users/danlipert/Library/MobileDevice/Provisioning Profiles/AC8582F1-CE35-4C7C-9B11-14E43754FB58.mobileprovision
+c000000004DF2F2800000000000001C69
+t1307767424
+s7273
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/081MS.png
+c000000004E2F076A00000000000000E0
+t1311704938
+s224
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/082MS.png
+c000000004E2F076D0000000000000133
+t1311704941
+s307
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/133MS.png
+c000000004E2F07BB00000000000000E7
+t1311705019
+s231
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/134MS.png
+c000000004E2F07BD0000000000000107
+t1311705021
+s263
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/135MS.png
+c000000004E2F07BE00000000000000EE
+t1311705022
+s238
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/136MS.png
+c000000004E2F07C100000000000000F7
+t1311705025
+s247
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/196MS.png
+c000000004E2F07C60000000000000105
+t1311705030
+s261
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/462MS.png
+c000000004E2F076F0000000000000142
+t1311704943
+s322
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/BackButton@2x.png
+c000000004E1BCC7C0000000000000F49
+t1310444668
+s3913
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.h
+c000000004E2F0B4D0000000000000160
+t1311705933
+s352
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.m
+c000000004E2F0DAD00000000000004F4
+t1311706541
+s1268
+i"PokemonDetailViewController.h"
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.h
+c000000004E2F06CA0000000000000194
+t1311704778
+s404
+i<UIKit/UIKit.h>
+i"TMOANode.h"
+i"TMOATree.h"
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m
+c000000004E2F0D410000000000001AAC
+t1311706433
+s6828
+i"PokemonTableViewController.h"
+i"PokemonDetailViewController.h"
+i"TMOANode.h"
+i"TMOATree.h"
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.h
+c000000004E2F0561000000000000015E
+t1311704417
+s350
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m
+c000000004E2F0A970000000000001415
+t1311705751
+s5141
+i"TMOATreeSampleAppDelegate.h"
+i"TMOANode.h"
+i"TMOATree.h"
+i"PokemonTableViewController.h"
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/MainWindow.xib
+c000000004E2F0561000000000000212B
+t1311704417
+s8491
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.h
+c000000004E2F0A130000000000000198
+t1311705619
+s408
+i<Foundation/Foundation.h>
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m
+c000000004E2F0A290000000000000225
+t1311705641
+s549
+i"TMOANode.h"
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.h
+c000000004E2F08D2000000000000032E
+t1311705298
+s814
+i<Foundation/Foundation.h>
+i"TMOANode.h"
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m
+c000000004E2F056100000000000006F8
+t1311704417
+s1784
+i"TMOATree.h"
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/TMOATreeSample_Prefix.pch
+c000000004E2F056100000000000000C5
+t1311704417
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app
+t1311706578
+s646
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app.dSYM
+t1311706578
+s102
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/081MS.png
+t1311706574
+s224
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/082MS.png
+t1311706574
+s307
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/133MS.png
+t1311706574
+s231
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/134MS.png
+t1311706574
+s263
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/135MS.png
+t1311706574
+s238
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/136MS.png
+t1311706574
+s247
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/196MS.png
+t1311706574
+s261
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/462MS.png
+t1311706574
+s322
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/BackButton@2x.png
+t1311706574
+s4240
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/Info.plist
+t1311706573
+s867
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/MainWindow.nib
+t1311706574
+s1538
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/PkgInfo
+t1311706574
+s8
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/ResourceRules.plist
+t1311706574
+s485
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/TMOATreeSample
+t1311706578
+s93600
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/embedded.mobileprovision
+t1311706578
+s7273
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/PokemonDetailViewController.o
+t1311706576
+s42604
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/PokemonTableViewController.o
+t1311706576
+s58888
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOANode.o
+t1311706576
+s11468
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATree.o
+t1311706576
+s13200
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSample
+t1311706578
+s38204
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSample.LinkFileList
+c000000004E2F0DCD0000000000000380
+t1311706573
+s896
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSampleAppDelegate.o
+t1311706576
+s56732
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/main.o
+t1311706576
+s6512
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/PokemonDetailViewController.o
+t1311706576
+s42440
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/PokemonTableViewController.o
+t1311706576
+s58532
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOANode.o
+t1311706576
+s11384
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATree.o
+t1311706576
+s13036
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSample
+t1311706578
+s38428
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSample.LinkFileList
+c000000004E2F0DCD0000000000000380
+t1311706573
+s896
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSampleAppDelegate.o
+t1311706576
+s56656
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/main.o
+t1311706576
+s6496
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample.xcent
+t1311706578
+s434
+
+N/Users/danlipert/github/Cutify/TMOATreeSample/main.m
+c000000004E2F05610000000000000172
+t1311704417
+s370
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-ecrtnldtmwwwntgliyryqucdbllq/TMOATreeSample_Prefix.pch.gch
+t1311706576
+s10651548
+
+N/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-fxsruztplitifvhgsegvwktdqdsf/TMOATreeSample_Prefix.pch.gch
+t1311706576
+s10180508
+
+NTMOATreeSample-Info.plist
+c000000004E2F0561000000000000038D
+t1311704417
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333399373#333399373#0(0"0(0#1#0"8604058176#0"0#
+
+CCodeSign /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app
+s333399378.304507
+e333399378.994431
+r1
+xCodeSign
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app
+lSLF07#2@48"CodeSign build/Debug-iphoneos/TMOATreeSample.app333399378#333399378#0(0"0(0#0#85"/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app8638504512#813"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Daniel Lipert (PJLYP95NQ4)" --resource-rules=/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/ResourceRules.plist --entitlements /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample.xcent /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/PokemonDetailViewController.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s333399376.669351
+e333399376.765147
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/PokemonDetailViewController.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.m333399376#333399376#0(0"0(0#0#83"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.m8631205344#2109"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv6 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-fxsruztplitifvhgsegvwktdqdsf/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/PokemonDetailViewController.o0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/PokemonTableViewController.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s333399376.667655
+e333399376.795201
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/PokemonTableViewController.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m: In function '-[PokemonTableViewController tableView:cellForRowAtIndexPath:]':
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m:157: warning: 'setText:' is deprecated (declared at /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m:158: warning: 'setImage:' is deprecated (declared at /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+lSLF07#2@90"Compile /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m333399376#333399376#0(745"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m: In function '-[PokemonTableViewController tableView:cellForRowAtIndexPath:]':/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m:157: warning: 'setText:' is deprecated (declared at /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m:158: warning: 'setImage:' is deprecated (declared at /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)2(22@193"'setText:' is deprecated (declared at /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)333399376#162#291#0(6@82"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m333399233#157#0#157#0#33"'*' is deprecated (declared at *)0(22@194"'setImage:' is deprecated (declared at /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)333399376#453#292#0(6@82"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m333399233#158#0#158#0#33"'*' is deprecated (declared at *)0(0#0#82"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m8628268192#2107"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv6 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-fxsruztplitifvhgsegvwktdqdsf/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/PokemonTableViewController.o0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOANode.o /Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s333399376.413669
+e333399376.676159
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOANode.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m333399376#333399376#0(0"0(0#0#56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m8615747840#2063"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv6 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-fxsruztplitifvhgsegvwktdqdsf/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOANode.o0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATree.o /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s333399376.412488
+e333399376.667563
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATree.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m: In function '-[TMOATree initWithRootNode:]':
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:20: warning: local declaration of 'rootNode' hides instance variable
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:22: warning: local declaration of 'rootNode' hides instance variable
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m: At top level:
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: incomplete implementation of class 'TMOATree'
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isExternal' not found
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isRoot' not found
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isInternal' not found
+lSLF07#2@64"Compile /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333399376#333399376#0(887"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m: In function '-[TMOATree initWithRootNode:]':/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:20: warning: local declaration of 'rootNode' hides instance variable/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:22: warning: local declaration of 'rootNode' hides instance variable/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m: At top level:/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: incomplete implementation of class 'TMOATree'/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isExternal' not found/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isRoot' not found/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isInternal' not found7(22@55"Local declaration of 'rootNode' hides instance variable333399376#103#126#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#20#0#20#0#0"0(22@55"Local declaration of 'rootNode' hides instance variable333399376#229#126#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#22#0#22#0#0"0(23@13"At top level:333399376#355#72#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#0#0#0#0#0"0(22@45"Incomplete implementation of class 'TMOATree'333399376#427#116#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#92#0#92#0#38"incomplete implementation of class '*'0(22@45"Method definition for '-isExternal' not found333399376#543#116#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#92#0#92#0#35"method definition for '*' not found0(22@41"Method definition for '-isRoot' not found333399376#659#112#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#92#0#92#0#35"method definition for '*' not found0(22@45"Method definition for '-isInternal' not found333399376#771#116#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#92#0#92#0#35"method definition for '*' not found0(0#0#56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m8614778240#2063"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv6 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-fxsruztplitifvhgsegvwktdqdsf/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATree.o0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSampleAppDelegate.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s333399376.410899
+e333399376.695598
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSampleAppDelegate.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate traverseTree:]':
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: 'TMOATreeSampleAppDelegate' may not respond to '-spiderNode:'
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: (Messages without a matching method signature
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: will be assumed to return 'id' and accept
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: '...' as arguments.)
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate spiderNode:]':
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:89: warning: 'TMOATreeSampleAppDelegate' may not respond to '-visitNode:'
+lSLF07#2@89"Compile /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333399376#333399376#0(987"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate traverseTree:]':/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: 'TMOATreeSampleAppDelegate' may not respond to '-spiderNode:'/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: (Messages without a matching method signature/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: will be assumed to return 'id' and accept/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: '...' as arguments.)/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate spiderNode:]':/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:89: warning: 'TMOATreeSampleAppDelegate' may not respond to '-visitNode:'3(22@61"'TMOATreeSampleAppDelegate' may not respond to '-spiderNode:'333399376#141#157#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333398551#82#0#82#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)333399376#298#141#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333398551#82#0#82#0#0"0(22@60"'TMOATreeSampleAppDelegate' may not respond to '-visitNode:'333399376#831#156#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333398551#89#0#89#0#26"'*' may not respond to '*'0(0#0#81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m8619954464#2105"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv6 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-fxsruztplitifvhgsegvwktdqdsf/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSampleAppDelegate.o0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/main.o /Users/danlipert/github/Cutify/TMOATreeSample/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s333399376.409906
+e333399376.667360
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/main.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/danlipert/github/Cutify/TMOATreeSample/main.m333399376#333399376#0(0"0(0#0#52"/Users/danlipert/github/Cutify/TMOATreeSample/main.m8628698304#2055"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv6 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-fxsruztplitifvhgsegvwktdqdsf/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/main.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/PokemonDetailViewController.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s333399376.819646
+e333399376.876047
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/PokemonDetailViewController.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.m333399376#333399376#0(0"0(0#0#83"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.m8614632128#2109"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv7 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-ecrtnldtmwwwntgliyryqucdbllq/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonDetailViewController.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/PokemonDetailViewController.o0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/PokemonTableViewController.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s333399376.786719
+e333399376.884107
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/PokemonTableViewController.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m: In function '-[PokemonTableViewController tableView:cellForRowAtIndexPath:]':
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m:157: warning: 'setText:' is deprecated (declared at /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m:158: warning: 'setImage:' is deprecated (declared at /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+lSLF07#2@90"Compile /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m333399376#333399376#0(745"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m: In function '-[PokemonTableViewController tableView:cellForRowAtIndexPath:]':/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m:157: warning: 'setText:' is deprecated (declared at /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m:158: warning: 'setImage:' is deprecated (declared at /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)2(22@193"'setText:' is deprecated (declared at /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)333399376#162#291#0(6@82"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m333399233#157#0#157#0#33"'*' is deprecated (declared at *)0(22@194"'setImage:' is deprecated (declared at /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)333399376#453#292#0(6@82"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m333399233#158#0#158#0#33"'*' is deprecated (declared at *)0(0#0#82"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m8634982464#2107"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv7 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-ecrtnldtmwwwntgliyryqucdbllq/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/Classes/PokemonTableViewController.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/PokemonTableViewController.o0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOANode.o /Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s333399376.765994
+e333399376.819356
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOANode.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m333399376#333399376#0(0"0(0#0#56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m8649902368#2063"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv7 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-ecrtnldtmwwwntgliyryqucdbllq/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/TMOANode.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOANode.o0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATree.o /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s333399376.758029
+e333399376.819544
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATree.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m: In function '-[TMOATree initWithRootNode:]':
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:20: warning: local declaration of 'rootNode' hides instance variable
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:22: warning: local declaration of 'rootNode' hides instance variable
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m: At top level:
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: incomplete implementation of class 'TMOATree'
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isExternal' not found
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isRoot' not found
+o/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isInternal' not found
+lSLF07#2@64"Compile /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333399376#333399376#0(887"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m: In function '-[TMOATree initWithRootNode:]':/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:20: warning: local declaration of 'rootNode' hides instance variable/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:22: warning: local declaration of 'rootNode' hides instance variable/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m: At top level:/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: incomplete implementation of class 'TMOATree'/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isExternal' not found/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isRoot' not found/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m:92: warning: method definition for '-isInternal' not found7(22@55"Local declaration of 'rootNode' hides instance variable333399376#103#126#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#20#0#20#0#0"0(22@55"Local declaration of 'rootNode' hides instance variable333399376#229#126#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#22#0#22#0#0"0(23@13"At top level:333399376#355#72#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#0#0#0#0#0"0(22@45"Incomplete implementation of class 'TMOATree'333399376#427#116#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#92#0#92#0#38"incomplete implementation of class '*'0(22@45"Method definition for '-isExternal' not found333399376#543#116#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#92#0#92#0#35"method definition for '*' not found0(22@41"Method definition for '-isRoot' not found333399376#659#112#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#92#0#92#0#35"method definition for '*' not found0(22@45"Method definition for '-isInternal' not found333399376#771#116#0(6@56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m333397217#92#0#92#0#35"method definition for '*' not found0(0#0#56"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m8651764672#2063"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv7 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-ecrtnldtmwwwntgliyryqucdbllq/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/TMOATree.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATree.o0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSampleAppDelegate.o /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s333399376.695713
+e333399376.783909
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSampleAppDelegate.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate traverseTree:]':
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: 'TMOATreeSampleAppDelegate' may not respond to '-spiderNode:'
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: (Messages without a matching method signature
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: will be assumed to return 'id' and accept
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: '...' as arguments.)
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate spiderNode:]':
+o/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:89: warning: 'TMOATreeSampleAppDelegate' may not respond to '-visitNode:'
+lSLF07#2@89"Compile /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333399376#333399376#0(987"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate traverseTree:]':/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: 'TMOATreeSampleAppDelegate' may not respond to '-spiderNode:'/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: (Messages without a matching method signature/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: will be assumed to return 'id' and accept/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:82: warning: '...' as arguments.)/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m: In function '-[TMOATreeSampleAppDelegate spiderNode:]':/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m:89: warning: 'TMOATreeSampleAppDelegate' may not respond to '-visitNode:'3(22@61"'TMOATreeSampleAppDelegate' may not respond to '-spiderNode:'333399376#141#157#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333398551#82#0#82#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)333399376#298#141#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333398551#82#0#82#0#0"0(22@60"'TMOATreeSampleAppDelegate' may not respond to '-visitNode:'333399376#831#156#0(6@81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m333398551#89#0#89#0#26"'*' may not respond to '*'0(0#0#81"/Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m8635131904#2105"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv7 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-ecrtnldtmwwwntgliyryqucdbllq/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/Classes/TMOATreeSampleAppDelegate.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSampleAppDelegate.o0#
+
+CCompileC build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/main.o /Users/danlipert/github/Cutify/TMOATreeSample/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s333399376.676268
+e333399376.743155
+r1
+xCompileC
+xbuild/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/main.o
+x/Users/danlipert/github/Cutify/TMOATreeSample/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/danlipert/github/Cutify/TMOATreeSample/main.m333399376#333399376#0(0"0(0#0#52"/Users/danlipert/github/Cutify/TMOATreeSample/main.m8648539552#2055"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv7 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-ecrtnldtmwwwntgliyryqucdbllq/TMOATreeSample_Prefix.pch -c /Users/danlipert/github/Cutify/TMOATreeSample/main.m -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/danlipert/github/Cutify/TMOATreeSample/MainWindow.xib
+s333399374.040294
+e333399374.351809
+r1
+xCompileXIB
+x/Users/danlipert/github/Cutify/TMOATreeSample/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib333399374#333399374#0(0"0(0#0#60"/Users/danlipert/github/Cutify/TMOATreeSample/MainWindow.xib8643515424#684"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/MainWindow.nib /Users/danlipert/github/Cutify/TMOATreeSample/MainWindow.xib --sdk /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/081MS.png 081MS.png
+s333399374.041885
+e333399374.119186
+r1
+xCopyPNGFile
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/081MS.png
+x081MS.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/TMOATreeSample.app/081MS.png 081MS.png333399374#333399374#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#55"/Users/danlipert/github/Cutify/TMOATreeSample/081MS.png8641629888#587"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/danlipert/github/Cutify/TMOATreeSample/081MS.png /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/081MS.png0#
+
+CCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/082MS.png 082MS.png
+s333399374.041250
+e333399374.121021
+r1
+xCopyPNGFile
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/082MS.png
+x082MS.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/TMOATreeSample.app/082MS.png 082MS.png333399374#333399374#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#55"/Users/danlipert/github/Cutify/TMOATreeSample/082MS.png8642014688#587"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/danlipert/github/Cutify/TMOATreeSample/082MS.png /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/082MS.png0#
+
+CCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/133MS.png 133MS.png
+s333399374.119282
+e333399374.145925
+r1
+xCopyPNGFile
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/133MS.png
+x133MS.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/TMOATreeSample.app/133MS.png 133MS.png333399374#333399374#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#55"/Users/danlipert/github/Cutify/TMOATreeSample/133MS.png8641185568#587"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/danlipert/github/Cutify/TMOATreeSample/133MS.png /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/133MS.png0#
+
+CCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/134MS.png 134MS.png
+s333399374.121118
+e333399374.144920
+r1
+xCopyPNGFile
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/134MS.png
+x134MS.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/TMOATreeSample.app/134MS.png 134MS.png333399374#333399374#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#55"/Users/danlipert/github/Cutify/TMOATreeSample/134MS.png8641049888#587"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/danlipert/github/Cutify/TMOATreeSample/134MS.png /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/134MS.png0#
+
+CCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/135MS.png 135MS.png
+s333399374.122394
+e333399374.145797
+r1
+xCopyPNGFile
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/135MS.png
+x135MS.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/TMOATreeSample.app/135MS.png 135MS.png333399374#333399374#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#55"/Users/danlipert/github/Cutify/TMOATreeSample/135MS.png8640792832#587"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/danlipert/github/Cutify/TMOATreeSample/135MS.png /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/135MS.png0#
+
+CCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/136MS.png 136MS.png
+s333399374.145135
+e333399374.162409
+r1
+xCopyPNGFile
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/136MS.png
+x136MS.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/TMOATreeSample.app/136MS.png 136MS.png333399374#333399374#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#55"/Users/danlipert/github/Cutify/TMOATreeSample/136MS.png8645065056#587"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/danlipert/github/Cutify/TMOATreeSample/136MS.png /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/136MS.png0#
+
+CCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/196MS.png 196MS.png
+s333399374.146003
+e333399374.162193
+r1
+xCopyPNGFile
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/196MS.png
+x196MS.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/TMOATreeSample.app/196MS.png 196MS.png333399374#333399374#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#55"/Users/danlipert/github/Cutify/TMOATreeSample/196MS.png8644738368#587"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/danlipert/github/Cutify/TMOATreeSample/196MS.png /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/196MS.png0#
+
+CCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/462MS.png 462MS.png
+s333399374.040795
+e333399374.122302
+r1
+xCopyPNGFile
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/462MS.png
+x462MS.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/TMOATreeSample.app/462MS.png 462MS.png333399374#333399374#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#55"/Users/danlipert/github/Cutify/TMOATreeSample/462MS.png8642145920#587"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/danlipert/github/Cutify/TMOATreeSample/462MS.png /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/462MS.png0#
+
+CCopyPNGFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/BackButton@2x.png BackButton@2x.png
+s333399374.146600
+e333399374.173641
+r1
+xCopyPNGFile
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/BackButton@2x.png
+xBackButton@2x.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/TMOATreeSample.app/BackButton@2x.png BackButton@2x.png333399374#333399374#0(0"0(0#0#63"/Users/danlipert/github/Cutify/TMOATreeSample/BackButton@2x.png8644322688#603"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/danlipert/github/Cutify/TMOATreeSample/BackButton@2x.png /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/BackButton@2x.png0#
+
+CCpResource build/Debug-iphoneos/TMOATreeSample.app/ResourceRules.plist /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s333399373.987944
+e333399374.037877
+r1
+xCpResource
+xbuild/Debug-iphoneos/TMOATreeSample.app/ResourceRules.plist
+x/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@107"Copy /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist333399373#333399374#0(0"0(0#0#102"/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8645102464#629"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app0#
+
+CCreateUniversalBinary /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/TMOATreeSample normal "armv6 armv7"
+s333399378.189514
+e333399378.224168
+r1
+xCreateUniversalBinary
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/TMOATreeSample
+xnormal
+xarmv6 armv7
+lSLF07#2@97"CreateUniversalBinary build/Debug-iphoneos/TMOATreeSample.app/TMOATreeSample normal "armv6 armv7"333399378#333399378#0(0"0(0#0#57"/Users/danlipert/github/Cutify/TMOATreeSample/armv6 armv78630980992#690"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/lipo -create /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSample /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSample -output /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/TMOATreeSample0#
+
+CGenerateDSYMFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app.dSYM /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/TMOATreeSample
+s333399378.224263
+e333399378.256989
+r1
+xGenerateDSYMFile
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app.dSYM
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/TMOATreeSample
+lSLF07#2@116"GenerateDSYMFile build/Debug-iphoneos/TMOATreeSample.app.dSYM build/Debug-iphoneos/TMOATreeSample.app/TMOATreeSample333399378#333399378#0(0"0(0#0#100"/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/TMOATreeSample8617069216#505"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/dsymutil /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/TMOATreeSample -o /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app.dSYM0#
+
+CLd /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSample normal armv6
+s333399376.795804
+e333399378.188651
+r1
+xLd
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSample
+xnormal
+xarmv6
+lSLF07#2@149"Link /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSample333399376#333399378#0(0"0(0#0#0"8634225728#1050"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -filelist /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSample.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv6/TMOATreeSample0#
+
+CLd /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSample normal armv7
+s333399376.884210
+e333399378.189432
+r1
+xLd
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSample
+xnormal
+xarmv7
+lSLF07#2@149"Link /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSample333399376#333399378#0(0"0(0#0#0"8644182688#1050"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -filelist /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSample.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/Objects-normal/armv7/TMOATreeSample0#
+
+CProcessInfoPlistFile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/Info.plist TMOATreeSample-Info.plist
+s333399373.988539
+e333399374.040240
+r1
+xProcessInfoPlistFile
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/Info.plist
+xTMOATreeSample-Info.plist
+lSLF07#2@33"Process TMOATreeSample-Info.plist333399373#333399374#0(0"0(0#0#71"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATreeSample-Info.plist8644739168#706"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility TMOATreeSample-Info.plist -genpkginfo /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/ResourceRules.plist -o /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/Info.plist0#
+
+CProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-ecrtnldtmwwwntgliyryqucdbllq/TMOATreeSample_Prefix.pch.gch TMOATreeSample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s333399374.352596
+e333399376.348431
+r1
+xProcessPCH
+x/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-ecrtnldtmwwwntgliyryqucdbllq/TMOATreeSample_Prefix.pch.gch
+xTMOATreeSample_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile TMOATreeSample_Prefix.pch333399374#333399376#0(0"0(0#0#71"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATreeSample_Prefix.pch8641410432#1939"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv7 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -c /Users/danlipert/github/Cutify/TMOATreeSample/TMOATreeSample_Prefix.pch -o /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-ecrtnldtmwwwntgliyryqucdbllq/TMOATreeSample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-fxsruztplitifvhgsegvwktdqdsf/TMOATreeSample_Prefix.pch.gch TMOATreeSample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s333399374.351902
+e333399376.409762
+r1
+xProcessPCH
+x/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-fxsruztplitifvhgsegvwktdqdsf/TMOATreeSample_Prefix.pch.gch
+xTMOATreeSample_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile TMOATreeSample_Prefix.pch333399374#333399376#0(0"0(0#0#71"/Users/danlipert/github/Cutify/TMOATreeSample/TMOATreeSample_Prefix.pch8641579744#1939"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-generated-files.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-own-target-headers.hmap -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample-project-headers.hmap -F/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos -I/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/include -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources/armv6 -I/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/DerivedSources -c /Users/danlipert/github/Cutify/TMOATreeSample/TMOATreeSample_Prefix.pch -o /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TMOATreeSample_Prefix-fxsruztplitifvhgsegvwktdqdsf/TMOATreeSample_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/danlipert/Library/MobileDevice/Provisioning Profiles/AC8582F1-CE35-4C7C-9B11-14E43754FB58.mobileprovision" /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/embedded.mobileprovision
+s333399378.257095
+e333399378.258353
+r1
+xProcessProductPackaging
+x/Users/danlipert/Library/MobileDevice/Provisioning Profiles/AC8582F1-CE35-4C7C-9B11-14E43754FB58.mobileprovision
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/danlipert/Library/MobileDevice/Provisioning Profiles/AC8582F1-CE35-4C7C-9B11-14E43754FB58.mobileprovision" build/Debug-iphoneos/TMOATreeSample.app/embedded.mobileprovision333399378#333399378#0(0"0(0#0#110"/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/embedded.mobileprovision8631269504#536"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/danlipert/Library/MobileDevice/Provisioning Profiles/AC8582F1-CE35-4C7C-9B11-14E43754FB58.mobileprovision" -o /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample.xcent
+s333399378.261236
+e333399378.304425
+r1
+xProcessProductPackaging
+x/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample.xcent
+lSLF07#2@209"ProcessProductPackaging /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample.xcent333399378#333399378#0(0"0(0#0#129"/Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample.xcent8628682720#568"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/danlipert/github/Cutify/TMOATreeSample/build/TMOATreeSample.build/Debug-iphoneos/TMOATreeSample.build/TMOATreeSample.xcent0#
+
+CTouch /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app
+s333399378.258419
+e333399378.261139
+r1
+xTouch
+x/Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app
+lSLF07#2@91"Touch /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app333399378#333399378#0(0"0(0#0#0"8633754784#373"    cd /Users/danlipert/github/Cutify/TMOATreeSample    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/danlipert/github/Cutify/TMOATreeSample/build/Debug-iphoneos/TMOATreeSample.app0#
+

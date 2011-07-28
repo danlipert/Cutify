@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TMOANode.h"
+#import "TMOATree.h"
 
 @interface CutifyStickerPicker : UIView 
 {
@@ -15,9 +16,20 @@
 }
 
 @property (nonatomic, retain) UIScrollView *s;
-@property (nonatomic, retain) NSArray *plistArray;
+
+
+//new tree based code
+
+@property (nonatomic, retain) TMOATree *tree;
+@property (nonatomic, retain) TMOANode *currentNode;
+@property (nonatomic, retain) NSMutableArray *currentArray;
 
 -(void)loadStickers:(NSArray *)stickerArray;
 -(void)loadStickersFromPlist:(NSString *)plistName;
+
+//tree code
+-(TMOATree *)createTreeFromPlistNamed:(NSString *)plistName;
+-(void)loadStickersFromCurrentNode;
+-(void)loadTreeFromPlistNamed:(NSString *)plistName;
 
 @end

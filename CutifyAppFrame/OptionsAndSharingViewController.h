@@ -13,5 +13,6 @@
 
 }
 
+@property (nonatomic, retain) UIImage *image;
 
 @end

@@ -13,4 +13,7 @@
 
 }
 
+@property (nonatomic, retain) UIImage *image;
+@property (nonatomic, retain) NSString *fileName;
+
 @end

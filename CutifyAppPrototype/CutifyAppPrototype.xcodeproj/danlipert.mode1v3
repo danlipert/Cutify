@@ -299,7 +299,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>-3 59 1280 719 0 0 1280 778 </string>
+						<string>-27 59 1280 719 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B67CE8AA13C3C474004038BD</string>
+										<string>B61C5B1713E0C5E100122BB5</string>
 										<key>history</key>
 										<array>
 											<string>B6B9244613B3EADC0040F074</string>
@@ -343,10 +343,8 @@
 											<string>B66FE92513BCEB4D00C350F9</string>
 											<string>B6013B7F13BCF839007B33D4</string>
 											<string>B6013B8013BCF839007B33D4</string>
-											<string>B6013B8113BCF839007B33D4</string>
 											<string>B67CE88813C3AD63004038BD</string>
-											<string>B67CE8A813C3C474004038BD</string>
-											<string>B67CE8A913C3C474004038BD</string>
+											<string>B61C5B1613E0C5E100122BB5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -358,14 +356,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 535}}</string>
+								<string>{{0, 0}, {1072, 531}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-3 59 1280 719 0 0 1280 778 </string>
+								<string>-27 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>535pt</string>
+							<string>531pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -378,14 +376,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 540}, {1072, 138}}</string>
+								<string>{{0, 536}, {1072, 142}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-3 59 1280 719 0 0 1280 778 </string>
+								<string>-27 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>138pt</string>
+							<string>142pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -404,9 +402,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B67CE88B13C3AD63004038BD</string>
+				<string>B61C5AC113E0B7EE00122BB5</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>B67CE88C13C3AD63004038BD</string>
+				<string>B61C5AC213E0B7EE00122BB5</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -544,15 +542,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>B67CE88D13C3AD63004038BD</string>
-		<string>B67CE88E13C3AD63004038BD</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>B6B9242113B3E6C50040F074</string>
-		<string>/Users/danlipert/Documents/CutifyAppPrototype/CutifyAppPrototype.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-3 59 1280 719 0 0 1280 778 </string>
+	<string>-27 59 1280 719 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -573,7 +566,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ComposingViewController.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -590,8 +583,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -631,7 +622,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>B6B9242113B3E6C50040F074</string>
-				<string>B67CE88013C3AD60004038BD</string>
+				<string>B61C5AC313E0B7EE00122BB5</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

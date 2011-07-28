@@ -11,6 +11,7 @@
 
 @implementation OptionsAndSharingViewController
 
+@synthesize image;
 
 -(id)initWithStyle:(UITableViewStyle)style
 {
@@ -60,6 +61,15 @@
 
 -(void)doneButtonPressed:(id)sender
 {
+	//save file
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSDate *now = [NSDate date];
+	NSString *fileName = [NSString stringWithFormat:@"Cutify %@.jpg", now];
+	NSString *imagePath = [documentsDirectory stringByAppendingPathComponent:fileName];
+	NSData *imageData = UIImageJPEGRepresentation(self.image, 10);
+	[imageData writeToFile:imagePath atomically:YES];
+	
 	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
 	[self.navigationController pushViewController:photoGridViewController animated:YES];
 	[photoGridViewController release];

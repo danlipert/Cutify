@@ -20,6 +20,10 @@
 		<data>
 		qx57j625cMPFqPUZEHzU4dmiByg=
 		</data>
+		<key>CameraBackButton@2x.png</key>
+		<data>
+		bnC5XpzDCpsagVbbCG4pZ4jP+Es=
+		</data>
 		<key>DeleteButton@2x.png</key>
 		<data>
 		4ckEWtoCTRntpkABZ+ovCpRGueY=
@@ -60,9 +64,17 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>ScrollControlBackButton@2x.png</key>
+		<data>
+		A+mQ+/f2dFRBYpPyM/bTEjmR0ts=
+		</data>
 		<key>SharePhotoButton@2x.png</key>
 		<data>
 		mL4GhuXQ/UKcP/optt+oC696hxE=
+		</data>
+		<key>StickerDemoPack.plist</key>
+		<data>
+		7P+zxAEC6WnrD3SPhosy6xolxgM=
 		</data>
 		<key>TableviewBackground@2x.png</key>
 		<data>

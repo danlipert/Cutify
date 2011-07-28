@@ -22,10 +22,17 @@
 		320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320CC833B8AF0ACFD35E6224 /* libThree20Style.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
+		B61C5A6313E0A08A00122BB5 /* TMOANode.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5A5913E0A08A00122BB5 /* TMOANode.m */; };
+		B61C5A6413E0A08A00122BB5 /* TMOATree.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5A5B13E0A08A00122BB5 /* TMOATree.m */; };
+		B61C5A6513E0A08A00122BB5 /* StickerDemoPack.plist in Resources */ = {isa = PBXBuildFile; fileRef = B61C5A5C13E0A08A00122BB5 /* StickerDemoPack.plist */; };
+		B61C5A6613E0A08A00122BB5 /* CutifyStickerMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5A5E13E0A08A00122BB5 /* CutifyStickerMeta.m */; };
+		B61C5A6713E0A08A00122BB5 /* CutifyStickerPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5A6013E0A08A00122BB5 /* CutifyStickerPicker.m */; };
+		B61C5A6813E0A08A00122BB5 /* CutifyStickerSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5A6213E0A08A00122BB5 /* CutifyStickerSelectButton.m */; };
+		B61C5A7F13E0A13700122BB5 /* ScrollControlBackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61C5A7E13E0A13700122BB5 /* ScrollControlBackButton@2x.png */; };
+		B61C5AD713E0B91600122BB5 /* CutifyStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5AD613E0B91600122BB5 /* CutifyStickerView.m */; };
 		B62F4CCB13CEA9FA0034B982 /* IAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62F4CCA13CEA9FA0034B982 /* IAPViewController.m */; };
 		B6370D8413CE649C00E1FD29 /* PhotoGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */; };
 		B64E26C813CE695800AEBA32 /* ApplyStickerImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */; };
-		B64E26D813CE6A5500AEBA32 /* BreadcrumbSample@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64E26D713CE6A5500AEBA32 /* BreadcrumbSample@2x.png */; };
 		B65A96EE13DCA3240012E260 /* PhotoPreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65A96E613DCA3240012E260 /* PhotoPreviewViewController.xib */; };
 		B65A96EF13DCA3240012E260 /* PhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A96E713DCA3240012E260 /* PhotoPreviewViewController.m */; };
 		B65A96F013DCA3240012E260 /* PhotoCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65A96E913DCA3240012E260 /* PhotoCaptureViewController.xib */; };
@@ -222,12 +229,25 @@
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../../../Downloads/three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* CutifyAppFrame_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutifyAppFrame_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CutifyAppFrame-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CutifyAppFrame-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B61C5A5813E0A08A00122BB5 /* TMOANode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOANode.h; sourceTree = "<group>"; };
+		B61C5A5913E0A08A00122BB5 /* TMOANode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOANode.m; sourceTree = "<group>"; };
+		B61C5A5A13E0A08A00122BB5 /* TMOATree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOATree.h; sourceTree = "<group>"; };
+		B61C5A5B13E0A08A00122BB5 /* TMOATree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOATree.m; sourceTree = "<group>"; };
+		B61C5A5C13E0A08A00122BB5 /* StickerDemoPack.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StickerDemoPack.plist; sourceTree = "<group>"; };
+		B61C5A5D13E0A08A00122BB5 /* CutifyStickerMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutifyStickerMeta.h; sourceTree = "<group>"; };
+		B61C5A5E13E0A08A00122BB5 /* CutifyStickerMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutifyStickerMeta.m; sourceTree = "<group>"; };
+		B61C5A5F13E0A08A00122BB5 /* CutifyStickerPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutifyStickerPicker.h; sourceTree = "<group>"; };
+		B61C5A6013E0A08A00122BB5 /* CutifyStickerPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutifyStickerPicker.m; sourceTree = "<group>"; };
+		B61C5A6113E0A08A00122BB5 /* CutifyStickerSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutifyStickerSelectButton.h; sourceTree = "<group>"; };
+		B61C5A6213E0A08A00122BB5 /* CutifyStickerSelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutifyStickerSelectButton.m; sourceTree = "<group>"; };
+		B61C5A7E13E0A13700122BB5 /* ScrollControlBackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlBackButton@2x.png"; sourceTree = "<group>"; };
+		B61C5AD513E0B91600122BB5 /* CutifyStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CutifyStickerView.h; path = ../CutifyAppPrototype/Classes/CutifyStickerView.h; sourceTree = SOURCE_ROOT; };
+		B61C5AD613E0B91600122BB5 /* CutifyStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CutifyStickerView.m; path = ../CutifyAppPrototype/Classes/CutifyStickerView.m; sourceTree = SOURCE_ROOT; };
 		B62F4CC913CEA9FA0034B982 /* IAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPViewController.h; sourceTree = "<group>"; };
 		B62F4CCA13CEA9FA0034B982 /* IAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPViewController.m; sourceTree = "<group>"; };
 		B6370D8213CE649C00E1FD29 /* PhotoGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoGridViewController.h; path = ../PhotoGridViewController.h; sourceTree = "<group>"; };
 		B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoGridViewController.m; path = ../PhotoGridViewController.m; sourceTree = "<group>"; };
 		B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ApplyStickerImage@2x.png"; sourceTree = "<group>"; };
-		B64E26D713CE6A5500AEBA32 /* BreadcrumbSample@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BreadcrumbSample@2x.png"; sourceTree = "<group>"; };
 		B65A96E613DCA3240012E260 /* PhotoPreviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoPreviewViewController.xib; sourceTree = "<group>"; };
 		B65A96E713DCA3240012E260 /* PhotoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPreviewViewController.m; sourceTree = "<group>"; };
 		B65A96E813DCA3240012E260 /* PhotoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPreviewViewController.h; sourceTree = "<group>"; };
@@ -290,6 +310,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B61C5A4613E0A04F00122BB5 /* Sticker Select */,
 				B65A96E413DCA3140012E260 /* Daves Code */,
 				B62F4CC913CEA9FA0034B982 /* IAPViewController.h */,
 				B62F4CCA13CEA9FA0034B982 /* IAPViewController.m */,
@@ -434,6 +455,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B61C5A4613E0A04F00122BB5 /* Sticker Select */ = {
+			isa = PBXGroup;
+			children = (
+				B61C5A5813E0A08A00122BB5 /* TMOANode.h */,
+				B61C5A5913E0A08A00122BB5 /* TMOANode.m */,
+				B61C5A5A13E0A08A00122BB5 /* TMOATree.h */,
+				B61C5A5B13E0A08A00122BB5 /* TMOATree.m */,
+				B61C5A5C13E0A08A00122BB5 /* StickerDemoPack.plist */,
+				B61C5AD513E0B91600122BB5 /* CutifyStickerView.h */,
+				B61C5AD613E0B91600122BB5 /* CutifyStickerView.m */,
+				B61C5A5D13E0A08A00122BB5 /* CutifyStickerMeta.h */,
+				B61C5A5E13E0A08A00122BB5 /* CutifyStickerMeta.m */,
+				B61C5A5F13E0A08A00122BB5 /* CutifyStickerPicker.h */,
+				B61C5A6013E0A08A00122BB5 /* CutifyStickerPicker.m */,
+				B61C5A6113E0A08A00122BB5 /* CutifyStickerSelectButton.h */,
+				B61C5A6213E0A08A00122BB5 /* CutifyStickerSelectButton.m */,
+			);
+			name = "Sticker Select";
+			sourceTree = "<group>";
+		};
 		B65A96E413DCA3140012E260 /* Daves Code */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,8 +494,8 @@
 			isa = PBXGroup;
 			children = (
 				B65A979713DCDC630012E260 /* CameraBackButton@2x.png */,
-				B64E26D713CE6A5500AEBA32 /* BreadcrumbSample@2x.png */,
 				B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */,
+				B61C5A7E13E0A13700122BB5 /* ScrollControlBackButton@2x.png */,
 				B6EBD11113CD08D000389177 /* SharePhotoButton@2x.png */,
 				B6EBD11213CD08D000389177 /* InAppPurchaseKittyPack@2x.png */,
 				B6EBD11313CD08D000389177 /* InAppPurchaseBackground@2x.png */,
@@ -669,10 +710,11 @@
 				B6EBD11B13CD08D000389177 /* DeleteButton@2x.png in Resources */,
 				B6EBD11C13CD08D000389177 /* BuyPackButton@2x.png in Resources */,
 				B64E26C813CE695800AEBA32 /* ApplyStickerImage@2x.png in Resources */,
-				B64E26D813CE6A5500AEBA32 /* BreadcrumbSample@2x.png in Resources */,
 				B65A96EE13DCA3240012E260 /* PhotoPreviewViewController.xib in Resources */,
 				B65A96F013DCA3240012E260 /* PhotoCaptureViewController.xib in Resources */,
 				B65A979813DCDC630012E260 /* CameraBackButton@2x.png in Resources */,
+				B61C5A6513E0A08A00122BB5 /* StickerDemoPack.plist in Resources */,
+				B61C5A7F13E0A13700122BB5 /* ScrollControlBackButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,6 +736,12 @@
 				B65A96EF13DCA3240012E260 /* PhotoPreviewViewController.m in Sources */,
 				B65A96F113DCA3240012E260 /* PhotoCaptureViewController.m in Sources */,
 				B65A96F213DCA3240012E260 /* CaptureSessionManager.m in Sources */,
+				B61C5A6313E0A08A00122BB5 /* TMOANode.m in Sources */,
+				B61C5A6413E0A08A00122BB5 /* TMOATree.m in Sources */,
+				B61C5A6613E0A08A00122BB5 /* CutifyStickerMeta.m in Sources */,
+				B61C5A6713E0A08A00122BB5 /* CutifyStickerPicker.m in Sources */,
+				B61C5A6813E0A08A00122BB5 /* CutifyStickerSelectButton.m in Sources */,
+				B61C5AD713E0B91600122BB5 /* CutifyStickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

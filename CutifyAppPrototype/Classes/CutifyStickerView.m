@@ -7,30 +7,47 @@
 //
 
 #import "CutifyStickerView.h"
+#import "CutifyStickerMeta.h"
 
 
 @implementation CutifyStickerView
 
-@synthesize stickerImageView;
+@synthesize stickerImageView, rotationDegrees;
 
-- (id)initWithFrame:(CGRect)frame {
-    
-    self = [super initWithFrame:frame];
-    if (self) {
- 
-    }
-    return self;
-}
+//- (id)initWithFrame:(CGRect)frame {
+//    
+//    self = [super initWithFrame:frame];
+//    if (self) {
+// 
+//    }
+//    return self;
+//}
 
--(id)init;
+//-(id)init;
+//{
+//	if(self = [super init])
+//	{
+//		stickerImageView = [[UIImageView alloc] init];
+//		self.stickerImageView = stickerImageView;
+//		[self addSubview:stickerImageView];
+//		self.frame = stickerImageView.frame;
+//		[stickerImageView release];
+//	}
+//	return self;
+//}
+
+-(id)initWithStickerMeta:(CutifyStickerMeta *)stickerMeta
 {
 	if(self = [super init])
 	{
-		stickerImageView = [[UIImageView alloc] init];
+		UIImageView *stickerImageView = [[UIImageView alloc] initWithImage:stickerMeta.stickerImage];
 		self.stickerImageView = stickerImageView;
-		[self addSubview:stickerImageView];
-		self.frame = stickerImageView.frame;
 		[stickerImageView release];
+
+		[self addSubview:self.stickerImageView];
+		self.frame = stickerImageView.frame;
+		
+		self.rotationDegrees = [NSNumber numberWithFloat:0.0];
 	}
 	return self;
 }

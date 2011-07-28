@@ -13,4 +13,8 @@
 
 }
 
+@property (nonatomic, retain) NSMutableArray *imagesArray;
+@property (nonatomic, retain) NSMutableArray *fileNamesArray;
+@property (nonatomic, retain) UIScrollView *scrollView;
+
 @end

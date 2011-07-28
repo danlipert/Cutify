@@ -313,7 +313,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CameraViewController.m</string>
+								<string>CameraViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,17 +321,16 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CameraViewController.m</string>
+										<string>CameraViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B6C6AA0B13D5336F0066D8FF</string>
+										<string>B61C5AAE13E0B7D600122BB5</string>
 										<key>history</key>
 										<array>
 											<string>B6C6A9E513D52E060066D8FF</string>
 											<string>B6C6A9E613D52E060066D8FF</string>
 											<string>B6C6AA0213D532500066D8FF</string>
-											<string>B6C6AA0A13D5336F0066D8FF</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -343,14 +342,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 492}}</string>
+								<string>{{0, 0}, {1072, 486}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>492pt</string>
+							<string>486pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -363,14 +362,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 497}, {1072, 181}}</string>
+								<string>{{0, 491}, {1072, 187}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>187pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -389,9 +388,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B6C6A9B713D52B360066D8FF</string>
+				<string>B61C5AAF13E0B7D600122BB5</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>B6C6A9B813D52B360066D8FF</string>
+				<string>B61C5AB013E0B7D600122BB5</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -529,10 +528,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>B6C6AA0913D532840066D8FF</string>
-		<string>B6C6A9CA13D52BC70066D8FF</string>
-		<string>B6C6A9C413D52B360066D8FF</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>B6C6A9BA13D52B360066D8FF</string>
 		<string>/Users/danlipert/github/Cutify/CutifyCamera/CutifyCamera.xcodeproj</string>
@@ -576,8 +571,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -617,7 +610,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>B6C6A9BA13D52B360066D8FF</string>
-				<string>B6C6A9BB13D52B360066D8FF</string>
+				<string>B61C5AB113E0B7D600122BB5</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -661,8 +654,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 185}}</string>
-											<string>{{316, 0}, {378, 185}}</string>
+											<string>{{0, 0}, {316, 194}}</string>
+											<string>{{316, 0}, {378, 194}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -677,8 +670,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 185}}</string>
-											<string>{{0, 185}, {694, 196}}</string>
+											<string>{{0, 0}, {694, 194}}</string>
+											<string>{{0, 194}, {694, 187}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -711,7 +704,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 185}}</string>
+									<string>{{316, 0}, {378, 194}}</string>
 									<key>RubberWindowFrame</key>
 									<string>404 307 694 422 0 0 1280 778 </string>
 								</dict>
@@ -739,13 +732,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>B6C6A9BC13D52B360066D8FF</string>
+				<string>B61C5AB213E0B7D600122BB5</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>B6C6A9BD13D52B360066D8FF</string>
-				<string>B6C6A9BE13D52B360066D8FF</string>
-				<string>B6C6A9BF13D52B360066D8FF</string>
-				<string>B6C6A9C013D52B360066D8FF</string>
-				<string>B6C6A9C113D52B360066D8FF</string>
+				<string>B61C5AB313E0B7D600122BB5</string>
+				<string>B61C5AB413E0B7D600122BB5</string>
+				<string>B61C5AB513E0B7D600122BB5</string>
+				<string>B61C5AB613E0B7D600122BB5</string>
+				<string>B61C5AB713E0B7D600122BB5</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
