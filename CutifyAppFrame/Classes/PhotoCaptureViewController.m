@@ -74,14 +74,15 @@
 	[toggleCameraButton addTarget:self action:@selector(toggleCamera) forControlEvents:UIControlEventTouchUpInside];
 	[[self view] addSubview:toggleCameraButton];
 	
-	UIButton *takePhotoButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-	[takePhotoButton setFrame:CGRectMake(130, 426-44, 60, 30)];
+	UIButton *takePhotoButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	[takePhotoButton setImage:[UIImage imageNamed:@"CameraScreenButton.png"] forState:UIControlStateNormal];
+	[takePhotoButton setFrame:CGRectMake((320-101)/2,480-20-44, 101, 43)];
 	[takePhotoButton setTitle:@"Photo" forState:UIControlStateNormal];
 	[takePhotoButton addTarget:self action:@selector(takePhoto) forControlEvents:UIControlEventTouchUpInside];
 	[[self view] addSubview:takePhotoButton];
 	
 	UIButton *libraryButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-	[libraryButton setFrame:CGRectMake(0,0,100,44)];
+	[libraryButton setFrame:CGRectMake(10,480-20-44,100,43)];
 	[libraryButton setTitle:@"Library" forState:UIControlStateNormal];
 	[libraryButton addTarget:self action:@selector(libraryButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:libraryButton];
@@ -127,7 +128,7 @@
 	[self.navigationController setNavigationBarHidden:NO animated:NO];
 
 	ApplyStickersViewController *applyStickersViewController = [[ApplyStickersViewController alloc] init];
-	applyStickersViewController.photoImage = [self cropImage:capturedImage withRect:CGRectMake(10,10,306,306)];
+	applyStickersViewController.photoImage = [self cropImage:capturedImage withRect:CGRectMake(8,63,306,306)];
 	[self.navigationController pushViewController:applyStickersViewController animated:YES];
 	[applyStickersViewController release];
 }
@@ -138,7 +139,7 @@
 	if([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2)
 	{
 		//iPhone 4
-		rect = CGRectMake(rect.origin.x, rect.origin.y, rect.size.width*2.0, rect.size.height*2.0);
+		rect = CGRectMake(rect.origin.x * 2.0, rect.origin.y * 2.0, rect.size.width*2.0, rect.size.height*2.0);
 	}
 	   
 	
@@ -150,10 +151,12 @@
 	
     // clip to the bounds of the image context
     // not strictly necessary as it will get clipped anyway?
-    CGContextClipToRect(context, CGRectMake(0, 0, rect.size.width, rect.size.height));
+//    CGContextClipToRect(context, CGRectMake(0, 0, rect.size.width, rect.size.height));
 	
     // draw image
-    [img drawInRect:drawRect];
+//    [img drawInRect:drawRect];
+	[img drawAtPoint:CGPointMake(-rect.origin.x, -rect.origin.y)];
+	
 	
     // grab image
     UIImage* subImage = UIGraphicsGetImageFromCurrentImageContext();

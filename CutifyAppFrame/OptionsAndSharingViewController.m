@@ -8,7 +8,7 @@
 
 #import "OptionsAndSharingViewController.h"
 #import "PhotoGridViewController.h"
-
+#import <AVFoundation/AVFoundation.h>
 @implementation OptionsAndSharingViewController
 
 @synthesize image;
@@ -69,6 +69,10 @@
 	NSString *imagePath = [documentsDirectory stringByAppendingPathComponent:fileName];
 	NSData *imageData = UIImageJPEGRepresentation(self.image, 10);
 	[imageData writeToFile:imagePath atomically:YES];
+	
+	//save file in iphoto
+	UIImageWriteToSavedPhotosAlbum(self.image, nil,nil,nil);
+
 	
 	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
 	[self.navigationController pushViewController:photoGridViewController animated:YES];
