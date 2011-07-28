@@ -1,7 +1,7 @@
 TCutifyAppFrame
 v7
 r0
-t333585126.559754
+t333584885.018461
 cCheck dependencies
 cCpResource build/Debug-iphoneos/CutifyAppFrame.app/ResourceRules.plist /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/Info.plist CutifyAppFrame-Info.plist
@@ -45,7 +45,6 @@ cCompileC build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects
 cCompileC build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects-normal/armv6/CutifyStickerPicker.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyStickerPicker.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects-normal/armv6/CutifyStickerSelectButton.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyStickerSelectButton.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects-normal/armv6/CutifyStickerView.o /Users/danlipert/github/Cutify/CutifyAppFrame/../CutifyAppPrototype/Classes/CutifyStickerView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects-normal/armv6/CutifyAppFrame normal armv6
 cCompileC build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects-normal/armv7/main.o /Users/danlipert/github/Cutify/CutifyAppFrame/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects-normal/armv7/CutifyAppFrameAppDelegate.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyAppFrameAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects-normal/armv7/TakePhotoViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../TakePhotoViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
@@ -63,6 +62,7 @@ cCompileC build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects
 cCompileC build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects-normal/armv7/CutifyStickerPicker.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyStickerPicker.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects-normal/armv7/CutifyStickerSelectButton.o /Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CutifyStickerSelectButton.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects-normal/armv7/CutifyStickerView.o /Users/danlipert/github/Cutify/CutifyAppFrame/../CutifyAppPrototype/Classes/CutifyStickerView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects-normal/armv6/CutifyAppFrame normal armv6
 cLd /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects-normal/armv7/CutifyAppFrame normal armv7
 cCreateUniversalBinary /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/CutifyAppFrame normal "armv6 armv7"
 cGenerateDSYMFile /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app.dSYM /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/CutifyAppFrame
@@ -170,9 +170,9 @@ t1311359493
 s4065
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/CameraScreenBar@2x.jpg
-c00000000000000000000000000000000
-t2
-s0
+c000000004E2F055F0000000000001894
+t1311704415
+s6292
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/CameraScreenBar@2x.png
 c000000004E31C2790000000000000294
@@ -675,8 +675,8 @@ t1310602446
 s6496
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app
-t1311892281
-s1054
+t1311892085
+s1088
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app.dSYM
 t1311892082
@@ -703,8 +703,8 @@ t1311790915
 s4478
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/CameraScreenBar@2x.jpg
-t2
-s0
+t1311883185
+s6292
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/CameraScreenBar@2x.png
 t1311884101
@@ -720,7 +720,7 @@ s149547
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/CutifyAppFrame
 t1311892080
-s3383360
+s3357224
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/DeleteButton@2x.png
 t1310512434
@@ -920,16 +920,15 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies333585126#333585126#0(0"0(0#1#0"8634712320#0"0#
+lSLF07#2@18"Check dependencies333584876#333584876#0(0"0(0#1#0"8671958816#0"0#
 
 CCodeSign /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app
-s333585126.023629
-e333585126.559666
+s333584883.677698
+e333584885.018432
 r1
 xCodeSign
 x/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app
-o/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app: replacing existing signature
-lSLF07#2@48"CodeSign build/Debug-iphoneos/CutifyAppFrame.app333585126#333585126#0(116"/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app: replacing existing signature0(0#0#85"/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app8599240576#813"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Daniel Lipert (PJLYP95NQ4)" --resource-rules=/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/ResourceRules.plist --entitlements /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/CutifyAppFrame.xcent /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app0#
+lSLF07#2@48"CodeSign build/Debug-iphoneos/CutifyAppFrame.app333584883#333584885#0(0"0(0#0#85"/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app8671995328#813"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Daniel Lipert (PJLYP95NQ4)" --resource-rules=/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/ResourceRules.plist --entitlements /Users/danlipert/github/Cutify/CutifyAppFrame/build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/CutifyAppFrame.xcent /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app0#
 
 CCompileC build/CutifyAppFrame.build/Debug-iphoneos/CutifyAppFrame.build/Objects-normal/armv6/ApplyStickersViewController.o /Users/danlipert/github/Cutify/CutifyAppFrame/ApplyStickersViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s332205235.858987
@@ -1803,14 +1802,13 @@ xClasses/StickerDemoPack.plist
 lSLF07#2@34"Copy Classes/StickerDemoPack.plist333493320#333493320#0(0"0(0#0#75"/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/StickerDemoPack.plist8626960544#512"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Classes/StickerDemoPack.plist --outdir /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app0#
 
 CCpResource build/Debug-iphoneos/CutifyAppFrame.app/CameraScreenBar@2x.jpg CameraScreenBar@2x.jpg
-s333585118.126697
-e333585118.129702
-r0
+s333575985.417115
+e333575985.454036
+r1
 xCpResource
 xbuild/Debug-iphoneos/CutifyAppFrame.app/CameraScreenBar@2x.jpg
 xCameraScreenBar@2x.jpg
-opbxcp: CameraScreenBar@2x.jpg: No such file or directory
-lSLF07#2@27"Copy CameraScreenBar@2x.jpg333585118#333585118#0(57"pbxcp: CameraScreenBar@2x.jpg: No such file or directory1(4@56"pbxcp: CameraScreenBar@2x.jpg: No such file or directory333585118#18446744073709551615#0#0(6@0"333585118#0#0#0#0#0"0(0#0#68"/Users/danlipert/github/Cutify/CutifyAppFrame/CameraScreenBar@2x.jpg8628668256#595"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/CameraScreenBar@2x.jpg /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app1#
+lSLF07#2@27"Copy CameraScreenBar@2x.jpg333575985#333575985#0(0"0(0#0#68"/Users/danlipert/github/Cutify/CutifyAppFrame/CameraScreenBar@2x.jpg8617987200#595"    cd /Users/danlipert/github/Cutify/CutifyAppFrame    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/CutifyAppFrame/CameraScreenBar@2x.jpg /Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app0#
 
 CCpResource build/Debug-iphoneos/CutifyAppFrame.app/ResourceRules.plist /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
 s332140350.144211
