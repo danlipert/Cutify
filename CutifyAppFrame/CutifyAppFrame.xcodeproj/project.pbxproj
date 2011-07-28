@@ -57,6 +57,9 @@
 		B6EBD11B13CD08D000389177 /* DeleteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11513CD08D000389177 /* DeleteButton@2x.png */; };
 		B6EBD11C13CD08D000389177 /* BuyPackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11613CD08D000389177 /* BuyPackButton@2x.png */; };
 		B6EBD12113CD092400389177 /* PhotoViewSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EBD12013CD092400389177 /* PhotoViewSharingViewController.m */; };
+		B6FEF96C13E1F67E008DF57D /* CameraScreenCrop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6FEF96B13E1F67E008DF57D /* CameraScreenCrop@2x.png */; };
+		B6FEF97113E1F6F9008DF57D /* CameraScreenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6FEF96F13E1F6F9008DF57D /* CameraScreenButton@2x.png */; };
+		B6FEF97213E1F6F9008DF57D /* CameraScreenBar@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6FEF97013E1F6F9008DF57D /* CameraScreenBar@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -279,6 +282,9 @@
 		B6EBD11613CD08D000389177 /* BuyPackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BuyPackButton@2x.png"; sourceTree = "<group>"; };
 		B6EBD11F13CD092400389177 /* PhotoViewSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoViewSharingViewController.h; path = ../PhotoViewSharingViewController.h; sourceTree = "<group>"; };
 		B6EBD12013CD092400389177 /* PhotoViewSharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoViewSharingViewController.m; path = ../PhotoViewSharingViewController.m; sourceTree = "<group>"; };
+		B6FEF96B13E1F67E008DF57D /* CameraScreenCrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenCrop@2x.png"; sourceTree = "<group>"; };
+		B6FEF96F13E1F6F9008DF57D /* CameraScreenButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenButton@2x.png"; sourceTree = "<group>"; };
+		B6FEF97013E1F6F9008DF57D /* CameraScreenBar@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "CameraScreenBar@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -494,6 +500,9 @@
 			isa = PBXGroup;
 			children = (
 				B65A979713DCDC630012E260 /* CameraBackButton@2x.png */,
+				B6FEF96B13E1F67E008DF57D /* CameraScreenCrop@2x.png */,
+				B6FEF96F13E1F6F9008DF57D /* CameraScreenButton@2x.png */,
+				B6FEF97013E1F6F9008DF57D /* CameraScreenBar@2x.jpg */,
 				B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */,
 				B61C5A7E13E0A13700122BB5 /* ScrollControlBackButton@2x.png */,
 				B6EBD11113CD08D000389177 /* SharePhotoButton@2x.png */,
@@ -715,6 +724,9 @@
 				B65A979813DCDC630012E260 /* CameraBackButton@2x.png in Resources */,
 				B61C5A6513E0A08A00122BB5 /* StickerDemoPack.plist in Resources */,
 				B61C5A7F13E0A13700122BB5 /* ScrollControlBackButton@2x.png in Resources */,
+				B6FEF96C13E1F67E008DF57D /* CameraScreenCrop@2x.png in Resources */,
+				B6FEF97113E1F6F9008DF57D /* CameraScreenButton@2x.png in Resources */,
+				B6FEF97213E1F6F9008DF57D /* CameraScreenBar@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

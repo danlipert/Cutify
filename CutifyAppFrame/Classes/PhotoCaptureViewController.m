@@ -56,12 +56,17 @@
 																  CGRectGetMidY(layerRect))];
 	[[[self view] layer] addSublayer:[[self captureManager] previewLayer]];
 	
-	/* If you want an overlay * /
-	UIImageView *overlayImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"overlay2.png"]];
-	[overlayImageView setFrame:CGRectMake(0, 30, 320, 380)];
+	/* If you want an overlay */
+	UIImageView *overlayImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"CameraScreenCrop.png"]];
+	[overlayImageView setFrame:CGRectMake(0, 0, 320, 427)];
 	[[self view] addSubview:overlayImageView];
 	[overlayImageView release];
-	*/
+	
+	UIImageView *toolBarView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"CameraScreenBar.png"]];
+	[toolBarView setFrame:CGRectMake(0,480-20-44, 320, 53)];
+	[self.view addSubview:toolBarView];
+	[toolBarView release];
+	
 	
 	UIButton *toggleCameraButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	[toggleCameraButton setTitle:@"Toggle Camera" forState:UIControlStateNormal];

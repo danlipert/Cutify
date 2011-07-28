@@ -124,13 +124,6 @@
 
 		eachStickerView.layer.anchorPoint = CGPointMake(0.5, 0.5);
 		
-//		CGContextTranslateCTM (ctx, eachStickerView.center.x * 2.0, eachStickerView.center.y * 2.0);
-//////		CGContextRotateCTM(ctx, [eachStickerView.rotationDegrees floatValue] * M_PI/180.0);
-//				
-//		CGContextRotateCTM(ctx, M_PI/180.0*40.1);
-//		CGContextTranslateCTM (ctx, -eachStickerView.center.x * 2.0, -eachStickerView.center.y * 2.0);
-
-		
 		if([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2)
 		{
 			
@@ -151,7 +144,6 @@
 		CGContextRestoreGState(ctx);
 	}
 		
-	
 	UIImage *resultingImage = UIGraphicsGetImageFromCurrentImageContext();  
 	
 	optionsAndSharingViewController.image = resultingImage;
