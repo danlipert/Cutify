@@ -41,6 +41,7 @@
 	if(self = [super init])
 	{
 		UIImageView *stickerImageView = [[UIImageView alloc] initWithImage:stickerMeta.stickerImage];
+		[stickerImageView setContentMode:UIViewContentModeScaleAspectFit];
 		self.stickerImageView = stickerImageView;
 		[stickerImageView release];
 

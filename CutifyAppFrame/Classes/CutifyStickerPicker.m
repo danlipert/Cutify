@@ -25,7 +25,7 @@
 		[self.s setBackgroundColor:[UIColor grayColor]];
 
 //		[self loadStickersFromPlist:@"StickerDemoPack"];
-		[self loadTreeFromPlistNamed:@"StickerDemoPack"];
+		[self loadTreeFromPlistNamed:@"EarlyDemo"];
 		
 		[self loadStickersFromCurrentNode];
 		

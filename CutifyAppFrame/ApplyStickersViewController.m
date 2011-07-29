@@ -279,6 +279,7 @@
 - (void)deleteSticker:(id)sender
 {
 	[self.stickerForReset removeFromSuperview];
+	[stickersArray removeObject:self.stickerForReset];
 }
 
 -(BOOL)canBecomeFirstResponder
