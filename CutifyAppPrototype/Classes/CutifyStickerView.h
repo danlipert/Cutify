@@ -15,7 +15,7 @@
 }
 
 @property (nonatomic, retain) UIImageView *stickerImageView;
-@property (nonatomic, retain) NSNumber *rotationDegrees;
+@property (nonatomic) float rotationDegrees;
 
 -(id)initWithStickerMeta:(CutifyStickerMeta *)stickerMeta;
 

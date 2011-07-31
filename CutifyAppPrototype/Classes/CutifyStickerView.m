@@ -48,7 +48,10 @@
 		[self addSubview:self.stickerImageView];
 		self.frame = stickerImageView.frame;
 		
-		self.rotationDegrees = [NSNumber numberWithFloat:0.0];
+		self.rotationDegrees = 0.0f;
+		
+		//debug
+		[self setBackgroundColor:[UIColor purpleColor]];
 	}
 	return self;
 }

@@ -295,6 +295,7 @@
 		[imageButton setImage:[[stickerArray objectAtIndex:i-1] stickerImage] forState:UIControlStateNormal];
 		[imageButton addTarget:self action:@selector(imageButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 		[imageButton setTag:i-1];
+		[imageButton setContentMode:UIViewContentModeScaleAspectFill];
 		[imageButton setStickerMeta:[stickerArray objectAtIndex:i-1]];
 		[self.s addSubview:imageButton];
 		[imageButton release];

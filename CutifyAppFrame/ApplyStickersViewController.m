@@ -128,14 +128,15 @@
 		{
 			
 			CGContextTranslateCTM (ctx, eachStickerView.center.x * 2.0, eachStickerView.center.y * 2.0);			
-			CGContextRotateCTM(ctx, [eachStickerView.rotationDegrees floatValue] * M_PI/180.0);
+			CGContextRotateCTM(ctx, eachStickerView.rotationDegrees* M_PI/180.0);
 			CGContextTranslateCTM (ctx, -eachStickerView.center.x * 2.0, -eachStickerView.center.y * 2.0);
 			
 			//iPhone 4
-			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0, eachStickerView.frame.size.width * 2.0, eachStickerView.frame.size.height * 2.0)];
+			//changed draw in rect to draw imageview frame instead of parent frame
+			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0, eachStickerView.stickerImageView.frame.size.width * 2.0, eachStickerView.stickerImageView.frame.size.height * 2.0)];
 		} else {
 			CGContextTranslateCTM (ctx, eachStickerView.center.x, eachStickerView.center.y);			
-			CGContextRotateCTM(ctx, [eachStickerView.rotationDegrees floatValue] * M_PI/180.0);
+			CGContextRotateCTM(ctx, eachStickerView.rotationDegrees * M_PI/180.0);
 			CGContextTranslateCTM (ctx, -eachStickerView.center.x, -eachStickerView.center.y);
 			
 			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x, eachStickerView.frame.origin.y, eachStickerView.frame.size.width, eachStickerView.frame.size.height)];
@@ -231,6 +232,7 @@
 		{
 			if ([gestureRecognizer state] == UIGestureRecognizerStateBegan || [gestureRecognizer state] == UIGestureRecognizerStateChanged) {
 				[gestureRecognizer view].transform = CGAffineTransformScale([[gestureRecognizer view] transform], [gestureRecognizer scale], [gestureRecognizer scale]);
+				CutifyStickerView *sticker = (CutifyStickerView *)[gestureRecognizer view];
 				[gestureRecognizer setScale:1];
 			}
 		}
@@ -299,8 +301,6 @@
 
 - (void)rotateSticker:(UIRotationGestureRecognizer *)gestureRecognizer
 {
-	
-    
     if ([gestureRecognizer state] == UIGestureRecognizerStateBegan || [gestureRecognizer state] == UIGestureRecognizerStateChanged) {
         [gestureRecognizer view].transform = CGAffineTransformRotate([[gestureRecognizer view] transform], [gestureRecognizer rotation]);
 		CutifyStickerView *sticker = (CutifyStickerView *)[gestureRecognizer view];
@@ -310,9 +310,20 @@
 		
 		CGAffineTransform t = CGAffineTransformRotate(sticker.transform, [gestureRecognizer rotation]);
 		sticker.transform = t;
-		sticker.rotationDegrees = [NSNumber numberWithFloat:[sticker.rotationDegrees floatValue] + [gestureRecognizer rotation] * 180.0/M_PI];
+		sticker.rotationDegrees = fmodf([gestureRecognizer rotation] * 360.0/M_PI + sticker.rotationDegrees, 360.0f);
+		NSLog(@"Rotation of sticker: %f",sticker.rotationDegrees);
         [gestureRecognizer setRotation:0];
-    }
+	}
+   // } else if([gestureRecognizer state] == UIGestureRecognizerStateEnded) {
+//		[gestureRecognizer view].transform = CGAffineTransformRotate([[gestureRecognizer view] transform], [gestureRecognizer rotation]);
+//		CutifyStickerView *sticker = (CutifyStickerView *)[gestureRecognizer view];
+//		CGAffineTransform t = CGAffineTransformRotate(sticker.transform, [gestureRecognizer rotation]);
+//		sticker.transform = t;
+//		sticker.rotationDegrees = [NSNumber numberWithFloat:[gestureRecognizer rotation] * 180.0/M_PI];
+//		NSLog(@"Rotation of sticker: %f", [sticker.rotationDegrees floatValue]);
+//        [gestureRecognizer setRotation:0];
+//	}
+		
 }
 
 - (void)didReceiveMemoryWarning {
