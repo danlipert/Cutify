@@ -1,0 +1,602 @@
+TFacebookDemo
+v7
+r0
+t333928811.711165
+cCheck dependencies
+cProcessInfoPlistFile /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/Info.plist FacebookDemo-Info.plist
+cCompileXIB /Users/danlipert/github/Cutify/FacebookDemo/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/FacebookDemo.app/FBDialog.bundle FBDialog.bundle
+cProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch.gch FacebookDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/main.o /Users/danlipert/github/Cutify/FacebookDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FacebookDemoAppDelegate.o /Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/NSObject+SBJSON.o /Users/danlipert/github/Cutify/FacebookDemo/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/NSString+SBJSON.o /Users/danlipert/github/Cutify/FacebookDemo/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJSON.o /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonBase.o /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonParser.o /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonWriter.o /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBRequest.o /Users/danlipert/github/Cutify/FacebookDemo/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/Facebook.o /Users/danlipert/github/Cutify/FacebookDemo/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBLoginDialog.o /Users/danlipert/github/Cutify/FacebookDemo/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBDialog.o /Users/danlipert/github/Cutify/FacebookDemo/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FacebookViewController.o /Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/FacebookDemo normal i386
+cGenerateDSYMFile /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app.dSYM /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/FacebookDemo
+cTouch /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app
+
+N/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookDemoAppDelegate.h
+c000000004E3720ED00000000000001DD
+t1312235757
+s477
+i<UIKit/UIKit.h>
+i"FBConnect.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookDemoAppDelegate.m
+c000000004E372107000000000000115D
+t1312235783
+s4445
+i"FacebookDemoAppDelegate.h"
+i"FBConnect.h"
+i"FacebookViewController.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.h
+c000000004E372164000000000000017A
+t1312235876
+s378
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m
+c000000004E37218F0000000000000ADC
+t1312235919
+s2780
+i"FacebookViewController.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/FBConnect.h
+c000000004DDF3A3800000000000002C2
+t1306475064
+s706
+i"Facebook.h"
+i"FBDialog.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+i"SBJSON.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/FBDialog.bundle
+c000000004DDF3A380000000000000066
+t1306475064
+s102
+
+N/Users/danlipert/github/Cutify/FacebookDemo/FBDialog.h
+c000000004DDF3A380000000000001246
+t1306475064
+s4678
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/FacebookDemo/FBDialog.m
+c000000004DDF3A38000000000000576F
+t1306475064
+s22383
+i"FBDialog.h"
+i"Facebook.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/FBLoginDialog.h
+c000000004DDF3A38000000000000056B
+t1306475064
+s1387
+i"FBDialog.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/FBLoginDialog.m
+c000000004DDF3A380000000000000BC4
+t1306475064
+s3012
+i"FBDialog.h"
+i"FBLoginDialog.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/FBRequest.h
+c000000004DDF3A380000000000000CD7
+t1306475064
+s3287
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/FacebookDemo/FBRequest.m
+c000000004DDF3A380000000000002C7A
+t1306475064
+s11386
+i"FBRequest.h"
+i"JSON.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/Facebook.h
+c000000004DDF3A380000000000000DBC
+t1306475064
+s3516
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/Facebook.m
+c000000004DDF3A380000000000005DBC
+t1306475064
+s23996
+i"Facebook.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/FacebookDemo_Prefix.pch
+c000000004E37131200000000000000C1
+t1312232210
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/github/Cutify/FacebookDemo/JSON/JSON.h
+c000000004DDF3A3800000000000008F9
+t1306475064
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/JSON/NSObject+SBJSON.h
+c000000004DDF3A380000000000000A01
+t1306475064
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/danlipert/github/Cutify/FacebookDemo/JSON/NSObject+SBJSON.m
+c000000004DDF3A38000000000000089E
+t1306475064
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/JSON/NSString+SBJSON.h
+c000000004DDF3A380000000000000916
+t1306475064
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/danlipert/github/Cutify/FacebookDemo/JSON/NSString+SBJSON.m
+c000000004DDF3A38000000000000087D
+t1306475064
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJSON.h
+c000000004DDF3A380000000000000AED
+t1306475064
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJSON.m
+c000000004DDF3A380000000000001ABC
+t1306475064
+s6844
+i"SBJSON.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonBase.h
+c000000004DDF3A380000000000000B82
+t1306475064
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonBase.m
+c000000004DDF3A380000000000000AC1
+t1306475064
+s2753
+i"SBJsonBase.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonParser.h
+c000000004DDF3A380000000000000C0B
+t1306475064
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonParser.m
+c000000004DDF3A3800000000000036D0
+t1306475064
+s14032
+i"SBJsonParser.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonWriter.h
+c000000004DDF3A380000000000001140
+t1306475064
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonWriter.m
+c000000004DDF3A380000000000001F26
+t1306475064
+s7974
+i"SBJsonWriter.h"
+
+N/Users/danlipert/github/Cutify/FacebookDemo/MainWindow.xib
+c000000004E3713120000000000002121
+t1312232210
+s8481
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app
+t1312235920
+s238
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app.dSYM
+t1312235920
+s102
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/FBDialog.bundle
+t1312233650
+s102
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/FacebookDemo
+t1312235920
+s132040
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/Info.plist
+t1312233650
+s611
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/MainWindow.nib
+t1312233650
+s1536
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/PkgInfo
+t1312233650
+s8
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBDialog.o
+t1312233651
+s110232
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBLoginDialog.o
+t1312233651
+s44392
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBRequest.o
+t1312233651
+s43656
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/Facebook.o
+t1312233651
+s80008
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FacebookDemo.LinkFileList
+c000000004E3718B2000000000000075E
+t1312233650
+s1886
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FacebookDemoAppDelegate.o
+t1312235876
+s61036
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FacebookViewController.o
+t1312235920
+s53804
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/NSObject+SBJSON.o
+t1312233650
+s8356
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/NSString+SBJSON.o
+t1312233650
+s8276
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJSON.o
+t1312233651
+s20140
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonBase.o
+t1312233651
+s13272
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonParser.o
+t1312233651
+s35956
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonWriter.o
+t1312233651
+s25612
+
+N/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/main.o
+t1312233650
+s6372
+
+N/Users/danlipert/github/Cutify/FacebookDemo/main.m
+c000000004E371312000000000000016F
+t1312232210
+s367
+i<UIKit/UIKit.h>
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch.gch
+t1312233650
+s15818160
+
+NFacebookDemo-Info.plist
+c000000004E371312000000000000038D
+t1312232210
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333928811#333928811#0(0"0(0#1#0"8659309184#0"0#
+
+CCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBDialog.o /Users/danlipert/github/Cutify/FacebookDemo/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333926451.088888
+e333926451.266230
+r1
+xCompileC
+xbuild/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBDialog.o
+x/Users/danlipert/github/Cutify/FacebookDemo/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/danlipert/github/Cutify/FacebookDemo/FBDialog.m333926451#333926451#0(0"0(0#0#54"/Users/danlipert/github/Cutify/FacebookDemo/FBDialog.m8617745760#2191"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch -c /Users/danlipert/github/Cutify/FacebookDemo/FBDialog.m -o /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBDialog.o0#
+
+CCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBLoginDialog.o /Users/danlipert/github/Cutify/FacebookDemo/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333926451.075713
+e333926451.139922
+r1
+xCompileC
+xbuild/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/danlipert/github/Cutify/FacebookDemo/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/danlipert/github/Cutify/FacebookDemo/FBLoginDialog.m333926451#333926451#0(0"0(0#0#59"/Users/danlipert/github/Cutify/FacebookDemo/FBLoginDialog.m8618236736#2201"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch -c /Users/danlipert/github/Cutify/FacebookDemo/FBLoginDialog.m -o /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBLoginDialog.o0#
+
+CCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBRequest.o /Users/danlipert/github/Cutify/FacebookDemo/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333926451.041250
+e333926451.161739
+r1
+xCompileC
+xbuild/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBRequest.o
+x/Users/danlipert/github/Cutify/FacebookDemo/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/danlipert/github/Cutify/FacebookDemo/FBRequest.m333926451#333926451#0(0"0(0#0#55"/Users/danlipert/github/Cutify/FacebookDemo/FBRequest.m8629656480#2193"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch -c /Users/danlipert/github/Cutify/FacebookDemo/FBRequest.m -o /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FBRequest.o0#
+
+CCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/Facebook.o /Users/danlipert/github/Cutify/FacebookDemo/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333926451.058669
+e333926451.191221
+r1
+xCompileC
+xbuild/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/Facebook.o
+x/Users/danlipert/github/Cutify/FacebookDemo/Facebook.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/danlipert/github/Cutify/FacebookDemo/Facebook.m333926451#333926451#0(0"0(0#0#54"/Users/danlipert/github/Cutify/FacebookDemo/Facebook.m8618868512#2191"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch -c /Users/danlipert/github/Cutify/FacebookDemo/Facebook.m -o /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/Facebook.o0#
+
+CCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FacebookDemoAppDelegate.o /Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333928676.274033
+e333928676.343695
+r1
+xCompileC
+xbuild/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FacebookDemoAppDelegate.o
+x/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookDemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookDemoAppDelegate.m333928676#333928676#0(0"0(0#0#77"/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookDemoAppDelegate.m8658234880#2229"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch -c /Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookDemoAppDelegate.m -o /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FacebookDemoAppDelegate.o0#
+
+CCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FacebookViewController.o /Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333928720.790467
+e333928720.841926
+r1
+xCompileC
+xbuild/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FacebookViewController.o
+x/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m: In function '-[FacebookViewController facebookButtonPressed:]':
+o/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:48: warning: no '-facebook' method found
+o/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:48: warning: (Messages without a matching method signature
+o/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:48: warning: will be assumed to return 'id' and accept
+o/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:48: warning: '...' as arguments.)
+o/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:48: warning: no '-isSessionValid' method found
+o/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:48: warning: comparison between pointer and integer
+o/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:54: warning: no '-facebookLoginWithSender:' method found
+o/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m: In function '-[FacebookViewController reloadFacebookWebview]':
+o/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:63: warning: no '-setFbSender:' method found
+o/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:64: warning: no '-fbDidLogin' method found
+lSLF07#2@84"Compile /Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m333928720#333928720#0(1409"/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m: In function '-[FacebookViewController facebookButtonPressed:]':/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:48: warning: no '-facebook' method found/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:48: warning: (Messages without a matching method signature/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:48: warning: will be assumed to return 'id' and accept/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:48: warning: '...' as arguments.)/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:48: warning: no '-isSessionValid' method found/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:48: warning: comparison between pointer and integer/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:54: warning: no '-facebookLoginWithSender:' method found/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m: In function '-[FacebookViewController reloadFacebookWebview]':/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:63: warning: no '-setFbSender:' method found/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m:64: warning: no '-fbDidLogin' method found7(22@27"No '-facebook' method found333928720#142#118#0(6@76"/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m333928719#48#0#48#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)333928720#260#136#0(6@76"/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m333928719#48#0#48#0#0"0(22@33"No '-isSessionValid' method found333928720#639#124#0(6@76"/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m333928719#48#0#48#0#19"no '*' method found0(22@38"Comparison between pointer and integer333928720#763#129#0(6@76"/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m333928719#48#0#48#0#0"0(22@43"No '-facebookLoginWithSender:' method found333928720#892#134#0(6@76"/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m333928719#54#0#54#0#19"no '*' method found0(22@31"No '-setFbSender:' method found333928720#1167#122#0(6@76"/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m333928719#63#0#63#0#19"no '*' method found0(22@29"No '-fbDidLogin' method found333928720#1289#120#0(6@76"/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m333928719#64#0#64#0#19"no '*' method found0(0#0#76"/Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m8656105792#2227"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch -c /Users/danlipert/github/Cutify/FacebookDemo/Classes/FacebookViewController.m -o /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FacebookViewController.o0#
+
+CCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/NSObject+SBJSON.o /Users/danlipert/github/Cutify/FacebookDemo/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333926450.943337
+e333926450.991365
+r1
+xCompileC
+xbuild/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/danlipert/github/Cutify/FacebookDemo/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/danlipert/github/Cutify/FacebookDemo/JSON/NSObject+SBJSON.m333926450#333926450#0(0"0(0#0#66"/Users/danlipert/github/Cutify/FacebookDemo/JSON/NSObject+SBJSON.m8635258816#2210"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch -c /Users/danlipert/github/Cutify/FacebookDemo/JSON/NSObject+SBJSON.m -o /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/NSString+SBJSON.o /Users/danlipert/github/Cutify/FacebookDemo/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333926450.944527
+e333926450.997398
+r1
+xCompileC
+xbuild/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/danlipert/github/Cutify/FacebookDemo/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/danlipert/github/Cutify/FacebookDemo/JSON/NSString+SBJSON.m333926450#333926450#0(0"0(0#0#66"/Users/danlipert/github/Cutify/FacebookDemo/JSON/NSString+SBJSON.m8635067744#2210"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch -c /Users/danlipert/github/Cutify/FacebookDemo/JSON/NSString+SBJSON.m -o /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJSON.o /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333926450.987472
+e333926451.058555
+r1
+xCompileC
+xbuild/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJSON.o
+x/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJSON.m333926450#333926451#0(0"0(0#0#57"/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJSON.m8629407872#2192"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch -c /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJSON.m -o /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonBase.o /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333926450.988863
+e333926451.041139
+r1
+xCompileC
+xbuild/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonBase.o
+x/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonBase.m333926450#333926451#0(0"0(0#0#61"/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonBase.m8619056736#2200"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch -c /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonBase.m -o /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonParser.o /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333926450.991472
+e333926451.088784
+r1
+xCompileC
+xbuild/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonParser.o
+x/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonParser.m333926450#333926451#0(0"0(0#0#63"/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonParser.m8616207680#2204"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch -c /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonParser.m -o /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonWriter.o /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333926450.997500
+e333926451.075603
+r1
+xCompileC
+xbuild/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonWriter.m333926450#333926451#0(0"0(0#0#63"/Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonWriter.m8601307744#2204"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch -c /Users/danlipert/github/Cutify/FacebookDemo/JSON/SBJsonWriter.m -o /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/main.o /Users/danlipert/github/Cutify/FacebookDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333926450.940753
+e333926450.987313
+r1
+xCompileC
+xbuild/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/main.o
+x/Users/danlipert/github/Cutify/FacebookDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/danlipert/github/Cutify/FacebookDemo/main.m333926450#333926450#0(0"0(0#0#50"/Users/danlipert/github/Cutify/FacebookDemo/main.m8635790240#2183"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch -c /Users/danlipert/github/Cutify/FacebookDemo/main.m -o /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/danlipert/github/Cutify/FacebookDemo/MainWindow.xib
+s333926450.258307
+e333926450.447354
+r1
+xCompileXIB
+x/Users/danlipert/github/Cutify/FacebookDemo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib333926450#333926450#0(0"0(0#0#58"/Users/danlipert/github/Cutify/FacebookDemo/MainWindow.xib8605340736#704"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/MainWindow.nib /Users/danlipert/github/Cutify/FacebookDemo/MainWindow.xib --sdk /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/FacebookDemo.app/FBDialog.bundle FBDialog.bundle
+s333926450.258886
+e333926450.261962
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FacebookDemo.app/FBDialog.bundle
+xFBDialog.bundle
+lSLF07#2@20"Copy FBDialog.bundle333926450#333926450#0(0"0(0#0#59"/Users/danlipert/github/Cutify/FacebookDemo/FBDialog.bundle8601443936#594"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/FacebookDemo/FBDialog.bundle /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app0#
+
+CGenerateDSYMFile /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app.dSYM /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/FacebookDemo
+s333928720.912183
+e333928720.936157
+r1
+xGenerateDSYMFile
+x/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app.dSYM
+x/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/FacebookDemo
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/FacebookDemo.app.dSYM build/Debug-iphonesimulator/FacebookDemo.app/FacebookDemo333928720#333928720#0(0"0(0#0#101"/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/FacebookDemo8663391232#514"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/usr/bin/dsymutil /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/FacebookDemo -o /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app.dSYM0#
+
+CLd /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/FacebookDemo normal i386
+s333928720.842020
+e333928720.912082
+r1
+xLd
+x/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/FacebookDemo
+xnormal
+xi386
+lSLF07#2@106"Link /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/FacebookDemo333928720#333928720#0(0"0(0#0#0"8636605408#1064"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -filelist /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/Objects-normal/i386/FacebookDemo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/FacebookDemo0#
+
+CProcessInfoPlistFile /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/Info.plist FacebookDemo-Info.plist
+s333926450.255248
+e333926450.258242
+r1
+xProcessInfoPlistFile
+x/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/Info.plist
+xFacebookDemo-Info.plist
+lSLF07#2@31"Process FacebookDemo-Info.plist333926450#333926450#0(0"0(0#0#67"/Users/danlipert/github/Cutify/FacebookDemo/FacebookDemo-Info.plist8619078496#597"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility FacebookDemo-Info.plist -genpkginfo /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app/Info.plist0#
+
+CProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch.gch FacebookDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s333926450.447447
+e333926450.940583
+r1
+xProcessPCH
+x/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch.gch
+xFacebookDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile FacebookDemo_Prefix.pch333926450#333926450#0(0"0(0#0#67"/Users/danlipert/github/Cutify/FacebookDemo/FacebookDemo_Prefix.pch8623210304#2065"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-generated-files.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-own-target-headers.hmap -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/FacebookDemo-project-headers.hmap -F/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/FacebookDemo/build/FacebookDemo.build/Debug-iphonesimulator/FacebookDemo.build/DerivedSources -c /Users/danlipert/github/Cutify/FacebookDemo/FacebookDemo_Prefix.pch -o /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FacebookDemo_Prefix-aigvydjhcufuesftpkmzelugcfoi/FacebookDemo_Prefix.pch.gch0#
+
+CTouch /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app
+s333928720.936248
+e333928720.938371
+r1
+xTouch
+x/Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app
+lSLF07#2@94"Touch /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app333928720#333928720#0(0"0(0#0#0"8661322720#381"    cd /Users/danlipert/github/Cutify/FacebookDemo    setenv PATH "/Users/danlipert/xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/danlipert/xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/danlipert/github/Cutify/FacebookDemo/build/Debug-iphonesimulator/FacebookDemo.app0#
+

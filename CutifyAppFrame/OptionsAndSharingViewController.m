@@ -8,10 +8,13 @@
 
 #import "OptionsAndSharingViewController.h"
 #import "PhotoGridViewController.h"
+#import "ASIHTTPRequest.h"
+#import "ASIFormDataRequest.h"
+
 #import <AVFoundation/AVFoundation.h>
 @implementation OptionsAndSharingViewController
 
-@synthesize image;
+@synthesize image, loginWebview, fbToken;
 
 -(id)initWithStyle:(UITableViewStyle)style
 {
@@ -146,15 +149,19 @@
 		[[cell textLabel] setTextColor:[UIColor colorWithRed:137.0/255.0 green:137.0/255.0 blue:137.0/255.0 alpha:1.0]];
 	} else if (indexPath.section == 1) {
 		UISwitch *sharingSwitch = [[UISwitch alloc] initWithFrame:CGRectMake(200,8,100,44)];
-		[cell addSubview:sharingSwitch];
-		[sharingSwitch release];
+		[sharingSwitch addTarget:self action:@selector(sharingSwitchSwitched:) forControlEvents:UIControlEventValueChanged];
 		if(indexPath.row == 0) {
 			[[cell textLabel] setText:@"Twitter"];
+			[sharingSwitch setTag:0];
 		} else if(indexPath.row == 1) {
 			[[cell textLabel] setText:@"Facebook"];
+			[sharingSwitch setTag:1];
 		} else if(indexPath.row == 2) {
 			[[cell textLabel] setText:@"Tumblr"];
+			[sharingSwitch setTag:2];
 		}
+		[cell addSubview:sharingSwitch];
+		[sharingSwitch release];
 	} else if (indexPath.section == 2) {
 		[[cell textLabel] setText:@"Send as Email"];
 		[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
@@ -164,13 +171,128 @@
 }
 
 
-
+-(void)sharingSwitchSwitched:(id)sender
+{
+	UISwitch *sharingSwitch = (UISwitch *)sender;
+	
+	if(sharingSwitch.tag == 0)
+	{
+		//twitter
+	} else if(sharingSwitch.tag == 1) {
+		//facebook
+		
+		/*Facebook Application ID*/
+		NSString *client_id = @"167889749949567";
+		
+		/*Dummy page hosted by the nice folks at Facebook*/
+		NSString *redirect_uri = @"http://www.facebook.com/connect/login_success.html";
+		
+		NSString *url_string = [NSString stringWithFormat:@"https://graph.facebook.com/oauth/authorize?client_id=%@&redirect_uri=%@&type=user_agent&display=touch", client_id, redirect_uri];
+		
+		NSURL *url = [NSURL URLWithString:url_string];
+		NSURLRequest *request = [NSURLRequest requestWithURL:url];
+		
+		UIWebView *_loginWebview = [[UIWebView alloc] initWithFrame:self.view.frame];
+		self.loginWebview = _loginWebview;
+		[_loginWebview release];
+		[self.loginWebview setDelegate:self];
+		[self.loginWebview loadRequest:request];
+		[self.view addSubview:self.loginWebview];
+		
+	} else if(sharingSwitch.tag == 2) {
+		//tumblr
+	}
+}
 
 #pragma mark -
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
+}
+
+#pragma mark -
+#pragma mark webview delegate
+
+- (void)webViewDidFinishLoad:(UIWebView *)_webView {
+	
+	/**
+	 * Since there's some server side redirecting involved, this method/function will be called several times
+	 * we're only interested when we see a url like:  http://www.facebook.com/connect/login_success.html#access_token=..........
+	 */
+	
+	//get the url string
+	NSString *url_string = [((_webView.request).URL) absoluteString];
+	
+	NSLog(url_string);
+	
+	//looking for "access_token="
+	NSRange access_token_range = [url_string rangeOfString:@"access_token="];
+	
+	//coolio, we have a token, now let's parse it out....
+	if (access_token_range.length > 0) {
+		
+		//we want everything after the 'access_token=' thus the position where it starts + it's length
+		int from_index = access_token_range.location + access_token_range.length;
+		NSString *access_token = [url_string substringFromIndex:from_index];
+		
+		NSLog(@"access_token:  %@", access_token);
+		self.fbToken = access_token;
+		[self.loginWebview removeFromSuperview];
+		
+		[self makeRequestToServer];
+	}
+}
+
+#pragma mark -
+#pragma mark asihttprequest delegate
+
+-(void)makeRequestToServer
+{
+	NSURL *url = [NSURL URLWithString:@"http://cutify.tmoa.webfactional.com/uploads/"];
+	ASIFormDataRequest *request = [[[ASIFormDataRequest alloc] initWithURL:url] autorelease];
+//	ASIHTTPRequest *request = [[[ASIHTTPRequest alloc] initWithURL:url] autorelease];
+	[request setDelegate:self];
+		
+	[request setPostValue:@"This caption is here" forKey:@"caption"];
+	NSMutableData *imageData = [[NSMutableData alloc] init];
+	[imageData setData:UIImageJPEGRepresentation(self.image, 1.0)];
+	[request setPostBody:imageData];
+	[imageData release];
+	[request setPostValue:self.fbToken forKey:@"fb_token"];
+	
+	[request setDidFinishSelector:@selector(requestFinished:)];
+	[request setDidFailSelector:@selector(requestFailed:)];
+	
+	[request startSynchronous];	
+}
+
+- (void)requestFinished:(ASIHTTPRequest *)request
+{
+	NSLog([request responseString]);
+	UIAlertView *alert = [[UIAlertView alloc]
+						  initWithTitle:@"Sent to server!"
+						  message:@"Great job!."
+						  delegate:self
+						  cancelButtonTitle:@"OK"
+						  otherButtonTitles:nil];
+	[alert setTag:10];
+	[alert show];
+	[alert autorelease];
+}
+
+- (void)requestFailed:(ASIHTTPRequest *)request
+{
+//	NSLog([request error]);
+	UIAlertView *alert = [[UIAlertView alloc]
+						  initWithTitle:@"Upload failed!"
+						  message:@"you have no dignity"
+						  delegate:self
+						  cancelButtonTitle:@"OK"
+						  otherButtonTitles:nil];
+	
+	[alert show];
+	[alert autorelease];
 }
 
 
