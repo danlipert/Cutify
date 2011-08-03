@@ -12,7 +12,7 @@
 
 @implementation CutifyStickerView
 
-@synthesize stickerImageView, rotationDegrees;
+@synthesize stickerImageView, rotationDegrees, centerPoint, scale;
 
 //- (id)initWithFrame:(CGRect)frame {
 //    
@@ -49,7 +49,7 @@
 		self.frame = stickerImageView.frame;
 		
 		self.rotationDegrees = 0.0f;
-		
+		self.clipsToBounds = YES;
 		//debug
 		[self setBackgroundColor:[UIColor purpleColor]];
 	}
@@ -65,6 +65,7 @@
 
 - (void)setFrame:(CGRect)frameRect
 {
+	NSLog(@"Sticker setframe called");
 	[super setFrame:frameRect];
 	[stickerImageView setFrame:frameRect];
 }

@@ -16,5 +16,5 @@
 @property (nonatomic, retain) UIImage *image;
 @property (nonatomic, retain) UIWebView *loginWebview;
 @property (nonatomic, retain) NSString *fbToken;
-
+@property (nonatomic, retain) UITextField *txtField;
 @end

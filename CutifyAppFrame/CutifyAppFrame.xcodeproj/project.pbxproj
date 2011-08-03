@@ -51,6 +51,7 @@
 		B62F4CCB13CEA9FA0034B982 /* IAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62F4CCA13CEA9FA0034B982 /* IAPViewController.m */; };
 		B6370D8413CE649C00E1FD29 /* PhotoGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */; };
 		B64E26C813CE695800AEBA32 /* ApplyStickerImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */; };
+		B658F22C13E8B1920046C6E0 /* defaultnavbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B658F22B13E8B1920046C6E0 /* defaultnavbar@2x.png */; };
 		B65A96EE13DCA3240012E260 /* PhotoPreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65A96E613DCA3240012E260 /* PhotoPreviewViewController.xib */; };
 		B65A96EF13DCA3240012E260 /* PhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A96E713DCA3240012E260 /* PhotoPreviewViewController.m */; };
 		B65A96F013DCA3240012E260 /* PhotoCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65A96E913DCA3240012E260 /* PhotoCaptureViewController.xib */; };
@@ -325,6 +326,7 @@
 		B6370D8213CE649C00E1FD29 /* PhotoGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoGridViewController.h; path = ../PhotoGridViewController.h; sourceTree = "<group>"; };
 		B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoGridViewController.m; path = ../PhotoGridViewController.m; sourceTree = "<group>"; };
 		B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ApplyStickerImage@2x.png"; sourceTree = "<group>"; };
+		B658F22B13E8B1920046C6E0 /* defaultnavbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultnavbar@2x.png"; sourceTree = "<group>"; };
 		B65A96E613DCA3240012E260 /* PhotoPreviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoPreviewViewController.xib; sourceTree = "<group>"; };
 		B65A96E713DCA3240012E260 /* PhotoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPreviewViewController.m; sourceTree = "<group>"; };
 		B65A96E813DCA3240012E260 /* PhotoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPreviewViewController.h; sourceTree = "<group>"; };
@@ -667,6 +669,7 @@
 				B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */,
 				B672F2F013CC043E005FEF8A /* DoneButton@2x.png */,
 				B672F2F113CC043E005FEF8A /* BackButton@2x.png */,
+				B658F22B13E8B1920046C6E0 /* defaultnavbar@2x.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -926,6 +929,7 @@
 				B6EE701E13E340EC00EE45B8 /* CutifyPack3@2x.png in Resources */,
 				B6EE701F13E340EC00EE45B8 /* CutifyPack2@2x.png in Resources */,
 				B6EE702013E340EC00EE45B8 /* CutifyPack1@2x.png in Resources */,
+				B658F22C13E8B1920046C6E0 /* defaultnavbar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -117,29 +117,36 @@
 	
 	[self.photoImage drawInRect:CGRectMake(0, 0, self.photoImage.size.width, self.photoImage.size.height)];  
 
-
 	for(CutifyStickerView *eachStickerView in self.stickersArray)
 	{
 		CGContextSaveGState(ctx);
 
-		eachStickerView.layer.anchorPoint = CGPointMake(0.5, 0.5);
+//		eachStickerView.layer.anchorPoint = CGPointMake(0.5, 0.5);
 		
 		if([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2)
 		{
-			
-			CGContextTranslateCTM (ctx, eachStickerView.center.x * 2.0, eachStickerView.center.y * 2.0);			
+			NSLog(@"rendering sticker %fx%f at (%f, %f)", eachStickerView.frame.size.width * 2.0, eachStickerView.frame.size.height * 2.0, eachStickerView.frame.origin.y*2.0, eachStickerView.frame.origin.y*2.0);
+
+			CGContextTranslateCTM (ctx, eachStickerView.centerPoint.x * 2.0, eachStickerView.centerPoint.y * 2.0);		
+//			CGContextTranslateCTM (ctx, eachStickerView.center.x * 2.0, eachStickerView.center.y * 2.0);			
 			CGContextRotateCTM(ctx, eachStickerView.rotationDegrees* M_PI/180.0);
-			CGContextTranslateCTM (ctx, -eachStickerView.center.x * 2.0, -eachStickerView.center.y * 2.0);
+//			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0, eachStickerView.stickerImageView.image.size.width * eachStickerView.scale * 2.0, eachStickerView.stickerImageView.image.size.height * eachStickerView.scale * 2.0)];
+
+			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0, eachStickerView.stickerImageView.image.size.width * eachStickerView.scale * 2.0, eachStickerView.stickerImageView.image.size.height * eachStickerView.scale * 2.0)];
+			CGContextTranslateCTM (ctx, -eachStickerView.centerPoint.x * 2.0, -eachStickerView.centerPoint.y * 2.0);
 			
 			//iPhone 4
 			//changed draw in rect to draw imageview frame instead of parent frame
-			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0, eachStickerView.stickerImageView.frame.size.width * 2.0, eachStickerView.stickerImageView.frame.size.height * 2.0)];
+//			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0, eachStickerView.stickerImageView.image.size.width * eachStickerView.scale * 2.0, eachStickerView.stickerImageView.image.size.height * eachStickerView.scale * 2.0)];
+//			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0, eachStickerView.stickerImageView.frame.size.width * 2.0, eachStickerView.stickerImageView.frame.size.height * 2.0)];
+			NSLog(@"rendered sticker %fx%f at (%f, %f)", eachStickerView.frame.size.width * 2.0, eachStickerView.frame.size.height * 2.0, eachStickerView.frame.origin.y*2.0, eachStickerView.frame.origin.y*2.0);
 		} else {
-			CGContextTranslateCTM (ctx, eachStickerView.center.x, eachStickerView.center.y);			
-			CGContextRotateCTM(ctx, eachStickerView.rotationDegrees * M_PI/180.0);
-			CGContextTranslateCTM (ctx, -eachStickerView.center.x, -eachStickerView.center.y);
-			
-			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x, eachStickerView.frame.origin.y, eachStickerView.frame.size.width, eachStickerView.frame.size.height)];
+			//BUG - this part is untested
+//			CGContextTranslateCTM (ctx, eachStickerView.center.x, eachStickerView.center.y);			
+	//		CGContextRotateCTM(ctx, eachStickerView.rotationDegrees * M_PI/180.0);
+//			CGContextTranslateCTM (ctx, -eachStickerView.center.x, -eachStickerView.center.y);
+//			
+//			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x, eachStickerView.frame.origin.y, eachStickerView.frame.size.width, eachStickerView.frame.size.height)];
 		}
 		
 		CGContextRestoreGState(ctx);
@@ -214,6 +221,8 @@
 			[sticker setCenter:CGPointMake([sticker center].x + translation.x, [sticker center].y + translation.y)];
 			[CATransaction commit];
 			
+			[sticker setCenterPoint:sticker.center];
+			
 			[gestureRecognizer setTranslation:CGPointZero inView:[sticker superview]];
 		} else {
 			//do not move past borders
@@ -231,8 +240,9 @@
 		if((gestureRecognizer.view.frame.size.width > 40) && (gestureRecognizer.view.frame.size.height > 40))
 		{
 			if ([gestureRecognizer state] == UIGestureRecognizerStateBegan || [gestureRecognizer state] == UIGestureRecognizerStateChanged) {
-				[gestureRecognizer view].transform = CGAffineTransformScale([[gestureRecognizer view] transform], [gestureRecognizer scale], [gestureRecognizer scale]);
 				CutifyStickerView *sticker = (CutifyStickerView *)[gestureRecognizer view];
+				sticker.transform = CGAffineTransformScale([[gestureRecognizer view] transform], [gestureRecognizer scale], [gestureRecognizer scale]);
+				sticker.scale = gestureRecognizer.scale;
 				[gestureRecognizer setScale:1];
 			}
 		}

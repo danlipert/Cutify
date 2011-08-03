@@ -103,7 +103,13 @@
 
 @implementation UINavigationBar (MyCustomNavBar)
 - (void) drawRect:(CGRect)rect {
-    UIImage *barImage = [UIImage imageNamed:@"NavigationBar.png"];
-    [barImage drawInRect:rect];
+	if(self.tag !=1)
+	{
+		UIImage *barImage = [UIImage imageNamed:@"NavigationBar.png"];
+		[barImage drawInRect:rect];
+	} else {
+		UIImage *img = [UIImage imageNamed:@"defaultnavbar.png"];
+		[img drawInRect:rect];
+	}
 }
 @end

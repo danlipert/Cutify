@@ -16,6 +16,8 @@
 
 @property (nonatomic, retain) UIImageView *stickerImageView;
 @property (nonatomic) float rotationDegrees;
+@property (nonatomic) float scale;
+@property (nonatomic) CGPoint centerPoint;
 
 -(id)initWithStickerMeta:(CutifyStickerMeta *)stickerMeta;
 
