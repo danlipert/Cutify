@@ -66,6 +66,9 @@
 		B672F2F313CC043E005FEF8A /* NavigationBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */; };
 		B672F2F413CC043E005FEF8A /* DoneButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2F013CC043E005FEF8A /* DoneButton@2x.png */; };
 		B672F2F513CC043E005FEF8A /* BackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2F113CC043E005FEF8A /* BackButton@2x.png */; };
+		B6B4DF4C13E9051C00696419 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4DF4613E9051C00696419 /* UIImage+Resize.m */; };
+		B6B4DF4D13E9051C00696419 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4DF4713E9051C00696419 /* UIImage+Alpha.m */; };
+		B6B4DF4E13E9051C00696419 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4DF4813E9051C00696419 /* UIImage+RoundedCorner.m */; };
 		B6C087D513CC004800BA7D4E /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C087D413CC004800BA7D4E /* TakePhotoViewController.m */; };
 		B6C087DF13CC00F900BA7D4E /* OptionsAndSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C087DE13CC00F900BA7D4E /* OptionsAndSharingViewController.m */; };
 		B6EBD0A713CCEABA00389177 /* ApplyStickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EBD0A613CCEABA00389177 /* ApplyStickersViewController.m */; };
@@ -344,6 +347,12 @@
 		B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBar@2x.png"; sourceTree = "<group>"; };
 		B672F2F013CC043E005FEF8A /* DoneButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DoneButton@2x.png"; sourceTree = "<group>"; };
 		B672F2F113CC043E005FEF8A /* BackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackButton@2x.png"; sourceTree = "<group>"; };
+		B6B4DF4613E9051C00696419 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		B6B4DF4713E9051C00696419 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		B6B4DF4813E9051C00696419 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		B6B4DF4913E9051C00696419 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		B6B4DF4A13E9051C00696419 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		B6B4DF4B13E9051C00696419 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
 		B6C087D313CC004800BA7D4E /* TakePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TakePhotoViewController.h; path = ../TakePhotoViewController.h; sourceTree = "<group>"; };
 		B6C087D413CC004800BA7D4E /* TakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TakePhotoViewController.m; path = ../TakePhotoViewController.m; sourceTree = "<group>"; };
 		B6C087DD13CC00F900BA7D4E /* OptionsAndSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsAndSharingViewController.h; path = ../OptionsAndSharingViewController.h; sourceTree = "<group>"; };
@@ -417,6 +426,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B6B4DF3E13E9050E00696419 /* UIImage extensions */,
 				B620495813E769A5000EF32E /* ASIHTTPRequest */,
 				B61C5A4613E0A04F00122BB5 /* Sticker Select */,
 				B65A96E413DCA3140012E260 /* Daves Code */,
@@ -672,6 +682,19 @@
 				B658F22B13E8B1920046C6E0 /* defaultnavbar@2x.png */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		B6B4DF3E13E9050E00696419 /* UIImage extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6B4DF4613E9051C00696419 /* UIImage+Resize.m */,
+				B6B4DF4713E9051C00696419 /* UIImage+Alpha.m */,
+				B6B4DF4813E9051C00696419 /* UIImage+RoundedCorner.m */,
+				B6B4DF4913E9051C00696419 /* UIImage+RoundedCorner.h */,
+				B6B4DF4A13E9051C00696419 /* UIImage+Resize.h */,
+				B6B4DF4B13E9051C00696419 /* UIImage+Alpha.h */,
+			);
+			name = "UIImage extensions";
 			sourceTree = "<group>";
 		};
 		B6EE6FF113E340E100EE45B8 /* Stickers */ = {
@@ -970,6 +993,9 @@
 				B620498313E769A5000EF32E /* ASIHTTPRequest.m in Sources */,
 				B620498413E769A5000EF32E /* ASIInputStream.m in Sources */,
 				B620498513E769A5000EF32E /* ASINetworkQueue.m in Sources */,
+				B6B4DF4C13E9051C00696419 /* UIImage+Resize.m in Sources */,
+				B6B4DF4D13E9051C00696419 /* UIImage+Alpha.m in Sources */,
+				B6B4DF4E13E9051C00696419 /* UIImage+RoundedCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1062,7 +1088,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos4.3;
 			};
 			name = Debug;
 		};

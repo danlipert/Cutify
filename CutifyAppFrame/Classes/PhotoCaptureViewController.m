@@ -166,6 +166,7 @@
 	[self.navigationController setNavigationBarHidden:NO animated:NO];
 
 	ApplyStickersViewController *applyStickersViewController = [[ApplyStickersViewController alloc] init];
+	
 	applyStickersViewController.photoImage = [self cropImage:capturedImage withRect:CGRectMake(6,120,306,306)];
 	[self.navigationController pushViewController:applyStickersViewController animated:YES];
 	[applyStickersViewController release];
@@ -174,6 +175,8 @@
 // get sub image http://stackoverflow.com/questions/2635371/how-to-crop-the-uiimage
 - (UIImage*)cropImage: (UIImage*)img withRect:(CGRect)rect 
 {
+	//FUKKEN BUGS
+	//this is effing up the right side
 	//actually first we are going to resize the image
 	
 	if([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2)
@@ -190,7 +193,7 @@
 	if([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2)
 	{
 //		drawRect = CGRectMake(-rect.origin.x, -rect.origin.y, img.size.width, img.size.height);
-		drawRect = CGRectMake(-rect.origin.x, -rect.origin.y, 612, 1088);
+		drawRect = CGRectMake(-rect.origin.x, -rect.origin.y, 624, 1110);
 	} else {
 		drawRect = CGRectMake(-rect.origin.x, -rect.origin.y, img.size.width, img.size.height);
 	}	

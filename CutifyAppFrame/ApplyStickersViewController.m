@@ -21,6 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
+	//lets test and save the image first
+//	UIImageWriteToSavedPhotosAlbum(self.photoImage, nil,nil,nil);
+	
 	NSMutableArray *_stickersArray = [[NSMutableArray alloc] init];
 	self.stickersArray = _stickersArray;
 	[_stickersArray release];
@@ -56,6 +59,7 @@
 	[self.view addSubview:picker];
 	[picker release];
 	
+	UIScrollView *_photoScrollView
 	UIImageView *_photoImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ApplyStickerImage.png"]];
 	self.photoImageView = _photoImageView;
 	[_photoImageView release];

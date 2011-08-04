@@ -55,6 +55,8 @@
 	[self.tableView setBackgroundColor:[UIColor clearColor]];
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"TableviewBackground.png"]]];	
 	
+	self.image = [UIImage imageWithData:[NSData dataWithContentsOfFile:self.fileName]];
+	
 	UIImageView *photoImageView = [[UIImageView alloc] initWithImage:self.image];
 	[photoImageView setFrame:CGRectMake(0,0,306,306)];
 	self.tableView.tableHeaderView = photoImageView;
@@ -68,12 +70,15 @@
 
 -(void)deleteButtonPressed:(id)sender
 {
-	//save file
-	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-	NSString *documentsDirectory = [paths objectAtIndex:0];
+//	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+//	NSString *documentsDirectory = [paths objectAtIndex:0];
+//	NSFileManager *fileManager = [NSFileManager defaultManager];
+//	NSString *imagePath = [documentsDirectory stringByAppendingPathComponent:self.fileName];
+//	NSLog(@"Trying to delete: %@", imagePath);
+
+	//self.fileName contains image path
 	NSFileManager *fileManager = [NSFileManager defaultManager];
-	NSString *imagePath = [documentsDirectory stringByAppendingPathComponent:self.fileName];
-	[fileManager removeItemAtPath:imagePath error:nil];
+	[fileManager removeItemAtPath:self.fileName error:nil];
 	[self.navigationController popViewControllerAnimated:YES];
 }
 

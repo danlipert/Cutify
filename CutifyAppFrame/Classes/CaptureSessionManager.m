@@ -7,6 +7,7 @@
 @synthesize previewLayer;
 @synthesize stillImageOutput;
 @synthesize stillImage;
+@synthesize flashMode;
 
 @synthesize videoInput;
 
@@ -149,6 +150,7 @@
     NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
     for (AVCaptureDevice *device in devices) {
         if ([device position] == position) {
+			device.flashMode = self.flashMode;
             return device;
         }
     }

@@ -56,6 +56,15 @@
 //	//setup background
 	[self.tableView setBackgroundColor:[UIColor clearColor]];
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"TableviewBackground.png"]]];	
+	
+	//setup preview
+	UIImageView *photoImageView = [[UIImageView alloc] initWithImage:self.image];
+	[photoImageView setFrame:CGRectMake(0,0,320,320)];
+	[photoImageView setContentMode:UIViewContentModeScaleAspectFit];
+	self.tableView.tableHeaderView = photoImageView;
+	[photoImageView release];
+	
+	NSLog(@"Image loaded (%f x %f)", self.image.size.width, self.image.size.height);
 }
 
 -(void)cancelButtonPressed:(id)sender
@@ -65,13 +74,14 @@
 
 -(void)doneButtonPressed:(id)sender
 {
+	NSLog(@"Saving image...");
 	//save file
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documentsDirectory = [paths objectAtIndex:0];
 	NSDate *now = [NSDate date];
-	NSString *fileName = [NSString stringWithFormat:@"Cutify %@.jpg", now];
+	NSString *fileName = [NSString stringWithFormat:@"Cutify%@.jpg", now];
 	NSString *imagePath = [documentsDirectory stringByAppendingPathComponent:fileName];
-	NSData *imageData = UIImageJPEGRepresentation(self.image, 10);
+	NSData *imageData = UIImageJPEGRepresentation(self.image, 1.0);
 	[imageData writeToFile:imagePath atomically:YES];
 	
 	//save file in iphoto

@@ -12,6 +12,7 @@
 @property (retain) AVCaptureStillImageOutput *stillImageOutput;
 @property (nonatomic, retain) UIImage *stillImage;
 @property (nonatomic, retain) id delegate;
+@property (retain) AVCaptureFlashMode *flashMode;
 
 @property (nonatomic,retain) AVCaptureDeviceInput *videoInput;
 

@@ -17,69 +17,39 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	//create images
-	
-	//UIImage *testImage = [UIImage imageNamed:@"ApplyStickerImage.png"]; 
-//	for(int j = 0; j< 20; j++)
-//	{
-//		[imagesArray addObject:testImage];
-//	}
-	
-	[self loadImagesFromDocumentsDirectory];
-	
 	UIScrollView *s = [[UIScrollView alloc] initWithFrame:CGRectMake(0,0,320,480-20-44)];
-	[s setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"TableviewBackground.png"]]];
-	int numOfColumns = 3;
-	int numOfRows = self.imagesArray.count/numOfColumns+1;
-	int space = 10;
-	int width = (s.frame.size.width-(numOfColumns+1)*space)/numOfColumns;
-	int height = width;
-	int x = space;
-	int y = space;
-	for (int i=1; i<=self.imagesArray.count; i++) {
-		UIButton *imageButton = [[UIButton alloc] initWithFrame:CGRectMake(x,y,width,height)];
-		[imageButton setImage:[self.imagesArray objectAtIndex:i-1] forState:UIControlStateNormal];
-		[imageButton addTarget:self action:@selector(imageButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-		[imageButton setTag:i-1];
-		[imageButton setTitle:[self.fileNamesArray objectAtIndex:i-1] forState:UIControlStateReserved];
-		[s addSubview:imageButton];
-		[imageButton release];
-		if (i%numOfColumns == 0) {
-			y += space+height;
-			x = space;
-		} else {
-			x+=space+width;
-		}
-	}
-	int contentWidth = numOfColumns*(space+width)+space;
-	int contentHeight = numOfRows*(space+height)+space;
-	[s setContentSize:CGSizeMake(contentWidth, contentHeight)];
-	[self.view addSubview:s];
 	self.scrollView = s;
 	[s release];
 	
-	//setup buttons
-	UIButton *photoButton = [UIButton buttonWithType:UIButtonTypeCustom];
-	UIImage *photoButtonImage = [UIImage imageNamed:@"CameraBackButton.png"];
-	[photoButton setFrame:CGRectMake(0,0,photoButtonImage.size.width, photoButtonImage.size.height)];
-	[photoButton addTarget:self action:@selector(photoButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-	[photoButton setImage:photoButtonImage forState:UIControlStateNormal];
-	UIBarButtonItem *photoButtonItem = [[UIBarButtonItem alloc] initWithCustomView:photoButton];
+	[self.scrollView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"TableviewBackground.png"]]];
+	[self.view addSubview:self.scrollView];
 	
-	self.navigationItem.leftBarButtonItem = photoButtonItem;
-	[photoButtonItem release];
+	//setup buttons
+	UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	UIImage *cancelButtonImage = [UIImage imageNamed:@"CameraBackButton.png"];
+	[cancelButton setFrame:CGRectMake(0,0,cancelButtonImage.size.width, cancelButtonImage.size.height)];
+	[cancelButton addTarget:self action:@selector(photoButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[cancelButton setImage:cancelButtonImage forState:UIControlStateNormal];
+	UIBarButtonItem *cancelButtonItem = [[UIBarButtonItem alloc] initWithCustomView:cancelButton];
+	
+//	UIButton *flashButton = [UIButton buttonWithType:UIButtonTypeCustom];
+//	UIImage *flashImage = [UIImage imageNamed:
+	
+	self.navigationItem.leftBarButtonItem = cancelButtonItem;
+	[cancelButtonItem release];
+	
+	[self layoutScrollview];
 }
 
--(void)viewWillAppear:(BOOL)animated
+-(void)layoutScrollview
 {
-	//this will be triggered when a user deletes a photo
 	[self loadImagesFromDocumentsDirectory];
 	
 	for(id eachView in [self.scrollView.subviews copy])
 	{
 		[eachView removeFromSuperview];
 	}
-	
+		
 	int numOfColumns = 3;
 	int numOfRows = self.imagesArray.count/numOfColumns+1;
 	int space = 10;
@@ -87,31 +57,97 @@
 	int height = width;
 	int x = space;
 	int y = space;
+	NSLog(@"images in image array... %i", [self.imagesArray count]);
 	for (int i=1; i<=self.imagesArray.count; i++) {
+		
+		//		[imageButton setImage:[self.imagesArray objectAtIndex:i-1] forState:UIControlStateNormal];
+		
 		UIButton *imageButton = [[UIButton alloc] initWithFrame:CGRectMake(x,y,width,height)];
-		[imageButton setImage:[self.imagesArray objectAtIndex:i-1] forState:UIControlStateNormal];
+		NSString *imagePath = [fileNamesArray objectAtIndex:i-1];
+		NSData *imageData = [[NSData alloc] initWithContentsOfFile:imagePath];
+		UIImage *buttonImage = [[UIImage alloc] initWithData:imageData];
+		NSLog(@"button image size: %f, %f", buttonImage.size.width, buttonImage.size.height);
+		UIImage *resizedButtonImage = [buttonImage resizedImage:CGSizeMake(93, 93) interpolationQuality:kCGInterpolationLow];
+		
+		[imageButton setImage:buttonImage forState:UIControlStateNormal];
 		[imageButton addTarget:self action:@selector(imageButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 		[imageButton setTag:i-1];
 		[imageButton setTitle:[self.fileNamesArray objectAtIndex:i-1] forState:UIControlStateReserved];
 		[self.scrollView addSubview:imageButton];
-		[imageButton release];
 		if (i%numOfColumns == 0) {
 			y += space+height;
 			x = space;
 		} else {
 			x+=space+width;
 		}
+		
+		[imageButton release];
+		[imageData release];
+		[buttonImage release];
 	}
+	
+	//release extra image data
+	self.imagesArray = nil;
 	int contentWidth = numOfColumns*(space+width)+space;
 	int contentHeight = numOfRows*(space+height)+space;
 	[self.scrollView setContentSize:CGSizeMake(contentWidth, contentHeight)];
+	
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+	[self layoutScrollview];
+//	//this will be triggered when a user deletes a photo
+//	[self loadImagesFromDocumentsDirectory];
+//	
+//	for(id eachView in [self.scrollView.subviews copy])
+//	{
+//		[eachView removeFromSuperview];
+//	}
+//	
+//	int numOfColumns = 3;
+//	int numOfRows = self.imagesArray.count/numOfColumns+1;
+//	int space = 10;
+//	int width = (self.scrollView.frame.size.width-(numOfColumns+1)*space)/numOfColumns;
+//	int height = width;
+//	int x = space;
+//	int y = space;
+//	for (int i=1; i<=self.imagesArray.count; i++) {
+//		UIButton *imageButton = [[UIButton alloc] initWithFrame:CGRectMake(x,y,width,height)];
+////		[imageButton setImage:[self.imagesArray objectAtIndex:i-1] forState:UIControlStateNormal];
+//		NSString *imagePath = [[NSBundle mainBundle] pathForResource:[self.fileNamesArray objectAtIndex:i-1] ofType:@"jpg"];
+//		NSLog(imagePath);
+//		NSData *imageData = [[NSData alloc] initWithContentsOfFile:imagePath];
+//		UIImage *buttonImage = [[UIImage alloc] initWithData:imageData];
+//
+////		UIImage *resizedButtonImage = [buttonImage resizedImage:CGSizeMake(93, 93) interpolationQuality:kCGInterpolationHigh];
+//		
+//		[imageData release];
+//		[buttonImage release];
+//		[imageButton setImage:buttonImage forState:UIControlStateNormal];
+////		[resizedButtonImage release];
+//		[imageButton addTarget:self action:@selector(imageButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+//		[imageButton setTag:i-1];
+//		[imageButton setTitle:[self.fileNamesArray objectAtIndex:i-1] forState:UIControlStateReserved];
+//		[self.scrollView addSubview:imageButton];
+//		[imageButton release];
+//		if (i%numOfColumns == 0) {
+//			y += space+height;
+//			x = space;
+//		} else {
+//			x+=space+width;
+//		}
+//	}
+//	int contentWidth = numOfColumns*(space+width)+space;
+//	int contentHeight = numOfRows*(space+height)+space;
+//	[self.scrollView setContentSize:CGSizeMake(contentWidth, contentHeight)];
 }	
 	
 
 -(void)imageButtonPressed:(UIButton *)sender
 {
 	PhotoViewSharingViewController *photoViewSharingViewController = [[PhotoViewSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
-	photoViewSharingViewController.image = sender.imageView.image;
+//	photoViewSharingViewController.image = sender.imageView.image;
 	photoViewSharingViewController.fileName = [self.fileNamesArray objectAtIndex:sender.tag];
 	[self.navigationController pushViewController:photoViewSharingViewController animated:YES];
 	[photoViewSharingViewController release];
@@ -133,12 +169,13 @@
 	
 	for (NSString *fileName in [fileManager contentsOfDirectoryAtPath:documentsDirectory error:NULL]) 
 	{
-		NSLog(@"Found file %@", fileName);
+//		NSLog(@"Found file %@", fileName);
 		if([fileName hasSuffix:@"jpg"])
 		{
 			NSString *filePath = [documentsDirectory stringByAppendingPathComponent:fileName];
+			NSLog(filePath);
 			[_imagesArray addObject:[UIImage imageWithContentsOfFile:filePath]];
-			[_fileNamesArray addObject:fileName];
+			[_fileNamesArray addObject:filePath];
 		}
 	}
 	self.imagesArray = _imagesArray;
@@ -146,6 +183,60 @@
 	[_imagesArray release];
 	[_fileNamesArray release];
 }	
+
+//-(UIImage *)resizeImage:(UIImage *)image {
+//	
+//	CGImageRef imageRef = [image CGImage];
+//	CGImageAlphaInfo alphaInfo = CGImageGetAlphaInfo(imageRef);
+//	CGColorSpaceRef colorSpaceInfo = CGColorSpaceCreateDeviceRGB();
+//	
+//	if (alphaInfo == kCGImageAlphaNone)
+//		alphaInfo = kCGImageAlphaNoneSkipLast;
+//	
+//	int width, height;
+//	
+//	width = 93;
+//	height = 93;
+//	
+//	CGContextRef bitmap;
+//	
+//	if (image.imageOrientation == UIImageOrientationUp | image.imageOrientation == UIImageOrientationDown) {
+//		bitmap = CGBitmapContextCreate(NULL, width, height, CGImageGetBitsPerComponent(imageRef), CGImageGetBytesPerRow(imageRef), colorSpaceInfo, alphaInfo);
+//		
+//	} else {
+//		bitmap = CGBitmapContextCreate(NULL, height, width, CGImageGetBitsPerComponent(imageRef), CGImageGetBytesPerRow(imageRef), colorSpaceInfo, alphaInfo);
+//		
+//	}
+//	
+//	if (image.imageOrientation == UIImageOrientationLeft) {
+//		NSLog(@"image orientation left");
+//		CGContextRotateCTM (bitmap, M_PI/360.0);
+//		CGContextTranslateCTM (bitmap, 0, -height);
+//		
+//	} else if (image.imageOrientation == UIImageOrientationRight) {
+//		NSLog(@"image orientation right");
+//		CGContextRotateCTM (bitmap, -M_PI/360.0);
+//		CGContextTranslateCTM (bitmap, -width, 0);
+//		
+//	} else if (image.imageOrientation == UIImageOrientationUp) {
+//		NSLog(@"image orientation up");	
+//		
+//	} else if (image.imageOrientation == UIImageOrientationDown) {
+//		NSLog(@"image orientation down");	
+//		CGContextTranslateCTM (bitmap, width,height);
+//		CGContextRotateCTM (bitmap, -M_PI/180.0);
+//		
+//	}
+//	
+//	CGContextDrawImage(bitmap, CGRectMake(0, 0, width, height), imageRef);
+//	CGImageRef ref = CGBitmapContextCreateImage(bitmap);
+//	UIImage *result = [UIImage imageWithCGImage:ref];
+//	
+//	CGContextRelease(bitmap);
+//	CGImageRelease(ref);
+//	
+//	return result;	
+//}
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.

@@ -1,5 +1,0 @@
-/Users/danlipert/github/Cutify/CutifyAppFrame/../CutifyAppPrototype/Classes/CutifyStickerView.m: In function '-[CutifyStickerView initWithStickerMeta:]':
-/Users/danlipert/github/Cutify/CutifyAppFrame/../CutifyAppPrototype/Classes/CutifyStickerView.m:44: warning: local declaration of 'stickerImageView' hides instance variable
-/Users/danlipert/github/Cutify/CutifyAppFrame/../CutifyAppPrototype/Classes/CutifyStickerView.m:45: warning: local declaration of 'stickerImageView' hides instance variable
-/Users/danlipert/github/Cutify/CutifyAppFrame/../CutifyAppPrototype/Classes/CutifyStickerView.m:46: warning: local declaration of 'stickerImageView' hides instance variable
-/Users/danlipert/github/Cutify/CutifyAppFrame/../CutifyAppPrototype/Classes/CutifyStickerView.m:49: warning: local declaration of 'stickerImageView' hides instance variable

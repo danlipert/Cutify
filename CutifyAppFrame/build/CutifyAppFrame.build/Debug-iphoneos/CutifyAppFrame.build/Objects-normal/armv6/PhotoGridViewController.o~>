@@ -1,0 +1,11 @@
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m: In function '-[PhotoGridViewController viewDidLoad]':
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m:38: warning: 'PhotoGridViewController' may not respond to '-layoutScrollview'
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m:38: warning: (Messages without a matching method signature
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m:38: warning: will be assumed to return 'id' and accept
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m:38: warning: '...' as arguments.)
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m: In function '-[PhotoGridViewController layoutScrollview]':
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m:43: warning: 'PhotoGridViewController' may not respond to '-loadImagesFromDocumentsDirectory'
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m:67: warning: 'UIImage' may not respond to '-resizedImage:interpolationQuality:'
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m:67: warning: unused variable 'resizedButtonImage'
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m: In function '-[PhotoGridViewController loadImagesFromDocumentsDirectory]':
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/../PhotoGridViewController.m:173: warning: format not a string literal and no format arguments
