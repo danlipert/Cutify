@@ -93,6 +93,9 @@
 	[iPhotoButton addTarget:self action:@selector(iPhotoButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:iPhotoButton];
 	
+	UIButton *flashButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	[flashButton setImage:[UIImage imageNamed:@" forState:<#(UIControlState)state#>
+	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(displayImagePreview) name:kImageCapturedSuccessfully object:nil];
 	[[captureManager captureSession] startRunning];
 }

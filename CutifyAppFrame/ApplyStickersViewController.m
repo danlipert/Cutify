@@ -16,7 +16,7 @@
 
 @implementation ApplyStickersViewController
 
-@synthesize photoImageView, photoImage, stickerForReset, stickersArray;
+@synthesize photoImageView, photoImage, photoScrollView, stickerForReset, stickersArray;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -59,14 +59,22 @@
 	[self.view addSubview:picker];
 	[picker release];
 	
-	UIScrollView *_photoScrollView
+	//setup scrollview
+	UIScrollView *_photoScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(7,5,306,306)];
+	self.photoScrollView = _photoScrollView;
+	[_photoScrollView release];
+	
+	[self.photoScrollView setDelegate:self];
+	[self.photoScrollView setMinimumZoomScale:1.0];
+	[self.photoScrollView setMaximumZoomScale:2.0];
+	
 	UIImageView *_photoImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ApplyStickerImage.png"]];
 	self.photoImageView = _photoImageView;
 	[_photoImageView release];
 	
 	//add shadow
 	self.photoImageView.layer.masksToBounds = NO;
-//	self.photoImageView.layer.cornerRadius = 8; // if you like rounded corners
+	//	self.photoImageView.layer.cornerRadius = 8; // if you like rounded corners
 	self.photoImageView.layer.shadowOffset = CGSizeMake(2,2);
 	self.photoImageView.layer.shadowRadius = 1;
 	self.photoImageView.layer.shadowOpacity = 0.5;
@@ -74,7 +82,21 @@
 	[self.photoImageView setFrame:CGRectMake(7,5,306,306)];
 	self.photoImageView.image = self.photoImage;
 	[self.photoImageView setContentMode:UIViewContentModeScaleAspectFit];
-	[self.view addSubview:self.photoImageView];
+	
+	[self.photoScrollView setContentSize:self.photoImageView.frame.size];
+	[self.photoScrollView addSubview:self.photoImageView];
+	[self.photoScrollView setDelaysContentTouches:FALSE];
+	[self.photoScrollView setCanCancelContentTouches:TRUE];
+	
+	CGFloat offsetX = (self.photoScrollView.bounds.size.width > self.photoScrollView.contentSize.width)? 
+	(self.photoScrollView.bounds.size.width - self.photoScrollView.contentSize.width) * 0.5 : 0.0;
+	CGFloat offsetY = (self.photoScrollView.bounds.size.height > self.photoScrollView.contentSize.height)? 
+	(self.photoScrollView.bounds.size.height - self.photoScrollView.contentSize.height) * 0.5 : 0.0;
+	
+	self.photoImageView.center = CGPointMake(self.photoScrollView.contentSize.width * 0.5 + offsetX, 
+								   self.photoScrollView.contentSize.height * 0.5 + offsetY);
+	
+	[self.view addSubview:self.photoScrollView];
 	
 //	UIButton *iapButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 //	[iapButton setTitle:@"In-App Purchase" forState:UIControlStateNormal];
@@ -82,6 +104,36 @@
 //	[iapButton addTarget:self action:@selector(iapButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 //	[self.view addSubview:iapButton];
 }
+
+#pragma mark -
+#pragma mark scrollview
+
+- (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(float)scale
+{	
+	[self resetCenter];
+}
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+	if(self.photoImageView)
+	{
+		return self.photoImageView;
+	} else {
+		return nil;
+	}
+}
+
+-(void)resetCenter
+{
+	CGFloat offsetX = (self.photoScrollView.bounds.size.width > self.photoScrollView.contentSize.width)? 
+	(self.photoScrollView.bounds.size.width - self.photoScrollView.contentSize.width) * 0.5 : 0.0;
+    CGFloat offsetY = (self.photoScrollView.bounds.size.height > self.photoScrollView.contentSize.height)? 
+	(self.photoScrollView.bounds.size.height - self.photoScrollView.contentSize.height) * 0.5 : 0.0;
+	
+	self.photoImageView.center = CGPointMake(self.photoScrollView.contentSize.width * 0.5 + offsetX, 
+                                   self.photoScrollView.contentSize.height * 0.5 + offsetY);
+}
+
 
 -(void)viewWillAppear:(BOOL)animated
 {
@@ -178,7 +230,8 @@
 	[self addGestureRecognizersToSticker:stickerView];
 	[stickerView setFrame:CGRectMake(0,0,stickerView.frame.size.width/2.0, stickerView.frame.size.height/2.0)];
 	[stickerView setCenter:self.view.center];
-	[self.view addSubview:stickerView];
+	[stickerView setUserInteractionEnabled:YES];
+	[self.photoImageView addSubview:stickerView];
 	[self.stickersArray addObject:stickerView];
 	[stickerView release];
 }
@@ -234,6 +287,8 @@
     } else if([gestureRecognizer state] == UIGestureRecognizerStateEnded) {
 		
 	}
+	
+	[self.photoScrollView reloadInputViews];
 }
 
 - (void)scaleSticker:(UIPinchGestureRecognizer *)gestureRecognizer
@@ -251,6 +306,8 @@
 			}
 		}
 	}
+	
+	[self.photoScrollView reloadInputViews];
 }
 
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
@@ -328,6 +385,9 @@
 		NSLog(@"Rotation of sticker: %f",sticker.rotationDegrees);
         [gestureRecognizer setRotation:0];
 	}
+	
+	[self.photoScrollView reloadInputViews];
+
    // } else if([gestureRecognizer state] == UIGestureRecognizerStateEnded) {
 //		[gestureRecognizer view].transform = CGAffineTransformRotate([[gestureRecognizer view] transform], [gestureRecognizer rotation]);
 //		CutifyStickerView *sticker = (CutifyStickerView *)[gestureRecognizer view];
