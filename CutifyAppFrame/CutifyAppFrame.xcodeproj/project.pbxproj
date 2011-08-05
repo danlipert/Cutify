@@ -22,6 +22,9 @@
 		320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320CC833B8AF0ACFD35E6224 /* libThree20Style.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
+		B61C53D213EA5F3000A85581 /* CameraScreenFlashOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61C53CF13EA5F3000A85581 /* CameraScreenFlashOn@2x.png */; };
+		B61C53D313EA5F3000A85581 /* CameraScreenFlashOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61C53D013EA5F3000A85581 /* CameraScreenFlashOff@2x.png */; };
+		B61C53D413EA5F3000A85581 /* CameraScreenFlashAuto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61C53D113EA5F3000A85581 /* CameraScreenFlashAuto@2x.png */; };
 		B61C5A6313E0A08A00122BB5 /* TMOANode.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5A5913E0A08A00122BB5 /* TMOANode.m */; };
 		B61C5A6413E0A08A00122BB5 /* TMOATree.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5A5B13E0A08A00122BB5 /* TMOATree.m */; };
 		B61C5A6513E0A08A00122BB5 /* StickerDemoPack.plist in Resources */ = {isa = PBXBuildFile; fileRef = B61C5A5C13E0A08A00122BB5 /* StickerDemoPack.plist */; };
@@ -274,6 +277,9 @@
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../../../Downloads/three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* CutifyAppFrame_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutifyAppFrame_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CutifyAppFrame-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CutifyAppFrame-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B61C53CF13EA5F3000A85581 /* CameraScreenFlashOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenFlashOn@2x.png"; sourceTree = "<group>"; };
+		B61C53D013EA5F3000A85581 /* CameraScreenFlashOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenFlashOff@2x.png"; sourceTree = "<group>"; };
+		B61C53D113EA5F3000A85581 /* CameraScreenFlashAuto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenFlashAuto@2x.png"; sourceTree = "<group>"; };
 		B61C5A5813E0A08A00122BB5 /* TMOANode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOANode.h; sourceTree = "<group>"; };
 		B61C5A5913E0A08A00122BB5 /* TMOANode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOANode.m; sourceTree = "<group>"; };
 		B61C5A5A13E0A08A00122BB5 /* TMOATree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOATree.h; sourceTree = "<group>"; };
@@ -664,6 +670,9 @@
 		B672F2E013CC0431005FEF8A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				B61C53CF13EA5F3000A85581 /* CameraScreenFlashOn@2x.png */,
+				B61C53D013EA5F3000A85581 /* CameraScreenFlashOff@2x.png */,
+				B61C53D113EA5F3000A85581 /* CameraScreenFlashAuto@2x.png */,
 				B65A979713DCDC630012E260 /* CameraBackButton@2x.png */,
 				B6FEF96B13E1F67E008DF57D /* CameraScreenCrop@2x.png */,
 				B6FEF96F13E1F6F9008DF57D /* CameraScreenButton@2x.png */,
@@ -953,6 +962,9 @@
 				B6EE701F13E340EC00EE45B8 /* CutifyPack2@2x.png in Resources */,
 				B6EE702013E340EC00EE45B8 /* CutifyPack1@2x.png in Resources */,
 				B658F22C13E8B1920046C6E0 /* defaultnavbar@2x.png in Resources */,
+				B61C53D213EA5F3000A85581 /* CameraScreenFlashOn@2x.png in Resources */,
+				B61C53D313EA5F3000A85581 /* CameraScreenFlashOff@2x.png in Resources */,
+				B61C53D413EA5F3000A85581 /* CameraScreenFlashAuto@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

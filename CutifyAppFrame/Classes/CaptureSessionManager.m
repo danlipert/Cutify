@@ -13,6 +13,25 @@
 
 @synthesize delegate;
 
+-(void)setFlashMode:(AVCaptureFlashMode)_flashMode
+{
+	NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
+    for (AVCaptureDevice *device in devices) {
+		//set flashmode
+		if([device isFlashModeSupported:_flashMode])
+		{
+			[device lockForConfiguration:nil];
+
+			device.flashMode = _flashMode;
+			if(_flashMode == AVCaptureFlashModeOn)
+			{
+				NSLog(@"Flash on!");
+			}
+			[device unlockForConfiguration];
+		}
+    }
+}
+	
 #pragma mark Capture Session Configuration
 
 - (id)init {
@@ -150,7 +169,12 @@
     NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
     for (AVCaptureDevice *device in devices) {
         if ([device position] == position) {
+			//set flashmode
 			device.flashMode = self.flashMode;
+			if(self.flashMode == AVCaptureFlashModeOn)
+			{
+				NSLog(@"Flash on!");
+			}
             return device;
         }
     }

@@ -25,6 +25,8 @@
 @synthesize delegate;
 @synthesize ppVC;
 
+@synthesize flashButton;
+
 - (void)dealloc 
 {
 	[captureManager release], captureManager = nil;	
@@ -67,12 +69,12 @@
 	[self.view addSubview:toolBarView];
 	[toolBarView release];
 	
-	
-	UIButton *toggleCameraButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-	[toggleCameraButton setTitle:@"Toggle Camera" forState:UIControlStateNormal];
-	[toggleCameraButton setFrame:CGRectMake(202, 8, 112, 30)];
-	[toggleCameraButton addTarget:self action:@selector(toggleCamera) forControlEvents:UIControlEventTouchUpInside];
-	[[self view] addSubview:toggleCameraButton];
+	//
+//	UIButton *toggleCameraButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//	[toggleCameraButton setTitle:@"Toggle Camera" forState:UIControlStateNormal];
+//	[toggleCameraButton setFrame:CGRectMake(202, 8, 112, 30)];
+//	[toggleCameraButton addTarget:self action:@selector(toggleCamera) forControlEvents:UIControlEventTouchUpInside];
+//	[[self view] addSubview:toggleCameraButton];
 	
 	UIButton *takePhotoButton = [UIButton buttonWithType:UIButtonTypeCustom];
 	[takePhotoButton setImage:[UIImage imageNamed:@"CameraScreenButton.png"] forState:UIControlStateNormal];
@@ -93,13 +95,48 @@
 	[iPhotoButton addTarget:self action:@selector(iPhotoButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:iPhotoButton];
 	
-	UIButton *flashButton = [UIButton buttonWithType:UIButtonTypeCustom];
-	[flashButton setImage:[UIImage imageNamed:@" forState:<#(UIControlState)state#>
+	UIButton *_flashButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	[_flashButton setImage:[UIImage imageNamed:@"CameraScreenFlashOff.png"] forState:UIControlStateNormal];
+	[_flashButton setFrame:CGRectMake(10, 10, _flashButton.imageView.image.size.width, _flashButton.imageView.image.size.height)];
+	[_flashButton addTarget:self action:@selector(flashButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[_flashButton setTag:0];
+	[self.captureManager setFlashMode:AVCaptureFlashModeOff];
+	self.flashButton = _flashButton;
+	[self.view addSubview:self.flashButton];
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(displayImagePreview) name:kImageCapturedSuccessfully object:nil];
 	[[captureManager captureSession] startRunning];
 }
-									  
+	
+-(void)flashButtonPressed:(id)sender
+{
+	UIButton *_flashButton = self.flashButton;
+	switch (_flashButton.tag) {
+		case 0:
+			[_flashButton setTag:1];
+			[_flashButton setImage:[UIImage imageNamed:@"CameraScreenFlashOn.png"] forState:UIControlStateNormal];
+			[_flashButton setFrame:CGRectMake(10, 10, _flashButton.imageView.image.size.width, _flashButton.imageView.image.size.height)];
+			[self.captureManager setFlashMode:AVCaptureFlashModeOn];
+			break;
+		case 1:
+			[_flashButton setTag:2];
+			[_flashButton setImage:[UIImage imageNamed:@"CameraScreenFlashAuto.png"] forState:UIControlStateNormal];
+			[_flashButton setFrame:CGRectMake(10, 10, _flashButton.imageView.image.size.width, _flashButton.imageView.image.size.height)];
+			[self.captureManager setFlashMode:AVCaptureFlashModeAuto];
+			break;
+
+		case 2:
+			[_flashButton setTag:0];
+			[_flashButton setImage:[UIImage imageNamed:@"CameraScreenFlashOff.png"] forState:UIControlStateNormal];
+			[_flashButton setFrame:CGRectMake(10, 10, _flashButton.imageView.image.size.width, _flashButton.imageView.image.size.height)];
+			[self.captureManager setFlashMode:AVCaptureFlashModeOff];
+			break;
+
+		default:
+			break;
+	}
+}
+
 -(void)iPhotoButtonPressed:(id)sender
 {
 	UIImagePickerController * picker = [[UIImagePickerController alloc] init];

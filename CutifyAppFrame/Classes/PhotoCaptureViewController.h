@@ -26,6 +26,9 @@
 
 @property (nonatomic, retain) id <PhotoCaptureViewControllerDelegate> delegate;
 
+@property (nonatomic, retain) UIButton *flashButton;
+
+
 @end
 
 @protocol PhotoCaptureViewControllerDelegate
