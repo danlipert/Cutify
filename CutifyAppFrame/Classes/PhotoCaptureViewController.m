@@ -43,6 +43,13 @@
 	[self.navigationController setNavigationBarHidden:YES animated:NO];
 }
 
+-(void)viewDidAppear:(BOOL)animated
+{
+	if([self.captureManager.captureSession isRunning] == FALSE)
+	{
+		[self turnOnCamera];
+	}
+}
 - (void)viewDidLoad 
 {
 	
@@ -164,6 +171,8 @@
 
 -(void)libraryButtonPressed:(id)sender
 {
+	[self turnOffCamera];
+
 	[self.navigationController setNavigationBarHidden:NO animated:NO];
 
 	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
@@ -173,7 +182,7 @@
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo {
     [picker dismissModalViewControllerAnimated:YES];
-	
+		
 //    imageView.image = image;
 //    CGSize size = [imageView.image size];
 //    CGRect cropRect = CGRectMake(0.0, 0.0, size.width, size.height);
@@ -188,6 +197,8 @@
 	[self.navigationController setNavigationBarHidden:FALSE animated:NO];
 	[self.navigationController pushViewController:applyStickersViewController animated:YES];
 	[applyStickersViewController release];
+	
+	[self turnOffCamera];
 } 
 
 - (void)takePhoto 
@@ -304,6 +315,15 @@
 	[[self captureManager] toggleCamera];
 }
 
+-(void)turnOffCamera
+{
+	[self.captureManager.captureSession stopRunning];
+}
+
+-(void)turnOnCamera
+{
+	[self.captureManager.captureSession startRunning];
+}
 
 #pragma mark -
 #pragma mark Photo Preview

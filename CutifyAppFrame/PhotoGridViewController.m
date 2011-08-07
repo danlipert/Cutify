@@ -67,9 +67,9 @@
 		NSData *imageData = [[NSData alloc] initWithContentsOfFile:imagePath];
 		UIImage *buttonImage = [[UIImage alloc] initWithData:imageData];
 		NSLog(@"button image size: %f, %f", buttonImage.size.width, buttonImage.size.height);
-		UIImage *resizedButtonImage = [buttonImage resizedImage:CGSizeMake(93, 93) interpolationQuality:kCGInterpolationLow];
+		UIImage *resizedButtonImage = [buttonImage resizedImage:CGSizeMake(93, 93) interpolationQuality:kCGInterpolationMedium];
 		
-		[imageButton setImage:buttonImage forState:UIControlStateNormal];
+		[imageButton setImage:resizedButtonImage forState:UIControlStateNormal];
 		[imageButton addTarget:self action:@selector(imageButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 		[imageButton setTag:i-1];
 		[imageButton setTitle:[self.fileNamesArray objectAtIndex:i-1] forState:UIControlStateReserved];
