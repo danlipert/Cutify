@@ -83,15 +83,27 @@
 	[takePhotoButton addTarget:self action:@selector(takePhoto) forControlEvents:UIControlEventTouchUpInside];
 	[[self view] addSubview:takePhotoButton];
 	
-	UIButton *libraryButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-	[libraryButton setFrame:CGRectMake(10,480-20-44,100,43)];
-	[libraryButton setTitle:@"View Photos" forState:UIControlStateNormal];
+//	UIButton *libraryButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//	[libraryButton setFrame:CGRectMake(10,480-20-44,100,43)];
+//	[libraryButton setTitle:@"View Photos" forState:UIControlStateNormal];
+//	[libraryButton addTarget:self action:@selector(libraryButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+//	[self.view addSubview:libraryButton];
+//	
+//	UIButton *iPhotoButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//	[iPhotoButton setFrame:CGRectMake(210,480-20-44,100,43)];
+//	[iPhotoButton setTitle:@"Load Photo" forState:UIControlStateNormal];
+//	[iPhotoButton addTarget:self action:@selector(iPhotoButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+//	[self.view addSubview:iPhotoButton];
+	
+	UIButton *libraryButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	[libraryButton setFrame:CGRectMake(6,480-20-44+2, 39, 39)];
+	[libraryButton setImage:[UIImage imageNamed:@"CameraScreenCutifyLibraryIcon.png"] forState:UIControlStateNormal];
 	[libraryButton addTarget:self action:@selector(libraryButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:libraryButton];
 	
-	UIButton *iPhotoButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-	[iPhotoButton setFrame:CGRectMake(210,480-20-44,100,43)];
-	[iPhotoButton setTitle:@"Load Photo" forState:UIControlStateNormal];
+	UIButton *iPhotoButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	[iPhotoButton setFrame:CGRectMake(320-6-39,480-20-44+2, 39, 39)];
+	[iPhotoButton setImage:[UIImage imageNamed:@"CameraScreenLibraryIcon.png"] forState:UIControlStateNormal];
 	[iPhotoButton addTarget:self action:@selector(iPhotoButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:iPhotoButton];
 	
@@ -144,7 +156,7 @@
 	
 	picker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
 	picker.allowsImageEditing = YES;
-	
+	[picker.navigationBar setTag:1];
 	
 	[self presentModalViewController:picker animated:YES];
 	

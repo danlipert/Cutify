@@ -1,0 +1,10 @@
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/PhotoCaptureViewController.m: In function '-[PhotoCaptureViewController iPhotoButtonPressed:]':
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/PhotoCaptureViewController.m:155: warning: class 'PhotoCaptureViewController' does not implement the 'UINavigationControllerDelegate' protocol
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/PhotoCaptureViewController.m:158: warning: 'setAllowsImageEditing:' is deprecated (declared at /Users/danlipert/xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImagePickerController.h:110)
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/PhotoCaptureViewController.m: In function '-[PhotoCaptureViewController photoCaptureSessionDidCaptureImage:]':
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/PhotoCaptureViewController.m:222: warning: 'PhotoCaptureViewController' may not respond to '-cropImage:withRect:'
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/PhotoCaptureViewController.m:222: warning: (Messages without a matching method signature
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/PhotoCaptureViewController.m:222: warning: will be assumed to return 'id' and accept
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/PhotoCaptureViewController.m:222: warning: '...' as arguments.)
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/PhotoCaptureViewController.m: In function '-[PhotoCaptureViewController toggleCamera]':
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/PhotoCaptureViewController.m:304: warning: 'CaptureSessionManager' may not respond to '-toggleCamera'
