@@ -76,6 +76,7 @@
 		B6B4DF4E13E9051C00696419 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4DF4813E9051C00696419 /* UIImage+RoundedCorner.m */; };
 		B6C087D513CC004800BA7D4E /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C087D413CC004800BA7D4E /* TakePhotoViewController.m */; };
 		B6C087DF13CC00F900BA7D4E /* OptionsAndSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C087DE13CC00F900BA7D4E /* OptionsAndSharingViewController.m */; };
+		B6E63D1713F057BC00989150 /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E63D1613F057BC00989150 /* DSActivityView.m */; };
 		B6EBD0A713CCEABA00389177 /* ApplyStickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EBD0A613CCEABA00389177 /* ApplyStickersViewController.m */; };
 		B6EBD11713CD08D000389177 /* SharePhotoButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11113CD08D000389177 /* SharePhotoButton@2x.png */; };
 		B6EBD11813CD08D000389177 /* InAppPurchaseKittyPack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11213CD08D000389177 /* InAppPurchaseKittyPack@2x.png */; };
@@ -367,6 +368,8 @@
 		B6C087D413CC004800BA7D4E /* TakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TakePhotoViewController.m; path = ../TakePhotoViewController.m; sourceTree = "<group>"; };
 		B6C087DD13CC00F900BA7D4E /* OptionsAndSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsAndSharingViewController.h; path = ../OptionsAndSharingViewController.h; sourceTree = "<group>"; };
 		B6C087DE13CC00F900BA7D4E /* OptionsAndSharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionsAndSharingViewController.m; path = ../OptionsAndSharingViewController.m; sourceTree = "<group>"; };
+		B6E63D1513F057BC00989150 /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSActivityView.h; sourceTree = "<group>"; };
+		B6E63D1613F057BC00989150 /* DSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSActivityView.m; sourceTree = "<group>"; };
 		B6EBD0A513CCEABA00389177 /* ApplyStickersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplyStickersViewController.h; path = ../ApplyStickersViewController.h; sourceTree = "<group>"; };
 		B6EBD0A613CCEABA00389177 /* ApplyStickersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplyStickersViewController.m; path = ../ApplyStickersViewController.m; sourceTree = "<group>"; };
 		B6EBD11113CD08D000389177 /* SharePhotoButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SharePhotoButton@2x.png"; sourceTree = "<group>"; };
@@ -436,6 +439,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B6E63D1813F057BF00989150 /* DSActivityView */,
 				B6B4DF3E13E9050E00696419 /* UIImage extensions */,
 				B620495813E769A5000EF32E /* ASIHTTPRequest */,
 				B61C5A4613E0A04F00122BB5 /* Sticker Select */,
@@ -710,6 +714,15 @@
 				B6B4DF4B13E9051C00696419 /* UIImage+Alpha.h */,
 			);
 			name = "UIImage extensions";
+			sourceTree = "<group>";
+		};
+		B6E63D1813F057BF00989150 /* DSActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				B6E63D1513F057BC00989150 /* DSActivityView.h */,
+				B6E63D1613F057BC00989150 /* DSActivityView.m */,
+			);
+			name = DSActivityView;
 			sourceTree = "<group>";
 		};
 		B6EE6FF113E340E100EE45B8 /* Stickers */ = {
@@ -1016,6 +1029,7 @@
 				B6B4DF4C13E9051C00696419 /* UIImage+Resize.m in Sources */,
 				B6B4DF4D13E9051C00696419 /* UIImage+Alpha.m in Sources */,
 				B6B4DF4E13E9051C00696419 /* UIImage+RoundedCorner.m in Sources */,
+				B6E63D1713F057BC00989150 /* DSActivityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

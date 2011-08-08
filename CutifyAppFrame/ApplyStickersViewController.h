@@ -15,6 +15,8 @@
 }
 
 @property (nonatomic, retain) UIImageView *photoImageView;
+@property (nonatomic, retain) UIView *stickerContainerView;
+@property (nonatomic, retain) UIView *masterContainerView;
 @property (nonatomic, retain) UIImage *photoImage;
 @property (nonatomic, retain) UIScrollView *photoScrollView;
 @property (nonatomic, retain) CutifyStickerView *stickerForReset;

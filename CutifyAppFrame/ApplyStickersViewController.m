@@ -16,7 +16,7 @@
 
 @implementation ApplyStickersViewController
 
-@synthesize photoImageView, photoImage, photoScrollView, stickerForReset, stickersArray;
+@synthesize photoImageView, photoImage, photoScrollView, stickerForReset, stickersArray, stickerContainerView, masterContainerView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -59,6 +59,15 @@
 	[self.view addSubview:picker];
 	[picker release];
 	
+	//setup sticker container view
+	UIView *_stickerContainerView = [[UIView alloc] initWithFrame:CGRectMake(7, 5, 306, 306)];
+	self.stickerContainerView = _stickerContainerView;
+	[_stickerContainerView release];
+	
+	UIView *_masterContainerView = [[UIView alloc] initWithFrame:CGRectMake(7,5,306,306)];
+	self.masterContainerView = _masterContainerView;
+	[_masterContainerView release];
+	
 	//setup scrollview
 	UIScrollView *_photoScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(7,5,306,306)];
 	self.photoScrollView = _photoScrollView;
@@ -83,8 +92,12 @@
 	self.photoImageView.image = self.photoImage;
 	[self.photoImageView setContentMode:UIViewContentModeScaleAspectFit];
 	
+	//compose master container view
+	[self.masterContainerView addSubview:self.photoImageView];
+	[self.masterContainerView addSubview:self.stickerContainerView];
+	
 	[self.photoScrollView setContentSize:self.photoImageView.frame.size];
-	[self.photoScrollView addSubview:self.photoImageView];
+	[self.photoScrollView addSubview:self.masterContainerView];
 	[self.photoScrollView setDelaysContentTouches:FALSE];
 	[self.photoScrollView setCanCancelContentTouches:TRUE];
 	
@@ -103,6 +116,9 @@
 //	[iapButton setFrame:CGRectMake(10,480-20-44-100+30,44,44)];
 //	[iapButton addTarget:self action:@selector(iapButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 //	[self.view addSubview:iapButton];
+	
+
+	
 }
 
 #pragma mark -
@@ -115,9 +131,9 @@
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
 {
-	if(self.photoImageView)
+	if(self.masterContainerView)
 	{
-		return self.photoImageView;
+		return self.masterContainerView;
 	} else {
 		return nil;
 	}
@@ -130,7 +146,7 @@
     CGFloat offsetY = (self.photoScrollView.bounds.size.height > self.photoScrollView.contentSize.height)? 
 	(self.photoScrollView.bounds.size.height - self.photoScrollView.contentSize.height) * 0.5 : 0.0;
 	
-	self.photoImageView.center = CGPointMake(self.photoScrollView.contentSize.width * 0.5 + offsetX, 
+	self.masterContainerView.center = CGPointMake(self.photoScrollView.contentSize.width * 0.5 + offsetX, 
                                    self.photoScrollView.contentSize.height * 0.5 + offsetY);
 }
 
@@ -151,21 +167,6 @@
 {
 	OptionsAndSharingViewController *optionsAndSharingViewController = [[OptionsAndSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
 	
-//	//attach image
-//	UIGraphicsBeginImageContext(self.photoImage.size);  
-//		
-//	// Draw photo  
-//	[self.photoImage drawInRect:CGRectMake(0, 0, self.photoImage.size.width, self.photoImage.size.height)];  
-//	
-//	for(CutifyStickerView *eachStickerView in self.stickersArray)
-//	{
-//		[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x, eachStickerView.frame.origin.y, eachStickerView.frame.size.width, eachStickerView.frame.size.height)];
-//	}
-//	
-//	UIImage *resultingImage = UIGraphicsGetImageFromCurrentImageContext();  
-//	
-//	UIGraphicsEndImageContext();  
-		
 	UIGraphicsBeginImageContext(self.photoImage.size);
 	NSLog(@"created ctx with size: %f, %f", self.photoImage.size.width, self.photoImage.size.height);
 	
@@ -187,8 +188,8 @@
 //			CGContextTranslateCTM (ctx, eachStickerView.center.x * 2.0, eachStickerView.center.y * 2.0);			
 			CGContextRotateCTM(ctx, eachStickerView.rotationDegrees* M_PI/180.0);
 //			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0, eachStickerView.stickerImageView.image.size.width * eachStickerView.scale * 2.0, eachStickerView.stickerImageView.image.size.height * eachStickerView.scale * 2.0)];
-
-			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0, eachStickerView.stickerImageView.image.size.width * eachStickerView.scale * 2.0, eachStickerView.stickerImageView.image.size.height * eachStickerView.scale * 2.0)];
+			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(sqrtf(eachStickerView.frame.origin.x * eachStickerView.frame.origin.x + eachStickerView.frame.origin.y * eachStickerView.frame.origin.y), eachStickerView.frame.origin.y * 1/(cosf(eachStickerView.rotationDegrees * M_PI/180.0)), eachStickerView.stickerImageView.image.size.width * eachStickerView.scale * 2.0, eachStickerView.stickerImageView.image.size.height * eachStickerView.scale * 2.0)];
+//			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x, eachStickerView.frame.origin.y, eachStickerView.stickerImageView.image.size.width * eachStickerView.scale * 2.0, eachStickerView.stickerImageView.image.size.height * eachStickerView.scale * 2.0)];
 			CGContextTranslateCTM (ctx, -eachStickerView.centerPoint.x * 2.0, -eachStickerView.centerPoint.y * 2.0);
 			
 			//iPhone 4
@@ -231,7 +232,7 @@
 	[stickerView setFrame:CGRectMake(0,0,stickerView.frame.size.width/2.0, stickerView.frame.size.height/2.0)];
 	[stickerView setCenter:self.view.center];
 	[stickerView setUserInteractionEnabled:YES];
-	[self.photoImageView addSubview:stickerView];
+	[self.masterContainerView addSubview:stickerView];
 	[self.stickersArray addObject:stickerView];
 	[stickerView release];
 }
@@ -265,6 +266,7 @@
 
 - (void)panSticker:(UIPanGestureRecognizer *)gestureRecognizer
 {
+	NSLog(@"Panning sticker...");
     CutifyStickerView *sticker = (CutifyStickerView *)[gestureRecognizer view];
 	
     if ([gestureRecognizer state] == UIGestureRecognizerStateBegan || [gestureRecognizer state] == UIGestureRecognizerStateChanged) 
