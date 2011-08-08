@@ -8,6 +8,7 @@
 
 #import "PhotoGridViewController.h"
 #import "PhotoViewSharingViewController.h"
+#import "DSActivityView.h"
 
 @implementation PhotoGridViewController
 
@@ -15,6 +16,7 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+		
     [super viewDidLoad];
 	
 	UIScrollView *s = [[UIScrollView alloc] initWithFrame:CGRectMake(0,0,320,480-20-44)];
@@ -24,6 +26,21 @@
 	[self.scrollView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"TableviewBackground.png"]]];
 	[self.view addSubview:self.scrollView];
 	
+	[self setupButtons];
+	
+//	[self layoutScrollview];
+	
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+	[DSBezelActivityView newActivityViewForView:self.view];
+
+	[self performSelectorInBackground:@selector(layoutScrollview) withObject:nil];
+}
+
+-(void)setupButtons
+{
 	//setup buttons
 	UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
 	UIImage *cancelButtonImage = [UIImage imageNamed:@"CameraBackButton.png"];
@@ -32,17 +49,17 @@
 	[cancelButton setImage:cancelButtonImage forState:UIControlStateNormal];
 	UIBarButtonItem *cancelButtonItem = [[UIBarButtonItem alloc] initWithCustomView:cancelButton];
 	
-//	UIButton *flashButton = [UIButton buttonWithType:UIButtonTypeCustom];
-//	UIImage *flashImage = [UIImage imageNamed:
+	//	UIButton *flashButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	//	UIImage *flashImage = [UIImage imageNamed:
 	
 	self.navigationItem.leftBarButtonItem = cancelButtonItem;
 	[cancelButtonItem release];
-	
-	[self layoutScrollview];
 }
 
 -(void)layoutScrollview
 {
+    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	
 	[self loadImagesFromDocumentsDirectory];
 	
 	for(id eachView in [self.scrollView.subviews copy])
@@ -92,11 +109,27 @@
 	int contentHeight = numOfRows*(space+height)+space;
 	[self.scrollView setContentSize:CGSizeMake(contentWidth, contentHeight)];
 	
+	[self performSelectorOnMainThread:@selector(scrollViewFinished) withObject:nil waitUntilDone:FALSE];
+	[pool drain];
+}
+
+-(void)scrollViewFinished
+{
+	[DSBezelActivityView removeViewAnimated:YES];
 }
 
 -(void)viewWillAppear:(BOOL)animated
 {
-	[self layoutScrollview];
+	//if scrollview was already created...
+	//reload UI elements since deletion may have occurred
+	
+	if([self.fileNamesArray  count] != 0)
+	{
+		NSLog(@"laying out scrollview via viewWillAppear");	
+		[self loadImagesFromDocumentsDirectory];
+		[self layoutScrollview];
+	}
+	
 //	//this will be triggered when a user deletes a photo
 //	[self loadImagesFromDocumentsDirectory];
 //	

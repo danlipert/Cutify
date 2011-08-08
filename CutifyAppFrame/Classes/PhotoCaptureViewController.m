@@ -9,6 +9,7 @@
 #import "PhotoCaptureViewController.h"
 #import "ApplyStickersViewController.h"
 #import "PhotoGridViewController.h"
+#import "DSActivityView.h"
 
 @interface PhotoCaptureViewController()
 
@@ -40,7 +41,10 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-	[self.navigationController setNavigationBarHidden:YES animated:NO];
+	[self.navigationController setNavigationBarHidden:YES animated:YES
+	 ];
+	
+	[DSBezelActivityView removeViewAnimated:NO];
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -158,6 +162,8 @@
 
 -(void)iPhotoButtonPressed:(id)sender
 {
+	[self turnOffCamera];
+	
 	UIImagePickerController * picker = [[UIImagePickerController alloc] init];
 	picker.delegate = self;
 	
@@ -166,16 +172,16 @@
 	[picker.navigationBar setTag:1];
 	
 	[self presentModalViewController:picker animated:YES];
-	
 }	
 
 -(void)libraryButtonPressed:(id)sender
 {
 	[self turnOffCamera];
-
+	
 	[self.navigationController setNavigationBarHidden:NO animated:NO];
-
+	
 	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
+			
 	[self.navigationController pushViewController:photoGridViewController animated:YES];
 	[photoGridViewController release];
 }
@@ -192,13 +198,14 @@
 //    cropRect = [cropRectValue CGRectValue];
 //    UIImageWriteToSavedPhotosAlbum(imageView.image, self, nil, nil);
 	
+	[self turnOffCamera];
+	
+	
 	ApplyStickersViewController *applyStickersViewController = [[ApplyStickersViewController alloc] init];
 	applyStickersViewController.photoImage = image;
 	[self.navigationController setNavigationBarHidden:FALSE animated:NO];
 	[self.navigationController pushViewController:applyStickersViewController animated:YES];
 	[applyStickersViewController release];
-	
-	[self turnOffCamera];
 } 
 
 - (void)takePhoto 
@@ -226,6 +233,10 @@
 
 -(void)photoCaptureSessionDidCaptureImage:(UIImage *)capturedImage
 {
+	[self turnOffCamera];
+	
+	[DSBezelActivityView newActivityViewForView:self.view];
+	
 	[self.navigationController setNavigationBarHidden:NO animated:NO];
 
 	ApplyStickersViewController *applyStickersViewController = [[ApplyStickersViewController alloc] init];

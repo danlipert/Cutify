@@ -58,9 +58,9 @@
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"TableviewBackground.png"]]];	
 	
 	//setup preview
+	//preview
 	UIImageView *photoImageView = [[UIImageView alloc] initWithImage:self.image];
-	[photoImageView setFrame:CGRectMake(0,0,320,320)];
-	[photoImageView setContentMode:UIViewContentModeScaleAspectFit];
+	[photoImageView setFrame:CGRectMake(0,0,306,306)];
 	self.tableView.tableHeaderView = photoImageView;
 	[photoImageView release];
 	
