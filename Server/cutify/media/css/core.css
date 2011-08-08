@@ -1,0 +1,110 @@
+@import url("./reset.css");
+
+body {
+	background: #fff;
+	font-family: 14px/22px bold Georgia, Times, “Times New Roman”, serif;   
+	font-style: italic;
+	font-weight: bold;
+	color: #604871;
+	text-shadow: 1px 1px 0px #fff;
+}
+
+a {
+    color: #604871;
+    text-decoration: none;
+}
+
+#page-wrapper {
+	background: url('../images/bg.png');
+    height: 800px;
+}
+
+.col_wrapper {
+    width: 980px;
+    height: 720px;
+    margin: 0 auto;
+    padding: 42px 10px 0;
+}
+
+#content {
+    float: left;
+    width: 640px;
+    margin-right: 20px;
+}
+    .photo_frame {
+        height: 612px;
+        width: 612px;
+        -moz-box-shadow: 2px 2px 8px #000;
+        -webkit-box-shadow: 2px 2px 8px #000;
+        box-shadow: 2px 2px 8px #000;
+    }
+    .caption {
+	    font-weight: bold;
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+#sidebar {
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+    .logo {
+        
+        margin: 12px auto 24px;
+        
+    }
+    .tagline {
+    	font-weight: bold;
+        width: 235px;
+        margin: 24px auto;
+
+    }
+    
+    .app_store {
+        display: block;
+        margin: 48px auto 42px;
+        width: 163px;
+        height: 57px;
+        background: url('../images/app_store.png');
+    }
+    
+    .app_store:hover {
+        
+        background: url('../images/app_store_hover.png');
+    }
+
+.photo_feed {
+    margin-top: 24px;
+}
+
+.photo_feed li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: #604871;
+    width: 60px;
+    height: 60px;
+    list-style: none;
+}
+
+.photo_feed li.last {
+    margin-right: 0;
+}
+
+#footer {
+    clear: both;
+    color: #cebcce;
+    text-align: center;
+    width: 980px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 20px 10px 42px;
+}
+
+    #footer a {
+        color: #957298;
+        font-size: 16px;
+    }
+

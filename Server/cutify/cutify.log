@@ -1,0 +1,4 @@
+
+ERROR Upload request recieved.
+ERROR fb: 167889749949567%7C2.AQClQbtaXxivsDOF.3600.1312596000.3-100000485686813%7COcHf7RoPBEyU2MO_xOlXYhkpyoI&expires_in=5145&code=AQAkw6SMZlmlHveotSi_C84QbV-LHeqEDHlanlyMBoIkj6RYujpPKXZ6iJdGCKsbD4R6C5s5YqSGvFhKiuBQxoRmeD5x6gi4et0hjMR1IXN5uuCKidHrI9ldU8OZKpoeIPKy16nTcuTxCQ_JReAFnYpY3qIJeNcAV9amb616HiEZ4II9punYV-b-wqpTpMj8HBLq3ADL3CXzlYPKUVZCAPDp
+ERROR FB response: {"error":{"type":"OAuthException","message":"Invalid access token signature."}}
