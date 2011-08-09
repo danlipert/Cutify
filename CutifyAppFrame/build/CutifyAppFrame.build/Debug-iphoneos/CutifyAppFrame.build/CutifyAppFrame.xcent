@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>6M82NF4E2M.com.yourcompany.CutifyAppFrame</string>
+	<string>9VWUVSTAGK.com.yourcompany.CutifyAppFrame</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>6M82NF4E2M.com.yourcompany.CutifyAppFrame</string>
+		<string>9VWUVSTAGK.com.yourcompany.CutifyAppFrame</string>
 	</array>
 </dict>
 </plist>

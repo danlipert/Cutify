@@ -10,12 +10,20 @@
 #import "PhotoGridViewController.h"
 #import "ASIHTTPRequest.h"
 #import "ASIFormDataRequest.h"
-#import <MessageUI/MessageUI.h>
-#import <MessageUI/MFMailComposeViewController.h>
+
 #import <AVFoundation/AVFoundation.h>
+
+
+#import "FacebookAuthViewController.h"
+#import "TwitterAuthViewController.h"
+
 @implementation OptionsAndSharingViewController
 
-@synthesize image, loginWebview, fbToken, txtField;
+@synthesize image, fbToken, txtField;
+
+@synthesize facebookSwitch;
+@synthesize twitterSwitch;
+@synthesize tumblrSwitch;
 
 -(id)initWithStyle:(UITableViewStyle)style
 {
@@ -87,10 +95,16 @@
 	//save file in iphoto
 	UIImageWriteToSavedPhotosAlbum(self.image, nil,nil,nil);
 
+	
+	[self makeRequestToServer];
+
+	
 	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
 	[self.navigationController pushViewController:photoGridViewController animated:YES];
 	[photoGridViewController release];
 }
+
+
 
 #pragma mark -
 #pragma mark Table view data source
@@ -142,6 +156,13 @@
 	return tableHeaderView;
 }
 
+- (UISwitch *)getSharingSwitchWithTag:(int)tag
+{
+	UISwitch *sharingSwitch = [[[UISwitch alloc] initWithFrame:CGRectMake(200,8,100,44)] autorelease];
+	[sharingSwitch setTag:tag];
+	return sharingSwitch;
+}
+
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -173,20 +194,54 @@
 			[cell addSubview:self.txtField];
 		}
 	} else if (indexPath.section == 1) {
-		UISwitch *sharingSwitch = [[UISwitch alloc] initWithFrame:CGRectMake(200,8,100,44)];
-		[sharingSwitch addTarget:self action:@selector(sharingSwitchSwitched:) forControlEvents:UIControlEventValueChanged];
-		if(indexPath.row == 0) {
+		
+		//[sharingSwitch addTarget:self action:@selector(sharingSwitchSwitched:) forControlEvents:UIControlEventValueChanged];
+		
+		if(indexPath.row == 0) 
+		{
 			[[cell textLabel] setText:@"Twitter"];
-			[sharingSwitch setTag:0];
-		} else if(indexPath.row == 1) {
+
+			if([self tokenCachedForService:@"twitter"])
+			{
+				self.twitterSwitch = [self getSharingSwitchWithTag:0];
+				[cell addSubview:self.twitterSwitch];
+				//cell.accessoryType = nil;
+			}
+			else 
+			{
+				cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+			}
+		} 
+		else if (indexPath.row == 1) 
+		{
 			[[cell textLabel] setText:@"Facebook"];
-			[sharingSwitch setTag:1];
-		} else if(indexPath.row == 2) {
+			
+			if([self tokenCachedForService:@"facebook"])
+			{
+				self.facebookSwitch = [self getSharingSwitchWithTag:1];
+				[cell addSubview:self.facebookSwitch];
+				//cell.accessoryType = nil;
+			}
+			else 
+			{
+				cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+			}
+		} 
+		else if (indexPath.row == 2) 
+		{
 			[[cell textLabel] setText:@"Tumblr"];
-			[sharingSwitch setTag:2];
+			
+			if([self tokenCachedForService:@"tumblr"])
+			{
+				self.tumblrSwitch = [self getSharingSwitchWithTag:2];
+				[cell addSubview:self.tumblrSwitch];
+				//cell.accessoryType = nil;
+			}
+			else 
+			{
+				cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+			}
 		}
-		[cell addSubview:sharingSwitch];
-		[sharingSwitch release];
 	} else if (indexPath.section == 2) {
 		[[cell textLabel] setText:@"Send as Email"];
 		[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
@@ -211,35 +266,43 @@
 	} else if(sharingSwitch.tag == 1) {
 		//facebook
 		
-		/*Facebook Application ID*/
-		NSString *client_id = @"167889749949567";
-		
-		/*Dummy page hosted by the nice folks at Facebook*/
-		NSString *redirect_uri = @"http://www.facebook.com/connect/login_success.html";
-		
-		NSString *url_string = [NSString stringWithFormat:@"https://graph.facebook.com/oauth/authorize?client_id=%@&redirect_uri=%@&type=user_agent&display=touch", client_id, redirect_uri];
-		
-		NSURL *url = [NSURL URLWithString:url_string];
-		NSURLRequest *request = [NSURLRequest requestWithURL:url];
-		
-		UIWebView *_loginWebview = [[UIWebView alloc] initWithFrame:self.view.frame];
-		self.loginWebview = _loginWebview;
-		[_loginWebview release];
-		[self.loginWebview setDelegate:self];
-		[self.loginWebview loadRequest:request];
-		[self.view addSubview:self.loginWebview];
-		
 	} else if(sharingSwitch.tag == 2) {
 		//tumblr
 	}
+}
+
+- (void)authenticationDidFinishWithToken:(NSString *)token forService:(NSString *)service
+{
+	[self cacheToken:token forService:service];
+	[self.tableView reloadData];
 }
 
 #pragma mark -
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	if(indexPath.section == 2)
+	
+	if (indexPath.section == 1)
 	{
+		if (indexPath.row == 0)
+		{
+			TwitterAuthViewController *authVC = [[TwitterAuthViewController alloc] init];
+			authVC.delegate = self;
+			[self.navigationController pushViewController:authVC animated:YES];
+			[authVC release];
+		}
+		if (indexPath.row == 1)
+		{
+			FacebookAuthViewController *authVC = [[FacebookAuthViewController alloc] init];
+			authVC.delegate = self;
+			[self.navigationController pushViewController:authVC animated:YES];
+			[authVC release];
+		}
+		
+	}
+	else if(indexPath.section == 2)
+	{	
+		
 		//email
 		//BUG - needs normal title bar
 		MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
@@ -292,38 +355,6 @@
 }	
 
 
-#pragma mark -
-#pragma mark webview delegate
-
-- (void)webViewDidFinishLoad:(UIWebView *)_webView {
-	
-	/**
-	 * Since there's some server side redirecting involved, this method/function will be called several times
-	 * we're only interested when we see a url like:  http://www.facebook.com/connect/login_success.html#access_token=..........
-	 */
-	
-	//get the url string
-	NSString *url_string = [((_webView.request).URL) absoluteString];
-	
-	NSLog(url_string);
-	
-	//looking for "access_token="
-	NSRange access_token_range = [url_string rangeOfString:@"access_token="];
-	
-	//coolio, we have a token, now let's parse it out....
-	if (access_token_range.length > 0) {
-		
-		//we want everything after the 'access_token=' thus the position where it starts + it's length
-		int from_index = access_token_range.location + access_token_range.length;
-		NSString *access_token = [url_string substringFromIndex:from_index];
-		
-		NSLog(@"access_token:  %@", access_token);
-		self.fbToken = access_token;
-		[self.loginWebview removeFromSuperview];
-		
-		[self makeRequestToServer];
-	}
-}
 
 #pragma mark -
 #pragma mark asihttprequest delegate
@@ -340,7 +371,20 @@
 	[imageData setData:UIImageJPEGRepresentation(self.image, 1.0)];
 	[request setPostBody:imageData];
 	[imageData release];
-	[request setPostValue:self.fbToken forKey:@"fb_token"];
+
+	// Share if selected
+	if (self.facebookSwitch.on == YES)
+	{
+		[request setPostValue:[self cachedTokenForService:@"facebook"] forKey:@"facebook_token"];
+	}
+	if (self.tumblrSwitch.on == YES)
+	{
+		[request setPostValue:[self cachedTokenForService:@"tumblr"] forKey:@"tumblr_token"];
+	}
+	if (self.twitterSwitch.on == YES)
+	{
+		[request setPostValue:[self cachedTokenForService:@"twitter"] forKey:@"twitter_token"];
+	}	
 	
 	[request setDidFinishSelector:@selector(requestFinished:)];
 	[request setDidFailSelector:@selector(requestFailed:)];
@@ -376,6 +420,34 @@
 	[alert autorelease];
 }
 
+
+#pragma mark -
+#pragma mark Token Management
+
+- (void)cacheToken:(NSString *)aToken forService:(NSString *)serviceName 
+{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:aToken forKey:[NSString stringWithFormat:@"%@_token", serviceName]];	
+    [defaults synchronize];
+    NSLog(@"Token: %@ saved for service: %@", aToken, serviceName);
+}
+
+- (NSString *)cachedTokenForService:(NSString *)serviceName 
+{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    return [defaults objectForKey:[NSString stringWithFormat:@"%@_token",serviceName]];
+}
+
+- (BOOL)tokenCachedForService:(NSString *)serviceName
+{
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	if ([defaults objectForKey:[NSString stringWithFormat:@"%@_token",serviceName]])
+	{
+		return YES; 
+	}
+	return NO;
+	
+}
 
 #pragma mark -
 #pragma mark Memory management
