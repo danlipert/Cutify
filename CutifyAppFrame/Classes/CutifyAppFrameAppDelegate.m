@@ -33,7 +33,7 @@
 //	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
 	PhotoCaptureViewController *photoCaptureViewController = [[PhotoCaptureViewController alloc] initWithNibName:@"PhotoCaptureViewController" bundle:nil];
 	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:photoCaptureViewController];
-	
+	[navigationController.view setBackgroundColor:[UIColor blackColor]];
 	[self.window addSubview:navigationController.view];
 	
     [self.window makeKeyAndVisible];

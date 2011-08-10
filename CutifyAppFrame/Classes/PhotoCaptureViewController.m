@@ -55,8 +55,7 @@
 	}
 }
 - (void)viewDidLoad 
-{
-	
+{	
 	[self setCaptureManager:[[CaptureSessionManager alloc] init]];
 	
 	[[self captureManager] addVideoInput];
@@ -237,7 +236,7 @@
 	
 	[DSBezelActivityView newActivityViewForView:self.view];
 	
-	[self.navigationController setNavigationBarHidden:NO animated:NO];
+	[self.navigationController setNavigationBarHidden:NO animated:YES];
 
 	ApplyStickersViewController *applyStickersViewController = [[ApplyStickersViewController alloc] init];
 	
