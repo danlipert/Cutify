@@ -280,7 +280,7 @@
 //	
 //	NSMutableArray *stickerArray = [[NSMutableArray alloc] init];
 //		
-//	for(NSDictionary *setDictionary in self.plistArray)
+//	for(NSDictrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrionary *setDictionary in self.plistArray)
 //	{
 //		CutifyStickerMeta *stickerMeta = [[CutifyStickerMeta alloc] init];
 //		stickerMeta.stickerLabelString = [NSString stringWithString:[setDictionary objectForKey:@"Name"]];

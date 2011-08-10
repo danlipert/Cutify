@@ -75,7 +75,7 @@
 	[overlayImageView release];
 	
 	UIImageView *toolBarView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"CameraScreenBar.png"]];
-	[toolBarView setFrame:CGRectMake(0,480-20-44, 320, 53)];
+	[toolBarView setFrame:CGRectMake(0,480-20-53, 320, 53)];
 	[self.view addSubview:toolBarView];
 	[toolBarView release];
 	
@@ -88,7 +88,7 @@
 	
 	UIButton *takePhotoButton = [UIButton buttonWithType:UIButtonTypeCustom];
 	[takePhotoButton setImage:[UIImage imageNamed:@"CameraScreenButton.png"] forState:UIControlStateNormal];
-	[takePhotoButton setFrame:CGRectMake((320-101)/2,480-20-44, 101, 43)];
+	[takePhotoButton setFrame:CGRectMake((320-101)/2,480-20-53+4, 101, 43)];
 	[takePhotoButton setTitle:@"Photo" forState:UIControlStateNormal];
 	[takePhotoButton addTarget:self action:@selector(takePhoto) forControlEvents:UIControlEventTouchUpInside];
 	[[self view] addSubview:takePhotoButton];
@@ -106,13 +106,13 @@
 //	[self.view addSubview:iPhotoButton];
 	
 	UIButton *libraryButton = [UIButton buttonWithType:UIButtonTypeCustom];
-	[libraryButton setFrame:CGRectMake(6,480-20-44+2, 39, 39)];
+	[libraryButton setFrame:CGRectMake(320-6-45,480-20-53+4, 45, 45)];
 	[libraryButton setImage:[UIImage imageNamed:@"CameraScreenCutifyLibraryIcon.png"] forState:UIControlStateNormal];
 	[libraryButton addTarget:self action:@selector(libraryButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:libraryButton];
 	
 	UIButton *iPhotoButton = [UIButton buttonWithType:UIButtonTypeCustom];
-	[iPhotoButton setFrame:CGRectMake(320-6-39,480-20-44+2, 39, 39)];
+	[iPhotoButton setFrame:CGRectMake(6,480-20-53+4, 45, 45)];
 	[iPhotoButton setImage:[UIImage imageNamed:@"CameraScreenLibraryIcon.png"] forState:UIControlStateNormal];
 	[iPhotoButton addTarget:self action:@selector(iPhotoButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:iPhotoButton];
@@ -128,6 +128,24 @@
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(displayImagePreview) name:kImageCapturedSuccessfully object:nil];
 	[[captureManager captureSession] startRunning];
+	
+	//add focus gestures
+	// Add a single tap gesture to focus on the point tapped, then lock focus
+	UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapToAutoFocus:)];
+	[singleTap setDelegate:self];
+	[singleTap setNumberOfTapsRequired:1];
+	[self.view addGestureRecognizer:singleTap];
+	
+	// Add a double tap gesture to reset the focus mode to continuous auto focus
+	UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapToContinouslyAutoFocus:)];
+	[doubleTap setDelegate:self];
+	[doubleTap setNumberOfTapsRequired:2];
+	[singleTap requireGestureRecognizerToFail:doubleTap];
+	[self.view addGestureRecognizer:doubleTap];
+	
+	[doubleTap release];
+	[singleTap release];
+	
 }
 	
 -(void)flashButtonPressed:(id)sender
@@ -333,6 +351,101 @@
 -(void)turnOnCamera
 {
 	[self.captureManager.captureSession startRunning];
+}
+
+#pragma mark -
+#pragma mark AVCam sample code
+
+// Convert from view coordinates to camera coordinates, where {0,0} represents the top left of the picture area, and {1,1} represents
+// the bottom right in landscape mode with the home button on the right.
+- (CGPoint)convertToPointOfInterestFromViewCoordinates:(CGPoint)viewCoordinates 
+{
+    CGPoint pointOfInterest = CGPointMake(.5f, .5f);
+    CGSize frameSize = self.captureManager.previewLayer.frame.size;
+    
+    if ([self.captureManager.previewLayer isMirrored]) {
+        viewCoordinates.x = frameSize.width - viewCoordinates.x;
+    }    
+	
+    if ( [[self.captureManager.previewLayer videoGravity] isEqualToString:AVLayerVideoGravityResize] ) {
+		// Scale, switch x and y, and reverse x
+        pointOfInterest = CGPointMake(viewCoordinates.y / frameSize.height, 1.f - (viewCoordinates.x / frameSize.width));
+    } else {
+        CGRect cleanAperture;
+        for (AVCaptureInputPort *port in [[[self captureManager] videoInput] ports]) {
+            if ([port mediaType] == AVMediaTypeVideo) {
+                cleanAperture = CMVideoFormatDescriptionGetCleanAperture([port formatDescription], YES);
+                CGSize apertureSize = cleanAperture.size;
+                CGPoint point = viewCoordinates;
+				
+                CGFloat apertureRatio = apertureSize.height / apertureSize.width;
+                CGFloat viewRatio = frameSize.width / frameSize.height;
+                CGFloat xc = .5f;
+                CGFloat yc = .5f;
+                
+                if ( [[self.captureManager.previewLayer videoGravity] isEqualToString:AVLayerVideoGravityResizeAspect] ) {
+                    if (viewRatio > apertureRatio) {
+                        CGFloat y2 = frameSize.height;
+                        CGFloat x2 = frameSize.height * apertureRatio;
+                        CGFloat x1 = frameSize.width;
+                        CGFloat blackBar = (x1 - x2) / 2;
+						// If point is inside letterboxed area, do coordinate conversion; otherwise, don't change the default value returned (.5,.5)
+                        if (point.x >= blackBar && point.x <= blackBar + x2) {
+							// Scale (accounting for the letterboxing on the left and right of the video preview), switch x and y, and reverse x
+                            xc = point.y / y2;
+                            yc = 1.f - ((point.x - blackBar) / x2);
+                        }
+                    } else {
+                        CGFloat y2 = frameSize.width / apertureRatio;
+                        CGFloat y1 = frameSize.height;
+                        CGFloat x2 = frameSize.width;
+                        CGFloat blackBar = (y1 - y2) / 2;
+						// If point is inside letterboxed area, do coordinate conversion. Otherwise, don't change the default value returned (.5,.5)
+                        if (point.y >= blackBar && point.y <= blackBar + y2) {
+							// Scale (accounting for the letterboxing on the top and bottom of the video preview), switch x and y, and reverse x
+                            xc = ((point.y - blackBar) / y2);
+                            yc = 1.f - (point.x / x2);
+                        }
+                    }
+                } else if ([[self.captureManager.previewLayer videoGravity] isEqualToString:AVLayerVideoGravityResizeAspectFill]) {
+					// Scale, switch x and y, and reverse x
+                    if (viewRatio > apertureRatio) {
+                        CGFloat y2 = apertureSize.width * (frameSize.width / apertureSize.height);
+                        xc = (point.y + ((y2 - frameSize.height) / 2.f)) / y2; // Account for cropped height
+                        yc = (frameSize.width - point.x) / frameSize.width;
+                    } else {
+                        CGFloat x2 = apertureSize.height * (frameSize.height / apertureSize.width);
+                        yc = 1.f - ((point.x + ((x2 - frameSize.width) / 2)) / x2); // Account for cropped width
+                        xc = point.y / frameSize.height;
+                    }
+                }
+                
+                pointOfInterest = CGPointMake(xc, yc);
+				NSLog(@"point of interest: (%f, %f)", xc, yc);
+                break;
+            }
+        }
+    }
+    
+    return pointOfInterest;
+}
+
+// Auto focus at a particular point. The focus mode will change to locked once the auto focus happens.
+- (void)tapToAutoFocus:(UIGestureRecognizer *)gestureRecognizer
+{
+    if ([[[self.captureManager videoInput] device] isFocusPointOfInterestSupported]) {
+        CGPoint tapPoint = [gestureRecognizer locationInView:self.view];
+		NSLog(@"Tap Point: (%f, %f)", tapPoint.x, tapPoint.y);
+        CGPoint convertedFocusPoint = [self convertToPointOfInterestFromViewCoordinates:tapPoint];
+        [self.captureManager autoFocusAtPoint:convertedFocusPoint];
+    }
+}
+
+// Change to continuous auto focus. The camera will constantly focus at the point choosen.
+- (void)tapToContinouslyAutoFocus:(UIGestureRecognizer *)gestureRecognizer
+{
+    if ([[[self.captureManager videoInput] device] isFocusPointOfInterestSupported])
+        [self.captureManager continuousFocusAtPoint:CGPointMake(.5f, .5f)];
 }
 
 #pragma mark -

@@ -12,7 +12,7 @@
 
 @protocol PhotoCaptureViewControllerDelegate;
 
-@interface PhotoCaptureViewController : UIViewController <PhotoPreviewViewControllerDelegate> {
+@interface PhotoCaptureViewController : UIViewController <PhotoPreviewViewControllerDelegate, UIGestureRecognizerDelegate> {
 
 	id <PhotoCaptureViewControllerDelegate> delegate;
 	
