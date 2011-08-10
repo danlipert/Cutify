@@ -215,11 +215,11 @@
 	[[self captureManager] captureStillImage];
     
 	/* White flash for feedback */
-	UIView *flashView = [[UIView alloc] initWithFrame:self.view.frame];
+	UIView *flashView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,480-47)];
     [flashView setBackgroundColor:[UIColor whiteColor]];
     [[[self view] window] addSubview:flashView];
     
-    [UIView animateWithDuration:.4f
+    [UIView animateWithDuration:.3f
                      animations:^{
                          [flashView setAlpha:0.f];
                      }
