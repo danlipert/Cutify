@@ -22,8 +22,13 @@
     if (self) {				
 		UIScrollView *_s = [[UIScrollView alloc] initWithFrame:CGRectMake(0,0,320,100)];
 		self.s = _s;
-		[self.s setBackgroundColor:[UIColor grayColor]];
+		[self.s setBackgroundColor:[UIColor clearColor]];
 
+		//setup background
+		UIImageView *backgroundImage = [[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,100)];
+		[backgroundImage setImage:[UIImage imageNamed:@"ScrollControlBackground.png"]];
+		[self addSubview:backgroundImage];
+		
 //		[self loadStickersFromPlist:@"StickerDemoPack"];
 		[self loadTreeFromPlistNamed:@"EarlyDemo"];
 		
