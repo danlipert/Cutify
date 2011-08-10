@@ -285,17 +285,18 @@
 	
 	int numOfColumns = 4;
 //	int numOfRows = 1;
-	int space = 12;
+	int space = 17;
 	int width = (self.s.frame.size.width-(numOfColumns+1)*space)/numOfColumns;
 	int height = width;
 	int x = space;
 	int y = 10;
 	for (int i=1; i<=stickerArray.count; i++) {
 		CutifyStickerSelectButton *imageButton = [[CutifyStickerSelectButton alloc] initWithFrame:CGRectMake(x,y,width,height)];
-		[imageButton setImage:[[stickerArray objectAtIndex:i-1] stickerImage] forState:UIControlStateNormal];
+//		[imageButton setImage:[[stickerArray objectAtIndex:i-1] stickerImage] forState:UIControlStateNormal];
+		[imageButton setImage:[[stickerArray objectAtIndex:i-1] stickerImage]];
 		[imageButton addTarget:self action:@selector(imageButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 		[imageButton setTag:i-1];
-		[imageButton setContentMode:UIViewContentModeScaleAspectFill];
+//		[imageButton setContentMode:UIViewContentModeScaleAspectFill];
 		[imageButton setStickerMeta:[stickerArray objectAtIndex:i-1]];
 		[self.s addSubview:imageButton];
 		[imageButton release];

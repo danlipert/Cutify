@@ -9,10 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "CutifyStickerMeta.h"
 
-@interface CutifyStickerSelectButton :UIButton {
-
+@interface CutifyStickerSelectButton :UIButton 
+{
+	UIImageView *glossEffectImageView;
 }
 
 @property (nonatomic, retain) CutifyStickerMeta *stickerMeta;
 
+@property (nonatomic, retain) UIImageView *imageView;
 @end

@@ -33,7 +33,10 @@
 //	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
 	PhotoCaptureViewController *photoCaptureViewController = [[PhotoCaptureViewController alloc] initWithNibName:@"PhotoCaptureViewController" bundle:nil];
 	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:photoCaptureViewController];
+	
+	//improves transition visually when showing and hiding navbar
 	[navigationController.view setBackgroundColor:[UIColor blackColor]];
+	
 	[self.window addSubview:navigationController.view];
 	
     [self.window makeKeyAndVisible];

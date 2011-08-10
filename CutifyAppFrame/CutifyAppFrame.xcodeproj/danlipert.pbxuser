@@ -9,9 +9,9 @@
 	};
 	1D3623250D0F684500981E51 /* CutifyAppFrameAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1495}}";
-			sepNavSelRange = "{3850, 0}";
-			sepNavVisRange = "{2922, 1148}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1313}}";
+			sepNavSelRange = "{1819, 0}";
+			sepNavVisRange = "{482, 2575}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* CutifyAppFrame */ = {
@@ -170,6 +170,11 @@
 			sepNavVisRange = "{0, 197}";
 		};
 	};
+	8D1107310486CEB800E47090 /* CutifyAppFrame-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{137, 4}, {821, 774}}";
+		};
+	};
 	B61C53FC13EA661F00A85581 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B65A96E813DCA3240012E260 /* PhotoPreviewViewController.h */;
@@ -196,9 +201,16 @@
 	};
 	B61C5A5D13E0A08A00122BB5 /* CutifyStickerMeta.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {920, 641}}";
+			sepNavIntBoundsRect = "{{0, 0}, {920, 618}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 489}";
+		};
+	};
+	B61C5A5E13E0A08A00122BB5 /* CutifyStickerMeta.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {920, 618}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{0, 299}";
 		};
 	};
 	B61C5A5F13E0A08A00122BB5 /* CutifyStickerPicker.h */ = {
@@ -210,35 +222,36 @@
 	};
 	B61C5A6013E0A08A00122BB5 /* CutifyStickerPicker.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {920, 4602}}";
-			sepNavSelRange = "{4496, 0}";
-			sepNavVisRange = "{3093, 1124}";
+			sepNavIntBoundsRect = "{{0, 0}, {920, 4134}}";
+			sepNavSelRange = "{9520, 0}";
+			sepNavVisRange = "{8783, 1838}";
 		};
 	};
 	B61C5A6113E0A08A00122BB5 /* CutifyStickerSelectButton.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {920, 582}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 353}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{278, 124}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 407}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {920, 618}}";
+			sepNavSelRange = "{279, 0}";
+			sepNavVisRange = "{0, 284}";
 		};
 	};
 	B61C5A6213E0A08A00122BB5 /* CutifyStickerSelectButton.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {920, 559}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 281}";
+			sepNavIntBoundsRect = "{{0, 0}, {920, 741}}";
+			sepNavSelRange = "{526, 0}";
+			sepNavVisRange = "{100, 970}";
 		};
 	};
 	B61C5AD513E0B91600122BB5 /* CutifyStickerView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {920, 641}}";
+			sepNavIntBoundsRect = "{{0, 0}, {920, 618}}";
 			sepNavSelRange = "{432, 0}";
 			sepNavVisRange = "{0, 498}";
 		};
 	};
 	B61C5AD613E0B91600122BB5 /* CutifyStickerView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1272, 1053}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1272, 1066}}";
 			sepNavSelRange = "{1210, 0}";
 			sepNavVisRange = "{454, 1294}";
 		};
@@ -438,7 +451,7 @@
 		fRef = 1D3623250D0F684500981E51 /* CutifyAppFrameAppDelegate.m */;
 		name = "CutifyAppFrameAppDelegate.m: 106";
 		rLen = 0;
-		rLoc = 3850;
+		rLoc = 3985;
 		rType = 0;
 		vrLen = 1148;
 		vrLoc = 2922;
@@ -489,14 +502,14 @@
 	};
 	B65A96EA13DCA3240012E260 /* PhotoCaptureViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1020, 4433}}";
-			sepNavSelRange = "{7150, 0}";
-			sepNavVisRange = "{8923, 1928}";
+			sepNavIntBoundsRect = "{{0, 0}, {920, 4810}}";
+			sepNavSelRange = "{1003, 0}";
+			sepNavVisRange = "{795, 2108}";
 		};
 	};
 	B65A96EB13DCA3240012E260 /* PhotoCaptureViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {920, 618}}";
+			sepNavIntBoundsRect = "{{0, 0}, {920, 641}}";
 			sepNavSelRange = "{746, 0}";
 			sepNavVisRange = "{0, 851}";
 		};
@@ -660,9 +673,9 @@
 	};
 	B6C087DE13CC00F900BA7D4E /* OptionsAndSharingViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1132, 6045}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1132, 6110}}";
 			sepNavSelRange = "{2262, 0}";
-			sepNavVisRange = "{8408, 1477}";
+			sepNavVisRange = "{8537, 1606}";
 			sepNavWindowFrame = "{{1318, 477}, {821, 799}}";
 		};
 	};
@@ -745,7 +758,7 @@
 		fRef = B65A96EA13DCA3240012E260 /* PhotoCaptureViewController.m */;
 		name = "PhotoCaptureViewController.m: 187";
 		rLen = 0;
-		rLoc = 7150;
+		rLoc = 7149;
 		rType = 0;
 		vrLen = 1907;
 		vrLoc = 8946;
@@ -812,16 +825,16 @@
 	};
 	B6EBD0A513CCEABA00389177 /* ApplyStickersViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {920, 618}}";
+			sepNavIntBoundsRect = "{{0, 0}, {920, 641}}";
 			sepNavSelRange = "{706, 0}";
 			sepNavVisRange = "{0, 729}";
 		};
 	};
 	B6EBD0A613CCEABA00389177 /* ApplyStickersViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {3267, 5330}}";
-			sepNavSelRange = "{10998, 0}";
-			sepNavVisRange = "{11257, 1233}";
+			sepNavIntBoundsRect = "{{0, 0}, {929, 5681}}";
+			sepNavSelRange = "{4934, 0}";
+			sepNavVisRange = "{1420, 2263}";
 			sepNavWindowFrame = "{{135, 4}, {821, 774}}";
 		};
 	};

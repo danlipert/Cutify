@@ -69,6 +69,7 @@
 		B62F4CCB13CEA9FA0034B982 /* IAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62F4CCA13CEA9FA0034B982 /* IAPViewController.m */; };
 		B6370D8413CE649C00E1FD29 /* PhotoGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */; };
 		B64E26C813CE695800AEBA32 /* ApplyStickerImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */; };
+		B650066613F2310B00A1F654 /* ScrollControlIconMaskClear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B650066513F2310B00A1F654 /* ScrollControlIconMaskClear@2x.png */; };
 		B656415C13ECAE6F00DF3530 /* CameraScreenLibraryIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B656415A13ECAE6F00DF3530 /* CameraScreenLibraryIcon@2x.png */; };
 		B656415D13ECAE6F00DF3530 /* CameraScreenCutifyLibraryIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B656415B13ECAE6F00DF3530 /* CameraScreenCutifyLibraryIcon@2x.png */; };
 		B658F22C13E8B1920046C6E0 /* defaultnavbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B658F22B13E8B1920046C6E0 /* defaultnavbar@2x.png */; };
@@ -363,6 +364,7 @@
 		B6370D8213CE649C00E1FD29 /* PhotoGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoGridViewController.h; path = ../PhotoGridViewController.h; sourceTree = "<group>"; };
 		B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoGridViewController.m; path = ../PhotoGridViewController.m; sourceTree = "<group>"; };
 		B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ApplyStickerImage@2x.png"; sourceTree = "<group>"; };
+		B650066513F2310B00A1F654 /* ScrollControlIconMaskClear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlIconMaskClear@2x.png"; sourceTree = "<group>"; };
 		B656415A13ECAE6F00DF3530 /* CameraScreenLibraryIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenLibraryIcon@2x.png"; sourceTree = "<group>"; };
 		B656415B13ECAE6F00DF3530 /* CameraScreenCutifyLibraryIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenCutifyLibraryIcon@2x.png"; sourceTree = "<group>"; };
 		B658F22B13E8B1920046C6E0 /* defaultnavbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultnavbar@2x.png"; sourceTree = "<group>"; };
@@ -797,6 +799,7 @@
 		B672F2E013CC0431005FEF8A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				B650066513F2310B00A1F654 /* ScrollControlIconMaskClear@2x.png */,
 				B656415A13ECAE6F00DF3530 /* CameraScreenLibraryIcon@2x.png */,
 				B656415B13ECAE6F00DF3530 /* CameraScreenCutifyLibraryIcon@2x.png */,
 				B61C53CF13EA5F3000A85581 /* CameraScreenFlashOn@2x.png */,
@@ -1100,6 +1103,7 @@
 				B0EEDC6613F12638006769C2 /* jQueryInject.txt in Resources */,
 				B0EEDC6713F12638006769C2 /* jQueryInjectLandscape.txt in Resources */,
 				B0EEDC7913F12638006769C2 /* twitter_load.png in Resources */,
+				B650066613F2310B00A1F654 /* ScrollControlIconMaskClear@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
