@@ -18,10 +18,11 @@
 	if(self = [super initWithFrame:frame])
 	{
 		//create purple background
-		[self setBackgroundColor:[UIColor purpleColor]];
+//		[self setBackgroundColor:[UIColor purpleColor]];
 		
 		self.imageView = nil;
 		glossEffectImageView = nil;
+		backgroundImageView = nil;
 	}
 	return self;
 }
@@ -32,6 +33,12 @@
 	[_imageView setFrame:CGRectMake(0,0,58, 58)];
 //	[_imageView setCenter:self.center];
 	[_imageView setContentMode:UIViewContentModeScaleAspectFit];
+	
+	if(backgroundImageView == nil)
+	{
+		backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ScrollControlIconBackground.png"]];
+		[self addSubview:backgroundImageView];
+	}
 	
 	if(self.imageView == nil)
 	{
@@ -50,6 +57,25 @@
 	}
 }
 
+-(void)setBackButton
+{
+	UIImageView *_imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ScrollControlBackButton.png"]];
+	[_imageView setFrame:CGRectMake(0,0,58, 58)];
+	[_imageView setContentMode:UIViewContentModeScaleAspectFit];
+	self.imageView = _imageView;
+	[self addSubview:self.imageView];
+}
+
+-(void)setIAPButton
+{
+	UIImageView *_imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"BuyMorePacksButton.png"]];
+	[_imageView setFrame:CGRectMake(0,0,58, 58)];
+	[_imageView setContentMode:UIViewContentModeScaleAspectFit];	
+	
+	self.imageView = _imageView;
+	[self addSubview:self.imageView];
+}
+
 -(void)dealloc
 {
 	[super dealloc];
@@ -58,6 +84,7 @@
 	self.imageView = nil;
 	
 	[glossEffectImageView release];
+	[backgroundImageView release];
 }
 	
 	

@@ -52,13 +52,13 @@
 	{
 		CutifyStickerMeta *backButtonMeta = [[CutifyStickerMeta alloc] init];
 		backButtonMeta.stickerLabelString = [NSString stringWithString:@"Back"];
-		backButtonMeta.stickerImage = [UIImage imageNamed:@"ScrollControlBackButton.png"];
+//		backButtonMeta.stickerImage = [UIImage imageNamed:@"ScrollControlBackButton.png"];
 		backButtonMeta.type = [NSString stringWithString:@"BackButton"];
 		
 		[stickerArray addObject:backButtonMeta];
 		[backButtonMeta release];
-		
-	}
+	} 
+	
 	
 	for(TMOANode *childNode in [self.tree childrenOfNode:self.currentNode])
 	{
@@ -70,6 +70,19 @@
 		
 		[stickerArray addObject:stickerMeta];
 		[stickerMeta release];
+	}
+	
+	//IAP BUTTON
+	if([self.currentNode isRoot])
+	{
+		CutifyStickerMeta *IAPButtonMeta = [[CutifyStickerMeta alloc] init];
+		IAPButtonMeta.stickerLabelString = [NSString stringWithString:@"Buy Packs"];
+		//		backButtonMeta.stickerImage = [UIImage imageNamed:@"ScrollControlBackButton.png"];
+		IAPButtonMeta.type = [NSString stringWithString:@"IAP"];
+		
+		[stickerArray addObject:IAPButtonMeta];
+		[IAPButtonMeta release];
+		NSLog(@"added IAPButton");
 	}
 	
 	self.currentArray = stickerArray;
@@ -143,6 +156,10 @@
 			self.currentNode = [self.tree parentOfNode:self.currentNode];
 			[self loadStickersFromCurrentNode];
 			[self loadStickers:self.currentArray];
+			return;
+		} else if([button.stickerMeta.type isEqualToString:@"IAP"]) {
+			//detect IAP button
+			[delegate iapButtonPressed:button];
 			return;
 		}
 		
@@ -298,7 +315,17 @@
 	for (int i=1; i<=stickerArray.count; i++) {
 		CutifyStickerSelectButton *imageButton = [[CutifyStickerSelectButton alloc] initWithFrame:CGRectMake(x,y,width,height)];
 //		[imageButton setImage:[[stickerArray objectAtIndex:i-1] stickerImage] forState:UIControlStateNormal];
-		[imageButton setImage:[[stickerArray objectAtIndex:i-1] stickerImage]];
+		
+		if([[[stickerArray objectAtIndex:i-1] type] isEqualToString:@"BackButton"])
+		{
+			[imageButton setBackButton];
+		} else if ([[[stickerArray objectAtIndex:i-1] type] isEqualToString:@"IAP"]) {
+			[imageButton setIAPButton];
+			NSLog(@"created iapButton");
+		} else {
+			[imageButton setImage:[[stickerArray objectAtIndex:i-1] stickerImage]];
+		}
+		
 		[imageButton addTarget:self action:@selector(imageButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 		[imageButton setTag:i-1];
 //		[imageButton setContentMode:UIViewContentModeScaleAspectFill];
