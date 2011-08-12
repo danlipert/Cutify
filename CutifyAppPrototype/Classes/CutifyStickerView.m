@@ -56,7 +56,7 @@
 		
 		self.clipsToBounds = YES;
 		//debug
-		[self setBackgroundColor:[UIColor purpleColor]];
+//		[self setBackgroundColor:[UIColor purpleColor]];
 	}
 	return self;
 }

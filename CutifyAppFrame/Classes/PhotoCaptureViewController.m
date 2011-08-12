@@ -252,7 +252,7 @@
 {
 	[self turnOffCamera];
 	
-	[DSBezelActivityView newActivityViewForView:self.view];
+//	[DSBezelActivityView newActivityViewForView:self.view];
 	
 	[self.navigationController setNavigationBarHidden:NO animated:YES];
 

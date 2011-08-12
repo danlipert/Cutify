@@ -93,6 +93,8 @@
 		B6B4DF4E13E9051C00696419 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4DF4813E9051C00696419 /* UIImage+RoundedCorner.m */; };
 		B6C087D513CC004800BA7D4E /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C087D413CC004800BA7D4E /* TakePhotoViewController.m */; };
 		B6C087DF13CC00F900BA7D4E /* OptionsAndSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C087DE13CC00F900BA7D4E /* OptionsAndSharingViewController.m */; };
+		B6E38AF713F5B463002BA987 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E38AF513F5B463002BA987 /* Default@2x.png */; };
+		B6E38AF813F5B463002BA987 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E38AF613F5B463002BA987 /* Icon@2x.png */; };
 		B6E63D1713F057BC00989150 /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E63D1613F057BC00989150 /* DSActivityView.m */; };
 		B6EAA1F413F4CB4C005B835B /* MidDemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6EAA1F313F4CB4C005B835B /* MidDemo.plist */; };
 		B6EAA2EE13F4CBA1005B835B /* EmoticonAnnoyed1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EAA1F713F4CBA0005B835B /* EmoticonAnnoyed1@2x.png */; };
@@ -593,6 +595,8 @@
 		B6C087D413CC004800BA7D4E /* TakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TakePhotoViewController.m; path = ../TakePhotoViewController.m; sourceTree = "<group>"; };
 		B6C087DD13CC00F900BA7D4E /* OptionsAndSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsAndSharingViewController.h; path = ../OptionsAndSharingViewController.h; sourceTree = "<group>"; };
 		B6C087DE13CC00F900BA7D4E /* OptionsAndSharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionsAndSharingViewController.m; path = ../OptionsAndSharingViewController.m; sourceTree = "<group>"; };
+		B6E38AF513F5B463002BA987 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B6E38AF613F5B463002BA987 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		B6E63D1513F057BC00989150 /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSActivityView.h; sourceTree = "<group>"; };
 		B6E63D1613F057BC00989150 /* DSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSActivityView.m; sourceTree = "<group>"; };
 		B6EAA1F313F4CB4C005B835B /* MidDemo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MidDemo.plist; path = Classes/MidDemo.plist; sourceTree = "<group>"; };
@@ -908,6 +912,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B6E38AF513F5B463002BA987 /* Default@2x.png */,
+				B6E38AF613F5B463002BA987 /* Icon@2x.png */,
 				B61C5A5C13E0A08A00122BB5 /* StickerDemoPack.plist */,
 				B6EE6FE013E340A300EE45B8 /* EarlyDemo.plist */,
 				B631DCD713F4E0D4000FED6F /* test.plist */,
@@ -2164,6 +2170,8 @@
 				B6EAA3C313F4CBA1005B835B /* CutifyPack40@2x.png in Resources */,
 				B6EAA3C413F4CBA1005B835B /* CutifyPack41@2x.png in Resources */,
 				B631DCD813F4E0D4000FED6F /* test.plist in Resources */,
+				B6E38AF713F5B463002BA987 /* Default@2x.png in Resources */,
+				B6E38AF813F5B463002BA987 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2273,6 +2281,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = CutifyAppFrame;
+				SDKROOT = iphoneos4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -2294,13 +2303,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Lipert";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"${SDK_DIR}/usr/include/libxml2/**",
+					"/usr/include/libxml2/**/**",
+				);
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "33C5A24A-98B9-4148-90E7-F37D3F949D7E";
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 			};
 			name = Release;
 		};

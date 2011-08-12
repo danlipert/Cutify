@@ -274,8 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
-									<integer>1</integer>
+									<integer>20</integer>
+									<integer>13</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -299,7 +299,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>-27 59 1280 719 0 0 1280 778 </string>
+						<string>2192 637 1280 719 1280 327 1920 1080 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -310,14 +310,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ComposingViewController.m</string>
+								<string>CutifyAppPrototype-Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ComposingViewController.m</string>
+										<string>CutifyAppPrototype-Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B61C5B1713E0C5E100122BB5</string>
+										<string>B6E38AFD13F5B498002BA987</string>
 										<key>history</key>
 										<array>
 											<string>B6B9244613B3EADC0040F074</string>
@@ -339,12 +337,12 @@
 											<string>B6ED294613B7F2FB00E8BB61</string>
 											<string>B66FE92013BCEB4D00C350F9</string>
 											<string>B66FE92113BCEB4D00C350F9</string>
-											<string>B66FE92213BCEB4D00C350F9</string>
 											<string>B66FE92513BCEB4D00C350F9</string>
-											<string>B6013B7F13BCF839007B33D4</string>
-											<string>B6013B8013BCF839007B33D4</string>
 											<string>B67CE88813C3AD63004038BD</string>
-											<string>B61C5B1613E0C5E100122BB5</string>
+											<string>B6E38AFA13F5B498002BA987</string>
+											<string>B6E38AFB13F5B498002BA987</string>
+											<string>B6E38AFC13F5B498002BA987</string>
+											<string>B6013B8013BCF839007B33D4</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -356,14 +354,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 531}}</string>
+								<string>{{0, 0}, {1072, 527}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-27 59 1280 719 0 0 1280 778 </string>
+								<string>2192 637 1280 719 1280 327 1920 1080 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>531pt</string>
+							<string>527pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -376,14 +374,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 536}, {1072, 142}}</string>
+								<string>{{0, 532}, {1072, 146}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-27 59 1280 719 0 0 1280 778 </string>
+								<string>2192 637 1280 719 1280 327 1920 1080 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>142pt</string>
+							<string>146pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -402,9 +400,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B61C5AC113E0B7EE00122BB5</string>
+				<string>B6E38AFE13F5B498002BA987</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>B61C5AC213E0B7EE00122BB5</string>
+				<string>B6E38AFF13F5B498002BA987</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -543,9 +541,10 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>B6B9242113B3E6C50040F074</string>
+		<string>/Users/danlipert/github/Cutify/CutifyAppPrototype/CutifyAppPrototype.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-27 59 1280 719 0 0 1280 778 </string>
+	<string>2192 637 1280 719 1280 327 1920 1080 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -622,7 +621,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>B6B9242113B3E6C50040F074</string>
-				<string>B61C5AC313E0B7EE00122BB5</string>
+				<string>B6E38B0013F5B498002BA987</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

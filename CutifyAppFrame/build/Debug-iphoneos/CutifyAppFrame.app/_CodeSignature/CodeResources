@@ -12,10 +12,6 @@
 		<data>
 		zdLEfGWhXJga/9/2ZxVTgcqSYqU=
 		</data>
-		<key>BuyMorePacksButton@2x.png</key>
-		<data>
-		42Rx3oHcTVJRl/X53R+Vela+B44=
-		</data>
 		<key>BuyPackButton@2x.png</key>
 		<data>
 		qx57j625cMPFqPUZEHzU4dmiByg=
@@ -528,6 +524,10 @@
 		<data>
 		5Hcsr6bSwwkmHOSZ47w8Stv3a9g=
 		</data>
+		<key>Default@2x.png</key>
+		<data>
+		Rl8CNE+5Ht2BUHKzTYbzxdS+0ng=
+		</data>
 		<key>DeleteButton@2x.png</key>
 		<data>
 		4ckEWtoCTRntpkABZ+ovCpRGueY=
@@ -928,6 +928,10 @@
 		<data>
 		khN8ZR+K1Ls3A5EspvwhDdDy0fk=
 		</data>
+		<key>Icon@2x.png</key>
+		<data>
+		fYDrBQlizEFniVsn2aWLryBIhqs=
+		</data>
 		<key>InAppPurchaseBackground@2x.png</key>
 		<data>
 		/rKuv5vReJ8ctn8qmS3ktn70Sfg=
@@ -938,7 +942,7 @@
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		KkvT1XQFQ7jja3SNP4z9RWPBOrg=
+		gw29falI7KjaB7dByTcNJSOqwYU=
 		</data>
 		<key>MidDemo.plist</key>
 		<data>
@@ -954,7 +958,7 @@
 		</data>
 		<key>PhotoPreviewViewController.nib</key>
 		<data>
-		nHBlf9Wewcd/7SkWOW9qSO/pR7E=
+		ohHxcZiejQM417cEqzufpH2V37w=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -963,14 +967,6 @@
 		<key>ScrollControlBackButton@2x.png</key>
 		<data>
 		A+mQ+/f2dFRBYpPyM/bTEjmR0ts=
-		</data>
-		<key>ScrollControlBackground@2x.png</key>
-		<data>
-		E524YpGsQKYiZUqRdVhY+NqjOzo=
-		</data>
-		<key>ScrollControlIconBackground@2x.png</key>
-		<data>
-		bZ0nCSkCdIGPHJ5r4ddQkCETsG8=
 		</data>
 		<key>ScrollControlIconMaskClear@2x.png</key>
 		<data>
@@ -1006,7 +1002,7 @@
 		</data>
 		<key>test.plist</key>
 		<data>
-		pyq7ByDFOhPRzbzMZL6WsTWK3Dk=
+		JIONM20ITszS1XOQ7P1Zf+p+Lkw=
 		</data>
 		<key>twitter_load.png</key>
 		<data>

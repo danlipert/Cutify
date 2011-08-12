@@ -303,16 +303,16 @@ s2773
 i"CutifyAppPrototypeAppDelegate.h"
 
 N/Users/danlipert/github/Cutify/CutifyAppPrototype/Classes/CutifyStickerView.h
-c000000004E308D6F00000000000001B0
-t1311804783
-s432
+c000000004E42DCE300000000000001F2
+t1313004771
+s498
 i<UIKit/UIKit.h>
 i"CutifyStickerMeta.h"
 
 N/Users/danlipert/github/Cutify/CutifyAppPrototype/Classes/CutifyStickerView.m
-c000000004E308CE3000000000000066B
-t1311804643
-s1643
+c000000004E45774B00000000000007C7
+t1313175371
+s1991
 i"CutifyStickerView.h"
 i"CutifyStickerMeta.h"
 

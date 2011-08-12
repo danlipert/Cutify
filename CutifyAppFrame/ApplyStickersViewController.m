@@ -64,7 +64,7 @@
 	self.stickerContainerView = _stickerContainerView;
 	[_stickerContainerView release];
 	
-	UIView *_masterContainerView = [[UIView alloc] initWithFrame:CGRectMake(7,5,306,306)];
+	UIView *_masterContainerView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,320)];
 	self.masterContainerView = _masterContainerView;
 	[_masterContainerView release];
 	
