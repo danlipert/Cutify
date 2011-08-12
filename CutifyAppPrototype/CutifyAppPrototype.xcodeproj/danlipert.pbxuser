@@ -50,23 +50,23 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 334869590;
-			PBXWorkspaceStateSaveDate = 334869590;
+			PBXPerProjectTemplateStateSaveDate = 333494251;
+			PBXWorkspaceStateSaveDate = 333494251;
 		};
 		perUserProjectItems = {
+			B6013B7F13BCF839007B33D4 /* PBXBookmark */ = B6013B7F13BCF839007B33D4 /* PBXBookmark */;
 			B6013B8013BCF839007B33D4 /* PlistBookmark */ = B6013B8013BCF839007B33D4 /* PlistBookmark */;
+			B61C5B1613E0C5E100122BB5 /* PBXTextBookmark */ = B61C5B1613E0C5E100122BB5 /* PBXTextBookmark */;
+			B61C5B1713E0C5E100122BB5 /* PBXTextBookmark */ = B61C5B1713E0C5E100122BB5 /* PBXTextBookmark */;
 			B66FE92013BCEB4D00C350F9 /* PBXBookmark */ = B66FE92013BCEB4D00C350F9 /* PBXBookmark */;
 			B66FE92113BCEB4D00C350F9 /* PBXBookmark */ = B66FE92113BCEB4D00C350F9 /* PBXBookmark */;
+			B66FE92213BCEB4D00C350F9 /* PBXBookmark */ = B66FE92213BCEB4D00C350F9 /* PBXBookmark */;
 			B66FE92513BCEB4D00C350F9 /* PBXTextBookmark */ = B66FE92513BCEB4D00C350F9 /* PBXTextBookmark */;
 			B67CE88813C3AD63004038BD /* PBXTextBookmark */ = B67CE88813C3AD63004038BD /* PBXTextBookmark */;
 			B6A0C49513B416BC00365454 /* PBXTextBookmark */ = B6A0C49513B416BC00365454 /* PBXTextBookmark */;
 			B6B9244613B3EADC0040F074 /* PBXBookmark */ = B6B9244613B3EADC0040F074 /* PBXBookmark */;
 			B6B9244713B3EADC0040F074 /* PBXTextBookmark */ = B6B9244713B3EADC0040F074 /* PBXTextBookmark */;
 			B6B9245713B3EC1F0040F074 /* PBXTextBookmark */ = B6B9245713B3EC1F0040F074 /* PBXTextBookmark */;
-			B6E38AFA13F5B498002BA987 /* PBXTextBookmark */ = B6E38AFA13F5B498002BA987 /* PBXTextBookmark */;
-			B6E38AFB13F5B498002BA987 /* PBXBookmark */ = B6E38AFB13F5B498002BA987 /* PBXBookmark */;
-			B6E38AFC13F5B498002BA987 /* PBXBookmark */ = B6E38AFC13F5B498002BA987 /* PBXBookmark */;
-			B6E38AFD13F5B498002BA987 /* PlistBookmark */ = B6E38AFD13F5B498002BA987 /* PlistBookmark */;
 			B6ED294613B7F2FB00E8BB61 /* PBXTextBookmark */ = B6ED294613B7F2FB00E8BB61 /* PBXTextBookmark */;
 		};
 		sourceControlManager = B6B9242313B3E6C50040F074 /* Source Control */;
@@ -92,6 +92,10 @@
 			sepNavWindowFrame = "{{15, 4}, {821, 774}}";
 		};
 	};
+	B6013B7F13BCF839007B33D4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B66FE90013BC3B7500C350F9 /* Default@2x.png */;
+	};
 	B6013B8013BCF839007B33D4 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* CutifyAppPrototype-Info.plist */;
@@ -104,6 +108,26 @@
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
+	B61C5B1613E0C5E100122BB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		name = "ComposingViewController.m: 100";
+		rLen = 497;
+		rLoc = 3692;
+		rType = 0;
+		vrLen = 1435;
+		vrLoc = 3084;
+	};
+	B61C5B1713E0C5E100122BB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
+		name = "ComposingViewController.m: 195";
+		rLen = 6005;
+		rLoc = 6634;
+		rType = 0;
+		vrLen = 1201;
+		vrLoc = 11102;
+	};
 	B66FE92013BCEB4D00C350F9 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = B6B9243A13B3E9CC0040F074 /* easterislandheadicon.gif */;
@@ -111,6 +135,10 @@
 	B66FE92113BCEB4D00C350F9 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = B66FE8F413BC392D00C350F9 /* Icon.png */;
+	};
+	B66FE92213BCEB4D00C350F9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B66FE8F613BC393700C350F9 /* Icon@2x.png */;
 	};
 	B66FE92513BCEB4D00C350F9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -216,7 +244,7 @@
 	};
 	B6B9242813B3E7120040F074 /* ComposingViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1188, 4615}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 4641}}";
 			sepNavSelRange = "{6634, 6005}";
 			sepNavVisRange = "{11102, 1201}";
 		};
@@ -258,36 +286,6 @@
 		rType = 0;
 		vrLen = 273;
 		vrLoc = 0;
-	};
-	B6E38AFA13F5B498002BA987 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B6B9242813B3E7120040F074 /* ComposingViewController.m */;
-		name = "ComposingViewController.m: 195";
-		rLen = 6005;
-		rLoc = 6634;
-		rType = 0;
-		vrLen = 1201;
-		vrLoc = 11102;
-	};
-	B6E38AFB13F5B498002BA987 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = B66FE8F613BC393700C350F9 /* Icon@2x.png */;
-	};
-	B6E38AFC13F5B498002BA987 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = B66FE90013BC3B7500C350F9 /* Default@2x.png */;
-	};
-	B6E38AFD13F5B498002BA987 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* CutifyAppPrototype-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleIconFiles,
-		);
-		name = "/Users/danlipert/github/Cutify/CutifyAppPrototype/CutifyAppPrototype-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
 	};
 	B6ED294613B7F2FB00E8BB61 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
