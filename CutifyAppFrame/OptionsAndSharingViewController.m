@@ -67,10 +67,13 @@
 	
 	//setup preview
 	//preview
+	UIView *containerView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,320)];
 	UIImageView *photoImageView = [[UIImageView alloc] initWithImage:self.image];
-	[photoImageView setFrame:CGRectMake(0,0,306,306)];
-	self.tableView.tableHeaderView = photoImageView;
+	[photoImageView setFrame:CGRectMake(7,5,306,306)];
+	[containerView addSubview:photoImageView];
+	self.tableView.tableHeaderView = containerView;
 	[photoImageView release];
+	[containerView release];
 	
 	NSLog(@"Image loaded (%f x %f)", self.image.size.width, self.image.size.height);
 }

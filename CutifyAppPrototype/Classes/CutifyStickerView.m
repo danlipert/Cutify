@@ -49,6 +49,11 @@
 		self.frame = stickerImageView.frame;
 		
 		self.rotationDegrees = 0.0f;
+		//bug, scale not set correctly
+//		self.scale = 1.0f;
+		
+		self.scale = self.stickerImageView.frame.size.width / self.stickerImageView.image.size.width;
+		
 		self.clipsToBounds = YES;
 		//debug
 		[self setBackgroundColor:[UIColor purpleColor]];

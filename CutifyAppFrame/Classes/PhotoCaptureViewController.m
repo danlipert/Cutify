@@ -421,7 +421,7 @@
                 }
                 
                 pointOfInterest = CGPointMake(xc, yc);
-				NSLog(@"point of interest: (%f, %f)", xc, yc);
+//				NSLog(@"point of interest: (%f, %f)", xc, yc);
                 break;
             }
         }
@@ -435,7 +435,7 @@
 {
     if ([[[self.captureManager videoInput] device] isFocusPointOfInterestSupported]) {
         CGPoint tapPoint = [gestureRecognizer locationInView:self.view];
-		NSLog(@"Tap Point: (%f, %f)", tapPoint.x, tapPoint.y);
+//		NSLog(@"Tap Point: (%f, %f)", tapPoint.x, tapPoint.y);
         CGPoint convertedFocusPoint = [self convertToPointOfInterestFromViewCoordinates:tapPoint];
         [self.captureManager autoFocusAtPoint:convertedFocusPoint];
     }
