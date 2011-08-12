@@ -30,7 +30,7 @@
 		[self addSubview:backgroundImage];
 		
 //		[self loadStickersFromPlist:@"StickerDemoPack"];
-		[self loadTreeFromPlistNamed:@"EarlyDemo"];
+		[self loadTreeFromPlistNamed:@"test"];
 		
 		[self loadStickersFromCurrentNode];
 		
