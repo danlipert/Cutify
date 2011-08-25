@@ -50,7 +50,7 @@
 	
 	if(glossEffectImageView == nil)
 	{
-		glossEffectImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ScrollControlIconMaskClear.png"]];
+		glossEffectImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ScrollControlIconGloss.png"]];
 		[self addSubview:glossEffectImageView];
 	}  else {
 		[self bringSubviewToFront:glossEffectImageView];

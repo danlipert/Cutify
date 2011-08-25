@@ -117,20 +117,29 @@
 	[iPhotoButton addTarget:self action:@selector(iPhotoButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:iPhotoButton];
 	
-	UIButton *_flashButton = [UIButton buttonWithType:UIButtonTypeCustom];
-	[_flashButton setImage:[UIImage imageNamed:@"CameraScreenFlashOff.png"] forState:UIControlStateNormal];
-	[_flashButton setFrame:CGRectMake(10, 10, _flashButton.imageView.image.size.width, _flashButton.imageView.image.size.height)];
-	[_flashButton addTarget:self action:@selector(flashButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-	[_flashButton setTag:0];
-	[self.captureManager setFlashMode:AVCaptureFlashModeOff];
-	self.flashButton = _flashButton;
-	[self.view addSubview:self.flashButton];
+	//possibly use flash
+	NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
+    for (AVCaptureDevice *device in devices) {
+		if([device hasFlash])
+		{
+			UIButton *_flashButton = [UIButton buttonWithType:UIButtonTypeCustom];
+			[_flashButton setImage:[UIImage imageNamed:@"CameraScreenFlashOff.png"] forState:UIControlStateNormal];
+			[_flashButton setFrame:CGRectMake(10, 10, _flashButton.imageView.image.size.width, _flashButton.imageView.image.size.height)];
+			[_flashButton addTarget:self action:@selector(flashButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+			[_flashButton setTag:0];
+			[self.captureManager setFlashMode:AVCaptureFlashModeOff];
+			self.flashButton = _flashButton;
+			[self.view addSubview:self.flashButton];
+			break;
+		}
+	}
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(displayImagePreview) name:kImageCapturedSuccessfully object:nil];
 	[[captureManager captureSession] startRunning];
 	
 	//add focus gestures
 	// Add a single tap gesture to focus on the point tapped, then lock focus
+	//all devices with camera have focus
 	UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapToAutoFocus:)];
 	[singleTap setDelegate:self];
 	[singleTap setNumberOfTapsRequired:1];
@@ -141,8 +150,7 @@
 	[doubleTap setDelegate:self];
 	[doubleTap setNumberOfTapsRequired:2];
 	[singleTap requireGestureRecognizerToFail:doubleTap];
-	[ppVC.view
-	 addGestureRecognizer:doubleTap];
+	[ppVC.view addGestureRecognizer:doubleTap];
 	
 	[doubleTap release];
 	[singleTap release];
@@ -277,6 +285,8 @@
 	{
 		//iPhone 4
 		rect = CGRectMake(rect.origin.x * 2.0, rect.origin.y * 2.0, rect.size.width*2.0, rect.size.height*2.0);
+	} else {
+		//do nothing, rect should be fine
 	}
 	   
     UIGraphicsBeginImageContext(rect.size);
@@ -289,7 +299,7 @@
 //		drawRect = CGRectMake(-rect.origin.x, -rect.origin.y, img.size.width, img.size.height);
 		drawRect = CGRectMake(-rect.origin.x, -rect.origin.y, 624, 1110);
 	} else {
-		drawRect = CGRectMake(-rect.origin.x, -rect.origin.y, img.size.width, img.size.height);
+		drawRect = CGRectMake(-rect.origin.x, -rect.origin.y, 312, 555);
 	}	
 	
     // clip to the bounds of the image context

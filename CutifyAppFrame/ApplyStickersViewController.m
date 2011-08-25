@@ -210,8 +210,13 @@
 	CGContextRef ctx = UIGraphicsGetCurrentContext();
 	
 	//corrected for explicit drawrect
-	CGContextTranslateCTM(ctx, overlayImageView.center.x * 2.0, overlayImageView.center.y * 2.0); 
-	//	CGContextTranslateCTM(ctx, drawRect.origin.x * 2.0 + overlayImageView.image.size.width / 2.0 * scale, drawRect.origin.y * 2.0 + overlayImageView.image.size.height / 2.0 * scale); 
+	//added code for iphone 4 vs iphone 3
+	if ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] &&
+		([UIScreen mainScreen].scale == 2.0)) {
+		CGContextTranslateCTM(ctx, overlayImageView.center.x * 2.0, overlayImageView.center.y * 2.0); 
+	} else {
+		CGContextTranslateCTM(ctx, overlayImageView.center.x, overlayImageView.center.y); 
+	}
 	
 	CGFloat angle = *rotationDegrees * M_PI/180.0f;    
 	CGContextRotateCTM(ctx, angle);  
