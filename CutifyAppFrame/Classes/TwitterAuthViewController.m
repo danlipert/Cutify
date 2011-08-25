@@ -46,7 +46,52 @@
 #pragma mark SA_OAuthTwitterEngineDelegate
 
 - (void) storeCachedTwitterOAuthData: (NSString *) data forUsername: (NSString *) username {
-	[self.delegate authenticationDidFinishWithToken:data forService:@"twitter"];
+	
+	//looking for "access_token="
+	NSRange oauth_token_range = [data rangeOfString:@"oauth_token="];
+	NSRange oauth_token_secret_range = [data rangeOfString:@"&oauth_token_secret="];
+	NSRange user_id_range = [data rangeOfString:@"&user_id="];
+	NSRange screen_name_range = [data rangeOfString:@"&screen_name="];	
+	
+	
+	//coolio, we have a token, now let's parse it out....
+	if (oauth_token_range.length > 0) {
+		
+		//we want everything after the 'access_token=' thus the position where it starts + it's length
+		int oauth_token_from_index = oauth_token_range.location + oauth_token_range.length;
+		int oauth_token_to_index = oauth_token_secret_range.location;
+		
+		NSRange range = NSMakeRange (oauth_token_from_index, oauth_token_to_index - oauth_token_from_index);
+		
+		NSString *oauth_token = [data substringWithRange:range];
+		NSString *oauth_token_secret = @"";
+		NSLog(@"oauth_token:  %@", oauth_token);
+
+		if (oauth_token_secret_range.length > 0)
+		{
+			int oauth_token_secret_from_index = oauth_token_secret_range.location + oauth_token_secret_range.length;
+			int oauth_token_secret_to_index = user_id_range.location;
+			
+			NSRange range_secret = NSMakeRange (oauth_token_secret_from_index, oauth_token_secret_to_index - oauth_token_secret_from_index);
+			
+			oauth_token_secret = [data substringWithRange:range_secret];
+			
+			NSLog(@"oauth_token_secret:  %@", oauth_token_secret);
+			
+		}
+		
+		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+		[defaults setObject:oauth_token forKey:@"twitter_token"];
+		[defaults setObject:oauth_token_secret forKey:@"twitter_token_secret"];
+		[defaults synchronize];
+		NSLog(@"Token: %@ saved for service: twitter", oauth_token);
+		
+	}
+	
+
+	
+	
+	//[self.delegate authenticationDidFinishWithToken:twitter_token_secret forService:@"twitter"];
 }
 
 - (NSString *) cachedTwitterOAuthDataForUsername: (NSString *) username {

@@ -67,13 +67,10 @@
 	
 	//setup preview
 	//preview
-	UIView *containerView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,320)];
 	UIImageView *photoImageView = [[UIImageView alloc] initWithImage:self.image];
-	[photoImageView setFrame:CGRectMake(7,5,306,306)];
-	[containerView addSubview:photoImageView];
-	self.tableView.tableHeaderView = containerView;
+	[photoImageView setFrame:CGRectMake(0,0,306,306)];
+	self.tableView.tableHeaderView = photoImageView;
 	[photoImageView release];
-	[containerView release];
 	
 	NSLog(@"Image loaded (%f x %f)", self.image.size.width, self.image.size.height);
 }
@@ -200,11 +197,13 @@
 		
 		//[sharingSwitch addTarget:self action:@selector(sharingSwitchSwitched:) forControlEvents:UIControlEventValueChanged];
 		
+		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+
 		if(indexPath.row == 0) 
 		{
 			[[cell textLabel] setText:@"Twitter"];
 
-			if([self tokenCachedForService:@"twitter"])
+			if([defaults objectForKey:@"twitter_token"] && [defaults objectForKey:@"twitter_token_secret"])
 			{
 				self.twitterSwitch = [self getSharingSwitchWithTag:0];
 				[cell addSubview:self.twitterSwitch];
@@ -219,7 +218,7 @@
 		{
 			[[cell textLabel] setText:@"Facebook"];
 			
-			if([self tokenCachedForService:@"facebook"])
+			if([defaults objectForKey:@"facebook_token"])
 			{
 				self.facebookSwitch = [self getSharingSwitchWithTag:1];
 				[cell addSubview:self.facebookSwitch];
@@ -276,7 +275,7 @@
 
 - (void)authenticationDidFinishWithToken:(NSString *)token forService:(NSString *)service
 {
-	[self cacheToken:token forService:service];
+	//[self cacheToken:token forService:service];
 	[self.tableView reloadData];
 }
 
@@ -364,7 +363,8 @@
 
 -(void)makeRequestToServer
 {
-	NSURL *url = [NSURL URLWithString:@"http://cutify.tmoa.webfactional.com/uploads/"];
+	NSLog(@"Making request to server");
+	NSURL *url = [NSURL URLWithString:@"http://cutifyapp.com/uploads/"];
 	ASIFormDataRequest *request = [[[ASIFormDataRequest alloc] initWithURL:url] autorelease];
 //	ASIHTTPRequest *request = [[[ASIHTTPRequest alloc] initWithURL:url] autorelease];
 	[request setDelegate:self];
@@ -375,18 +375,25 @@
 	[request setPostBody:imageData];
 	[imageData release];
 
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	
 	// Share if selected
-	if (self.facebookSwitch.on == YES)
+	if (self.facebookSwitch.on)
 	{
-		[request setPostValue:[self cachedTokenForService:@"facebook"] forKey:@"facebook_token"];
+		NSLog(@"Adding facebook");
+		[request setPostValue:[defaults objectForKey:@"facebook_token"]];
 	}
-	if (self.tumblrSwitch.on == YES)
+	if (self.tumblrSwitch.on)
 	{
+		NSLog(@"Adding tumblr");
 		[request setPostValue:[self cachedTokenForService:@"tumblr"] forKey:@"tumblr_token"];
 	}
-	if (self.twitterSwitch.on == YES)
+	if (self.twitterSwitch.on)
 	{
-		[request setPostValue:[self cachedTokenForService:@"twitter"] forKey:@"twitter_token"];
+		NSLog(@"Adding twitter");
+		
+		[request setPostValue:[defaults objectForKey:@"twitter_token"] forKey:@"twitter_token"];
+		[request setPostValue:[defaults objectForKey:@"twitter_token_secret"] forKey:@"twitter_token_secret"];
 	}	
 	
 	if(self.twitterSwitch.on == NO && self.tumblrSwitch.on == NO && self.facebookSwitch.on == NO)
@@ -403,9 +410,13 @@
 
 - (void)requestFinished:(ASIHTTPRequest *)request
 {
+<<<<<<< HEAD
 	[DSBezelActivityView removeViewAnimated:YES];
 
 	NSLog([request responseString]);
+=======
+	NSLog(@"%@", [request responseString]);
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 	UIAlertView *alert = [[UIAlertView alloc]
 						  initWithTitle:@"Sent to server!"
 						  message:@"Great job!."

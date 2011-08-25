@@ -268,14 +268,16 @@
 								<string>B0EEDC2A13F12637006769C2</string>
 								<string>B0EEDC6013F12638006769C2</string>
 								<string>B6E63D1813F057BF00989150</string>
-								<string>B61C5A4613E0A04F00122BB5</string>
 								<string>B65A96E413DCA3140012E260</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
+<<<<<<< HEAD
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>B6EE6FF113E340E100EE45B8</string>
 								<string>B6EAA1F513F4CBA0005B835B</string>
 								<string>B6EAA20C13F4CBA0005B835B</string>
 								<string>B672F2E013CC0431005FEF8A</string>
+=======
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
@@ -284,13 +286,21 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+<<<<<<< HEAD
 									<integer>49</integer>
+=======
+									<integer>30</integer>
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
+<<<<<<< HEAD
 							<string>{{0, 484}, {277, 660}}</string>
+=======
+							<string>{{0, 9}, {277, 660}}</string>
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -327,7 +337,11 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
+<<<<<<< HEAD
 								<string>ApplyStickersViewController.m</string>
+=======
+								<string>PhotoGridViewController.m</string>
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -335,22 +349,55 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
+<<<<<<< HEAD
 										<string>ApplyStickersViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
 										<string>B68FB2CF1406E4070067FFCD</string>
+=======
+										<string>PhotoGridViewController.m</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>B6E63D8713F0748C00989150</string>
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 										<key>history</key>
 										<array>
 											<string>B6370D9F13CE66A200E1FD29</string>
 											<string>B62F4CE313CEAD230034B982</string>
+<<<<<<< HEAD
+=======
+											<string>B62F4CE613CEAD230034B982</string>
+											<string>B62F4CED13CEAD230034B982</string>
+											<string>B655399313CF81420071D504</string>
+											<string>B655399413CF81420071D504</string>
+											<string>B655399513CF81420071D504</string>
+											<string>B655399613CF81420071D504</string>
+											<string>B655399813CF81420071D504</string>
+											<string>B655399913CF81420071D504</string>
+											<string>B655399A13CF81420071D504</string>
+											<string>B655399B13CF81420071D504</string>
+											<string>B672587213E09D870010D966</string>
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 											<string>B61C5ADF13E0BAF200122BB5</string>
+											<string>B61C5AE613E0BAF200122BB5</string>
+											<string>B61C5AE713E0BAF200122BB5</string>
+											<string>B61C5AE913E0BAF200122BB5</string>
 											<string>B699B2CF13E1F4B40055320D</string>
+											<string>B61DE03A13E6154000C77D57</string>
 											<string>B62049D413E76FCA000EF32E</string>
+											<string>B658F26313E8C6340046C6E0</string>
+											<string>B658F26413E8C6340046C6E0</string>
+											<string>B658F26613E8C6340046C6E0</string>
 											<string>B6B4DF6613E9096500696419</string>
 											<string>B6B4DF6713E9096500696419</string>
 											<string>B6B4DF6813E9096500696419</string>
+											<string>B6EC2E6F13E9E76300AA9A7B</string>
+											<string>B6EC2EC713EA1D8C00AA9A7B</string>
+											<string>B6EC2ECA13EA1D8C00AA9A7B</string>
 											<string>B61C53FC13EA661F00A85581</string>
+<<<<<<< HEAD
 											<string>B6E63D3613F05E9F00989150</string>
 											<string>B6E63D3713F05E9F00989150</string>
 											<string>B65732C513F3857D0096505D</string>
@@ -381,6 +428,26 @@
 											<string>B6E0E81F1405F68D0074CED4</string>
 											<string>B68FB2C01406E3D20067FFCD</string>
 											<string>B68FB2C11406E3D20067FFCD</string>
+=======
+											<string>B67FC9CE13ECAABE007D5C81</string>
+											<string>B656417513EF2B3600DF3530</string>
+											<string>B656417613EF2B3600DF3530</string>
+											<string>B656417713EF2B3600DF3530</string>
+											<string>B656417813EF2B3600DF3530</string>
+											<string>B656417913EF2B3600DF3530</string>
+											<string>B6E63CF113EF449A00989150</string>
+											<string>B6E63CF313EF449A00989150</string>
+											<string>B6E63D3613F05E9F00989150</string>
+											<string>B6E63D3713F05E9F00989150</string>
+											<string>B6E63D3B13F05E9F00989150</string>
+											<string>B6E63D6913F06FA700989150</string>
+											<string>B6E63D6A13F06FA700989150</string>
+											<string>B6E63D6B13F06FA700989150</string>
+											<string>B6E63D6C13F06FA700989150</string>
+											<string>B6E63D6D13F06FA700989150</string>
+											<string>B6E63D7D13F0744500989150</string>
+											<string>B6E63D7E13F0744500989150</string>
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -438,9 +505,15 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
+<<<<<<< HEAD
 				<string>B68FB2C31406E3D20067FFCD</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
 				<string>B68FB2C41406E3D20067FFCD</string>
+=======
+				<string>B6E63CF713EF449A00989150</string>
+				<string>1CE0B1FE06471DED0097A5F4</string>
+				<string>B6E63CF813EF449A00989150</string>
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -578,12 +651,18 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+<<<<<<< HEAD
 		<string>B68FB2CD1406E3D20067FFCD</string>
 		<string>B68FB2CE1406E3D20067FFCD</string>
 		<string>1C78EAAD065D492600B07095</string>
+=======
+		<string>B6E63CFA13EF449A00989150</string>
+		<string>B6E63CFB13EF449A00989150</string>
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>B6C087F213CC034200BA7D4E</string>
 		<string>/Users/danlipert/github/Cutify/CutifyAppFrame/CutifyAppFrame.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1280 719 0 0 1280 778 </string>
@@ -602,12 +681,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>ApplyStickersViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -663,7 +744,11 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>B6C087F213CC034200BA7D4E</string>
+<<<<<<< HEAD
 				<string>B68FB2C51406E3D20067FFCD</string>
+=======
+				<string>B6E63CC813EF35C400989150</string>
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -785,6 +870,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
+<<<<<<< HEAD
 				<string>B68FB2C61406E3D20067FFCD</string>
 				<string>1C162984064C10D400B95A72</string>
 				<string>B68FB2C71406E3D20067FFCD</string>
@@ -792,6 +878,15 @@
 				<string>B68FB2C91406E3D20067FFCD</string>
 				<string>B68FB2CA1406E3D20067FFCD</string>
 				<string>B68FB2CB1406E3D20067FFCD</string>
+=======
+				<string>B6E63CC913EF35C400989150</string>
+				<string>1C162984064C10D400B95A72</string>
+				<string>B6E63CCA13EF35C400989150</string>
+				<string>B6E63CCB13EF35C400989150</string>
+				<string>B6E63CCC13EF35C400989150</string>
+				<string>B6E63CCD13EF35C400989150</string>
+				<string>B6E63CCE13EF35C400989150</string>
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -825,7 +920,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
+<<<<<<< HEAD
 										<string>SA_OAuthTwitterController.m</string>
+=======
+										<string>PhotoCaptureViewController.m</string>
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -881,8 +980,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
+<<<<<<< HEAD
 				<string>B6E0E7FF1405F0710074CED4</string>
 				<string>B6E0E8001405F0710074CED4</string>
+=======
+				<string>B6FA4BD413E9007000873CAF</string>
+				<string>B6FA4BD513E9007000873CAF</string>
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>
@@ -910,6 +1014,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -945,7 +1051,11 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
+<<<<<<< HEAD
 				<string>B68FB2CC1406E3D20067FFCD</string>
+=======
+				<string>B6E63CCF13EF35C400989150</string>
+>>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -955,7 +1065,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
