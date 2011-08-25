@@ -1,561 +1,0 @@
-TImageRotateMerge
-v7
-r0
-t335917960.452638
-cCheck dependencies
-cProcessInfoPlistFile /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/Info.plist ImageRotateMerge-Info.plist
-cCompileXIB /Users/danlipert/github/Cutify/ImageRotateMerge/MainWindow.xib
-cCpResource build/Debug-iphonesimulator/ImageRotateMerge.app/background.jpg background.jpg
-cCpResource build/Debug-iphonesimulator/ImageRotateMerge.app/TwitterIcon.jpg TwitterIcon.jpg
-cCpResource build/Debug-iphonesimulator/ImageRotateMerge.app/sticker.png sticker.png
-cCpResource build/Debug-iphonesimulator/ImageRotateMerge.app/EmoticonDisappointed2@2x.png EmoticonDisappointed2@2x.png
-cCpResource build/Debug-iphonesimulator/ImageRotateMerge.app/DoneButton@2x.png DoneButton@2x.png
-cProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageRotateMerge_Prefix-avzmppiuflynduhimzdozjrfbpbe/ImageRotateMerge_Prefix.pch.gch ImageRotateMerge_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/main.o /Users/danlipert/github/Cutify/ImageRotateMerge/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/ImageRotateMergeAppDelegate.o /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/DemoViewController.o /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/ApplyStickersViewController.o /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/OptionsAndSharingViewController.o /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/CutifyStickerView.o /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/CutifyStickerMeta.o /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerMeta.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/ImageRotateMerge normal i386
-cGenerateDSYMFile /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app.dSYM /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/ImageRotateMerge
-cTouch /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.h
-c000000004E403D5200000000000002D9
-t1312832850
-s729
-i<UIKit/UIKit.h>
-i"CutifyStickerView.h"
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m
-c000000004E557BC00000000000003FA6
-t1314225088
-s16294
-i"ApplyStickersViewController.h"
-i"OptionsAndSharingViewController.h"
-i"CutifyStickerMeta.h"
-i"CutifyStickerView.h"
-i<QuartzCore/QuartzCore.h>
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerMeta.h
-c000000004E2F495D00000000000001E9
-t1311721821
-s489
-i<Foundation/Foundation.h>
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerMeta.m
-c000000004E24A812000000000000012B
-t1311025170
-s299
-i"CutifyStickerMeta.h"
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerView.h
-c000000004E5579AE0000000000000223
-t1314224558
-s547
-i<UIKit/UIKit.h>
-i"CutifyStickerMeta.h"
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerView.m
-c000000004E5579B60000000000000943
-t1314224566
-s2371
-i"CutifyStickerView.h"
-i"CutifyStickerMeta.h"
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.h
-c000000004E50179F00000000000000F4
-t1313871775
-s244
-i<UIKit/UIKit.h>
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m
-c000000004E50233C0000000000001274
-t1313874748
-s4724
-i"DemoViewController.h"
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.h
-c000000004E50168D0000000000000164
-t1313871501
-s356
-i<UIKit/UIKit.h>
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m
-c000000004E55693000000000000011BD
-t1314220336
-s4541
-i"ImageRotateMergeAppDelegate.h"
-i"DemoViewController.h"
-i"ApplyStickersViewController.h"
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.h
-c000000004E41B24100000000000002C2
-t1312928321
-s706
-i<UIKit/UIKit.h>
-i<MessageUI/MessageUI.h>
-i<MessageUI/MFMailComposeViewController.h>
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m
-c000000004E556808000000000000201F
-t1314220040
-s8223
-i"OptionsAndSharingViewController.h"
-i<AVFoundation/AVFoundation.h>
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/DoneButton@2x.png
-c000000004E1BCC7C0000000000000BBE
-t1310444668
-s3006
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/EmoticonDisappointed1@2x.png
-c000000004E4492FD00000000000003CC
-t1313116925
-s972
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/EmoticonDisappointed2@2x.png
-c000000004E4492FD00000000000008BD
-t1313116925
-s2237
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/ImageRotateMerge_Prefix.pch
-c000000004E50168D00000000000000C9
-t1313871501
-s201
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/MainWindow.xib
-c000000004E50168D0000000000002135
-t1313871501
-s8501
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/TwitterIcon.jpg
-c000000004E13A2DF000000000000108B
-t1309909727
-s4235
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/background.jpg
-c000000004CF5470F0000000000014597
-t1291142927
-s83351
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app
-t1314225090
-s374
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app.dSYM
-t1314225090
-s102
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/DoneButton@2x.png
-t1314220518
-s3006
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/EmoticonDisappointed1@2x.png
-t2
-s0
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/EmoticonDisappointed2@2x.png
-t1314220465
-s2237
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/ImageRotateMerge
-t1314225090
-s77220
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/Info.plist
-t1314220009
-s633
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/MainWindow.nib
-t1314220009
-s993
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/PkgInfo
-t1314220009
-s8
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/TwitterIcon.jpg
-t1314220009
-s4235
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/background.jpg
-t1314220009
-s83351
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/sticker.png
-t1314220009
-s972
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/ApplyStickersViewController.o
-t1314225089
-s98176
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/CutifyStickerMeta.o
-t1314220011
-s12320
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/CutifyStickerView.o
-t1314224800
-s43784
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/DemoViewController.o
-t1314220011
-s48232
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/ImageRotateMerge.LinkFileList
-c000000004E5567E90000000000000484
-t1314220009
-s1156
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/ImageRotateMergeAppDelegate.o
-t1314224800
-s56588
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/OptionsAndSharingViewController.o
-t1314220040
-s72724
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/main.o
-t1314220011
-s6312
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/main.m
-c000000004E50168D0000000000000174
-t1313871501
-s372
-i<UIKit/UIKit.h>
-
-N/Users/danlipert/github/Cutify/ImageRotateMerge/sticker.png
-c000000004E4492FD00000000000003CC
-t1313116925
-s972
-
-N/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageRotateMerge_Prefix-avzmppiuflynduhimzdozjrfbpbe/ImageRotateMerge_Prefix.pch.gch
-t1314220011
-s15453392
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
-c000000004CC128840000000000000733
-t1287727236
-s1843
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004CC121B1000000000023EAC0
-t1287725489
-s2353856
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-c000000004CC127FC0000000000063DD0
-t1287727100
-s409040
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
-c000000004CC127EF000000000003F3E0
-t1287727087
-s259040
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MFMailComposeViewController.h
-c000000004CC6561F000000000000291C
-t1288066591
-s10524
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
-c000000004CC6561F00000000000000CD
-t1288066591
-s205
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004CC1233C00000000000000C4
-t1287725884
-s196
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004CC12431000000000015CDB0
-t1287726129
-s1428912
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-NImageRotateMerge-Info.plist
-c000000004E50168D000000000000038D
-t1313871501
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies335917960#335917960#0(0"0(0#1#0"8639466592#0"0#
-
-CCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/ApplyStickersViewController.o /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s335917889.775431
-e335917889.935420
-r1
-xCompileC
-xbuild/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/ApplyStickersViewController.o
-x/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m: In function '-[ApplyStickersViewController viewDidLoad]':
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:95: warning: 'ApplyStickersViewController' may not respond to '-stickerPickerDidPickSticker:'
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:95: warning: (Messages without a matching method signature
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:95: warning: will be assumed to return 'id' and accept
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:95: warning: '...' as arguments.)
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m: In function '-[ApplyStickersViewController scrollViewDidEndZooming:withView:atScale:]':
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:103: warning: 'ApplyStickersViewController' may not respond to '-resetCenter'
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m: In function '-[ApplyStickersViewController doneButtonPressed:]':
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:159: warning: 'ApplyStickersViewController' may not respond to '-createImageFromBackgroundImageView:andOverlayImageView:withRotationDegrees:andScale:atOriginPoint:'
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:155: warning: unused variable 'drawRect'
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m: In function '-[ApplyStickersViewController stickerPickerDidPickSticker:]':
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:204: warning: 'ApplyStickersViewController' may not respond to '-addGestureRecognizersToSticker:'
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m: In function '-[ApplyStickersViewController addGestureRecognizersToSticker:]':
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:220: warning: class 'ApplyStickersViewController' does not implement the 'UIGestureRecognizerDelegate' protocol
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:225: warning: class 'ApplyStickersViewController' does not implement the 'UIGestureRecognizerDelegate' protocol
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:230: warning: class 'ApplyStickersViewController' does not implement the 'UIGestureRecognizerDelegate' protocol
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:235: warning: class 'ApplyStickersViewController' does not implement the 'UIGestureRecognizerDelegate' protocol
-lSLF07#2@93"Compile /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m335917889#335917889#0(2903"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m: In function '-[ApplyStickersViewController viewDidLoad]':/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:95: warning: 'ApplyStickersViewController' may not respond to '-stickerPickerDidPickSticker:'/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:95: warning: (Messages without a matching method signature/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:95: warning: will be assumed to return 'id' and accept/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:95: warning: '...' as arguments.)/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m: In function '-[ApplyStickersViewController scrollViewDidEndZooming:withView:atScale:]':/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:103: warning: 'ApplyStickersViewController' may not respond to '-resetCenter'/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m: In function '-[ApplyStickersViewController doneButtonPressed:]':/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:159: warning: 'ApplyStickersViewController' may not respond to '-createImageFromBackgroundImageView:andOverlayImageView:withRotationDegrees:andScale:atOriginPoint:'/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:155: warning: unused variable 'drawRect'/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m: In function '-[ApplyStickersViewController stickerPickerDidPickSticker:]':/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:204: warning: 'ApplyStickersViewController' may not respond to '-addGestureRecognizersToSticker:'/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m: In function '-[ApplyStickersViewController addGestureRecognizersToSticker:]':/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:220: warning: class 'ApplyStickersViewController' does not implement the 'UIGestureRecognizerDelegate' protocol/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:225: warning: class 'ApplyStickersViewController' does not implement the 'UIGestureRecognizerDelegate' protocol/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:230: warning: class 'ApplyStickersViewController' does not implement the 'UIGestureRecognizerDelegate' protocol/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m:235: warning: class 'ApplyStickersViewController' does not implement the 'UIGestureRecognizerDelegate' protocol10(22@80"'ApplyStickersViewController' may not respond to '-stickerPickerDidPickSticker:'335917889#145#180#0(6@85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m335917888#95#0#95#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)335917889#325#145#0(6@85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m335917888#95#0#95#0#0"0(22@63"'ApplyStickersViewController' may not respond to '-resetCenter'335917889#906#164#0(6@85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m335917888#103#0#103#0#26"'*' may not respond to '*'0(22@150"'ApplyStickersViewController' may not respond to '-createImageFromBackgroundImageView:andOverlayImageView:withRotationDegrees:andScale:atOriginPoint:'335917889#1222#251#0(6@85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m335917888#159#0#159#0#26"'*' may not respond to '*'0(22@26"Unused variable 'drawRect'335917889#1473#127#0(6@85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m335917888#155#0#155#0#19"unused variable '*'0(22@83"'ApplyStickersViewController' may not respond to '-addGestureRecognizersToSticker:'335917889#1762#184#0(6@85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m335917888#204#0#204#0#26"'*' may not respond to '*'0(22@97"Class 'ApplyStickersViewController' does not implement the 'UIGestureRecognizerDelegate' protocol335917889#2111#198#0(6@85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m335917888#220#0#220#0#45"class '*' does not implement the '*' protocol0(22@97"Class 'ApplyStickersViewController' does not implement the 'UIGestureRecognizerDelegate' protocol335917889#2309#198#0(6@85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m335917888#225#0#225#0#45"class '*' does not implement the '*' protocol0(22@97"Class 'ApplyStickersViewController' does not implement the 'UIGestureRecognizerDelegate' protocol335917889#2507#198#0(6@85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m335917888#230#0#230#0#45"class '*' does not implement the '*' protocol0(22@97"Class 'ApplyStickersViewController' does not implement the 'UIGestureRecognizerDelegate' protocol335917889#2705#198#0(6@85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m335917888#235#0#235#0#45"class '*' does not implement the '*' protocol0(0#0#85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m8622737664#2301"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv LANG en_US.US-ASCII    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-generated-files.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-own-target-headers.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-project-headers.hmap -F/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageRotateMerge_Prefix-avzmppiuflynduhimzdozjrfbpbe/ImageRotateMerge_Prefix.pch -c /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ApplyStickersViewController.m -o /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/ApplyStickersViewController.o0#
-
-CCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/CutifyStickerMeta.o /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerMeta.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s335912811.486614
-e335912811.563869
-r1
-xCompileC
-xbuild/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/CutifyStickerMeta.o
-x/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerMeta.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerMeta.m335912811#335912811#0(0"0(0#0#75"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerMeta.m8652753280#2281"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv LANG en_US.US-ASCII    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-generated-files.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-own-target-headers.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-project-headers.hmap -F/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageRotateMerge_Prefix-avzmppiuflynduhimzdozjrfbpbe/ImageRotateMerge_Prefix.pch -c /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerMeta.m -o /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/CutifyStickerMeta.o0#
-
-CCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/CutifyStickerView.o /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s335917600.113417
-e335917600.251681
-r1
-xCompileC
-xbuild/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/CutifyStickerView.o
-x/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerView.m335917600#335917600#0(0"0(0#0#75"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerView.m8652373312#2281"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv LANG en_US.US-ASCII    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-generated-files.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-own-target-headers.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-project-headers.hmap -F/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageRotateMerge_Prefix-avzmppiuflynduhimzdozjrfbpbe/ImageRotateMerge_Prefix.pch -c /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/CutifyStickerView.m -o /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/CutifyStickerView.o0#
-
-CCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/DemoViewController.o /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s335912811.399977
-e335912811.486490
-r1
-xCompileC
-xbuild/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/DemoViewController.o
-x/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m: In function '-[DemoViewController viewDidLoad]':
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m:31: warning: 'DemoViewController' may not respond to '-createImageFromBackgroundImageView:andOverlayImageView:withRotationDegrees:andScale:'
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m:31: warning: (Messages without a matching method signature
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m:31: warning: will be assumed to return 'id' and accept
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m:31: warning: '...' as arguments.)
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m:37: warning: 'DemoViewController' may not respond to '-createImageFromBackgroundImageView:andOverlayImageView:withRotationDegrees:andScale:'
-lSLF07#2@84"Compile /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m335912811#335912811#0(942"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m: In function '-[DemoViewController viewDidLoad]':/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m:31: warning: 'DemoViewController' may not respond to '-createImageFromBackgroundImageView:andOverlayImageView:withRotationDegrees:andScale:'/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m:31: warning: (Messages without a matching method signature/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m:31: warning: will be assumed to return 'id' and accept/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m:31: warning: '...' as arguments.)/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m:37: warning: 'DemoViewController' may not respond to '-createImageFromBackgroundImageView:andOverlayImageView:withRotationDegrees:andScale:'3(22@127"'DemoViewController' may not respond to '-createImageFromBackgroundImageView:andOverlayImageView:withRotationDegrees:andScale:'335912811#127#218#0(6@76"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m335567548#31#0#31#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)335912811#345#136#0(6@76"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m335567548#31#0#31#0#0"0(22@127"'DemoViewController' may not respond to '-createImageFromBackgroundImageView:andOverlayImageView:withRotationDegrees:andScale:'335912811#724#218#0(6@76"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m335567548#37#0#37#0#26"'*' may not respond to '*'0(0#0#76"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m8658965824#2283"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv LANG en_US.US-ASCII    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-generated-files.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-own-target-headers.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-project-headers.hmap -F/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageRotateMerge_Prefix-avzmppiuflynduhimzdozjrfbpbe/ImageRotateMerge_Prefix.pch -c /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/DemoViewController.m -o /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/DemoViewController.o0#
-
-CCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/ImageRotateMergeAppDelegate.o /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s335917599.987757
-e335917600.182600
-r1
-xCompileC
-xbuild/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/ImageRotateMergeAppDelegate.o
-x/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m: In function '-[ImageRotateMergeAppDelegate application:didFinishLaunchingWithOptions:]':
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m:28: warning: 'ImageRotateMergeAppDelegate' may not respond to '-cropImage:withRect:'
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m:28: warning: (Messages without a matching method signature
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m:28: warning: will be assumed to return 'id' and accept
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m:28: warning: '...' as arguments.)
-lSLF07#2@93"Compile /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m335917599#335917600#0(753"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m: In function '-[ImageRotateMergeAppDelegate application:didFinishLaunchingWithOptions:]':/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m:28: warning: 'ImageRotateMergeAppDelegate' may not respond to '-cropImage:withRect:'/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m:28: warning: (Messages without a matching method signature/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m:28: warning: will be assumed to return 'id' and accept/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m:28: warning: '...' as arguments.)2(22@71"'ImageRotateMergeAppDelegate' may not respond to '-cropImage:withRect:'335917600#176#171#0(6@85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m335913136#28#0#28#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)335917600#347#145#0(6@85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m335913136#28#0#28#0#0"0(0#0#85"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m8619201888#2301"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv LANG en_US.US-ASCII    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-generated-files.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-own-target-headers.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-project-headers.hmap -F/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageRotateMerge_Prefix-avzmppiuflynduhimzdozjrfbpbe/ImageRotateMerge_Prefix.pch -c /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/ImageRotateMergeAppDelegate.m -o /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/ImageRotateMergeAppDelegate.o0#
-
-CCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/OptionsAndSharingViewController.o /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s335912840.757399
-e335912840.995174
-r1
-xCompileC
-xbuild/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/OptionsAndSharingViewController.o
-x/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m: In function '-[OptionsAndSharingViewController tableView:numberOfRowsInSection:]':
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:112: warning: control reaches end of non-void function
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m: In function '-[OptionsAndSharingViewController tableView:cellForRowAtIndexPath:]':
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:164: warning: local declaration of 'txtField' hides instance variable
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:165: warning: local declaration of 'txtField' hides instance variable
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:166: warning: local declaration of 'txtField' hides instance variable
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:167: warning: local declaration of 'txtField' hides instance variable
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:167: warning: class 'OptionsAndSharingViewController' does not implement the 'UITextFieldDelegate' protocol
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:168: warning: local declaration of 'txtField' hides instance variable
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:169: warning: local declaration of 'txtField' hides instance variable
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:171: warning: local declaration of 'txtField' hides instance variable
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:183: warning: 'OptionsAndSharingViewController' may not respond to '-tokenCachedForService:'
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:183: warning: (Messages without a matching method signature
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:183: warning: will be assumed to return 'id' and accept
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:183: warning: '...' as arguments.)
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:198: warning: 'OptionsAndSharingViewController' may not respond to '-tokenCachedForService:'
-o/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:213: warning: 'OptionsAndSharingViewController' may not respond to '-tokenCachedForService:'
-lSLF07#2@97"Compile /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#335912840#0(2781"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m: In function '-[OptionsAndSharingViewController tableView:numberOfRowsInSection:]':/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:112: warning: control reaches end of non-void function/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m: In function '-[OptionsAndSharingViewController tableView:cellForRowAtIndexPath:]':/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:164: warning: local declaration of 'txtField' hides instance variable/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:165: warning: local declaration of 'txtField' hides instance variable/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:166: warning: local declaration of 'txtField' hides instance variable/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:167: warning: local declaration of 'txtField' hides instance variable/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:167: warning: class 'OptionsAndSharingViewController' does not implement the 'UITextFieldDelegate' protocol/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:168: warning: local declaration of 'txtField' hides instance variable/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:169: warning: local declaration of 'txtField' hides instance variable/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:171: warning: local declaration of 'txtField' hides instance variable/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:183: warning: 'OptionsAndSharingViewController' may not respond to '-tokenCachedForService:'/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:183: warning: (Messages without a matching method signature/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:183: warning: will be assumed to return 'id' and accept/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:183: warning: '...' as arguments.)/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:198: warning: 'OptionsAndSharingViewController' may not respond to '-tokenCachedForService:'/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m:213: warning: 'OptionsAndSharingViewController' may not respond to '-tokenCachedForService:'13(22@40"Control reaches end of non-void function335912840#174#145#0(6@89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#112#0#112#0#40"control reaches end of non-void function0(22@55"Local declaration of 'txtField' hides instance variable335912840#493#160#0(6@89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#164#0#164#0#0"0(22@55"Local declaration of 'txtField' hides instance variable335912840#653#160#0(6@89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#165#0#165#0#0"0(22@55"Local declaration of 'txtField' hides instance variable335912840#813#160#0(6@89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#166#0#166#0#0"0(22@55"Local declaration of 'txtField' hides instance variable335912840#973#160#0(6@89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#167#0#167#0#0"0(22@93"Class 'OptionsAndSharingViewController' does not implement the 'UITextFieldDelegate' protocol335912840#1133#198#0(6@89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#167#0#167#0#45"class '*' does not implement the '*' protocol0(22@55"Local declaration of 'txtField' hides instance variable335912840#1331#160#0(6@89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#168#0#168#0#0"0(22@55"Local declaration of 'txtField' hides instance variable335912840#1491#160#0(6@89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#169#0#169#0#0"0(22@55"Local declaration of 'txtField' hides instance variable335912840#1651#160#0(6@89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#171#0#171#0#0"0(22@78"'OptionsAndSharingViewController' may not respond to '-tokenCachedForService:'335912840#1811#183#0(6@89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#183#0#183#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)335912840#1994#150#0(6@89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#183#0#183#0#0"0(22@78"'OptionsAndSharingViewController' may not respond to '-tokenCachedForService:'335912840#2415#183#0(6@89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#198#0#198#0#26"'*' may not respond to '*'0(22@78"'OptionsAndSharingViewController' may not respond to '-tokenCachedForService:'335912840#2598#183#0(6@89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m335912840#213#0#213#0#26"'*' may not respond to '*'0(0#0#89"/Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m8659537472#2309"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv LANG en_US.US-ASCII    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-generated-files.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-own-target-headers.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-project-headers.hmap -F/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageRotateMerge_Prefix-avzmppiuflynduhimzdozjrfbpbe/ImageRotateMerge_Prefix.pch -c /Users/danlipert/github/Cutify/ImageRotateMerge/Classes/OptionsAndSharingViewController.m -o /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/OptionsAndSharingViewController.o0#
-
-CCompileC build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/main.o /Users/danlipert/github/Cutify/ImageRotateMerge/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s335912811.398299
-e335912811.452893
-r1
-xCompileC
-xbuild/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/main.o
-x/Users/danlipert/github/Cutify/ImageRotateMerge/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/danlipert/github/Cutify/ImageRotateMerge/main.m335912811#335912811#0(0"0(0#0#54"/Users/danlipert/github/Cutify/ImageRotateMerge/main.m8626162880#2247"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv LANG en_US.US-ASCII    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-generated-files.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-own-target-headers.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-project-headers.hmap -F/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources -include /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageRotateMerge_Prefix-avzmppiuflynduhimzdozjrfbpbe/ImageRotateMerge_Prefix.pch -c /Users/danlipert/github/Cutify/ImageRotateMerge/main.m -o /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/danlipert/github/Cutify/ImageRotateMerge/MainWindow.xib
-s335912809.216120
-e335912810.588337
-r1
-xCompileXIB
-x/Users/danlipert/github/Cutify/ImageRotateMerge/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib335912809#335912810#0(0"0(0#0#62"/Users/danlipert/github/Cutify/ImageRotateMerge/MainWindow.xib8656169344#660"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/MainWindow.nib /Users/danlipert/github/Cutify/ImageRotateMerge/MainWindow.xib --sdk /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCpResource build/Debug-iphonesimulator/ImageRotateMerge.app/DoneButton@2x.png DoneButton@2x.png
-s335913318.734289
-e335913318.738185
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ImageRotateMerge.app/DoneButton@2x.png
-xDoneButton@2x.png
-lSLF07#2@22"Copy DoneButton@2x.png335913318#335913318#0(0"0(0#0#65"/Users/danlipert/github/Cutify/ImageRotateMerge/DoneButton@2x.png8656981216#567"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/ImageRotateMerge/DoneButton@2x.png /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app0#
-
-CCpResource build/Debug-iphonesimulator/ImageRotateMerge.app/EmoticonDisappointed1@2x.png EmoticonDisappointed1@2x.png
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageRotateMerge.app/EmoticonDisappointed2@2x.png EmoticonDisappointed2@2x.png
-s335913264.946934
-e335913265.020698
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ImageRotateMerge.app/EmoticonDisappointed2@2x.png
-xEmoticonDisappointed2@2x.png
-lSLF07#2@33"Copy EmoticonDisappointed2@2x.png335913264#335913265#0(0"0(0#0#76"/Users/danlipert/github/Cutify/ImageRotateMerge/EmoticonDisappointed2@2x.png8654752128#578"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/ImageRotateMerge/EmoticonDisappointed2@2x.png /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app0#
-
-CCpResource build/Debug-iphonesimulator/ImageRotateMerge.app/TwitterIcon.jpg TwitterIcon.jpg
-s335912809.217109
-e335912809.432869
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ImageRotateMerge.app/TwitterIcon.jpg
-xTwitterIcon.jpg
-lSLF07#2@20"Copy TwitterIcon.jpg335912809#335912809#0(0"0(0#0#63"/Users/danlipert/github/Cutify/ImageRotateMerge/TwitterIcon.jpg8655785440#565"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/ImageRotateMerge/TwitterIcon.jpg /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app0#
-
-CCpResource build/Debug-iphonesimulator/ImageRotateMerge.app/background.jpg background.jpg
-s335912809.216671
-e335912809.433456
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ImageRotateMerge.app/background.jpg
-xbackground.jpg
-lSLF07#2@19"Copy background.jpg335912809#335912809#0(0"0(0#0#62"/Users/danlipert/github/Cutify/ImageRotateMerge/background.jpg8655876416#564"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/ImageRotateMerge/background.jpg /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app0#
-
-CCpResource build/Debug-iphonesimulator/ImageRotateMerge.app/sticker.png sticker.png
-s335912809.217682
-e335912809.377568
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ImageRotateMerge.app/sticker.png
-xsticker.png
-lSLF07#2@16"Copy sticker.png335912809#335912809#0(0"0(0#0#59"/Users/danlipert/github/Cutify/ImageRotateMerge/sticker.png8655667616#561"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/danlipert/github/Cutify/ImageRotateMerge/sticker.png /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app0#
-
-CGenerateDSYMFile /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app.dSYM /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/ImageRotateMerge
-s335917890.013459
-e335917890.029908
-r1
-xGenerateDSYMFile
-x/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app.dSYM
-x/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/ImageRotateMerge
-lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/ImageRotateMerge.app.dSYM build/Debug-iphonesimulator/ImageRotateMerge.app/ImageRotateMerge335917890#335917890#0(0"0(0#0#113"/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/ImageRotateMerge8655598176#493"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/usr/bin/dsymutil /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/ImageRotateMerge -o /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app.dSYM0#
-
-CLd /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/ImageRotateMerge normal i386
-s335917889.935516
-e335917890.013377
-r1
-xLd
-x/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/ImageRotateMerge
-xnormal
-xi386
-lSLF07#2@118"Link /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/ImageRotateMerge335917889#335917890#0(0"0(0#0#0"8598266176#1135"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator -F/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator -filelist /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/Objects-normal/i386/ImageRotateMerge.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreFoundation -framework CoreMedia -framework CoreMotion -framework QuartzCore -o /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/ImageRotateMerge0#
-
-CProcessInfoPlistFile /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/Info.plist ImageRotateMerge-Info.plist
-s335912809.212675
-e335912809.216042
-r1
-xProcessInfoPlistFile
-x/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/Info.plist
-xImageRotateMerge-Info.plist
-lSLF07#2@35"Process ImageRotateMerge-Info.plist335912809#335912809#0(0"0(0#0#75"/Users/danlipert/github/Cutify/ImageRotateMerge/ImageRotateMerge-Info.plist8656987232#591"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility ImageRotateMerge-Info.plist -genpkginfo /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app/Info.plist0#
-
-CProcessPCH /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageRotateMerge_Prefix-avzmppiuflynduhimzdozjrfbpbe/ImageRotateMerge_Prefix.pch.gch ImageRotateMerge_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s335912810.588460
-e335912811.398153
-r1
-xProcessPCH
-x/var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageRotateMerge_Prefix-avzmppiuflynduhimzdozjrfbpbe/ImageRotateMerge_Prefix.pch.gch
-xImageRotateMerge_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@38"Precompile ImageRotateMerge_Prefix.pch335912810#335912811#0(0"0(0#0#75"/Users/danlipert/github/Cutify/ImageRotateMerge/ImageRotateMerge_Prefix.pch8657782368#2121"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv LANG en_US.US-ASCII    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode42/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-generated-files.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-own-target-headers.hmap -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-all-target-headers.hmap -iquote /Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/ImageRotateMerge-project-headers.hmap -F/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/include -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources/i386 -I/Users/danlipert/github/Cutify/ImageRotateMerge/build/ImageRotateMerge.build/Debug-iphonesimulator/ImageRotateMerge.build/DerivedSources -c /Users/danlipert/github/Cutify/ImageRotateMerge/ImageRotateMerge_Prefix.pch -o /var/folders/hg/hgHBiu6cEy034f-DfNptv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageRotateMerge_Prefix-avzmppiuflynduhimzdozjrfbpbe/ImageRotateMerge_Prefix.pch.gch0#
-
-CTouch /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app
-s335917890.029990
-e335917890.032071
-r1
-xTouch
-x/Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app
-lSLF07#2@102"Touch /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app335917890#335917890#0(0"0(0#0#0"8643995936#363"    cd /Users/danlipert/github/Cutify/ImageRotateMerge    setenv PATH "/xcode42/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode42/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/danlipert/github/Cutify/ImageRotateMerge/build/Debug-iphonesimulator/ImageRotateMerge.app0#
-

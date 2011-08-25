@@ -7,16 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MessageUI/MessageUI.h>
-#import <MessageUI/MFMailComposeViewController.h>
 
-@interface PhotoViewSharingViewController : UITableViewController <MFMailComposeViewControllerDelegate> 
-{
+
+@interface PhotoViewSharingViewController : UITableViewController {
 
 }
 
 @property (nonatomic, retain) UIImage *image;
 @property (nonatomic, retain) NSString *fileName;
-@property (nonatomic, retain) UITextField *txtField;
 
 @end

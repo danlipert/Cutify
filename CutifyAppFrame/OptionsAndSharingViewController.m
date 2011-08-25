@@ -10,7 +10,7 @@
 #import "PhotoGridViewController.h"
 #import "ASIHTTPRequest.h"
 #import "ASIFormDataRequest.h"
-#import "DSActivityView.h"
+
 #import <AVFoundation/AVFoundation.h>
 
 
@@ -396,23 +396,20 @@
 		[request setPostValue:[defaults objectForKey:@"twitter_token_secret"] forKey:@"twitter_token_secret"];
 	}	
 	
-	if(self.twitterSwitch.on == NO && self.tumblrSwitch.on == NO && self.facebookSwitch.on == NO)
-	{
-		//do nothing!
-	} else {
-		[request setDidFinishSelector:@selector(requestFinished:)];
-		[request setDidFailSelector:@selector(requestFailed:)];
-		
-		[request startSynchronous];	
-		[DSBezelActivityView newActivityViewForView:self.view];
-	}
+	[request setDidFinishSelector:@selector(requestFinished:)];
+	[request setDidFailSelector:@selector(requestFailed:)];
+	
+	[request startSynchronous];	
 }
 
 - (void)requestFinished:(ASIHTTPRequest *)request
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	[DSBezelActivityView removeViewAnimated:YES];
 
+=======
+>>>>>>> parent of 6a88d49... Added demo code project to fix rendering engine and fixes implemented in app frame project
 	NSLog([request responseString]);
 =======
 	NSLog(@"%@", [request responseString]);
@@ -430,8 +427,6 @@
 
 - (void)requestFailed:(ASIHTTPRequest *)request
 {
-	[DSBezelActivityView removeViewAnimated:YES];
-
 //	NSLog([request error]);
 	UIAlertView *alert = [[UIAlertView alloc]
 						  initWithTitle:@"Upload failed!"

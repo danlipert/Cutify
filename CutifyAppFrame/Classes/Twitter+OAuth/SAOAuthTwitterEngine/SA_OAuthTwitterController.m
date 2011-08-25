@@ -182,8 +182,7 @@ static NSString* const kGGTwitterLoadingBackgroundImage = @"twitter_load.png";
 	[self.view addSubview: _blockerView];
 	[spinner startAnimating];
 	
-	//DAN edited title to show cutify logo
-	UINavigationItem				*navItem = [[[UINavigationItem alloc] initWithTitle: NSLocalizedString(@"", nil)] autorelease];
+	UINavigationItem				*navItem = [[[UINavigationItem alloc] initWithTitle: NSLocalizedString(@"Twitter Info", nil)] autorelease];
 	navItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemCancel target: self action: @selector(cancel:)] autorelease];
 	
 	[_navBar pushNavigationItem: navItem animated: NO];

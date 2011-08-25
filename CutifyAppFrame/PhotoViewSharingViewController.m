@@ -11,7 +11,7 @@
 
 @implementation PhotoViewSharingViewController
 
-@synthesize image, fileName, txtField;
+@synthesize image, fileName;
 
 -(id)initWithStyle:(UITableViewStyle)style
 {
@@ -164,25 +164,8 @@
 	
 	if(indexPath.section == 0)
 	{
-		if(self.txtField == nil)
-		{
-			UITextField *txtField=[[UITextField alloc]initWithFrame:CGRectMake(20, 10, 320, 30)];
-			//			txtField.autoresizingMask=UIViewAutoresizingFlexibleHeight;
-			//			txtField.autoresizesSubviews=YES;
-			[txtField setBorderStyle:UITextBorderStyleNone];
-			[txtField setPlaceholder:@"Enter your caption here..."];
-			[txtField setTextColor:[UIColor colorWithRed:137.0/255.0 green:137.0/255.0 blue:137.0/255.0 alpha:1.0]];
-			[txtField setDelegate:self];
-			self.txtField = txtField;
-			[cell addSubview:txtField];
-			[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
-			[txtField release];
-			
-			[[cell textLabel] setText:@""];
-		} else {
-			[cell addSubview:self.txtField];
-			[[cell textLabel] setText:@""];
-		}
+		[[cell textLabel] setText:@"Enter your caption here..."];
+		[[cell textLabel] setTextColor:[UIColor colorWithRed:137.0/255.0 green:137.0/255.0 blue:137.0/255.0 alpha:1.0]];
 	} else if (indexPath.section == 1) {
 		UISwitch *sharingSwitch = [[UISwitch alloc] initWithFrame:CGRectMake(200,8,100,44)];
 		if(indexPath.row != 3)
@@ -205,65 +188,14 @@
     return cell;
 }
 
-#pragma mark -
-#pragma mark mail
-
-- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error 
-{
-	[self dismissModalViewControllerAnimated:YES];
-	[self becomeFirstResponder];
-	
-	//BUGFIX
-	//seems like old code
-	//    [tableView deselectRowAtIndexPath:[tableView indexPathForSelectedRow] animated:YES];
-	
-	// Notifies users about errors associated with the interface
-	switch (result)
-	{
-		case MFMailComposeResultCancelled:
-			break;
-		case MFMailComposeResultSaved:
-			break;
-		case MFMailComposeResultSent:
-		{
-			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Email Sent" message:@"Your image was sent successfully!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
-			[alert show];
-			[alert release];
-			break;
-		}
-		case MFMailComposeResultFailed:
-			break;
-		default:
-			break;
-	}
-	[self dismissModalViewControllerAnimated:YES];
-}	
 
 
 
 #pragma mark -
 #pragma mark Table view delegate
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
-{
-	if(indexPath.section == 3)
-	{	
-		
-		//email
-		//BUG - needs normal title bar
-		MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
-		mailController.mailComposeDelegate = self;
-		//fix navbar
-		[mailController.navigationBar setTag:1];
-		[mailController addAttachmentData:UIImageJPEGRepresentation(self.image, 1.0) mimeType:@"image/jpeg" fileName:[NSString stringWithString:@"Cutify.jpg"]];
-		[mailController setSubject:[NSString stringWithString:@"Another Cutify Creation!"]];
-		if(self.txtField)
-		{
-			[mailController setMessageBody:self.txtField.text isHTML:NO];
-		}
-		[self presentModalViewController:mailController animated:NO];
-		[mailController release];
-	}	
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	
 }
 
 - (void)didReceiveMemoryWarning {

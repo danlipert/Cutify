@@ -136,15 +136,14 @@
 	UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapToAutoFocus:)];
 	[singleTap setDelegate:self];
 	[singleTap setNumberOfTapsRequired:1];
-	[ppVC.view addGestureRecognizer:singleTap];
+	[self.view addGestureRecognizer:singleTap];
 	
 	// Add a double tap gesture to reset the focus mode to continuous auto focus
 	UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapToContinouslyAutoFocus:)];
 	[doubleTap setDelegate:self];
 	[doubleTap setNumberOfTapsRequired:2];
 	[singleTap requireGestureRecognizerToFail:doubleTap];
-	[ppVC.view
-	 addGestureRecognizer:doubleTap];
+	[self.view addGestureRecognizer:doubleTap];
 	
 	[doubleTap release];
 	[singleTap release];
@@ -232,18 +231,21 @@
 
 - (void)takePhoto 
 {
-	
 	NSLog(@"taking photo");
 	self.captureManager.delegate = self;
 	[[self captureManager] captureStillImage];
     
 	/* White flash for feedback */
 <<<<<<< HEAD
+<<<<<<< HEAD
 	//adjusted frame to fit cutify ui
 	UIView *flashView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,480-52)];
 =======
 	UIView *flashView = [[UIView alloc] initWithFrame:self.view.frame];
 >>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
+=======
+	UIView *flashView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,480-47)];
+>>>>>>> parent of 6a88d49... Added demo code project to fix rendering engine and fixes implemented in app frame project
     [flashView setBackgroundColor:[UIColor whiteColor]];
     [[[self view] window] addSubview:flashView];
     
