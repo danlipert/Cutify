@@ -31,6 +31,49 @@
 		}
     }
 }
+
+#pragma mark focus
+
+
+#pragma mark Camera Properties
+// Perform an auto focus at the specified point. The focus mode will automatically change to locked once the auto focus is complete.
+- (void) autoFocusAtPoint:(CGPoint)point
+{
+    AVCaptureDevice *device = [[self videoInput] device];
+    if ([device isFocusPointOfInterestSupported] && [device isFocusModeSupported:AVCaptureFocusModeAutoFocus]) {
+        NSError *error;
+        if ([device lockForConfiguration:&error]) {
+            [device setFocusPointOfInterest:point];
+            [device setFocusMode:AVCaptureFocusModeAutoFocus];
+            [device unlockForConfiguration];
+        } else {
+            if ([[self delegate] respondsToSelector:@selector(captureManager:didFailWithError:)]) {
+                [[self delegate] captureManager:self didFailWithError:error];
+            }
+        }        
+    }
+}
+
+// Switch to continuous auto focus mode at the specified point
+- (void) continuousFocusAtPoint:(CGPoint)point
+{
+    AVCaptureDevice *device = [[self videoInput] device];
+	
+    if ([device isFocusPointOfInterestSupported] && [device isFocusModeSupported:AVCaptureFocusModeContinuousAutoFocus]) {
+		NSError *error;
+		if ([device lockForConfiguration:&error]) {
+			[device setFocusPointOfInterest:point];
+			[device setFocusMode:AVCaptureFocusModeContinuousAutoFocus];
+			[device unlockForConfiguration];
+		} else {
+			if ([[self delegate] respondsToSelector:@selector(captureManager:didFailWithError:)]) {
+                [[self delegate] captureManager:self didFailWithError:error];
+			}
+		}
+	}
+}
+
+
 	
 #pragma mark Capture Session Configuration
 

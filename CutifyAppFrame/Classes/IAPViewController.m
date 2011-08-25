@@ -13,15 +13,6 @@
 
 -(void)viewDidLoad
 {
-	
-	/*
-	 UAStoreFrontUI *ui = [UAStoreFrontUI shared];
-	 
-	 ui.rootViewController.view.frame = CGRectMake(0, 10, ui.rootViewController.view.frame.size.width, ui.rootViewController.view.frame.size.height - 10);
-	 [self.viewController.view addSubview:ui.rootViewController.view];
-	*/
-	
-	
 	//setup buttons
 	UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
 	UIImage *cancelButtonImage = [UIImage imageNamed:@"BackButton.png"];

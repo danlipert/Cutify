@@ -34,4 +34,16 @@
 	}
 }
 
+-(BOOL)isRoot
+{
+	if(self.parent == nil)
+	{
+//		NSLog(@"node queried and is root");
+		return TRUE;
+	} else {
+//		NSLog(@"node queried and is not root");
+		return FALSE;
+	}
+}
+
 @end

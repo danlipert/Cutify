@@ -64,7 +64,7 @@
 	self.stickerContainerView = _stickerContainerView;
 	[_stickerContainerView release];
 	
-	UIView *_masterContainerView = [[UIView alloc] initWithFrame:CGRectMake(7,5,306,306)];
+	UIView *_masterContainerView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,320)];
 	self.masterContainerView = _masterContainerView;
 	[_masterContainerView release];
 	
@@ -109,6 +109,9 @@
 	self.photoImageView.center = CGPointMake(self.photoScrollView.contentSize.width * 0.5 + offsetX, 
 								   self.photoScrollView.contentSize.height * 0.5 + offsetY);
 	
+	[self.photoScrollView setMaximumZoomScale:3.0];
+	[self.photoScrollView setMinimumZoomScale:1.0];
+	
 	[self.view addSubview:self.photoScrollView];
 	
 //	UIButton *iapButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
@@ -141,13 +144,15 @@
 
 -(void)resetCenter
 {
+	//added offset for frame being inset 7 pixels
 	CGFloat offsetX = (self.photoScrollView.bounds.size.width > self.photoScrollView.contentSize.width)? 
-	(self.photoScrollView.bounds.size.width - self.photoScrollView.contentSize.width) * 0.5 : 0.0;
+	(self.photoScrollView.bounds.size.width - self.photoScrollView.contentSize.width + 7) * 0.5 : 0.0;
     CGFloat offsetY = (self.photoScrollView.bounds.size.height > self.photoScrollView.contentSize.height)? 
 	(self.photoScrollView.bounds.size.height - self.photoScrollView.contentSize.height) * 0.5 : 0.0;
 	
 	self.masterContainerView.center = CGPointMake(self.photoScrollView.contentSize.width * 0.5 + offsetX, 
                                    self.photoScrollView.contentSize.height * 0.5 + offsetY);
+	
 }
 
 
@@ -167,17 +172,16 @@
 {
 	OptionsAndSharingViewController *optionsAndSharingViewController = [[OptionsAndSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
 	
-	UIGraphicsBeginImageContext(self.photoImage.size);
-	NSLog(@"created ctx with size: %f, %f", self.photoImage.size.width, self.photoImage.size.height);
+//	UIGraphicsBeginImageContext(self.photoImage.size);
+//	
+//	CGContextRef ctx = UIGraphicsGetCurrentContext();
+//	
+//	[self.photoImage drawInRect:CGRectMake(0, 0, self.photoImage.size.width, self.photoImage.size.height)];  
 	
-	CGContextRef ctx = UIGraphicsGetCurrentContext();
+	UIImage *mergedImage = [UIImage imageWithCGImage:[self.photoImage CGImage]];
 	
-	[self.photoImage drawInRect:CGRectMake(0, 0, self.photoImage.size.width, self.photoImage.size.height)];  
-
 	for(CutifyStickerView *eachStickerView in self.stickersArray)
 	{
-<<<<<<< HEAD
-<<<<<<< HEAD
 		//new code using createImageFromBackgroundImageView
 		float scale = eachStickerView.scale;
 		float rotationDegrees = eachStickerView.rotationDegrees;
@@ -189,84 +193,13 @@
 		[mergedImageView setImage:mergedImage];
 
 		[mergedImageView release];
-=======
-		CGContextSaveGState(ctx);
-
-//		eachStickerView.layer.anchorPoint = CGPointMake(0.5, 0.5);
-		
-		if([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2)
-		{
-			NSLog(@"rendering sticker %fx%f at (%f, %f)", eachStickerView.frame.size.width * 2.0, eachStickerView.frame.size.height * 2.0, eachStickerView.frame.origin.y*2.0, eachStickerView.frame.origin.y*2.0);
-
-			CGContextTranslateCTM (ctx, eachStickerView.centerPoint.x * 2.0, eachStickerView.centerPoint.y * 2.0);		
-//			CGContextTranslateCTM (ctx, eachStickerView.center.x * 2.0, eachStickerView.center.y * 2.0);			
-			CGContextRotateCTM(ctx, eachStickerView.rotationDegrees* M_PI/180.0);
-//			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0, eachStickerView.stickerImageView.image.size.width * eachStickerView.scale * 2.0, eachStickerView.stickerImageView.image.size.height * eachStickerView.scale * 2.0)];
-			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(sqrtf(eachStickerView.frame.origin.x * eachStickerView.frame.origin.x + eachStickerView.frame.origin.y * eachStickerView.frame.origin.y), eachStickerView.frame.origin.y * 1/(cosf(eachStickerView.rotationDegrees * M_PI/180.0)), eachStickerView.stickerImageView.image.size.width * eachStickerView.scale * 2.0, eachStickerView.stickerImageView.image.size.height * eachStickerView.scale * 2.0)];
-//			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x, eachStickerView.frame.origin.y, eachStickerView.stickerImageView.image.size.width * eachStickerView.scale * 2.0, eachStickerView.stickerImageView.image.size.height * eachStickerView.scale * 2.0)];
-			CGContextTranslateCTM (ctx, -eachStickerView.centerPoint.x * 2.0, -eachStickerView.centerPoint.y * 2.0);
-			
-			//iPhone 4
-			//changed draw in rect to draw imageview frame instead of parent frame
-//			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0, eachStickerView.stickerImageView.image.size.width * eachStickerView.scale * 2.0, eachStickerView.stickerImageView.image.size.height * eachStickerView.scale * 2.0)];
-//			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0, eachStickerView.stickerImageView.frame.size.width * 2.0, eachStickerView.stickerImageView.frame.size.height * 2.0)];
-			NSLog(@"rendered sticker %fx%f at (%f, %f)", eachStickerView.frame.size.width * 2.0, eachStickerView.frame.size.height * 2.0, eachStickerView.frame.origin.y*2.0, eachStickerView.frame.origin.y*2.0);
-		} else {
-			//BUG - this part is untested
-//			CGContextTranslateCTM (ctx, eachStickerView.center.x, eachStickerView.center.y);			
-	//		CGContextRotateCTM(ctx, eachStickerView.rotationDegrees * M_PI/180.0);
-//			CGContextTranslateCTM (ctx, -eachStickerView.center.x, -eachStickerView.center.y);
-//			
-//			[eachStickerView.stickerImageView.image drawInRect:CGRectMake(eachStickerView.frame.origin.x, eachStickerView.frame.origin.y, eachStickerView.frame.size.width, eachStickerView.frame.size.height)];
-		}
-		
-		CGContextRestoreGState(ctx);
->>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
-=======
-		mergedImage = [self mergeImage:mergedImage withSticker:eachStickerView];
-//		CGContextSaveGState(ctx);
-//		
-//		if([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2)
-//		{
-//			[eachStickerView.layer setAnchorPoint:CGPointMake(0.5, 0.5)];
-////			CGContextTranslateCTM (ctx, eachStickerView.centerPoint.x * 2.0, eachStickerView.centerPoint.y * 2.0);	
-//			CGContextTranslateCTM(ctx, eachStickerView.frame.origin.x * 2.0, eachStickerView.frame.origin.y * 2.0);
-//			CGContextRotateCTM(ctx, eachStickerView.rotationDegrees* M_PI/180.0);
-////			CGContextTranslateCTM(ctx, -eachStickerView.frame.origin.x * 2.0, -eachStickerView.frame.origin.y * 2.0);
-//			
-//			CGRect drawRect = CGRectMake(0,0, eachStickerView.stickerImageView.image.size.width * eachStickerView.scale, eachStickerView.stickerImageView.image.size.height * eachStickerView.scale);
-//						
-//			[eachStickerView.stickerImageView.image drawInRect:drawRect];
-//			
-////			CGContextTranslateCTM (ctx, -eachStickerView.centerPoint.x * 2.0, -eachStickerView.centerPoint.y * 2.0);
-//
-//			
-//		} else {
-//			//BUG - this part needs to be coded
-//		}
-//		
-////		CGContextRestoreGState(ctx);
->>>>>>> parent of 6a88d49... Added demo code project to fix rendering engine and fixes implemented in app frame project
 	}
-		
-	UIImage *resultingImage = UIGraphicsGetImageFromCurrentImageContext();  
 	
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-//	UIImage *resultingImage = UIGraphicsGetImageFromCurrentImageContext();  
-	
->>>>>>> parent of 6a88d49... Added demo code project to fix rendering engine and fixes implemented in app frame project
 	optionsAndSharingViewController.image = mergedImage;
-=======
-	optionsAndSharingViewController.image = resultingImage;
->>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 	[self.navigationController pushViewController:optionsAndSharingViewController animated:YES]; 
 	[optionsAndSharingViewController release];
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 //THIS CODE SHOULD WORK
 -(UIImage *)createImageFromBackgroundImageView:(UIImageView *)backgroundImageView andOverlayImageView:(UIImageView *)overlayImageView withRotationDegrees:(CGFloat *)rotationDegrees andScale:(CGFloat *)scalePointer
@@ -282,47 +215,120 @@
 	
 	CGFloat angle = *rotationDegrees * M_PI/180.0f;    
 	CGContextRotateCTM(ctx, angle);  
-=======
-- (UIImage *)mergeImage:(UIImage *)bottomImg withSticker:(CutifyStickerView *)stickerView {
->>>>>>> parent of 6a88d49... Added demo code project to fix rendering engine and fixes implemented in app frame project
 	
-//	UIImage *scaledTopImg = [stickerView.stickerImageView.image resizedImage:photoImage.size interpolationQuality:kCGInterpolationHigh];
+	[overlayImageView.image drawInRect:CGRectMake(0 - overlayImageView.image.size.width * scale / 2.0, 0 - overlayImageView.image.size.height * scale / 2.0, overlayImageView.image.size.width * scale, overlayImageView.image.size.height * scale)];
 	
-	//first figure correct rect size to draw for rotated image	
-//	float width = scaledTopImg.size.width;
-//	float height = scaledTopImg.size.height;
-//	CGFloat angleRads = stickerView.rotationDegrees * M_PI/180.0f;
-//	CGSize stickerContextSize = CGSizeMake( width * cosf(angleRads) + height * cosf(M_PI/2.0 - angleRads), width * sinf(angleRads) + height * sinf(M_PI/2.0 - angleRads));
-		
-	//create large context
-	
-	UIGraphicsBeginImageContext(bottomImg.size);
-	CGContextRef ctx = UIGraphicsGetCurrentContext();
-
-	//THIS WORKS! rotation still 'broken'
-	CGContextTranslateCTM(ctx, stickerView.frame.origin.x * 2.0 + stickerView.stickerImageView.image.size.width / 2.0 * stickerView.scale, stickerView.frame.origin.y * 2.0  + stickerView.stickerImageView.image.size.height / 2.0 * stickerView.scale); 
-
-//	[stickerView.stickerImageView.image drawInRect:CGRectMake(0, 0, stickerView.stickerImageView.image.size.width * stickerView.scale, stickerView.stickerImageView.image.size.height * stickerView.scale)];
-//	[stickerView.stickerImageView.image drawInRect:CGRectMake(-stickerView.stickerImageView.image.size.width * stickerView.scale / 2.0, -stickerView.stickerImageView.image.size.height * stickerView.scale / 2.0, stickerView.stickerImageView.image.size.width * stickerView.scale, stickerView.stickerImageView.image.size.height * stickerView.scale)];
-
-	CGFloat angle = stickerView.rotationDegrees * M_PI/180.0f;    
-	CGContextRotateCTM(ctx, angle);  
-//	[stickerView.stickerImageView.image drawInRect:CGRectMake(-stickerView.stickerImageView.image.size.width * stickerView.scale / 2.0, -stickerView.stickerImageView.image.size.height * stickerView.scale / 2.0, stickerView.stickerImageView.image.size.width * stickerView.scale, stickerView.stickerImageView.image.size.height * stickerView.scale)];
-	[stickerView.stickerImageView.image drawInRect:CGRectMake(0 -stickerView.stickerImageView.image.size.width * stickerView.scale / 2.0, 0 -stickerView.stickerImageView.image.size.height * stickerView.scale / 2.0, stickerView.stickerImageView.image.size.width * stickerView.scale, stickerView.stickerImageView.image.size.height * stickerView.scale)];
-
 	UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
 	UIGraphicsEndImageContext();
 	
-	UIGraphicsBeginImageContext(bottomImg.size);
-	[bottomImg drawInRect:CGRectMake(0, 0, bottomImg.size.width, bottomImg.size.height)];    
+	UIGraphicsBeginImageContext(backgroundImageView.image.size);
+	[backgroundImageView.image drawInRect:CGRectMake(0, 0, backgroundImageView.image.size.width, backgroundImageView.image.size.height)];    
 	[newImage drawInRect:CGRectMake(0, 0, newImage.size.width, newImage.size.height)];
-//	[stickerView.layer renderInContext:UIGraphicsGetCurrentContext()];
+	
 	UIImage *newImage2 = UIGraphicsGetImageFromCurrentImageContext();    
 	UIGraphicsEndImageContext();    
 	
 	return newImage2;
 }
+
+
+//THIS CODE SHOULD NOT WORK
+-(UIImage *)createImageFromBackgroundImageView:(UIImageView *)backgroundImageView andOverlayImageView:(UIImageView *)overlayImageView withRotationDegrees:(CGFloat *)rotationDegrees andScale:(CGFloat *)scalePointer atRect:(CGRect)drawRect
+{		
+	CGFloat scale = *scalePointer;
 	
+	UIGraphicsBeginImageContext(backgroundImageView.image.size);
+	CGContextRef ctx = UIGraphicsGetCurrentContext();
+
+	//corrected for explicit drawrect
+//	CGContextTranslateCTM(ctx, overlayImageView.frame.origin.x * 2.0 + overlayImageView.image.size.width / 2.0 * scale, overlayImageView.frame.origin.y * 2.0 + overlayImageView.image.size.height / 2.0 * scale); 
+	CGContextTranslateCTM(ctx, drawRect.origin.x * 2.0 + overlayImageView.image.size.width / 2.0 * scale, drawRect.origin.y * 2.0 + overlayImageView.image.size.height / 2.0 * scale); 
+	
+	CGFloat angle = *rotationDegrees * M_PI/180.0f;    
+	CGContextRotateCTM(ctx, angle);  
+	
+	[overlayImageView.image drawInRect:CGRectMake(0 - overlayImageView.image.size.width * scale / 2.0, 0 - overlayImageView.image.size.height * scale / 2.0, overlayImageView.image.size.width * scale, overlayImageView.image.size.height * scale)];
+	
+	UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+	UIGraphicsEndImageContext();
+	
+	UIGraphicsBeginImageContext(backgroundImageView.image.size);
+	[backgroundImageView.image drawInRect:CGRectMake(0, 0, backgroundImageView.image.size.width, backgroundImageView.image.size.height)];    
+	[newImage drawInRect:CGRectMake(0, 0, newImage.size.width, newImage.size.height)];
+	
+	UIImage *newImage2 = UIGraphicsGetImageFromCurrentImageContext();    
+	UIGraphicsEndImageContext();    
+	
+	return newImage2;
+}
+
+- (UIImage *)mergeImage:(UIImage *)bottomImg withSticker:(CutifyStickerView *)stickerView {
+//	
+////	UIImage *scaledTopImg = [stickerView.stickerImageView.image resizedImage:photoImage.size interpolationQuality:kCGInterpolationHigh];
+//	
+//	//first figure correct rect size to draw for rotated image	
+////	float width = scaledTopImg.size.width;
+////	float height = scaledTopImg.size.height;
+////	CGFloat angleRads = stickerView.rotationDegrees * M_PI/180.0f;
+////	CGSize stickerContextSize = CGSizeMake( width * cosf(angleRads) + height * cosf(M_PI/2.0 - angleRads), width * sinf(angleRads) + height * sinf(M_PI/2.0 - angleRads));
+//		
+//	//create large context
+//	
+//	UIGraphicsBeginImageContext(bottomImg.size);
+//	CGContextRef ctx = UIGraphicsGetCurrentContext();
+//
+//	//THIS WORKS! rotation still 'broken'
+//	CGContextTranslateCTM(ctx, stickerView.frame.origin.x * 2.0 + stickerView.stickerImageView.image.size.width / 2.0 * stickerView.scale, stickerView.frame.origin.y * 2.0  + stickerView.stickerImageView.image.size.height / 2.0 * stickerView.scale); 
+//
+////	[stickerView.stickerImageView.image drawInRect:CGRectMake(0, 0, stickerView.stickerImageView.image.size.width * stickerView.scale, stickerView.stickerImageView.image.size.height * stickerView.scale)];
+////	[stickerView.stickerImageView.image drawInRect:CGRectMake(-stickerView.stickerImageView.image.size.width * stickerView.scale / 2.0, -stickerView.stickerImageView.image.size.height * stickerView.scale / 2.0, stickerView.stickerImageView.image.size.width * stickerView.scale, stickerView.stickerImageView.image.size.height * stickerView.scale)];
+//
+//	CGFloat angle = stickerView.rotationDegrees * M_PI/180.0f;    
+//	CGContextRotateCTM(ctx, angle);  
+////	[stickerView.stickerImageView.image drawInRect:CGRectMake(-stickerView.stickerImageView.image.size.width * stickerView.scale / 2.0, -stickerView.stickerImageView.image.size.height * stickerView.scale / 2.0, stickerView.stickerImageView.image.size.width * stickerView.scale, stickerView.stickerImageView.image.size.height * stickerView.scale)];
+//	[stickerView.stickerImageView.image drawInRect:CGRectMake(0 -stickerView.stickerImageView.image.size.width * stickerView.scale / 2.0, 0 -stickerView.stickerImageView.image.size.height * stickerView.scale / 2.0, stickerView.stickerImageView.image.size.width * stickerView.scale, stickerView.stickerImageView.image.size.height * stickerView.scale)];
+//
+//	UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+//	UIGraphicsEndImageContext();
+//	
+//	UIGraphicsBeginImageContext(bottomImg.size);
+//	[bottomImg drawInRect:CGRectMake(0, 0, bottomImg.size.width, bottomImg.size.height)];    
+//	[newImage drawInRect:CGRectMake(0, 0, newImage.size.width, newImage.size.height)];
+////	[stickerView.layer renderInContext:UIGraphicsGetCurrentContext()];
+//	UIImage *newImage2 = UIGraphicsGetImageFromCurrentImageContext();    
+//	UIGraphicsEndImageContext();    
+//	
+//	return newImage2;
+}
+	
+
+//-(UIImage *)createImageFromBackgroundImageView:(UIImageView *)backgroundImageView andOverlayImageView:(UIImageView *)overlayImageView withRotationDegrees:(CGFloat *)rotationDegrees andScale:(CGFloat *)scalePointer
+//{		
+//	CGFloat scale = *scalePointer;
+//	
+//	UIGraphicsBeginImageContext(backgroundImageView.image.size);
+//	CGContextRef ctx = UIGraphicsGetCurrentContext();
+//	
+//	CGContextTranslateCTM(ctx, overlayImageView.frame.origin.x * 2.0 + overlayImageView.image.size.width / 2.0 * scale, overlayImageView.frame.origin.y * 2.0 + overlayImageView.image.size.height / 2.0 * scale); 
+//	
+//	CGFloat angle = *rotationDegrees * M_PI/180.0f;    
+//	CGContextRotateCTM(ctx, angle);  
+//	
+//	[overlayImageView.image drawInRect:CGRectMake(0 - overlayImageView.image.size.width * scale / 2.0, 0 - overlayImageView.image.size.height * scale / 2.0, overlayImageView.image.size.width * scale, overlayImageView.image.size.height * scale)];
+//	
+//	UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+//	UIGraphicsEndImageContext();
+//	
+//	UIGraphicsBeginImageContext(backgroundImageView.image.size);
+//	[backgroundImageView.image drawInRect:CGRectMake(0, 0, backgroundImageView.image.size.width, backgroundImageView.image.size.height)];    
+//	[newImage drawInRect:CGRectMake(0, 0, newImage.size.width, newImage.size.height)];
+//	
+//	UIImage *newImage2 = UIGraphicsGetImageFromCurrentImageContext();    
+//	UIGraphicsEndImageContext();    
+//	
+//	return newImage2;
+//}\
+
 //-(void)doneButtonPressed:(id)sender
 //{
 //	OptionsAndSharingViewController *optionsAndSharingViewController = [[OptionsAndSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
@@ -365,13 +371,18 @@
 //	[optionsAndSharingViewController release];
 //}
 
-=======
->>>>>>> 46f514e2ac9de3f3ea3cbb3239e4ecfd0aca0578
 -(void)iapButtonPressed:(id)sender
 {
-	IAPViewController *iapViewController = [[IAPViewController alloc] init];
-	[self.navigationController pushViewController:iapViewController animated:YES];
-	[iapViewController release];
+//	IAPViewController *iapViewController = [[IAPViewController alloc] init];
+//	[self.navigationController pushViewController:iapViewController animated:YES];
+//	[iapViewController release];
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"PRERELEASE" message:@"In-app purchase is not yet implemented." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	[alert show];
+}
+
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+	[alertView dismissWithClickedButtonIndex:buttonIndex animated:YES];
 }
 
 -(void)stickerPickerDidPickSticker:(CutifyStickerMeta *)stickerMeta
@@ -417,7 +428,6 @@
 
 - (void)panSticker:(UIPanGestureRecognizer *)gestureRecognizer
 {
-	NSLog(@"Panning sticker...");
     CutifyStickerView *sticker = (CutifyStickerView *)[gestureRecognizer view];
 	
     if ([gestureRecognizer state] == UIGestureRecognizerStateBegan || [gestureRecognizer state] == UIGestureRecognizerStateChanged) 
@@ -431,7 +441,7 @@
 			[sticker setCenter:CGPointMake([sticker center].x + translation.x, [sticker center].y + translation.y)];
 			[CATransaction commit];
 			
-			[sticker setCenterPoint:sticker.center];
+//			[sticker setCenterPoint:sticker.center];
 			
 			[gestureRecognizer setTranslation:CGPointZero inView:[sticker superview]];
 		} else {
@@ -453,8 +463,9 @@
 		{
 			if ([gestureRecognizer state] == UIGestureRecognizerStateBegan || [gestureRecognizer state] == UIGestureRecognizerStateChanged) {
 				CutifyStickerView *sticker = (CutifyStickerView *)[gestureRecognizer view];
+				sticker.scale = gestureRecognizer.scale * sticker.scale;
 				sticker.transform = CGAffineTransformScale([[gestureRecognizer view] transform], [gestureRecognizer scale], [gestureRecognizer scale]);
-				sticker.scale = gestureRecognizer.scale;
+				NSLog(@"grs: %f", gestureRecognizer.scale);
 				[gestureRecognizer setScale:1];
 			}
 		}
@@ -462,6 +473,7 @@
 	
 	[self.photoScrollView reloadInputViews];
 }
+
 
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
 {

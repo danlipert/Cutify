@@ -69,12 +69,6 @@
 		[self.loginWebview removeFromSuperview];
 		
 		//a token was just recieved
-		
-		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-		[defaults setObject:access_token forKey:@"facebook_token"];	
-		[defaults synchronize];
-		NSLog(@"Token: %@ saved for service: facebook", access_token);
-		
 		[self.delegate authenticationDidFinishWithToken:access_token forService:@"facebook"];
 		
 		[self.navigationController popViewControllerAnimated:YES];

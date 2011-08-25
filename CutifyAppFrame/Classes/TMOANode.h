@@ -19,5 +19,6 @@
 @property (nonatomic, retain) NSMutableDictionary *dictionary;
 
 -(BOOL)isLeaf;
+-(BOOL)isRoot;
 
 @end

@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
-	<key>CFBundleDisplayName</key>
-	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
@@ -28,5 +26,14 @@
 	<string>MainWindow</string>
 	<key>UIFileSharingEnabled</key>
 	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleBlackOpaque</string>
+	<key>CFBundleDisplayName</key>
+	<string>Cutify</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>Icon@2x.png</string>
+		<string>Icon.png</string>
+	</array>
 </dict>
 </plist>

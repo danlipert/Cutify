@@ -14,8 +14,6 @@
 #import "ApplyStickersViewController.h"
 #import "PhotoCaptureViewController.h"
 
-#import "UAirship.h"
-
 @implementation CutifyAppFrameAppDelegate
 
 @synthesize window;
@@ -28,15 +26,6 @@
     
     // Override point for customization after application launch.
     
-	//Init Airship launch options
-	NSMutableDictionary *takeOffOptions = [[[NSMutableDictionary alloc] init] autorelease];
-	[takeOffOptions setValue:launchOptions forKey:UAirshipTakeOffOptionsLaunchOptionsKey];
-	
-	// Create Airship singleton that's used to talk to Urban Airship servers.
-	// Please populate AirshipConfig.plist with your info from http://go.urbanairship.com
-	[UAirship takeOff:takeOffOptions];
-	
-	
 //	OptionsAndSharingViewController *optionsAndSharingViewController = [[OptionsAndSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
 //	TakePhotoViewController *takePhotoViewController = [[TakePhotoViewController alloc] init];
 //	PhotoViewSharingViewController *photoViewSharingViewController = [[PhotoViewSharingViewController alloc] initWithStyle:UITableViewStyleGrouped];
@@ -44,6 +33,9 @@
 //	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
 	PhotoCaptureViewController *photoCaptureViewController = [[PhotoCaptureViewController alloc] initWithNibName:@"PhotoCaptureViewController" bundle:nil];
 	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:photoCaptureViewController];
+	
+	//improves transition visually when showing and hiding navbar
+	[navigationController.view setBackgroundColor:[UIColor blackColor]];
 	
 	[self.window addSubview:navigationController.view];
 	
@@ -88,7 +80,6 @@
      Called when the application is about to terminate.
      See also applicationDidEnterBackground:.
      */
-	[UAirship land];
 }
 
 
