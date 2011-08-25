@@ -10,7 +10,7 @@
 #import "PhotoGridViewController.h"
 #import "ASIHTTPRequest.h"
 #import "ASIFormDataRequest.h"
-
+#import "DSActivityView.h"
 #import <AVFoundation/AVFoundation.h>
 
 
@@ -389,14 +389,22 @@
 		[request setPostValue:[self cachedTokenForService:@"twitter"] forKey:@"twitter_token"];
 	}	
 	
-	[request setDidFinishSelector:@selector(requestFinished:)];
-	[request setDidFailSelector:@selector(requestFailed:)];
-	
-	[request startSynchronous];	
+	if(self.twitterSwitch.on == NO && self.tumblrSwitch.on == NO && self.facebookSwitch.on == NO)
+	{
+		//do nothing!
+	} else {
+		[request setDidFinishSelector:@selector(requestFinished:)];
+		[request setDidFailSelector:@selector(requestFailed:)];
+		
+		[request startSynchronous];	
+		[DSBezelActivityView newActivityViewForView:self.view];
+	}
 }
 
 - (void)requestFinished:(ASIHTTPRequest *)request
 {
+	[DSBezelActivityView removeViewAnimated:YES];
+
 	NSLog([request responseString]);
 	UIAlertView *alert = [[UIAlertView alloc]
 						  initWithTitle:@"Sent to server!"
@@ -411,6 +419,8 @@
 
 - (void)requestFailed:(ASIHTTPRequest *)request
 {
+	[DSBezelActivityView removeViewAnimated:YES];
+
 //	NSLog([request error]);
 	UIAlertView *alert = [[UIAlertView alloc]
 						  initWithTitle:@"Upload failed!"

@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ImageRotateMergeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ImageRotateMergeAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		B6544B1114004E2500B2B633 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6544B1014004E2500B2B633 /* DemoViewController.m */; };
+		B6544B1514004EDC00B2B633 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6544B1414004EDC00B2B633 /* background.jpg */; };
+		B6544B2C14004F4E00B2B633 /* TwitterIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6544B2B14004F4E00B2B633 /* TwitterIcon.jpg */; };
+		B6544B901400599500B2B633 /* sticker.png in Resources */ = {isa = PBXBuildFile; fileRef = B6544B8F1400599500B2B633 /* sticker.png */; };
+		B6E0E6B214059C6B0074CED4 /* ApplyStickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E0E6B114059C6B0074CED4 /* ApplyStickersViewController.m */; };
+		B6E0E6B514059D030074CED4 /* OptionsAndSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E0E6B414059D030074CED4 /* OptionsAndSharingViewController.m */; };
+		B6E0E6BA14059D960074CED4 /* CutifyStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E0E6B714059D960074CED4 /* CutifyStickerView.m */; };
+		B6E0E6BB14059D960074CED4 /* CutifyStickerMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E0E6B914059D960074CED4 /* CutifyStickerMeta.m */; };
+		B6E0E6E814059F490074CED4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E0E6E714059F490074CED4 /* CoreFoundation.framework */; };
+		B6E0E6EE14059F620074CED4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E0E6ED14059F620074CED4 /* CoreMedia.framework */; };
+		B6E0E6F014059F620074CED4 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E0E6EF14059F620074CED4 /* CoreMotion.framework */; };
+		B6E0E70414059FC90074CED4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E0E70314059FC90074CED4 /* QuartzCore.framework */; };
+		B6E0E71C1405A0CD0074CED4 /* EmoticonDisappointed2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E0E71B1405A0CD0074CED4 /* EmoticonDisappointed2@2x.png */; };
+		B6E0E7281405A1660074CED4 /* DoneButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E0E7271405A1660074CED4 /* DoneButton@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ImageRotateMergeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageRotateMergeAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ImageRotateMergeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageRotateMergeAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ImageRotateMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRotateMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ImageRotateMerge_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageRotateMerge_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ImageRotateMerge-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ImageRotateMerge-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B6544B0F14004E2500B2B633 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		B6544B1014004E2500B2B633 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		B6544B1414004EDC00B2B633 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		B6544B2B14004F4E00B2B633 /* TwitterIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TwitterIcon.jpg; sourceTree = "<group>"; };
+		B6544B8F1400599500B2B633 /* sticker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker.png; sourceTree = "<group>"; };
+		B6E0E6B014059C6A0074CED4 /* ApplyStickersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplyStickersViewController.h; sourceTree = "<group>"; };
+		B6E0E6B114059C6B0074CED4 /* ApplyStickersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplyStickersViewController.m; sourceTree = "<group>"; };
+		B6E0E6B314059D030074CED4 /* OptionsAndSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsAndSharingViewController.h; sourceTree = "<group>"; };
+		B6E0E6B414059D030074CED4 /* OptionsAndSharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsAndSharingViewController.m; sourceTree = "<group>"; };
+		B6E0E6B614059D960074CED4 /* CutifyStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutifyStickerView.h; sourceTree = "<group>"; };
+		B6E0E6B714059D960074CED4 /* CutifyStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutifyStickerView.m; sourceTree = "<group>"; };
+		B6E0E6B814059D960074CED4 /* CutifyStickerMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutifyStickerMeta.h; sourceTree = "<group>"; };
+		B6E0E6B914059D960074CED4 /* CutifyStickerMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutifyStickerMeta.m; sourceTree = "<group>"; };
+		B6E0E6E714059F490074CED4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B6E0E6ED14059F620074CED4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B6E0E6EF14059F620074CED4 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B6E0E70314059FC90074CED4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B6E0E71B1405A0CD0074CED4 /* EmoticonDisappointed2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EmoticonDisappointed2@2x.png"; sourceTree = "<group>"; };
+		B6E0E7271405A1660074CED4 /* DoneButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DoneButton@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				B6E0E6E814059F490074CED4 /* CoreFoundation.framework in Frameworks */,
+				B6E0E6EE14059F620074CED4 /* CoreMedia.framework in Frameworks */,
+				B6E0E6F014059F620074CED4 /* CoreMotion.framework in Frameworks */,
+				B6E0E70414059FC90074CED4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6E0E6B614059D960074CED4 /* CutifyStickerView.h */,
+				B6E0E6B714059D960074CED4 /* CutifyStickerView.m */,
+				B6E0E6B814059D960074CED4 /* CutifyStickerMeta.h */,
+				B6E0E6B914059D960074CED4 /* CutifyStickerMeta.m */,
+				B6E0E6B014059C6A0074CED4 /* ApplyStickersViewController.h */,
+				B6E0E6B114059C6B0074CED4 /* ApplyStickersViewController.m */,
+				B6E0E6B314059D030074CED4 /* OptionsAndSharingViewController.h */,
+				B6E0E6B414059D030074CED4 /* OptionsAndSharingViewController.m */,
+				B6544B0F14004E2500B2B633 /* DemoViewController.h */,
+				B6544B1014004E2500B2B633 /* DemoViewController.m */,
+				1D3623240D0F684500981E51 /* ImageRotateMergeAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ImageRotateMergeAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ImageRotateMerge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B6E0E71B1405A0CD0074CED4 /* EmoticonDisappointed2@2x.png */,
+				B6E0E7271405A1660074CED4 /* DoneButton@2x.png */,
+				B6544B1414004EDC00B2B633 /* background.jpg */,
+				32CA4F630368D1EE00C91783 /* ImageRotateMerge_Prefix.pch */,
+				B6544B2B14004F4E00B2B633 /* TwitterIcon.jpg */,
+				B6544B8F1400599500B2B633 /* sticker.png */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* ImageRotateMerge-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				B6E0E6E714059F490074CED4 /* CoreFoundation.framework */,
+				B6E0E6ED14059F620074CED4 /* CoreMedia.framework */,
+				B6E0E6EF14059F620074CED4 /* CoreMotion.framework */,
+				B6E0E70314059FC90074CED4 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ImageRotateMerge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ImageRotateMerge" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageRotateMerge;
+			productName = ImageRotateMerge;
+			productReference = 1D6058910D05DD3D006BFB54 /* ImageRotateMerge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ImageRotateMerge" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ImageRotateMerge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				B6544B1514004EDC00B2B633 /* background.jpg in Resources */,
+				B6544B2C14004F4E00B2B633 /* TwitterIcon.jpg in Resources */,
+				B6544B901400599500B2B633 /* sticker.png in Resources */,
+				B6E0E71C1405A0CD0074CED4 /* EmoticonDisappointed2@2x.png in Resources */,
+				B6E0E7281405A1660074CED4 /* DoneButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ImageRotateMergeAppDelegate.m in Sources */,
+				B6544B1114004E2500B2B633 /* DemoViewController.m in Sources */,
+				B6E0E6B214059C6B0074CED4 /* ApplyStickersViewController.m in Sources */,
+				B6E0E6B514059D030074CED4 /* OptionsAndSharingViewController.m in Sources */,
+				B6E0E6BA14059D960074CED4 /* CutifyStickerView.m in Sources */,
+				B6E0E6BB14059D960074CED4 /* CutifyStickerMeta.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ImageRotateMerge_Prefix.pch;
+				INFOPLIST_FILE = "ImageRotateMerge-Info.plist";
+				PRODUCT_NAME = ImageRotateMerge;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ImageRotateMerge_Prefix.pch;
+				INFOPLIST_FILE = "ImageRotateMerge-Info.plist";
+				PRODUCT_NAME = ImageRotateMerge;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ImageRotateMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ImageRotateMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

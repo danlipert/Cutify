@@ -34,20 +34,14 @@
 		B0EEDC7713F12638006769C2 /* SA_OAuthTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EEDC6213F12638006769C2 /* SA_OAuthTwitterController.m */; };
 		B0EEDC7813F12638006769C2 /* SA_OAuthTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EEDC6413F12638006769C2 /* SA_OAuthTwitterEngine.m */; };
 		B0EEDC7913F12638006769C2 /* twitter_load.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EEDC6513F12638006769C2 /* twitter_load.png */; };
-		B0EEDC7D13F12667006769C2 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EEDC7C13F12667006769C2 /* libxml2.dylib */; };
 		B0EEDC8B13F1274E006769C2 /* TwitterAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EEDC8A13F1274E006769C2 /* TwitterAuthViewController.m */; };
 		B0EEDC8E13F12779006769C2 /* FacebookAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EEDC8D13F12779006769C2 /* FacebookAuthViewController.m */; };
-		B61C53D213EA5F3000A85581 /* CameraScreenFlashOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61C53CF13EA5F3000A85581 /* CameraScreenFlashOn@2x.png */; };
-		B61C53D313EA5F3000A85581 /* CameraScreenFlashOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61C53D013EA5F3000A85581 /* CameraScreenFlashOff@2x.png */; };
-		B61C53D413EA5F3000A85581 /* CameraScreenFlashAuto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61C53D113EA5F3000A85581 /* CameraScreenFlashAuto@2x.png */; };
 		B61C5A6313E0A08A00122BB5 /* TMOANode.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5A5913E0A08A00122BB5 /* TMOANode.m */; };
 		B61C5A6413E0A08A00122BB5 /* TMOATree.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5A5B13E0A08A00122BB5 /* TMOATree.m */; };
 		B61C5A6513E0A08A00122BB5 /* StickerDemoPack.plist in Resources */ = {isa = PBXBuildFile; fileRef = B61C5A5C13E0A08A00122BB5 /* StickerDemoPack.plist */; };
 		B61C5A6613E0A08A00122BB5 /* CutifyStickerMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5A5E13E0A08A00122BB5 /* CutifyStickerMeta.m */; };
 		B61C5A6713E0A08A00122BB5 /* CutifyStickerPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5A6013E0A08A00122BB5 /* CutifyStickerPicker.m */; };
 		B61C5A6813E0A08A00122BB5 /* CutifyStickerSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5A6213E0A08A00122BB5 /* CutifyStickerSelectButton.m */; };
-		B61C5A7F13E0A13700122BB5 /* ScrollControlBackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61C5A7E13E0A13700122BB5 /* ScrollControlBackButton@2x.png */; };
-		B61C5AD713E0B91600122BB5 /* CutifyStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B61C5AD613E0B91600122BB5 /* CutifyStickerView.m */; };
 		B620497913E769A5000EF32E /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B620495C13E769A5000EF32E /* NSObject+SBJSON.m */; };
 		B620497A13E769A5000EF32E /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B620495E13E769A5000EF32E /* NSString+SBJSON.m */; };
 		B620497B13E769A5000EF32E /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B620496013E769A5000EF32E /* SBJSON.m */; };
@@ -69,10 +63,6 @@
 		B62F4CCB13CEA9FA0034B982 /* IAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62F4CCA13CEA9FA0034B982 /* IAPViewController.m */; };
 		B631DCD813F4E0D4000FED6F /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = B631DCD713F4E0D4000FED6F /* test.plist */; };
 		B6370D8413CE649C00E1FD29 /* PhotoGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */; };
-		B64E26C813CE695800AEBA32 /* ApplyStickerImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */; };
-		B650066613F2310B00A1F654 /* ScrollControlIconMaskClear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B650066513F2310B00A1F654 /* ScrollControlIconMaskClear@2x.png */; };
-		B656415C13ECAE6F00DF3530 /* CameraScreenLibraryIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B656415A13ECAE6F00DF3530 /* CameraScreenLibraryIcon@2x.png */; };
-		B656415D13ECAE6F00DF3530 /* CameraScreenCutifyLibraryIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B656415B13ECAE6F00DF3530 /* CameraScreenCutifyLibraryIcon@2x.png */; };
 		B658F22C13E8B1920046C6E0 /* defaultnavbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B658F22B13E8B1920046C6E0 /* defaultnavbar@2x.png */; };
 		B65A96EE13DCA3240012E260 /* PhotoPreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65A96E613DCA3240012E260 /* PhotoPreviewViewController.xib */; };
 		B65A96EF13DCA3240012E260 /* PhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65A96E713DCA3240012E260 /* PhotoPreviewViewController.m */; };
@@ -83,16 +73,12 @@
 		B65A970513DCA5BF0012E260 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65A970413DCA5BF0012E260 /* CoreMedia.framework */; };
 		B65A973A13DCA6EC0012E260 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65A973913DCA6EC0012E260 /* CoreVideo.framework */; };
 		B65A974013DCA7090012E260 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65A973F13DCA7090012E260 /* ImageIO.framework */; };
-		B65A979813DCDC630012E260 /* CameraBackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B65A979713DCDC630012E260 /* CameraBackButton@2x.png */; };
-		B672F2F213CC043E005FEF8A /* TableviewBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2EE13CC043E005FEF8A /* TableviewBackground@2x.png */; };
-		B672F2F313CC043E005FEF8A /* NavigationBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */; };
-		B672F2F413CC043E005FEF8A /* DoneButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2F013CC043E005FEF8A /* DoneButton@2x.png */; };
-		B672F2F513CC043E005FEF8A /* BackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B672F2F113CC043E005FEF8A /* BackButton@2x.png */; };
 		B6B4DF4C13E9051C00696419 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4DF4613E9051C00696419 /* UIImage+Resize.m */; };
 		B6B4DF4D13E9051C00696419 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4DF4713E9051C00696419 /* UIImage+Alpha.m */; };
 		B6B4DF4E13E9051C00696419 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4DF4813E9051C00696419 /* UIImage+RoundedCorner.m */; };
 		B6C087D513CC004800BA7D4E /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C087D413CC004800BA7D4E /* TakePhotoViewController.m */; };
 		B6C087DF13CC00F900BA7D4E /* OptionsAndSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C087DE13CC00F900BA7D4E /* OptionsAndSharingViewController.m */; };
+		B6E0E7CC1405B95D0074CED4 /* CutifyStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E0E7CB1405B95D0074CED4 /* CutifyStickerView.m */; };
 		B6E38AF713F5B463002BA987 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E38AF513F5B463002BA987 /* Default@2x.png */; };
 		B6E38AF813F5B463002BA987 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E38AF613F5B463002BA987 /* Icon@2x.png */; };
 		B6E63D1713F057BC00989150 /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E63D1613F057BC00989150 /* DSActivityView.m */; };
@@ -312,17 +298,35 @@
 		B6EAA3C213F4CBA1005B835B /* CutifyPack39@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EAA2EB13F4CBA1005B835B /* CutifyPack39@2x.png */; };
 		B6EAA3C313F4CBA1005B835B /* CutifyPack40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EAA2EC13F4CBA1005B835B /* CutifyPack40@2x.png */; };
 		B6EAA3C413F4CBA1005B835B /* CutifyPack41@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EAA2ED13F4CBA1005B835B /* CutifyPack41@2x.png */; };
+		B6EB344713FB035A00AE2414 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EB344613FB035A00AE2414 /* libxml2.2.dylib */; };
+		B6EB34A313FB0D2D00AE2414 /* ApplyStickerImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB348A13FB0D2D00AE2414 /* ApplyStickerImage@2x.png */; };
+		B6EB34A413FB0D2D00AE2414 /* BackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB348B13FB0D2D00AE2414 /* BackButton@2x.png */; };
+		B6EB34A513FB0D2D00AE2414 /* BuyMorePacksButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB348C13FB0D2D00AE2414 /* BuyMorePacksButton@2x.png */; };
+		B6EB34A613FB0D2D00AE2414 /* BuyPackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB348D13FB0D2D00AE2414 /* BuyPackButton@2x.png */; };
+		B6EB34A713FB0D2D00AE2414 /* CameraBackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB348E13FB0D2D00AE2414 /* CameraBackButton@2x.png */; };
+		B6EB34A813FB0D2D00AE2414 /* CameraScreenBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB348F13FB0D2D00AE2414 /* CameraScreenBar@2x.png */; };
+		B6EB34A913FB0D2D00AE2414 /* CameraScreenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349013FB0D2D00AE2414 /* CameraScreenButton@2x.png */; };
+		B6EB34AA13FB0D2D00AE2414 /* CameraScreenCrop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349113FB0D2D00AE2414 /* CameraScreenCrop@2x.png */; };
+		B6EB34AB13FB0D2D00AE2414 /* CameraScreenCutifyLibraryIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349213FB0D2D00AE2414 /* CameraScreenCutifyLibraryIcon@2x.png */; };
+		B6EB34AC13FB0D2D00AE2414 /* CameraScreenFlashAuto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349313FB0D2D00AE2414 /* CameraScreenFlashAuto@2x.png */; };
+		B6EB34AD13FB0D2D00AE2414 /* CameraScreenFlashOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349413FB0D2D00AE2414 /* CameraScreenFlashOff@2x.png */; };
+		B6EB34AE13FB0D2D00AE2414 /* CameraScreenFlashOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349513FB0D2D00AE2414 /* CameraScreenFlashOn@2x.png */; };
+		B6EB34AF13FB0D2D00AE2414 /* CameraScreenLibraryIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349613FB0D2D00AE2414 /* CameraScreenLibraryIcon@2x.png */; };
+		B6EB34B013FB0D2D00AE2414 /* DeleteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349713FB0D2D00AE2414 /* DeleteButton@2x.png */; };
+		B6EB34B113FB0D2D00AE2414 /* DoneButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349813FB0D2D00AE2414 /* DoneButton@2x.png */; };
+		B6EB34B213FB0D2D00AE2414 /* GetPackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349913FB0D2D00AE2414 /* GetPackButton@2x.png */; };
+		B6EB34B313FB0D2D00AE2414 /* InAppPurchaseBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349A13FB0D2D00AE2414 /* InAppPurchaseBackground@2x.png */; };
+		B6EB34B413FB0D2D00AE2414 /* InAppPurchaseKittyPack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349B13FB0D2D00AE2414 /* InAppPurchaseKittyPack@2x.png */; };
+		B6EB34B513FB0D2D00AE2414 /* NavigationBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349C13FB0D2D00AE2414 /* NavigationBar@2x.png */; };
+		B6EB34B613FB0D2D00AE2414 /* ScrollControlBackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349D13FB0D2D00AE2414 /* ScrollControlBackButton@2x.png */; };
+		B6EB34B713FB0D2D00AE2414 /* ScrollControlBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349E13FB0D2D00AE2414 /* ScrollControlBackground@2x.png */; };
+		B6EB34B813FB0D2D00AE2414 /* ScrollControlIconBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB349F13FB0D2D00AE2414 /* ScrollControlIconBackground@2x.png */; };
+		B6EB34B913FB0D2D00AE2414 /* ScrollControlIconGloss@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB34A013FB0D2D00AE2414 /* ScrollControlIconGloss@2x.png */; };
+		B6EB34BA13FB0D2D00AE2414 /* SharePhotoButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB34A113FB0D2D00AE2414 /* SharePhotoButton@2x.png */; };
+		B6EB34BB13FB0D2D00AE2414 /* TableviewBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB34A213FB0D2D00AE2414 /* TableviewBackground@2x.png */; };
 		B6EBD0A713CCEABA00389177 /* ApplyStickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EBD0A613CCEABA00389177 /* ApplyStickersViewController.m */; };
-		B6EBD11713CD08D000389177 /* SharePhotoButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11113CD08D000389177 /* SharePhotoButton@2x.png */; };
-		B6EBD11813CD08D000389177 /* InAppPurchaseKittyPack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11213CD08D000389177 /* InAppPurchaseKittyPack@2x.png */; };
-		B6EBD11913CD08D000389177 /* InAppPurchaseBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11313CD08D000389177 /* InAppPurchaseBackground@2x.png */; };
-		B6EBD11A13CD08D000389177 /* GetPackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11413CD08D000389177 /* GetPackButton@2x.png */; };
-		B6EBD11B13CD08D000389177 /* DeleteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11513CD08D000389177 /* DeleteButton@2x.png */; };
-		B6EBD11C13CD08D000389177 /* BuyPackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EBD11613CD08D000389177 /* BuyPackButton@2x.png */; };
 		B6EBD12113CD092400389177 /* PhotoViewSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EBD12013CD092400389177 /* PhotoViewSharingViewController.m */; };
 		B6EE6FE113E340A300EE45B8 /* EarlyDemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6EE6FE013E340A300EE45B8 /* EarlyDemo.plist */; };
-		B6FEF96C13E1F67E008DF57D /* CameraScreenCrop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6FEF96B13E1F67E008DF57D /* CameraScreenCrop@2x.png */; };
-		B6FEF97113E1F6F9008DF57D /* CameraScreenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6FEF96F13E1F6F9008DF57D /* CameraScreenButton@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -500,14 +504,10 @@
 		B0EEDC6313F12638006769C2 /* SA_OAuthTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_OAuthTwitterEngine.h; sourceTree = "<group>"; };
 		B0EEDC6413F12638006769C2 /* SA_OAuthTwitterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SA_OAuthTwitterEngine.m; sourceTree = "<group>"; };
 		B0EEDC6513F12638006769C2 /* twitter_load.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_load.png; sourceTree = "<group>"; };
-		B0EEDC7C13F12667006769C2 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		B0EEDC8913F1274E006769C2 /* TwitterAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterAuthViewController.h; sourceTree = "<group>"; };
 		B0EEDC8A13F1274E006769C2 /* TwitterAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterAuthViewController.m; sourceTree = "<group>"; };
 		B0EEDC8C13F12779006769C2 /* FacebookAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookAuthViewController.h; sourceTree = "<group>"; };
 		B0EEDC8D13F12779006769C2 /* FacebookAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookAuthViewController.m; sourceTree = "<group>"; };
-		B61C53CF13EA5F3000A85581 /* CameraScreenFlashOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenFlashOn@2x.png"; sourceTree = "<group>"; };
-		B61C53D013EA5F3000A85581 /* CameraScreenFlashOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenFlashOff@2x.png"; sourceTree = "<group>"; };
-		B61C53D113EA5F3000A85581 /* CameraScreenFlashAuto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenFlashAuto@2x.png"; sourceTree = "<group>"; };
 		B61C5A5813E0A08A00122BB5 /* TMOANode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOANode.h; sourceTree = "<group>"; };
 		B61C5A5913E0A08A00122BB5 /* TMOANode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOANode.m; sourceTree = "<group>"; };
 		B61C5A5A13E0A08A00122BB5 /* TMOATree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOATree.h; sourceTree = "<group>"; };
@@ -519,9 +519,6 @@
 		B61C5A6013E0A08A00122BB5 /* CutifyStickerPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutifyStickerPicker.m; sourceTree = "<group>"; };
 		B61C5A6113E0A08A00122BB5 /* CutifyStickerSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutifyStickerSelectButton.h; sourceTree = "<group>"; };
 		B61C5A6213E0A08A00122BB5 /* CutifyStickerSelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutifyStickerSelectButton.m; sourceTree = "<group>"; };
-		B61C5A7E13E0A13700122BB5 /* ScrollControlBackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlBackButton@2x.png"; sourceTree = "<group>"; };
-		B61C5AD513E0B91600122BB5 /* CutifyStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CutifyStickerView.h; path = ../CutifyAppPrototype/Classes/CutifyStickerView.h; sourceTree = SOURCE_ROOT; };
-		B61C5AD613E0B91600122BB5 /* CutifyStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CutifyStickerView.m; path = ../CutifyAppPrototype/Classes/CutifyStickerView.m; sourceTree = SOURCE_ROOT; };
 		B620495A13E769A5000EF32E /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		B620495B13E769A5000EF32E /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		B620495C13E769A5000EF32E /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -563,10 +560,6 @@
 		B631DCD713F4E0D4000FED6F /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
 		B6370D8213CE649C00E1FD29 /* PhotoGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoGridViewController.h; path = ../PhotoGridViewController.h; sourceTree = "<group>"; };
 		B6370D8313CE649C00E1FD29 /* PhotoGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoGridViewController.m; path = ../PhotoGridViewController.m; sourceTree = "<group>"; };
-		B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ApplyStickerImage@2x.png"; sourceTree = "<group>"; };
-		B650066513F2310B00A1F654 /* ScrollControlIconMaskClear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlIconMaskClear@2x.png"; sourceTree = "<group>"; };
-		B656415A13ECAE6F00DF3530 /* CameraScreenLibraryIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenLibraryIcon@2x.png"; sourceTree = "<group>"; };
-		B656415B13ECAE6F00DF3530 /* CameraScreenCutifyLibraryIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenCutifyLibraryIcon@2x.png"; sourceTree = "<group>"; };
 		B658F22B13E8B1920046C6E0 /* defaultnavbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultnavbar@2x.png"; sourceTree = "<group>"; };
 		B65A96E613DCA3240012E260 /* PhotoPreviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoPreviewViewController.xib; sourceTree = "<group>"; };
 		B65A96E713DCA3240012E260 /* PhotoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPreviewViewController.m; sourceTree = "<group>"; };
@@ -580,11 +573,6 @@
 		B65A970413DCA5BF0012E260 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		B65A973913DCA6EC0012E260 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		B65A973F13DCA7090012E260 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		B65A979713DCDC630012E260 /* CameraBackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraBackButton@2x.png"; sourceTree = "<group>"; };
-		B672F2EE13CC043E005FEF8A /* TableviewBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableviewBackground@2x.png"; sourceTree = "<group>"; };
-		B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBar@2x.png"; sourceTree = "<group>"; };
-		B672F2F013CC043E005FEF8A /* DoneButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DoneButton@2x.png"; sourceTree = "<group>"; };
-		B672F2F113CC043E005FEF8A /* BackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackButton@2x.png"; sourceTree = "<group>"; };
 		B6B4DF4613E9051C00696419 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		B6B4DF4713E9051C00696419 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
 		B6B4DF4813E9051C00696419 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
@@ -595,6 +583,8 @@
 		B6C087D413CC004800BA7D4E /* TakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TakePhotoViewController.m; path = ../TakePhotoViewController.m; sourceTree = "<group>"; };
 		B6C087DD13CC00F900BA7D4E /* OptionsAndSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsAndSharingViewController.h; path = ../OptionsAndSharingViewController.h; sourceTree = "<group>"; };
 		B6C087DE13CC00F900BA7D4E /* OptionsAndSharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionsAndSharingViewController.m; path = ../OptionsAndSharingViewController.m; sourceTree = "<group>"; };
+		B6E0E7CA1405B95D0074CED4 /* CutifyStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutifyStickerView.h; sourceTree = "<group>"; };
+		B6E0E7CB1405B95D0074CED4 /* CutifyStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutifyStickerView.m; sourceTree = "<group>"; };
 		B6E38AF513F5B463002BA987 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B6E38AF613F5B463002BA987 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		B6E63D1513F057BC00989150 /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSActivityView.h; sourceTree = "<group>"; };
@@ -815,19 +805,38 @@
 		B6EAA2EB13F4CBA1005B835B /* CutifyPack39@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CutifyPack39@2x.png"; sourceTree = "<group>"; };
 		B6EAA2EC13F4CBA1005B835B /* CutifyPack40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CutifyPack40@2x.png"; sourceTree = "<group>"; };
 		B6EAA2ED13F4CBA1005B835B /* CutifyPack41@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CutifyPack41@2x.png"; sourceTree = "<group>"; };
+		B6EB344613FB035A00AE2414 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		B6EB348913FB0D0700AE2414 /* ScrollControlIconGloss@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlIconGloss@2x.png"; sourceTree = "<group>"; };
+		B6EB348A13FB0D2D00AE2414 /* ApplyStickerImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ApplyStickerImage@2x.png"; sourceTree = "<group>"; };
+		B6EB348B13FB0D2D00AE2414 /* BackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackButton@2x.png"; sourceTree = "<group>"; };
+		B6EB348C13FB0D2D00AE2414 /* BuyMorePacksButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BuyMorePacksButton@2x.png"; sourceTree = "<group>"; };
+		B6EB348D13FB0D2D00AE2414 /* BuyPackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BuyPackButton@2x.png"; sourceTree = "<group>"; };
+		B6EB348E13FB0D2D00AE2414 /* CameraBackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraBackButton@2x.png"; sourceTree = "<group>"; };
+		B6EB348F13FB0D2D00AE2414 /* CameraScreenBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenBar@2x.png"; sourceTree = "<group>"; };
+		B6EB349013FB0D2D00AE2414 /* CameraScreenButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenButton@2x.png"; sourceTree = "<group>"; };
+		B6EB349113FB0D2D00AE2414 /* CameraScreenCrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenCrop@2x.png"; sourceTree = "<group>"; };
+		B6EB349213FB0D2D00AE2414 /* CameraScreenCutifyLibraryIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenCutifyLibraryIcon@2x.png"; sourceTree = "<group>"; };
+		B6EB349313FB0D2D00AE2414 /* CameraScreenFlashAuto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenFlashAuto@2x.png"; sourceTree = "<group>"; };
+		B6EB349413FB0D2D00AE2414 /* CameraScreenFlashOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenFlashOff@2x.png"; sourceTree = "<group>"; };
+		B6EB349513FB0D2D00AE2414 /* CameraScreenFlashOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenFlashOn@2x.png"; sourceTree = "<group>"; };
+		B6EB349613FB0D2D00AE2414 /* CameraScreenLibraryIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenLibraryIcon@2x.png"; sourceTree = "<group>"; };
+		B6EB349713FB0D2D00AE2414 /* DeleteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DeleteButton@2x.png"; sourceTree = "<group>"; };
+		B6EB349813FB0D2D00AE2414 /* DoneButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DoneButton@2x.png"; sourceTree = "<group>"; };
+		B6EB349913FB0D2D00AE2414 /* GetPackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GetPackButton@2x.png"; sourceTree = "<group>"; };
+		B6EB349A13FB0D2D00AE2414 /* InAppPurchaseBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InAppPurchaseBackground@2x.png"; sourceTree = "<group>"; };
+		B6EB349B13FB0D2D00AE2414 /* InAppPurchaseKittyPack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InAppPurchaseKittyPack@2x.png"; sourceTree = "<group>"; };
+		B6EB349C13FB0D2D00AE2414 /* NavigationBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBar@2x.png"; sourceTree = "<group>"; };
+		B6EB349D13FB0D2D00AE2414 /* ScrollControlBackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlBackButton@2x.png"; sourceTree = "<group>"; };
+		B6EB349E13FB0D2D00AE2414 /* ScrollControlBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlBackground@2x.png"; sourceTree = "<group>"; };
+		B6EB349F13FB0D2D00AE2414 /* ScrollControlIconBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlIconBackground@2x.png"; sourceTree = "<group>"; };
+		B6EB34A013FB0D2D00AE2414 /* ScrollControlIconGloss@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScrollControlIconGloss@2x.png"; sourceTree = "<group>"; };
+		B6EB34A113FB0D2D00AE2414 /* SharePhotoButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SharePhotoButton@2x.png"; sourceTree = "<group>"; };
+		B6EB34A213FB0D2D00AE2414 /* TableviewBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableviewBackground@2x.png"; sourceTree = "<group>"; };
 		B6EBD0A513CCEABA00389177 /* ApplyStickersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplyStickersViewController.h; path = ../ApplyStickersViewController.h; sourceTree = "<group>"; };
 		B6EBD0A613CCEABA00389177 /* ApplyStickersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplyStickersViewController.m; path = ../ApplyStickersViewController.m; sourceTree = "<group>"; };
-		B6EBD11113CD08D000389177 /* SharePhotoButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SharePhotoButton@2x.png"; sourceTree = "<group>"; };
-		B6EBD11213CD08D000389177 /* InAppPurchaseKittyPack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InAppPurchaseKittyPack@2x.png"; sourceTree = "<group>"; };
-		B6EBD11313CD08D000389177 /* InAppPurchaseBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InAppPurchaseBackground@2x.png"; sourceTree = "<group>"; };
-		B6EBD11413CD08D000389177 /* GetPackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GetPackButton@2x.png"; sourceTree = "<group>"; };
-		B6EBD11513CD08D000389177 /* DeleteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DeleteButton@2x.png"; sourceTree = "<group>"; };
-		B6EBD11613CD08D000389177 /* BuyPackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BuyPackButton@2x.png"; sourceTree = "<group>"; };
 		B6EBD11F13CD092400389177 /* PhotoViewSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoViewSharingViewController.h; path = ../PhotoViewSharingViewController.h; sourceTree = "<group>"; };
 		B6EBD12013CD092400389177 /* PhotoViewSharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoViewSharingViewController.m; path = ../PhotoViewSharingViewController.m; sourceTree = "<group>"; };
 		B6EE6FE013E340A300EE45B8 /* EarlyDemo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = EarlyDemo.plist; path = Classes/EarlyDemo.plist; sourceTree = "<group>"; };
-		B6FEF96B13E1F67E008DF57D /* CameraScreenCrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenCrop@2x.png"; sourceTree = "<group>"; };
-		B6FEF96F13E1F6F9008DF57D /* CameraScreenButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraScreenButton@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -849,7 +858,7 @@
 				B62049B113E76C78000EF32E /* SystemConfiguration.framework in Frameworks */,
 				B62049BD13E76CDF000EF32E /* CFNetwork.framework in Frameworks */,
 				B0EEDC6813F12638006769C2 /* libOAuth.a in Frameworks */,
-				B0EEDC7D13F12667006769C2 /* libxml2.dylib in Frameworks */,
+				B6EB344713FB035A00AE2414 /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -875,6 +884,8 @@
 				B6C087DE13CC00F900BA7D4E /* OptionsAndSharingViewController.m */,
 				B6EBD11F13CD092400389177 /* PhotoViewSharingViewController.h */,
 				B6EBD12013CD092400389177 /* PhotoViewSharingViewController.m */,
+				B6E0E7CA1405B95D0074CED4 /* CutifyStickerView.h */,
+				B6E0E7CB1405B95D0074CED4 /* CutifyStickerView.m */,
 				B6EBD0A513CCEABA00389177 /* ApplyStickersViewController.h */,
 				B6EBD0A613CCEABA00389177 /* ApplyStickersViewController.m */,
 				B6370D8213CE649C00E1FD29 /* PhotoGridViewController.h */,
@@ -904,7 +915,6 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				B62049BC13E76CDF000EF32E /* CFNetwork.framework */,
-				B0EEDC7C13F12667006769C2 /* libxml2.dylib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -957,6 +967,7 @@
 				B62049A613E76C39000EF32E /* MobileCoreServices.framework */,
 				B62049AE13E76C6D000EF32E /* libz.1.2.3.dylib */,
 				B62049B013E76C78000EF32E /* SystemConfiguration.framework */,
+				B6EB344613FB035A00AE2414 /* libxml2.2.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1125,8 +1136,6 @@
 				B61C5A5913E0A08A00122BB5 /* TMOANode.m */,
 				B61C5A5A13E0A08A00122BB5 /* TMOATree.h */,
 				B61C5A5B13E0A08A00122BB5 /* TMOATree.m */,
-				B61C5AD513E0B91600122BB5 /* CutifyStickerView.h */,
-				B61C5AD613E0B91600122BB5 /* CutifyStickerView.m */,
 				B61C5A5D13E0A08A00122BB5 /* CutifyStickerMeta.h */,
 				B61C5A5E13E0A08A00122BB5 /* CutifyStickerMeta.m */,
 				B61C5A5F13E0A08A00122BB5 /* CutifyStickerPicker.h */,
@@ -1201,27 +1210,32 @@
 		B672F2E013CC0431005FEF8A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				B650066513F2310B00A1F654 /* ScrollControlIconMaskClear@2x.png */,
-				B656415A13ECAE6F00DF3530 /* CameraScreenLibraryIcon@2x.png */,
-				B656415B13ECAE6F00DF3530 /* CameraScreenCutifyLibraryIcon@2x.png */,
-				B61C53CF13EA5F3000A85581 /* CameraScreenFlashOn@2x.png */,
-				B61C53D013EA5F3000A85581 /* CameraScreenFlashOff@2x.png */,
-				B61C53D113EA5F3000A85581 /* CameraScreenFlashAuto@2x.png */,
-				B65A979713DCDC630012E260 /* CameraBackButton@2x.png */,
-				B6FEF96B13E1F67E008DF57D /* CameraScreenCrop@2x.png */,
-				B6FEF96F13E1F6F9008DF57D /* CameraScreenButton@2x.png */,
-				B64E26C713CE695800AEBA32 /* ApplyStickerImage@2x.png */,
-				B61C5A7E13E0A13700122BB5 /* ScrollControlBackButton@2x.png */,
-				B6EBD11113CD08D000389177 /* SharePhotoButton@2x.png */,
-				B6EBD11213CD08D000389177 /* InAppPurchaseKittyPack@2x.png */,
-				B6EBD11313CD08D000389177 /* InAppPurchaseBackground@2x.png */,
-				B6EBD11413CD08D000389177 /* GetPackButton@2x.png */,
-				B6EBD11513CD08D000389177 /* DeleteButton@2x.png */,
-				B6EBD11613CD08D000389177 /* BuyPackButton@2x.png */,
-				B672F2EE13CC043E005FEF8A /* TableviewBackground@2x.png */,
-				B672F2EF13CC043E005FEF8A /* NavigationBar@2x.png */,
-				B672F2F013CC043E005FEF8A /* DoneButton@2x.png */,
-				B672F2F113CC043E005FEF8A /* BackButton@2x.png */,
+				B6EB348913FB0D0700AE2414 /* ScrollControlIconGloss@2x.png */,
+				B6EB348A13FB0D2D00AE2414 /* ApplyStickerImage@2x.png */,
+				B6EB348B13FB0D2D00AE2414 /* BackButton@2x.png */,
+				B6EB348C13FB0D2D00AE2414 /* BuyMorePacksButton@2x.png */,
+				B6EB348D13FB0D2D00AE2414 /* BuyPackButton@2x.png */,
+				B6EB348E13FB0D2D00AE2414 /* CameraBackButton@2x.png */,
+				B6EB348F13FB0D2D00AE2414 /* CameraScreenBar@2x.png */,
+				B6EB349013FB0D2D00AE2414 /* CameraScreenButton@2x.png */,
+				B6EB349113FB0D2D00AE2414 /* CameraScreenCrop@2x.png */,
+				B6EB349213FB0D2D00AE2414 /* CameraScreenCutifyLibraryIcon@2x.png */,
+				B6EB349313FB0D2D00AE2414 /* CameraScreenFlashAuto@2x.png */,
+				B6EB349413FB0D2D00AE2414 /* CameraScreenFlashOff@2x.png */,
+				B6EB349513FB0D2D00AE2414 /* CameraScreenFlashOn@2x.png */,
+				B6EB349613FB0D2D00AE2414 /* CameraScreenLibraryIcon@2x.png */,
+				B6EB349713FB0D2D00AE2414 /* DeleteButton@2x.png */,
+				B6EB349813FB0D2D00AE2414 /* DoneButton@2x.png */,
+				B6EB349913FB0D2D00AE2414 /* GetPackButton@2x.png */,
+				B6EB349A13FB0D2D00AE2414 /* InAppPurchaseBackground@2x.png */,
+				B6EB349B13FB0D2D00AE2414 /* InAppPurchaseKittyPack@2x.png */,
+				B6EB349C13FB0D2D00AE2414 /* NavigationBar@2x.png */,
+				B6EB349D13FB0D2D00AE2414 /* ScrollControlBackButton@2x.png */,
+				B6EB349E13FB0D2D00AE2414 /* ScrollControlBackground@2x.png */,
+				B6EB349F13FB0D2D00AE2414 /* ScrollControlIconBackground@2x.png */,
+				B6EB34A013FB0D2D00AE2414 /* ScrollControlIconGloss@2x.png */,
+				B6EB34A113FB0D2D00AE2414 /* SharePhotoButton@2x.png */,
+				B6EB34A213FB0D2D00AE2414 /* TableviewBackground@2x.png */,
 				B658F22B13E8B1920046C6E0 /* defaultnavbar@2x.png */,
 			);
 			name = Assets;
@@ -1924,35 +1938,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				B672F2F213CC043E005FEF8A /* TableviewBackground@2x.png in Resources */,
-				B672F2F313CC043E005FEF8A /* NavigationBar@2x.png in Resources */,
-				B672F2F413CC043E005FEF8A /* DoneButton@2x.png in Resources */,
-				B672F2F513CC043E005FEF8A /* BackButton@2x.png in Resources */,
-				B6EBD11713CD08D000389177 /* SharePhotoButton@2x.png in Resources */,
-				B6EBD11813CD08D000389177 /* InAppPurchaseKittyPack@2x.png in Resources */,
-				B6EBD11913CD08D000389177 /* InAppPurchaseBackground@2x.png in Resources */,
-				B6EBD11A13CD08D000389177 /* GetPackButton@2x.png in Resources */,
-				B6EBD11B13CD08D000389177 /* DeleteButton@2x.png in Resources */,
-				B6EBD11C13CD08D000389177 /* BuyPackButton@2x.png in Resources */,
-				B64E26C813CE695800AEBA32 /* ApplyStickerImage@2x.png in Resources */,
 				B65A96EE13DCA3240012E260 /* PhotoPreviewViewController.xib in Resources */,
 				B65A96F013DCA3240012E260 /* PhotoCaptureViewController.xib in Resources */,
-				B65A979813DCDC630012E260 /* CameraBackButton@2x.png in Resources */,
 				B61C5A6513E0A08A00122BB5 /* StickerDemoPack.plist in Resources */,
-				B61C5A7F13E0A13700122BB5 /* ScrollControlBackButton@2x.png in Resources */,
-				B6FEF96C13E1F67E008DF57D /* CameraScreenCrop@2x.png in Resources */,
-				B6FEF97113E1F6F9008DF57D /* CameraScreenButton@2x.png in Resources */,
 				B6EE6FE113E340A300EE45B8 /* EarlyDemo.plist in Resources */,
 				B658F22C13E8B1920046C6E0 /* defaultnavbar@2x.png in Resources */,
-				B61C53D213EA5F3000A85581 /* CameraScreenFlashOn@2x.png in Resources */,
-				B61C53D313EA5F3000A85581 /* CameraScreenFlashOff@2x.png in Resources */,
-				B61C53D413EA5F3000A85581 /* CameraScreenFlashAuto@2x.png in Resources */,
-				B656415C13ECAE6F00DF3530 /* CameraScreenLibraryIcon@2x.png in Resources */,
-				B656415D13ECAE6F00DF3530 /* CameraScreenCutifyLibraryIcon@2x.png in Resources */,
 				B0EEDC6613F12638006769C2 /* jQueryInject.txt in Resources */,
 				B0EEDC6713F12638006769C2 /* jQueryInjectLandscape.txt in Resources */,
 				B0EEDC7913F12638006769C2 /* twitter_load.png in Resources */,
-				B650066613F2310B00A1F654 /* ScrollControlIconMaskClear@2x.png in Resources */,
 				B6EAA1F413F4CB4C005B835B /* MidDemo.plist in Resources */,
 				B6EAA2EE13F4CBA1005B835B /* EmoticonAnnoyed1@2x.png in Resources */,
 				B6EAA2EF13F4CBA1005B835B /* EmoticonAnnoyed2@2x.png in Resources */,
@@ -2172,6 +2165,31 @@
 				B631DCD813F4E0D4000FED6F /* test.plist in Resources */,
 				B6E38AF713F5B463002BA987 /* Default@2x.png in Resources */,
 				B6E38AF813F5B463002BA987 /* Icon@2x.png in Resources */,
+				B6EB34A313FB0D2D00AE2414 /* ApplyStickerImage@2x.png in Resources */,
+				B6EB34A413FB0D2D00AE2414 /* BackButton@2x.png in Resources */,
+				B6EB34A513FB0D2D00AE2414 /* BuyMorePacksButton@2x.png in Resources */,
+				B6EB34A613FB0D2D00AE2414 /* BuyPackButton@2x.png in Resources */,
+				B6EB34A713FB0D2D00AE2414 /* CameraBackButton@2x.png in Resources */,
+				B6EB34A813FB0D2D00AE2414 /* CameraScreenBar@2x.png in Resources */,
+				B6EB34A913FB0D2D00AE2414 /* CameraScreenButton@2x.png in Resources */,
+				B6EB34AA13FB0D2D00AE2414 /* CameraScreenCrop@2x.png in Resources */,
+				B6EB34AB13FB0D2D00AE2414 /* CameraScreenCutifyLibraryIcon@2x.png in Resources */,
+				B6EB34AC13FB0D2D00AE2414 /* CameraScreenFlashAuto@2x.png in Resources */,
+				B6EB34AD13FB0D2D00AE2414 /* CameraScreenFlashOff@2x.png in Resources */,
+				B6EB34AE13FB0D2D00AE2414 /* CameraScreenFlashOn@2x.png in Resources */,
+				B6EB34AF13FB0D2D00AE2414 /* CameraScreenLibraryIcon@2x.png in Resources */,
+				B6EB34B013FB0D2D00AE2414 /* DeleteButton@2x.png in Resources */,
+				B6EB34B113FB0D2D00AE2414 /* DoneButton@2x.png in Resources */,
+				B6EB34B213FB0D2D00AE2414 /* GetPackButton@2x.png in Resources */,
+				B6EB34B313FB0D2D00AE2414 /* InAppPurchaseBackground@2x.png in Resources */,
+				B6EB34B413FB0D2D00AE2414 /* InAppPurchaseKittyPack@2x.png in Resources */,
+				B6EB34B513FB0D2D00AE2414 /* NavigationBar@2x.png in Resources */,
+				B6EB34B613FB0D2D00AE2414 /* ScrollControlBackButton@2x.png in Resources */,
+				B6EB34B713FB0D2D00AE2414 /* ScrollControlBackground@2x.png in Resources */,
+				B6EB34B813FB0D2D00AE2414 /* ScrollControlIconBackground@2x.png in Resources */,
+				B6EB34B913FB0D2D00AE2414 /* ScrollControlIconGloss@2x.png in Resources */,
+				B6EB34BA13FB0D2D00AE2414 /* SharePhotoButton@2x.png in Resources */,
+				B6EB34BB13FB0D2D00AE2414 /* TableviewBackground@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2198,7 +2216,6 @@
 				B61C5A6613E0A08A00122BB5 /* CutifyStickerMeta.m in Sources */,
 				B61C5A6713E0A08A00122BB5 /* CutifyStickerPicker.m in Sources */,
 				B61C5A6813E0A08A00122BB5 /* CutifyStickerSelectButton.m in Sources */,
-				B61C5AD713E0B91600122BB5 /* CutifyStickerView.m in Sources */,
 				B620497913E769A5000EF32E /* NSObject+SBJSON.m in Sources */,
 				B620497A13E769A5000EF32E /* NSString+SBJSON.m in Sources */,
 				B620497B13E769A5000EF32E /* SBJSON.m in Sources */,
@@ -2234,6 +2251,7 @@
 				B0EEDC7813F12638006769C2 /* SA_OAuthTwitterEngine.m in Sources */,
 				B0EEDC8B13F1274E006769C2 /* TwitterAuthViewController.m in Sources */,
 				B0EEDC8E13F12779006769C2 /* FacebookAuthViewController.m in Sources */,
+				B6E0E7CC1405B95D0074CED4 /* CutifyStickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2244,7 +2262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Lipert (PJLYP95NQ4)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2258,7 +2276,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = CutifyAppFrame;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AC8582F1-CE35-4C7C-9B11-14E43754FB58";
 			};
 			name = Debug;
 		};
@@ -2266,10 +2284,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Lipert (PJLYP95NQ4)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CutifyAppFrame_Prefix.pch;
 				HEADER_SEARCH_PATHS = (
+					"/Xcode4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2/libxml//**",
 					"$(BUILT_PRODUCTS_DIR)/../three20",
 					"$(BUILT_PRODUCTS_DIR)/../../three20",
 					../../../Downloads/three20/Build/Products/three20,
@@ -2281,6 +2301,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = CutifyAppFrame;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AC8582F1-CE35-4C7C-9B11-14E43754FB58";
 				SDKROOT = iphoneos4.2;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2294,8 +2315,10 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Xcode4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2/;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.2;
 			};
 			name = Debug;
 		};
@@ -2303,19 +2326,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Lipert";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"${SDK_DIR}/usr/include/libxml2/**",
-					"/usr/include/libxml2/**/**",
-				);
+				HEADER_SEARCH_PATHS = /Xcode4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2/;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "33C5A24A-98B9-4148-90E7-F37D3F949D7E";
-				SDKROOT = iphoneos;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.2;
 				USER_HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 			};
 			name = Release;

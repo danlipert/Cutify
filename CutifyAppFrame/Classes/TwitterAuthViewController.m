@@ -24,6 +24,7 @@
  }
  */
 
+
 - (void)viewDidAppear:(BOOL)animated {
 	
 	if(_engine) return;

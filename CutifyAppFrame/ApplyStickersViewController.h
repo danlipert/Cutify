@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "CutifyStickerView.h"
 
-@interface ApplyStickersViewController : UIViewController <UIScrollViewDelegate>
+@interface ApplyStickersViewController : UIViewController <UIScrollViewDelegate, UIAlertViewDelegate>
 {
 
 }

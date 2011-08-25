@@ -134,14 +134,15 @@
 	UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapToAutoFocus:)];
 	[singleTap setDelegate:self];
 	[singleTap setNumberOfTapsRequired:1];
-	[self.view addGestureRecognizer:singleTap];
+	[ppVC.view addGestureRecognizer:singleTap];
 	
 	// Add a double tap gesture to reset the focus mode to continuous auto focus
 	UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapToContinouslyAutoFocus:)];
 	[doubleTap setDelegate:self];
 	[doubleTap setNumberOfTapsRequired:2];
 	[singleTap requireGestureRecognizerToFail:doubleTap];
-	[self.view addGestureRecognizer:doubleTap];
+	[ppVC.view
+	 addGestureRecognizer:doubleTap];
 	
 	[doubleTap release];
 	[singleTap release];
@@ -227,12 +228,14 @@
 
 - (void)takePhoto 
 {
+	
 	NSLog(@"taking photo");
 	self.captureManager.delegate = self;
 	[[self captureManager] captureStillImage];
     
 	/* White flash for feedback */
-	UIView *flashView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,480-47)];
+	//adjusted frame to fit cutify ui
+	UIView *flashView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,480-52)];
     [flashView setBackgroundColor:[UIColor whiteColor]];
     [[[self view] window] addSubview:flashView];
     
