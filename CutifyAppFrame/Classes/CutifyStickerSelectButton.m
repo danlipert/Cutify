@@ -29,8 +29,9 @@
 
 -(void)setImage:(UIImage *)_image
 {
+	float padding = 5;
 	UIImageView *_imageView = [[UIImageView alloc] initWithImage:_image];
-	[_imageView setFrame:CGRectMake(0,0,58, 58)];
+	[_imageView setFrame:CGRectMake(padding,padding,58-2*padding, 58-2*padding)];
 //	[_imageView setCenter:self.center];
 	[_imageView setContentMode:UIViewContentModeScaleAspectFit];
 	

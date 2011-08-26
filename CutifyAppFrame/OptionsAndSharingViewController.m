@@ -289,17 +289,19 @@
 	{
 		if (indexPath.row == 0)
 		{
-			TwitterAuthViewController *authVC = [[TwitterAuthViewController alloc] init];
-			authVC.delegate = self;
-			[self.navigationController pushViewController:authVC animated:YES];
-			[authVC release];
+			//TwitterAuthViewController *authVC = [[TwitterAuthViewController alloc] init];
+//			authVC.delegate = self;
+//			[self.navigationController pushViewController:authVC animated:YES];
+//			[authVC release];
+			[self debugAlert];
 		}
 		if (indexPath.row == 1)
 		{
-			FacebookAuthViewController *authVC = [[FacebookAuthViewController alloc] init];
-			authVC.delegate = self;
-			[self.navigationController pushViewController:authVC animated:YES];
-			[authVC release];
+			//FacebookAuthViewController *authVC = [[FacebookAuthViewController alloc] init];
+//			authVC.delegate = self;
+//			[self.navigationController pushViewController:authVC animated:YES];
+//			[authVC release];
+			[self debugAlert];
 		}
 		
 	}
@@ -461,6 +463,19 @@
 	return NO;
 	
 }
+
+-(void)debugAlert
+{
+	UIAlertView *alert = [[UIAlertView alloc]
+						  initWithTitle:@"PRERELEASE SOFTWARE"
+						  message:@"Function not implemented"
+						  delegate:self
+						  cancelButtonTitle:@"OK"
+						  otherButtonTitles:nil];
+	
+	[alert show];
+	[alert autorelease];
+}	
 
 #pragma mark -
 #pragma mark Memory management

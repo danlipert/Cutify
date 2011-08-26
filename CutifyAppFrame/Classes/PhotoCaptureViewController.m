@@ -140,17 +140,20 @@
 	//add focus gestures
 	// Add a single tap gesture to focus on the point tapped, then lock focus
 	//all devices with camera have focus
+	
+	[self.view setUserInteractionEnabled:TRUE];
+	
 	UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapToAutoFocus:)];
 	[singleTap setDelegate:self];
 	[singleTap setNumberOfTapsRequired:1];
-	[ppVC.view addGestureRecognizer:singleTap];
+	[self.view addGestureRecognizer:singleTap];
 	
 	// Add a double tap gesture to reset the focus mode to continuous auto focus
 	UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapToContinouslyAutoFocus:)];
 	[doubleTap setDelegate:self];
 	[doubleTap setNumberOfTapsRequired:2];
 	[singleTap requireGestureRecognizerToFail:doubleTap];
-	[ppVC.view addGestureRecognizer:doubleTap];
+	[self.view addGestureRecognizer:doubleTap];
 	
 	[doubleTap release];
 	[singleTap release];
@@ -446,12 +449,16 @@
 // Auto focus at a particular point. The focus mode will change to locked once the auto focus happens.
 - (void)tapToAutoFocus:(UIGestureRecognizer *)gestureRecognizer
 {
-    if ([[[self.captureManager videoInput] device] isFocusPointOfInterestSupported]) {
-        CGPoint tapPoint = [gestureRecognizer locationInView:self.view];
-//		NSLog(@"Tap Point: (%f, %f)", tapPoint.x, tapPoint.y);
-        CGPoint convertedFocusPoint = [self convertToPointOfInterestFromViewCoordinates:tapPoint];
-        [self.captureManager autoFocusAtPoint:convertedFocusPoint];
-    }
+	CGPoint tapPoint = [gestureRecognizer locationInView:self.view];
+	if(CGRectContainsPoint(CGRectMake(6,14+52,306,306), tapPoint))
+	{
+		if ([[[self.captureManager videoInput] device] isFocusPointOfInterestSupported]) {
+			[self animateTapPoint:tapPoint];
+	//		NSLog(@"Tap Point: (%f, %f)", tapPoint.x, tapPoint.y);
+			CGPoint convertedFocusPoint = [self convertToPointOfInterestFromViewCoordinates:tapPoint];
+			[self.captureManager autoFocusAtPoint:convertedFocusPoint];
+		}
+	}
 }
 
 // Change to continuous auto focus. The camera will constantly focus at the point choosen.
@@ -459,6 +466,22 @@
 {
     if ([[[self.captureManager videoInput] device] isFocusPointOfInterestSupported])
         [self.captureManager continuousFocusAtPoint:CGPointMake(.5f, .5f)];
+}
+
+-(void)animateTapPoint:(CGPoint)tapPoint
+{
+	float tapViewFrameSize = 30;
+	UIView *tapView = [[UIView alloc] initWithFrame:CGRectMake(tapPoint.x-tapViewFrameSize / 2.0f, tapPoint.y-tapViewFrameSize / 2.0f, tapViewFrameSize, tapViewFrameSize)];
+	[tapView setBackgroundColor:[UIColor purpleColor]];
+	[self.view addSubview:tapView];
+	[UIView animateWithDuration:.3f animations:^{
+			[tapView setFrame:CGRectMake(tapPoint.x-tapViewFrameSize / 2.0f * 0.7f, tapPoint.y-tapViewFrameSize / 2.0f * 0.7, tapViewFrameSize * 0.7, tapViewFrameSize * 0.7)];
+			[tapView setAlpha:0.0];
+		}
+		completion:^(BOOL finished){
+			[tapView removeFromSuperview];
+			[tapView release];
+		}];
 }
 
 #pragma mark -
