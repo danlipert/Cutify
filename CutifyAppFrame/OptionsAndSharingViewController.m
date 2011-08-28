@@ -14,16 +14,13 @@
 #import <AVFoundation/AVFoundation.h>
 
 
-#import "FacebookAuthViewController.h"
-#import "TwitterAuthViewController.h"
-
 @implementation OptionsAndSharingViewController
 
-@synthesize image, fbToken, txtField;
+@synthesize image, txtField;
+@synthesize twitterVC, facebookVC, tumblrVC;
+@synthesize facebookSwitch, twitterSwitch, tumblrSwitch;
+@synthesize blocker, timer;
 
-@synthesize facebookSwitch;
-@synthesize twitterSwitch;
-@synthesize tumblrSwitch;
 
 -(id)initWithStyle:(UITableViewStyle)style
 {
@@ -39,6 +36,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	
+	TwitterViewController *twVC = [[TwitterViewController alloc] init];
+	twVC.delegate = self;
+	self.twitterVC = twVC;
+	[twVC release];
+	
+	FacebookViewController *fbVC = [[FacebookViewController alloc] init];
+	fbVC.delegate = self;
+	self.facebookVC = fbVC;
+	[fbVC release];
+	
+	TumblrViewController *tmbVC = [[TumblrViewController alloc] init];
+	tmbVC.delegate = self;
+	self.tumblrVC = tmbVC;
+	[tmbVC release];
+	
 	
 	//setup buttons
 	UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -133,6 +147,7 @@
 	} else if(section == 2) {
 		return 1;
 	}
+	return 0;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
@@ -182,36 +197,39 @@
 	{
 		if(self.txtField == nil)
 		{
-			UITextField *txtField=[[UITextField alloc]initWithFrame:CGRectMake(20, 10, 320, 30)];
-//			txtField.autoresizingMask=UIViewAutoresizingFlexibleHeight;
-//			txtField.autoresizesSubviews=YES;
-			[txtField setBorderStyle:UITextBorderStyleNone];
-			[txtField setPlaceholder:@"Enter your caption here..."];
-			[txtField setTextColor:[UIColor colorWithRed:137.0/255.0 green:137.0/255.0 blue:137.0/255.0 alpha:1.0]];
-			[txtField setDelegate:self];
-			self.txtField = txtField;
-			[cell addSubview:txtField];
-			[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
-			[txtField release];
-		} else {
-			[cell addSubview:self.txtField];
+			if(self.txtField == nil)
+			{
+				UITextField *txtField_ =[[UITextField alloc]initWithFrame:CGRectMake(20, 10, 320, 30)];
+				[txtField_ setBorderStyle:UITextBorderStyleNone];
+				[txtField_ setPlaceholder:@"Enter your caption here..."];
+				[txtField_ setTextColor:[UIColor colorWithRed:137.0/255.0 green:137.0/255.0 blue:137.0/255.0 alpha:1.0]];
+				[txtField_ setDelegate:self];
+				self.txtField = txtField_;
+				[txtField_ release];
+				
+				[cell addSubview:self.txtField];
+				[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+				
+			} else {
+				[cell addSubview:self.txtField];
+			}
 		}
-	} else if (indexPath.section == 1) {
-		
-		//[sharingSwitch addTarget:self action:@selector(sharingSwitchSwitched:) forControlEvents:UIControlEventValueChanged];
+	} 
+	else if (indexPath.section == 1) 
+	{
 		
 		if(indexPath.row == 0) 
 		{
 			[[cell textLabel] setText:@"Twitter"];
-
-			if([self tokenCachedForService:@"twitter"])
-			{
+			
+			if ([self.twitterVC isAuthorized]) {
 				self.twitterSwitch = [self getSharingSwitchWithTag:0];
 				[cell addSubview:self.twitterSwitch];
-				//cell.accessoryType = nil;
+				cell.accessoryType = UITableViewCellAccessoryNone;
+				if (shareOnTwitter_)
+					[self.twitterSwitch setOn:YES animated:NO];
 			}
-			else 
-			{
+			else {
 				cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 			}
 		} 
@@ -219,11 +237,13 @@
 		{
 			[[cell textLabel] setText:@"Facebook"];
 			
-			if([self tokenCachedForService:@"facebook"])
+			if ([self.facebookVC isAuthorized])
 			{
 				self.facebookSwitch = [self getSharingSwitchWithTag:1];
 				[cell addSubview:self.facebookSwitch];
-				//cell.accessoryType = nil;
+				cell.accessoryType = UITableViewCellAccessoryNone;
+				if (shareOnFacebook_)
+					[self.facebookSwitch setOn:YES animated:NO];
 			}
 			else 
 			{
@@ -234,17 +254,20 @@
 		{
 			[[cell textLabel] setText:@"Tumblr"];
 			
-			if([self tokenCachedForService:@"tumblr"])
+			if ([self.tumblrVC isAuthorized])
 			{
 				self.tumblrSwitch = [self getSharingSwitchWithTag:2];
 				[cell addSubview:self.tumblrSwitch];
-				//cell.accessoryType = nil;
+				cell.accessoryType = UITableViewCellAccessoryNone;
+				if (shareOnTumblr_)
+					[self.tumblrSwitch setOn:YES animated:NO];
 			}
 			else 
 			{
 				cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 			}
 		}
+
 	} else if (indexPath.section == 2) {
 		[[cell textLabel] setText:@"Send as Email"];
 		[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
@@ -259,26 +282,6 @@
 	return NO;
 }
 
--(void)sharingSwitchSwitched:(id)sender
-{
-	UISwitch *sharingSwitch = (UISwitch *)sender;
-	
-	if(sharingSwitch.tag == 0)
-	{
-		//twitter
-	} else if(sharingSwitch.tag == 1) {
-		//facebook
-		
-	} else if(sharingSwitch.tag == 2) {
-		//tumblr
-	}
-}
-
-- (void)authenticationDidFinishWithToken:(NSString *)token forService:(NSString *)service
-{
-	[self cacheToken:token forService:service];
-	[self.tableView reloadData];
-}
 
 #pragma mark -
 #pragma mark Table view delegate
@@ -287,21 +290,17 @@
 	
 	if (indexPath.section == 1)
 	{
-		if (indexPath.row == 0)
+		if (indexPath.row == 0 && self.twitterSwitch == nil)
 		{
-			//TwitterAuthViewController *authVC = [[TwitterAuthViewController alloc] init];
-//			authVC.delegate = self;
-//			[self.navigationController pushViewController:authVC animated:YES];
-//			[authVC release];
-			[self debugAlert];
+			[self.navigationController pushViewController:self.twitterVC animated:YES];
 		}
-		if (indexPath.row == 1)
+		if (indexPath.row == 1 && self.facebookSwitch == nil)
 		{
-			//FacebookAuthViewController *authVC = [[FacebookAuthViewController alloc] init];
-//			authVC.delegate = self;
-//			[self.navigationController pushViewController:authVC animated:YES];
-//			[authVC release];
-			[self debugAlert];
+			[self.navigationController pushViewController:self.facebookVC animated:YES];
+		}
+		if (indexPath.row == 2 && self.tumblrSwitch == nil)
+		{
+			[self.navigationController pushViewController:self.tumblrVC animated:YES];
 		}
 		
 	}
@@ -366,35 +365,43 @@
 
 -(void)makeRequestToServer
 {
-	NSURL *url = [NSURL URLWithString:@"http://cutify.tmoa.webfactional.com/uploads/"];
-	ASIFormDataRequest *request = [[[ASIFormDataRequest alloc] initWithURL:url] autorelease];
-//	ASIHTTPRequest *request = [[[ASIHTTPRequest alloc] initWithURL:url] autorelease];
-	[request setDelegate:self];
+	if(self.twitterSwitch.on == YES || self.tumblrSwitch.on == YES || self.facebookSwitch.on == YES)
+	{
 		
-	[request setPostValue:@"This caption is here" forKey:@"caption"];
-	NSMutableData *imageData = [[NSMutableData alloc] init];
-	[imageData setData:UIImageJPEGRepresentation(self.image, 1.0)];
-	[request setPostBody:imageData];
-	[imageData release];
-
-	// Share if selected
-	if (self.facebookSwitch.on == YES)
-	{
-		[request setPostValue:[self cachedTokenForService:@"facebook"] forKey:@"facebook_token"];
-	}
-	if (self.tumblrSwitch.on == YES)
-	{
-		[request setPostValue:[self cachedTokenForService:@"tumblr"] forKey:@"tumblr_token"];
-	}
-	if (self.twitterSwitch.on == YES)
-	{
-		[request setPostValue:[self cachedTokenForService:@"twitter"] forKey:@"twitter_token"];
-	}	
-	
-	if(self.twitterSwitch.on == NO && self.tumblrSwitch.on == NO && self.facebookSwitch.on == NO)
-	{
-		//do nothing!
-	} else {
+		NSLog(@"Making request to server");
+		NSURL *url = [NSURL URLWithString:@"http://cutifyapp.com/uploads/"];
+		ASIFormDataRequest *request = [[[ASIFormDataRequest alloc] initWithURL:url] autorelease];
+		//	ASIHTTPRequest *request = [[[ASIHTTPRequest alloc] initWithURL:url] autorelease];
+		[request setDelegate:self];
+		
+		NSMutableData *imageData = [[NSMutableData alloc] init];
+		[imageData setData:UIImageJPEGRepresentation(self.image, 1.0)];
+		[request setPostBody:imageData];
+		[imageData release];
+		
+		[request setPostValue:@"Why is this necessary?" forKey:@"dummy_key"];
+		[request setPostValue:self.txtField.text forKey:@"photo_caption"];
+		
+		// Share if selected
+		if (self.facebookSwitch.on)
+		{
+			NSLog(@"Adding facebook");
+			[request setPostValue:self.facebookVC.access_token forKey:@"facebook_access_token"];
+		}
+		if (self.tumblrSwitch.on)
+		{
+			NSLog(@"Adding tumblr");
+			[request setPostValue:self.tumblrVC.oauth.oauth_token forKey:@"tumblr_oauth_token"];
+			[request setPostValue:self.tumblrVC.oauth.oauth_token_secret forKey:@"tumblr_oauth_token_secret"];
+		}
+		if (self.twitterSwitch.on)
+		{
+			NSLog(@"Adding twitter");
+			
+			[request setPostValue:self.twitterVC.oauth.oauth_token forKey:@"twitter_oauth_token"];
+			[request setPostValue:self.twitterVC.oauth.oauth_token_secret forKey:@"twitter_oauth_token_secret"];
+		}	
+		
 		[request setDidFinishSelector:@selector(requestFinished:)];
 		[request setDidFailSelector:@selector(requestFailed:)];
 		
@@ -403,14 +410,15 @@
 	}
 }
 
+
 - (void)requestFinished:(ASIHTTPRequest *)request
 {
 	[DSBezelActivityView removeViewAnimated:YES];
 
-	NSLog([request responseString]);
+	NSLog(@"%@", [request responseString]);
 	UIAlertView *alert = [[UIAlertView alloc]
-						  initWithTitle:@"Sent to server!"
-						  message:@"Great job!."
+						  initWithTitle:@"Success!"
+						  message:@"Photo shared! That one's going to be popular."
 						  delegate:self
 						  cancelButtonTitle:@"OK"
 						  otherButtonTitles:nil];
@@ -421,12 +429,19 @@
 
 - (void)requestFailed:(ASIHTTPRequest *)request
 {
-	[DSBezelActivityView removeViewAnimated:YES];
 
-//	NSLog([request error]);
+
+	NSLog(@"Failed with response: %@", [request responseString]);
+	[self uploadFailed];
+}
+
+- (void)uploadFailed
+{
+	[DSBezelActivityView removeViewAnimated:YES];
+	
 	UIAlertView *alert = [[UIAlertView alloc]
-						  initWithTitle:@"Upload failed!"
-						  message:@"you have no dignity"
+						  initWithTitle:@"Oops!"
+						  message:@"Photo sharing failed. But it failed cute-ly, so we're not worried. Please try again later."
 						  delegate:self
 						  cancelButtonTitle:@"OK"
 						  otherButtonTitles:nil];
@@ -437,31 +452,48 @@
 
 
 #pragma mark -
-#pragma mark Token Management
-
-- (void)cacheToken:(NSString *)aToken forService:(NSString *)serviceName 
-{
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setObject:aToken forKey:[NSString stringWithFormat:@"%@_token", serviceName]];	
-    [defaults synchronize];
-    NSLog(@"Token: %@ saved for service: %@", aToken, serviceName);
-}
-
-- (NSString *)cachedTokenForService:(NSString *)serviceName 
-{
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    return [defaults objectForKey:[NSString stringWithFormat:@"%@_token",serviceName]];
-}
-
-- (BOOL)tokenCachedForService:(NSString *)serviceName
-{
-	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-	if ([defaults objectForKey:[NSString stringWithFormat:@"%@_token",serviceName]])
-	{
-		return YES; 
-	}
-	return NO;
+#pragma mark OAuth delegate
 	
+-(void)authenticationSuccessForService:(NSString *)name
+{
+	[self.tableView reloadData];
+	
+	if ([name isEqualToString:@"facebook"])
+		shareOnFacebook_ = YES;
+	else if ([name isEqualToString:@"tumblr"])
+		shareOnTumblr_ = YES;
+	else if ([name isEqualToString:@"twitter"])
+		shareOnTwitter_ = YES;
+}
+
+-(void)resetAuthViewControllerForService:(NSString *)name
+{
+	
+	if ([name isEqualToString:@"facebook"])
+	{
+		self.facebookVC = nil;
+		FacebookViewController *fbVC = [[FacebookViewController alloc] init];
+		fbVC.delegate = self;
+		self.facebookVC = fbVC;
+		[fbVC release];
+	}
+	else if ([name isEqualToString:@"tumblr"])
+	{
+		self.tumblrVC = nil;
+		
+		TumblrViewController *tmbVC = [[TumblrViewController alloc] init];
+		tmbVC.delegate = self;
+		self.tumblrVC = tmbVC;
+		[tmbVC release];
+	}
+	else if ([name isEqualToString:@"twitter"])
+	{
+		self.twitterVC = nil;
+		TwitterViewController *twVC = [[TwitterViewController alloc] init];
+		twVC.delegate = self;
+		self.twitterVC = twVC;
+		[twVC release];
+	}
 }
 
 -(void)debugAlert
