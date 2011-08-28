@@ -13,7 +13,7 @@ FILE.write('<array>\n')
 
 for eachdir in os.listdir(os.path.curdir):
 
-	if eachdir.endswith('plist') or eachdir.endswith('py') or eachdir == 'OriginalFaces':
+	if eachdir.endswith('plist') or eachdir.endswith('py') or eachdir.startswith('.') or eachdir == 'OriginalFaces':
 		#no files plz!
 		continue
 		
@@ -50,11 +50,11 @@ for eachdir in os.listdir(os.path.curdir):
 			FILE.write('<dict>\n')
 			FILE.write('<key>Name</key>\n')
 			FILE.write('<string>')
-			FILE.write(eachfile)
+			FILE.write(eachfile.replace("@2x.png",""))
 			FILE.write('</string>')
 			FILE.write('<key>Image</key>\n')
 			FILE.write('<string>')
-			FILE.write(eachfile)
+			FILE.write(eachfile.replace("@2x", ""))
 			FILE.write('</string>')
 			FILE.write('<key>Type</key>\n')
 			FILE.write('<string>Sticker</string>\n')

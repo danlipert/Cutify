@@ -99,6 +99,34 @@
 
 -(void)doneButtonPressed:(id)sender
 {
+	[DSBezelActivityView newActivityViewForView:self.view];
+
+	[self performSelectorInBackground:@selector(savePhoto) withObject:nil];
+	
+//	NSLog(@"Saving image...");
+//	//save file
+//	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+//	NSString *documentsDirectory = [paths objectAtIndex:0];
+//	NSDate *now = [NSDate date];
+//	NSString *fileName = [NSString stringWithFormat:@"Cutify%@.jpg", now];
+//	NSString *imagePath = [documentsDirectory stringByAppendingPathComponent:fileName];
+//	NSData *imageData = UIImageJPEGRepresentation(self.image, 1.0);
+//	[imageData writeToFile:imagePath atomically:YES];
+//	
+//	//save file in iphoto
+//	UIImageWriteToSavedPhotosAlbum(self.image, nil,nil,nil);
+//
+//	
+//	[self makeRequestToServer];
+//
+//	
+//	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
+//	[self.navigationController pushViewController:photoGridViewController animated:YES];
+//	[photoGridViewController release];
+}
+
+-(void)savePhoto
+{
 	NSLog(@"Saving image...");
 	//save file
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -111,17 +139,16 @@
 	
 	//save file in iphoto
 	UIImageWriteToSavedPhotosAlbum(self.image, nil,nil,nil);
-
+	
 	
 	[self makeRequestToServer];
-
+	
 	
 	PhotoGridViewController *photoGridViewController = [[PhotoGridViewController alloc] init];
 	[self.navigationController pushViewController:photoGridViewController animated:YES];
 	[photoGridViewController release];
+	
 }
-
-
 
 #pragma mark -
 #pragma mark Table view data source
@@ -191,6 +218,9 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
+	//bugfix to fix cell textleaking into reused cells
+	[cell setText:@""];
+	
     // Configure the cell...
 
 	if(indexPath.section == 0)
@@ -226,8 +256,12 @@
 				self.twitterSwitch = [self getSharingSwitchWithTag:0];
 				[cell addSubview:self.twitterSwitch];
 				cell.accessoryType = UITableViewCellAccessoryNone;
+				[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
 				if (shareOnTwitter_)
+				{
 					[self.twitterSwitch setOn:YES animated:NO];
+					[cell setSelectionStyle:UITableViewCellSelectionStyleBlue];
+				}
 			}
 			else {
 				cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
@@ -242,8 +276,12 @@
 				self.facebookSwitch = [self getSharingSwitchWithTag:1];
 				[cell addSubview:self.facebookSwitch];
 				cell.accessoryType = UITableViewCellAccessoryNone;
+				[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
 				if (shareOnFacebook_)
+				{
 					[self.facebookSwitch setOn:YES animated:NO];
+					[cell setSelectionStyle:UITableViewCellSelectionStyleBlue];
+				}
 			}
 			else 
 			{
@@ -259,8 +297,12 @@
 				self.tumblrSwitch = [self getSharingSwitchWithTag:2];
 				[cell addSubview:self.tumblrSwitch];
 				cell.accessoryType = UITableViewCellAccessoryNone;
+				[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
 				if (shareOnTumblr_)
+				{
 					[self.tumblrSwitch setOn:YES animated:NO];
+					[cell setSelectionStyle:UITableViewCellSelectionStyleBlue];
+				}
 			}
 			else 
 			{
@@ -406,7 +448,7 @@
 		[request setDidFailSelector:@selector(requestFailed:)];
 		
 		[request startSynchronous];	
-		[DSBezelActivityView newActivityViewForView:self.view];
+//		[DSBezelActivityView newActivityViewForView:self.view];
 	}
 }
 

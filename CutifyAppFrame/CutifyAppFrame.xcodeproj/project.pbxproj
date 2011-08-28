@@ -1051,8 +1051,8 @@
 				B61C5A5E13E0A08A00122BB5 /* CutifyStickerMeta.m */,
 				B61C5A5F13E0A08A00122BB5 /* CutifyStickerPicker.h */,
 				B61C5A6013E0A08A00122BB5 /* CutifyStickerPicker.m */,
-				B61C5A6113E0A08A00122BB5 /* CutifyStickerSelectButton.h */,
 				B61C5A6213E0A08A00122BB5 /* CutifyStickerSelectButton.m */,
+				B61C5A6113E0A08A00122BB5 /* CutifyStickerSelectButton.h */,
 			);
 			name = "Sticker Select";
 			sourceTree = "<group>";
@@ -2170,7 +2170,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: John David Sluder (PH5B94VX59)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Lipert (PJLYP95NQ4)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2181,8 +2181,8 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = CutifyAppFrame;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4A80ADFD-C255-4072-9751-54D306CE2C3A";
-				SDKROOT = iphoneos4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AC8582F1-CE35-4C7C-9B11-14E43754FB58";
+				SDKROOT = iphoneos4.2;
 			};
 			name = Debug;
 		};
@@ -2224,7 +2224,7 @@
 				HEADER_SEARCH_PATHS = /Xcode4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2/;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos4.2;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -2241,7 +2241,7 @@
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos4.2;
+				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 			};
 			name = Release;
