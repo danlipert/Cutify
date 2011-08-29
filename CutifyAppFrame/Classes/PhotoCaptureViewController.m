@@ -470,17 +470,17 @@
 
 -(void)animateTapPoint:(CGPoint)tapPoint
 {
-	float tapViewFrameSize = 30;
-	UIView *tapView = [[UIView alloc] initWithFrame:CGRectMake(tapPoint.x-tapViewFrameSize / 2.0f, tapPoint.y-tapViewFrameSize / 2.0f, tapViewFrameSize, tapViewFrameSize)];
-	[tapView setBackgroundColor:[UIColor purpleColor]];
-	[self.view addSubview:tapView];
+	float tapViewFrameSize = 80;
+	UIImageView *tapImageView = [[UIImageView alloc] initWithFrame:CGRectMake(tapPoint.x-tapViewFrameSize / 2.0f, tapPoint.y-tapViewFrameSize / 2.0f, tapViewFrameSize, tapViewFrameSize)];
+	[tapImageView setImage:[UIImage imageNamed:@"FocusIndicator.png"]];
+	[self.view addSubview:tapImageView];
 	[UIView animateWithDuration:.3f animations:^{
-			[tapView setFrame:CGRectMake(tapPoint.x-tapViewFrameSize / 2.0f * 0.7f, tapPoint.y-tapViewFrameSize / 2.0f * 0.7, tapViewFrameSize * 0.7, tapViewFrameSize * 0.7)];
-			[tapView setAlpha:0.0];
+			[tapImageView setFrame:CGRectMake(tapPoint.x-tapViewFrameSize / 2.0f * 0.7f, tapPoint.y-tapViewFrameSize / 2.0f * 0.7, tapViewFrameSize * 0.7, tapViewFrameSize * 0.7)];
+			[tapImageView setAlpha:0.0];
 		}
 		completion:^(BOOL finished){
-			[tapView removeFromSuperview];
-			[tapView release];
+			[tapImageView removeFromSuperview];
+			[tapImageView release];
 		}];
 }
 
