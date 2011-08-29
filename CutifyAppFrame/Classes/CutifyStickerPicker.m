@@ -302,7 +302,17 @@
 {
 	for(UIButton *button in [self.s.subviews copy])
 	{
-		[button removeFromSuperview];
+//		[button removeFromSuperview];
+		[UIView animateWithDuration:0.15f animations:^{
+			if(button.frame.origin.x > 320)
+			{
+				[button setAlpha:0.0];
+			}
+		}
+						 completion:^(BOOL finished){
+							 [button removeFromSuperview];
+						 }];
+		
 	}
 	
 	int numOfColumns = 4;
@@ -330,8 +340,8 @@
 		[imageButton setTag:i-1];
 //		[imageButton setContentMode:UIViewContentModeScaleAspectFill];
 		[imageButton setStickerMeta:[stickerArray objectAtIndex:i-1]];
+		[imageButton setAlpha:0.0];
 		[self.s addSubview:imageButton];
-		[imageButton release];
 		
 		UILabel *stickerLabel = [[UILabel alloc] initWithFrame:CGRectMake(x,y+60,width,30)];
 		[stickerLabel setText:[[stickerArray objectAtIndex:i-1] stickerLabelString]];
@@ -341,10 +351,30 @@
 		[stickerLabel setShadowColor:[UIColor darkGrayColor]];
 		[stickerLabel setShadowOffset:CGSizeMake(1, 1)];
 		[stickerLabel setTextAlignment:UITextAlignmentCenter];
+		[stickerLabel setAlpha:0.0];
 		[self.s addSubview:stickerLabel];
-		[stickerLabel release];
 		
 		x+=space+width;
+		
+		if(imageButton.frame.origin.x > 320)
+		{
+			[imageButton setAlpha:1.0];
+			[stickerLabel setAlpha:1.0];
+		} else {
+			[UIView animateWithDuration:0.15f delay:0.15f options:nil animations:^{
+				[stickerLabel setAlpha:1.0];
+				[imageButton setAlpha:1.0];
+			}
+			completion:nil];
+			 
+//			[UIView animateWithDuration:0.3f animations:^{
+//				[stickerLabel setAlpha:1.0];
+//				[imageButton setAlpha:1.0];
+//			}];
+		}
+		
+		[stickerLabel release];
+		[imageButton release];
 	}
 
 	int contentWidth = (space+width)*[stickerArray count]+space;
@@ -352,6 +382,7 @@
 	
 	[self.s setContentSize:CGSizeMake(contentWidth, contentHeight)];
 }
+
 
 - (void)dealloc {
     [super dealloc];

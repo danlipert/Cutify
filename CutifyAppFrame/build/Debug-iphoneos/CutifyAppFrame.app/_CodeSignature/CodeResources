@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon@2x.png</key>
+		<data>
+		rch0wsA5RmZX4tgTA5ZqAhZkIhk=
+		</data>
 		<key>ApplyStickerImage@2x.png</key>
 		<data>
 		DA12ZcCJxPyJ4IB9eoR6tnqF5a4=
@@ -534,7 +538,7 @@
 		</data>
 		<key>Default@2x.png</key>
 		<data>
-		v9/P85WgXf9t2j3bNOHNJ4Ml06M=
+		BL6fHKUBltCm0QiNc9NOey1bq00=
 		</data>
 		<key>DeleteButton@2x.png</key>
 		<data>
@@ -936,13 +940,9 @@
 		<data>
 		khN8ZR+K1Ls3A5EspvwhDdDy0fk=
 		</data>
-		<key>Icon2@2x.png</key>
-		<data>
-		vAucco7KARY+YpKbCejTi32o88c=
-		</data>
 		<key>Icon@2x.png</key>
 		<data>
-		cBgp9FuQP3QaG46SrBuRONp1l3o=
+		rch0wsA5RmZX4tgTA5ZqAhZkIhk=
 		</data>
 		<key>InAppPurchaseBackground@2x.png</key>
 		<data>
@@ -954,7 +954,7 @@
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		KkvT1XQFQ7jja3SNP4z9RWPBOrg=
+		46lDPrNxlxH8SnC6RXmlRJvUDIY=
 		</data>
 		<key>MidDemo.plist</key>
 		<data>
@@ -962,7 +962,7 @@
 		</data>
 		<key>NavigationBar@2x.png</key>
 		<data>
-		X3t7jwIvfDg0tIkZya6qQjjVlYA=
+		QLbarVTMFd5lw2DQqT5rldW9TpA=
 		</data>
 		<key>OLDDefault@2x.png</key>
 		<data>
@@ -974,11 +974,11 @@
 		</data>
 		<key>PhotoCaptureViewController.nib</key>
 		<data>
-		TTaFT/Oc+0XRp/NuIqE6fathUJQ=
+		CT/FpKyRM+9oPpG9Kr2To9ItlXY=
 		</data>
 		<key>PhotoPreviewViewController.nib</key>
 		<data>
-		radlY4sBEuG+QtGKk7ky9ydr2as=
+		mQwLkn9F9UYvnzPe7DE3WV+3WII=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -1018,7 +1018,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		N7nQJRh0DSQOkWmRMPW7l3Uj0sw=
+		sbit106wB/VkT+HiABBhy+Z+wnQ=
 		</data>
 		<key>test.plist</key>
 		<data>
