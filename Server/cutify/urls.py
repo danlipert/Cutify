@@ -6,15 +6,19 @@ from django.contrib import admin
 admin.autodiscover()
 
 #from tmoa.views import HomeView, ContactView
-
+from cutify.views import OAuthCallbackView
 from sharing.views import SharedPhotoDetailView
 
 urlpatterns = patterns('',
     # Examples:
     #url(r'^$', HomeView.as_view(), name='home'),
     
+    url(r'^derpa/$', OAuthCallbackView.as_view(), name='oauth_callback'),
+    
     url(r'^uploads/$', 'sharing.views.upload', name='upload_shared'),
     url(r'^(?P<long_id>\w*)$', SharedPhotoDetailView.as_view(), name='view_shared'),
+
+    ('^s/', include('shorturls.urls')),
 
     # url(r'^tmoa/', include('tmoa.foo.urls')),
 

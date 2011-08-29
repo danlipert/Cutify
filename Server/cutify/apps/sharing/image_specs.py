@@ -22,3 +22,8 @@ class Thumbnail(ImageSpec):
 # and our display spec
 class Display(ImageSpec):
     pass
+
+class AdminThumbnail(ImageSpec): 
+    access_as = 'admin_thumbnail' 
+    pre_cache = True
+    processors = [ResizeThumb, EnchanceThumb] 

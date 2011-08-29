@@ -1,4 +1,62 @@
 
-ERROR Upload request recieved.
-ERROR fb: 167889749949567%7C2.AQClQbtaXxivsDOF.3600.1312596000.3-100000485686813%7COcHf7RoPBEyU2MO_xOlXYhkpyoI&expires_in=5145&code=AQAkw6SMZlmlHveotSi_C84QbV-LHeqEDHlanlyMBoIkj6RYujpPKXZ6iJdGCKsbD4R6C5s5YqSGvFhKiuBQxoRmeD5x6gi4et0hjMR1IXN5uuCKidHrI9ldU8OZKpoeIPKy16nTcuTxCQ_JReAFnYpY3qIJeNcAV9amb616HiEZ4II9punYV-b-wqpTpMj8HBLq3ADL3CXzlYPKUVZCAPDp
-ERROR FB response: {"error":{"type":"OAuthException","message":"Invalid access token signature."}}
+ERROR Upload request recieved
+ERROR Caption is None
+ERROR fb: 167889749949567%7C2.AQDOXhTraK0xRivN.3600.1314493200.3-100000485686813%7Chgy6Z0lYiDfrEyuA_TtbeofczFc
+ERROR Could not save to facebook: global name 'token_secret' is not defined
+ERROR tw: 51220279-ZeInqKdgmlfl0GLfZUheoTMGUNWxOy0GcCQq2mCI
+ERROR Twitter Error: unsupported format character '@' (0x40) at index 1
+ERROR tu: eYul1P7JfliShZcg3U1c8hEMglAMJzhJWmrqgO1pzVSD3YMKWy
+ERROR Tumblr Response: {"meta":{"status":201,"msg":"Created"},"response":{"id":9476488603}}
+ERROR Upload request recieved
+ERROR Caption is None
+ERROR fb: 167889749949567%7C2.AQDOXhTraK0xRivN.3600.1314493200.3-100000485686813%7Chgy6Z0lYiDfrEyuA_TtbeofczFc
+ERROR Facebook Response: {"id":"100000485686813_275243789168475"}
+ERROR tw: 51220279-ZeInqKdgmlfl0GLfZUheoTMGUNWxOy0GcCQq2mCI
+ERROR Twitter Response: {"error":"Could not authenticate with OAuth.","request":"\/statuses\/update.json"}
+ERROR tu: eYul1P7JfliShZcg3U1c8hEMglAMJzhJWmrqgO1pzVSD3YMKWy
+ERROR Tumblr Response: {"meta":{"status":201,"msg":"Created"},"response":{"id":9476662235}}
+ERROR Upload request recieved
+ERROR Caption is Another cutify creation!
+ERROR fb: 167889749949567%7C2.AQDOXhTraK0xRivN.3600.1314493200.3-100000485686813%7Chgy6Z0lYiDfrEyuA_TtbeofczFc
+ERROR Facebook Response: {"id":"100000485686813_275246552501532"}
+ERROR tw: 51220279-ZeInqKdgmlfl0GLfZUheoTMGUNWxOy0GcCQq2mCI
+ERROR Twitter Response: {"in_reply_to_user_id_str":null,"id_str":"107602359902945280","contributors":null,"retweeted":false,"retweet_count":0,"created_at":"Sat Aug 27 23:56:16 +0000 2011","geo":null,"user":{"id_str":"51220279","default_profile":false,"verified":false,"profile_text_color":"666666","protected":false,"url":null,"profile_sidebar_fill_color":"252429","followers_count":33,"name":"Dave Sluder","profile_background_tile":true,"listed_count":1,"following":false,"utc_offset":-28800,"description":"Musician, DJ, and mobile app developer for @nightdaystudios and @tmoapps . I'm an adamant vegan and an adamant eater. I like to ride my bike.","created_at":"Fri Jun 26 20:51:26 +0000 2009","profile_link_color":"2FC2EF","profile_image_url":"http:\/\/a3.twimg.com\/profile_images\/1419851142\/6a00d83452989a69e200e5503ce39a8833-800wi_normal.jpg","profile_sidebar_border_color":"181A1E","time_zone":"Pacific Time (US & Canada)","friends_count":52,"screen_name":"modfrq","default_profile_image":false,"show_all_inline_media":false,"contributors_enabled":false,"geo_enabled":false,"profile_use_background_image":true,"profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/121209913\/metroid2.jpg","profile_background_color":"1A1B1F","is_translator":false,"lang":"en","profile_background_image_url":"http:\/\/a1.twimg.com\/profile_background_images\/121209913\/metroid2.jpg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1419851142\/6a00d83452989a69e200e5503ce39a8833-800wi_normal.jpg","location":"Portland, OR","id":51220279,"follow_request_sent":false,"statuses_count":17,"notifications":false,"favourites_count":0},"in_reply_to_status_id":null,"coordinates":null,"in_reply_to_user_id":null,"truncated":false,"favorited":false,"source":"\u003Ca href=\"http:\/\/cutifyapp.com\" rel=\"nofollow\"\u003ECutify App\u003C\/a\u003E","possibly_sensitive":false,"in_reply_to_status_id_str":null,"id":107602359902945280,"place":null,"in_reply_to_screen_name":null,"text":"Another cutify creation! http:\/\/t.co\/OVALSmH #cutify"}
+ERROR tu: eYul1P7JfliShZcg3U1c8hEMglAMJzhJWmrqgO1pzVSD3YMKWy
+ERROR Tumblr Response: {"meta":{"status":201,"msg":"Created"},"response":{"id":9476983866}}
+ERROR Upload request recieved
+ERROR Caption is Realizes
+ERROR fb: 167889749949567%7C2.AQDOXhTraK0xRivN.3600.1314493200.3-100000485686813%7Chgy6Z0lYiDfrEyuA_TtbeofczFc
+ERROR Facebook Response: {"id":"100000485686813_275248049168049"}
+ERROR tw: 51220279-ZeInqKdgmlfl0GLfZUheoTMGUNWxOy0GcCQq2mCI
+ERROR Twitter Response: Error: you are requesting an invalid URL.
+
+ERROR tu: eYul1P7JfliShZcg3U1c8hEMglAMJzhJWmrqgO1pzVSD3YMKWy
+ERROR Tumblr Response: {"meta":{"status":201,"msg":"Created"},"response":{"id":9477153752}}
+ERROR Upload request recieved
+ERROR Caption is Test
+ERROR fb: 167889749949567%7C2.AQD22zLkkgdS39p8.3600.1314496800.3-100000485686813%7CwvQDYRvWgsnzlJPVYCDP3GOJND4
+ERROR Facebook Response: {"id":"100000485686813_275285515830969"}
+ERROR tw: 51220279-ZeInqKdgmlfl0GLfZUheoTMGUNWxOy0GcCQq2mCI
+ERROR Twitter Response: {"in_reply_to_status_id":null,"created_at":"Sun Aug 28 01:44:20 +0000 2011","geo":null,"user":{"profile_background_tile":true,"protected":false,"url":null,"listed_count":1,"name":"Dave Sluder","profile_link_color":"2FC2EF","following":false,"utc_offset":-28800,"profile_sidebar_border_color":"181A1E","description":"Musician, DJ, and mobile app developer for @nightdaystudios and @tmoapps . I'm an adamant vegan and an adamant eater. I like to ride my bike.","time_zone":"Pacific Time (US & Canada)","created_at":"Fri Jun 26 20:51:26 +0000 2009","friends_count":52,"profile_image_url":"http:\/\/a3.twimg.com\/profile_images\/1419851142\/6a00d83452989a69e200e5503ce39a8833-800wi_normal.jpg","default_profile_image":false,"show_all_inline_media":false,"contributors_enabled":false,"geo_enabled":false,"profile_use_background_image":true,"default_profile":false,"profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/121209913\/metroid2.jpg","profile_background_color":"1A1B1F","screen_name":"modfrq","is_translator":false,"profile_background_image_url":"http:\/\/a1.twimg.com\/profile_background_images\/121209913\/metroid2.jpg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1419851142\/6a00d83452989a69e200e5503ce39a8833-800wi_normal.jpg","follow_request_sent":false,"statuses_count":17,"favourites_count":0,"id_str":"51220279","lang":"en","verified":false,"profile_text_color":"666666","location":"Portland, OR","id":51220279,"notifications":false,"profile_sidebar_fill_color":"252429","followers_count":33},"in_reply_to_user_id":null,"truncated":false,"coordinates":null,"favorited":false,"possibly_sensitive":false,"in_reply_to_status_id_str":null,"in_reply_to_screen_name":null,"source":"\u003Ca href=\"http:\/\/cutifyapp.com\" rel=\"nofollow\"\u003ECutify App\u003C\/a\u003E","in_reply_to_user_id_str":null,"id_str":"107629554914430977","id":107629554914430977,"contributors":null,"place":null,"retweeted":false,"retweet_count":0,"text":"Test http:\/\/t.co\/JXRpD7n #cutify"}
+ERROR tu: 9vJ28m48Z31zjjkD0MM7Oqy3SsGNjO2ujwUFaoltbXwYIgJV8u
+ERROR Tumblr Response: {"meta":{"status":201,"msg":"Created"},"response":{"id":9481583876}}
+ERROR Upload request recieved
+ERROR Caption is  Cupify!
+ERROR fb: 167889749949567%7C2.AQBAoCuuHET_IElI.3600.1314576000.3-2203005%7COCmStaHdS-094tUDlHn4oMysup4
+ERROR Facebook Response: {"id":"2203005_10100836486910343"}
+ERROR tw: 71464471-VCnRsrDIAI8MwC7EesOVxlO3Mk25E7Xma2iAxqHVg
+ERROR Twitter Response: {"in_reply_to_status_id":null,"created_at":"Sun Aug 28 22:39:12 +0000 2011","geo":null,"user":{"profile_background_tile":true,"protected":false,"url":"http:\/\/www.lipert.net","listed_count":5,"name":"Dan Lipert","profile_link_color":"ff0d52","following":false,"utc_offset":-36000,"profile_sidebar_border_color":"909d9e","description":"developer and i do music too and im vegan","time_zone":"Hawaii","created_at":"Fri Sep 04 05:36:38 +0000 2009","friends_count":412,"profile_image_url":"http:\/\/a2.twimg.com\/profile_images\/589998348\/easterislandheadicon_normal.gif","default_profile_image":false,"show_all_inline_media":false,"contributors_enabled":false,"geo_enabled":true,"profile_use_background_image":false,"default_profile":false,"profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/34343366\/594588.png","profile_background_color":"80a8a8","screen_name":"easterisle","is_translator":false,"profile_background_image_url":"http:\/\/a2.twimg.com\/profile_background_images\/34343366\/594588.png","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/589998348\/easterislandheadicon_normal.gif","follow_request_sent":false,"statuses_count":668,"favourites_count":4,"id_str":"71464471","lang":"en","verified":false,"profile_text_color":"3a4c49","location":"portland, or","id":71464471,"notifications":false,"profile_sidebar_fill_color":"a88c8c","followers_count":151},"in_reply_to_user_id":null,"truncated":false,"coordinates":null,"favorited":false,"possibly_sensitive":false,"in_reply_to_status_id_str":null,"in_reply_to_screen_name":null,"source":"\u003Ca href=\"http:\/\/cutifyapp.com\" rel=\"nofollow\"\u003ECutify App\u003C\/a\u003E","in_reply_to_user_id_str":null,"id_str":"107945351981441024","id":107945351981441024,"contributors":null,"place":null,"retweeted":false,"retweet_count":0,"text":"Cupify! http:\/\/t.co\/CaPRx68 #cutify"}
+ERROR tu: op1fFftsuNGWDJzR2zSNS2LJxe8ksbAtuDfV0uIJ6rPfAeBwW3
+ERROR Tumblr Response: {"meta":{"status":201,"msg":"Created"},"response":{"id":9520196303}}
+ERROR Upload request recieved
+ERROR Caption is Test
+ERROR fb: 167889749949567%7C2.AQBAoCuuHET_IElI.3600.1314576000.3-2203005%7COCmStaHdS-094tUDlHn4oMysup4
+ERROR Facebook Response: {"id":"2203005_10100836508182713"}
+ERROR Upload request recieved
+ERROR Caption is Another cutify creation!
+ERROR fb: 167889749949567%7C2.AQBvG8w67t27tNZD.3600.1314590400.3-100000485686813%7Cv2y2Ohj6csUpFd3rjsdu7ellvaA
+ERROR Facebook Response: {"id":"100000485686813_275836509109203"}
+ERROR Upload request recieved
+ERROR Caption is Another cutify creation!
+ERROR fb: 167889749949567%7C2.AQBvG8w67t27tNZD.3600.1314590400.3-100000485686813%7Cv2y2Ohj6csUpFd3rjsdu7ellvaA
+ERROR Facebook Response: {"id":"100000485686813_275837139109140"}

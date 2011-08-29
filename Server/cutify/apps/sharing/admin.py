@@ -1,5 +1,11 @@
 from django.contrib import admin
 from sharing.models import SharedPhoto
 
-admin.site.register(SharedPhoto)
+
+class SharedPhotoAdmin(admin.ModelAdmin):
+
+    list_display = ('long_id', 'admin_thumbnail_image', 'caption', 'views')
+
+
+admin.site.register(SharedPhoto, SharedPhotoAdmin)
 

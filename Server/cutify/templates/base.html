@@ -16,6 +16,7 @@
 </head>
 <body{% block body_style %}{% endblock %}>
 <div id="page-wrapper">
+    {% block page %}
     <div class="col_wrapper">
         <div id="content">
             {% block content %}{% endblock %}
@@ -23,14 +24,18 @@
         <div id="sidebar">
             <img class="logo" src="{{ MEDIA_URL }}/images/logo.png" />
             <p class="tagline">Cutify lets you add cute faces to your pictures!</p>
-            <a class="app_store" href=""></a>
+            <!--<a class="app_store" href=""></a>-->
+            <p style="font-size: 32px;"><br />Coming soon for iPhone!<br /><br /><br /></p>
             <p>Recently Cutified...</p>
+            
+            {% load shorturl %}
+            
             <ul class="photo_feed">
-            {% for photo in photo_feed %}
+            {% for recent_photo in photo_feed %}
                 <li{% if forloop.counter|divisibleby:"4" %} class="last"{% endif %}>
-                    {% if photo.pk %}
-                    <a href="{{ photo.get_absolute_url }}">
-                        <img src="{{ photo.thumbnail_image.url }}" />
+                    {% if recent_photo.pk %}
+                    <a href="{% shorturl recent_photo %}">
+                        <img src="{{ recent_photo.thumbnail_image.url }}" />
                     </a>
                     {% else %}
                     &nbsp;
@@ -47,12 +52,29 @@
             <a target="new" href="http://theministryofapps.us">The Ministry of Apps</a>
         </p>
     </div>
+    {% endblock %}
 </div>
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
 
 {% block body_extra %}{% endblock %}
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=7152943; 
+var sc_invisible=1; 
+var sc_security="aa5638de"; 
+</script>
+
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script><noscript><div
+class="statcounter"><a title="joomla site stats"
+href="http://statcounter.com/joomla/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/7152943/0/aa5638de/1/"
+alt="joomla site stats" ></a></div></noscript>
+<!-- End of StatCounter Code -->
 
 </body>
 </html>

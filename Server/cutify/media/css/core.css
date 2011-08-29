@@ -14,9 +14,26 @@ a {
     text-decoration: none;
 }
 
+.error {
+    font-size: 32px;
+    line-height: 38px;;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: left;
+}
+.error a {
+    text-decoration: underline;
+}
+
 #page-wrapper {
 	background: url('../images/bg.png');
     height: 800px;
+}
+
+.callback {
+    padding-top: 100px;
+    text-align: center;
 }
 
 .col_wrapper {
@@ -32,8 +49,11 @@ a {
     margin-right: 20px;
 }
     .photo_frame {
-        height: 612px;
-        width: 612px;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 8px;
+    }
+    .photo_frame img {
         -moz-box-shadow: 2px 2px 8px #000;
         -webkit-box-shadow: 2px 2px 8px #000;
         box-shadow: 2px 2px 8px #000;
@@ -41,7 +61,7 @@ a {
     .caption {
 	    font-weight: bold;
         width: 100%;
-        margin-top: 20px;
+        margin-top: 24px;
         text-align: center;
     }
 
@@ -52,7 +72,7 @@ a {
 }
     .logo {
         
-        margin: 12px auto 24px;
+        margin: 32px auto 24px;
         
     }
     .tagline {

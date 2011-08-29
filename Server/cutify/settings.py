@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.join(PROJECT_ROOT, 'apps/'))
 sys.path.insert(0, os.path.join(PROJECT_ROOT, 'lib/'))
 
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -54,7 +54,7 @@ MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'media/')
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
-MEDIA_URL = 'http://cutify.tmoa.webfactional.com/media/'
+MEDIA_URL = 'http://media.cutifyapp.com/ct/'
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
@@ -64,12 +64,12 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static/')
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = 'http://cutify.tmoa.webfactional.com/static/'
+STATIC_URL = MEDIA_URL + 'static/'
 
 # URL prefix for admin static files -- CSS, JavaScript and images.
 # Make sure to use a trailing slash.
 # Examples: "http://foo.com/static/admin/", "/static/admin/".
-ADMIN_MEDIA_PREFIX = '/media/admin/'
+ADMIN_MEDIA_PREFIX = MEDIA_URL  + 'admin/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
@@ -129,7 +129,16 @@ INSTALLED_APPS = (
     #'compress',
     'sharing',
     'imagekit',
+    'shorturls',
 )
+
+EMAIL_HOST = 'smtp.webfaction.com'
+EMAIL_HOST_USER = 'tmoa_gobiko'
+EMAIL_HOST_PASSWORD = 'iMEb7YHEj5Q0YjBx'
+DEFAULT_FROM_EMAIL = 'notify@gobiko.com'
+SERVER_EMAIL = 'notify@gobiko.com'
+
+DEFAULT_EMAIL = "notify@gobiko.com"
 
 #CACHE_BACKEND = 'memcached://unix:/home/enune/memcached.sock'
 #CACHE_MIDDLEWARE_KEY_PREFIX = 'jenne'
@@ -189,6 +198,10 @@ LOGGING = {
     }
 }
 
+
+SHORTEN_MODELS = {
+    'C': 'sharing.sharedphoto',
+}
 
 try:
     from local_settings import *
