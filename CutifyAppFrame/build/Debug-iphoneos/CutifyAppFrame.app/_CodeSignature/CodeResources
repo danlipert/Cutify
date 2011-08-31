@@ -4,1017 +4,1793 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>AppIcon@2x.png</key>
+		<key>Afraid.png</key>
 		<data>
-		rch0wsA5RmZX4tgTA5ZqAhZkIhk=
+		VwFC/A6NpvXyTtW5ffyYGTGCMA4=
+		</data>
+		<key>Afraid@2x.png</key>
+		<data>
+		QHMVvef0VJBWmc3rmGdkEbZJ45k=
+		</data>
+		<key>Agape.png</key>
+		<data>
+		kY2VCQuWF5UFdwpdIhlOMM7k6Zw=
+		</data>
+		<key>Agape@2x.png</key>
+		<data>
+		/ldMVW4Rh/dSWVnkjKWIO9+6uv4=
+		</data>
+		<key>Aghast.png</key>
+		<data>
+		c6ZsOZFfvfQH/9XfqUqUVjrClis=
+		</data>
+		<key>Aghast@2x.png</key>
+		<data>
+		jjK8KOsyrrceMpXX/UmmgVtfHjk=
+		</data>
+		<key>Agitated@2x.png</key>
+		<data>
+		O0wmTgvqAb1aRyXF1VM2/sllNos=
+		</data>
+		<key>Alarmed.png</key>
+		<data>
+		zdvZtkqkMwQgDL7PqjyiI/W2kzw=
+		</data>
+		<key>Alarmed@2x.png</key>
+		<data>
+		UB9uc/Ynq6OCTt5HR3t2gI622xE=
+		</data>
+		<key>Amazed.png</key>
+		<data>
+		ITh84YxuFJa+Adey8429ITG4kiE=
+		</data>
+		<key>Amazed@2x.png</key>
+		<data>
+		plphXBDND0u2F53ig0HurlDfjA8=
+		</data>
+		<key>Angry.png</key>
+		<data>
+		KW0GWQLuq8MOYx6GU8Hjmjt5wJY=
+		</data>
+		<key>Angry@2x.png</key>
+		<data>
+		3IcTDYCAEbXAOwpuhl+mp4f9Oe0=
+		</data>
+		<key>Animated.png</key>
+		<data>
+		++BCGlQsxuh4zMbiK1jUp8TqA3s=
+		</data>
+		<key>Animated@2x.png</key>
+		<data>
+		3uoMUNqUpcp4X1yHAgziv+gVBow=
+		</data>
+		<key>Annoyed.png</key>
+		<data>
+		dUX0UCX7eK+JyeqLOzJV74fpjw0=
+		</data>
+		<key>Annoyed@2x.png</key>
+		<data>
+		F74TRWhwuwiIeF4d0oUkDNQNkf8=
+		</data>
+		<key>Appalled.png</key>
+		<data>
+		D4wcTyrF7vz/XdPDmJmDZicv6V8=
+		</data>
+		<key>Appalled@2x.png</key>
+		<data>
+		lZk+4cXoiTfGEhGCiXkO3x12t3I=
 		</data>
 		<key>ApplyStickerImage@2x.png</key>
 		<data>
 		DA12ZcCJxPyJ4IB9eoR6tnqF5a4=
 		</data>
+		<key>Asleep.png</key>
+		<data>
+		23oSUYGP+5mtlydRA5E6QI6Lnr4=
+		</data>
+		<key>Asleep@2x.png</key>
+		<data>
+		k05FvnoGXCs/xZ9n0Fd5DnSIEVU=
+		</data>
+		<key>Astonished.png</key>
+		<data>
+		w6oWPCMPoRupeuAcCkam9ANgDTA=
+		</data>
+		<key>Astonished@2x.png</key>
+		<data>
+		iee60ZQ7DelAy/IVXN0Wqr9R0uI=
+		</data>
+		<key>Awestruck.png</key>
+		<data>
+		pjb8sgViE8T+r97Y333VYUsSmJ0=
+		</data>
+		<key>Awestruck@2x.png</key>
+		<data>
+		tFytq+0MxB5QbvT/MK8Bh5qqGVc=
+		</data>
+		<key>BackButton.png</key>
+		<data>
+		8HQ3xwWKQ4jXdRji+orRjqJiMkI=
+		</data>
 		<key>BackButton@2x.png</key>
 		<data>
-		zdLEfGWhXJga/9/2ZxVTgcqSYqU=
+		Nwp5vyQOpaPFNO9pTCp0s+VJYjo=
+		</data>
+		<key>Banter.png</key>
+		<data>
+		qCzzZvWYhPMu/xNusbwYUeg0hus=
+		</data>
+		<key>Banter@2x.png</key>
+		<data>
+		Ho7t6hovLt6GtpJiJeZ6sEQqP8g=
+		</data>
+		<key>Bashful@2x.png</key>
+		<data>
+		oEVvpayQZz6AdASX25kiW0yY5ng=
+		</data>
+		<key>Bawling.png</key>
+		<data>
+		znQiAzZexnwNn+B4m3jgH330ceA=
+		</data>
+		<key>Bawling@2x.png</key>
+		<data>
+		SIh2UWH8/mH2lsf8MVA1REMPuaM=
+		</data>
+		<key>Beaming.png</key>
+		<data>
+		QKOmWLIqWUY4Mr9JyZJtY5azs2g=
+		</data>
+		<key>Beaming@2x.png</key>
+		<data>
+		0X87235/5R4LLgu8Cvm02qIAzHA=
+		</data>
+		<key>Beh.png</key>
+		<data>
+		LmN07RA5ZU+zq8IhRoyqUndq1Ak=
+		</data>
+		<key>Beh@2x.png</key>
+		<data>
+		EompQI142i1EYLraP4qyFPgWSvI=
+		</data>
+		<key>Bewildered.png</key>
+		<data>
+		SW7pahB9KYODOPwM9dFdnWLzVD4=
+		</data>
+		<key>Bewildered@2x.png</key>
+		<data>
+		FHQIGalvGi+1jHTEwi5NYr4Pu0g=
+		</data>
+		<key>Big Eyed.png</key>
+		<data>
+		SopIHCA/+KlFr9/wdsl6+Dzud5M=
+		</data>
+		<key>Big Eyed@2x.png</key>
+		<data>
+		VUj7OwM70pUuMWyBVnryVkhcO20=
+		</data>
+		<key>Big Grin.png</key>
+		<data>
+		eQNd68ICIyDxqNKBwq/7FTgJiXk=
+		</data>
+		<key>Big Grin@2x.png</key>
+		<data>
+		4KFzJfJwK4ao26ctzZV894T52yg=
+		</data>
+		<key>Bitter.png</key>
+		<data>
+		xImbYKiQ1YlsK6VZaz4RXsi2vLY=
+		</data>
+		<key>Bitter@2x.png</key>
+		<data>
+		q5SUxOpRspqCAMV4H2jo2bCDJK4=
+		</data>
+		<key>Bland.png</key>
+		<data>
+		6e4QWVwOSEQkA6xSKrBH7ZQ5LUY=
+		</data>
+		<key>Bland@2x.png</key>
+		<data>
+		zulKrJ9vzGBY4UIk+Oy4JbJgNPU=
+		</data>
+		<key>Blissful.png</key>
+		<data>
+		TOpT8ZvJHc2KL6P1RLHCXRnV41g=
+		</data>
+		<key>Blissful@2x.png</key>
+		<data>
+		71wX4IOhIYZKN6op+IE5Em+tojs=
+		</data>
+		<key>Blithe.png</key>
+		<data>
+		/XeUlVFenCqKl3FKFntTmzQkMso=
+		</data>
+		<key>Blithe@2x.png</key>
+		<data>
+		0795f/UjK34FmJSVIyUtS88XSKY=
+		</data>
+		<key>Blue.png</key>
+		<data>
+		nX63c3KO5QIb3HuW9ljkw4K8+14=
+		</data>
+		<key>Blue@2x.png</key>
+		<data>
+		LGac1wR+MhnlzoeCN98uH3XCZ+o=
+		</data>
+		<key>Blushing.png</key>
+		<data>
+		eGVs4uT5a7mx/uF8/Uq6g+kX0BE=
+		</data>
+		<key>Blushing@2x.png</key>
+		<data>
+		CwSKHM36p0CtpKll8cmKpTF0Y/c=
+		</data>
+		<key>Boohoo.png</key>
+		<data>
+		yup3WwodPhVXWAJAfZoPUN+wWfw=
+		</data>
+		<key>Boohoo@2x.png</key>
+		<data>
+		MXq7fRVzmNNpzVyjIc12oQZm/io=
+		</data>
+		<key>Bored.png</key>
+		<data>
+		Tdm67tBTpkYrD6/4aMy+vxl9op8=
+		</data>
+		<key>Bored@2x.png</key>
+		<data>
+		x1NJ9qGpeAiwzfGNETdAZBU3qBU=
+		</data>
+		<key>Bright.png</key>
+		<data>
+		nrClVmX79mFQsdhh9qRBy54cY5Y=
+		</data>
+		<key>Bright@2x.png</key>
+		<data>
+		qT08j2zdNzVgsggd+LOp2mRMyi0=
+		</data>
+		<key>Bu-n.png</key>
+		<data>
+		PqWteL4jDGT2A/PAfdn7ae/JKSc=
+		</data>
+		<key>Bu-n@2x.png</key>
+		<data>
+		asikLlo97IM8qEXv1gRqSK/NYRI=
+		</data>
+		<key>Bummer.png</key>
+		<data>
+		GKHxDyRroZ6OS3bC9dZk3q5ZfGg=
+		</data>
+		<key>Bummer@2x.png</key>
+		<data>
+		KLtlsxkpCNEgyHHbVS/QT5xmzbo=
+		</data>
+		<key>BuyMorePacksButton.png</key>
+		<data>
+		mAv7ufBcL8pbPK3lyu9jkNZDsMY=
 		</data>
 		<key>BuyMorePacksButton@2x.png</key>
 		<data>
 		42Rx3oHcTVJRl/X53R+Vela+B44=
 		</data>
+		<key>BuyPackButton.png</key>
+		<data>
+		5YEgq3xv5WaB0ujyIEXgvKt602E=
+		</data>
 		<key>BuyPackButton@2x.png</key>
 		<data>
 		qx57j625cMPFqPUZEHzU4dmiByg=
+		</data>
+		<key>Calm.png</key>
+		<data>
+		Uf5tJnNjPgszA+bw7Wfpcmp4pnU=
+		</data>
+		<key>Calm@2x.png</key>
+		<data>
+		oj+b77cRRM9i1C8luUv02rS+AzM=
+		</data>
+		<key>CameraBackButton.png</key>
+		<data>
+		aMhL1aOFs3fPQNlh/XdxXva/zY8=
 		</data>
 		<key>CameraBackButton@2x.png</key>
 		<data>
 		bnC5XpzDCpsagVbbCG4pZ4jP+Es=
 		</data>
+		<key>CameraScreenBar.png</key>
+		<data>
+		mEk7f1cGKuVU0D26xVi9K64kkaw=
+		</data>
 		<key>CameraScreenBar@2x.png</key>
 		<data>
 		s00JGvsEcyK2sCPJC+moN1ftxTw=
+		</data>
+		<key>CameraScreenButton.png</key>
+		<data>
+		wVpKyQ23DOZ4D9TW0oDavIj8rQ8=
 		</data>
 		<key>CameraScreenButton@2x.png</key>
 		<data>
 		R7ppxrLftkkmzj717P7PbszJ4qE=
 		</data>
+		<key>CameraScreenCrop.png</key>
+		<data>
+		/u57cTlQa3+e4kFz4CGB8kAeAb8=
+		</data>
 		<key>CameraScreenCrop@2x.png</key>
 		<data>
 		PHpgqJnoEjXRakcFqSDMt3Pa07c=
+		</data>
+		<key>CameraScreenCutifyLibraryIcon.png</key>
+		<data>
+		Alfd3ocFzeKygU+pvixnKC/h+6k=
 		</data>
 		<key>CameraScreenCutifyLibraryIcon@2x.png</key>
 		<data>
 		N1SrJrvGkWGmuSmU+Rd5N6eL6TI=
 		</data>
+		<key>CameraScreenFlashAuto.png</key>
+		<data>
+		g9wc+QrRkxl9E7JbyMoUuEcU2+Y=
+		</data>
 		<key>CameraScreenFlashAuto@2x.png</key>
 		<data>
 		Y5e4dQec/E/m4jmT4974umJUv5w=
+		</data>
+		<key>CameraScreenFlashOff.png</key>
+		<data>
+		UeuMmeBAYe06fsEMIuzHb1M8jWo=
 		</data>
 		<key>CameraScreenFlashOff@2x.png</key>
 		<data>
 		Uj80asPxlljyCPIppeQJNpaMrPk=
 		</data>
+		<key>CameraScreenFlashOn.png</key>
+		<data>
+		wsXLXJIuD2hfkbuDvZpBKbl5G6A=
+		</data>
 		<key>CameraScreenFlashOn@2x.png</key>
 		<data>
 		vcmsESAMLioH+djL+GrvvHKs5jk=
+		</data>
+		<key>CameraScreenLibraryIcon.png</key>
+		<data>
+		OgxQO8pA7LWfP6uw+c7r51UI4oo=
 		</data>
 		<key>CameraScreenLibraryIcon@2x.png</key>
 		<data>
 		YbgeBae5u4KRgDccFwbYZlNvqvg=
 		</data>
-		<key>CutifyPack100@2x.png</key>
+		<key>Candid.png</key>
 		<data>
-		42O5r44D9+aoYAFIdndn1LGqqUg=
+		tBowubWzKScN+2YOpofV7JEUkJ0=
 		</data>
-		<key>CutifyPack101@2x.png</key>
-		<data>
-		5Cmmvk28gfV0ZiXi5HcvqU+huRI=
-		</data>
-		<key>CutifyPack102@2x.png</key>
-		<data>
-		oZquULPPMUBUfTXHJBg4wZjllD0=
-		</data>
-		<key>CutifyPack103@2x.png</key>
-		<data>
-		3txdaDGt/wwvEfc9ofN5PzhRBkQ=
-		</data>
-		<key>CutifyPack104@2x.png</key>
-		<data>
-		tFytq+0MxB5QbvT/MK8Bh5qqGVc=
-		</data>
-		<key>CutifyPack105@2x.png</key>
-		<data>
-		CFORilqLegjxLePvDAc38p5wjXM=
-		</data>
-		<key>CutifyPack106@2x.png</key>
-		<data>
-		/MY1bwo8LfwctZb9L5O86PJgxtQ=
-		</data>
-		<key>CutifyPack107@2x.png</key>
-		<data>
-		HhR98U+kEZDC+R6fz4s5tjxGeHA=
-		</data>
-		<key>CutifyPack108@2x.png</key>
-		<data>
-		71wX4IOhIYZKN6op+IE5Em+tojs=
-		</data>
-		<key>CutifyPack109@2x.png</key>
-		<data>
-		V2/TJrH7oGGLgeEsDznViXTj/6Q=
-		</data>
-		<key>CutifyPack10@2x.png</key>
-		<data>
-		rOLG7/t9F3/xiDuhdd0ss2PVvWc=
-		</data>
-		<key>CutifyPack110@2x.png</key>
-		<data>
-		WapmAbTI/E2xB0gas2sbuBmc2+Y=
-		</data>
-		<key>CutifyPack111@2x.png</key>
-		<data>
-		t0c7oMt47f5M/A7HjXe5xZRHKhs=
-		</data>
-		<key>CutifyPack112@2x.png</key>
-		<data>
-		oI0cmG8yEkObtMIMPkYca2YqKYU=
-		</data>
-		<key>CutifyPack113@2x.png</key>
-		<data>
-		IdzNLoDzMsmPfuFkf7pOx/ZjVqs=
-		</data>
-		<key>CutifyPack114@2x.png</key>
-		<data>
-		HTvh/L3EFhv9kcj+1gicKi8TLWo=
-		</data>
-		<key>CutifyPack115@2x.png</key>
-		<data>
-		BwVEbHy+s1efiQF+5eR2MUczejM=
-		</data>
-		<key>CutifyPack116@2x.png</key>
-		<data>
-		GnLRnfctwVqOdAv08B+4syw2fBc=
-		</data>
-		<key>CutifyPack117@2x.png</key>
-		<data>
-		4OjiCZBM7PTM8dqCqvBF20qOlOA=
-		</data>
-		<key>CutifyPack118@2x.png</key>
-		<data>
-		J8JzYdcyUUg7pPLV8GjdkbK8kvQ=
-		</data>
-		<key>CutifyPack119@2x.png</key>
-		<data>
-		/v2j+YmXdnOwOFdrjDHAUOyYqZw=
-		</data>
-		<key>CutifyPack11@2x.png</key>
-		<data>
-		U2Oqf7YW5zMtY/OwKlBur7g5rOA=
-		</data>
-		<key>CutifyPack120@2x.png</key>
-		<data>
-		5hfaa0gsuSBz4fuVOJ0KoOHu1LI=
-		</data>
-		<key>CutifyPack121@2x.png</key>
-		<data>
-		WW3/kL6FS711hD9YWJGB8BrNpdw=
-		</data>
-		<key>CutifyPack12@2x.png</key>
-		<data>
-		cp9rM+dzitgNhNckzH2Pc4X3t2s=
-		</data>
-		<key>CutifyPack13@2x.png</key>
-		<data>
-		jjK8KOsyrrceMpXX/UmmgVtfHjk=
-		</data>
-		<key>CutifyPack14@2x.png</key>
-		<data>
-		jb7/WvVTtjDBUwzdrXhj9O7tBc4=
-		</data>
-		<key>CutifyPack15@2x.png</key>
-		<data>
-		o+CMHcZ2+3XIcN07ZPFQfqYqCX4=
-		</data>
-		<key>CutifyPack16@2x.png</key>
-		<data>
-		JjoYrdwCOnpARuA8aooNmQU9cIk=
-		</data>
-		<key>CutifyPack17@2x.png</key>
-		<data>
-		m41UwGeBEnH2nC1TMGvU7Kd0UJw=
-		</data>
-		<key>CutifyPack18@2x.png</key>
-		<data>
-		EompQI142i1EYLraP4qyFPgWSvI=
-		</data>
-		<key>CutifyPack19@2x.png</key>
-		<data>
-		MjlFb62DhQi3JVYxnnTTIo0W5wg=
-		</data>
-		<key>CutifyPack1@2x.png</key>
-		<data>
-		RaJ1vQmTrokiwGKQFeZBW3GL+B0=
-		</data>
-		<key>CutifyPack20@2x.png</key>
-		<data>
-		zulKrJ9vzGBY4UIk+Oy4JbJgNPU=
-		</data>
-		<key>CutifyPack21@2x.png</key>
-		<data>
-		6geGnQWMj9w4veNzPtIHw/pHhh8=
-		</data>
-		<key>CutifyPack22@2x.png</key>
-		<data>
-		VNJBQcMU/RmxSz4SRaViM0cCYGQ=
-		</data>
-		<key>CutifyPack23@2x.png</key>
-		<data>
-		EWAVITW5mXRAK30ALBaoI8uqEJg=
-		</data>
-		<key>CutifyPack24@2x.png</key>
-		<data>
-		xM1H2FIWh9ac0MJMYMKZUUdQKi4=
-		</data>
-		<key>CutifyPack25@2x.png</key>
-		<data>
-		TX5OPpoDCzF4iYOK1eEN3fzi8PE=
-		</data>
-		<key>CutifyPack26@2x.png</key>
-		<data>
-		XqtYaZcVCq+CZ5Tnbk1RXAzlEeA=
-		</data>
-		<key>CutifyPack27@2x.png</key>
-		<data>
-		yHVVUxHAaCW7v7QTTBSnD7ijW1A=
-		</data>
-		<key>CutifyPack28@2x.png</key>
-		<data>
-		oUiTcWb7iySz9ABTqgVyYEZ50rA=
-		</data>
-		<key>CutifyPack29@2x.png</key>
-		<data>
-		wXwIO6pTxGeuBTSix5ll90g67gw=
-		</data>
-		<key>CutifyPack2@2x.png</key>
-		<data>
-		DeanxkCo9SjpJXj00+POCCocsF8=
-		</data>
-		<key>CutifyPack30@2x.png</key>
-		<data>
-		VTAXwyBCEK+iWSOm633s4bHaPLc=
-		</data>
-		<key>CutifyPack31@2x.png</key>
-		<data>
-		l1GlIF5kFhjBiV77HKcS27pmWKA=
-		</data>
-		<key>CutifyPack32@2x.png</key>
-		<data>
-		Xh4r3Y5rpy7KNaXL+tlgqq43XvI=
-		</data>
-		<key>CutifyPack33@2x.png</key>
+		<key>Candid@2x.png</key>
 		<data>
 		jTk8U4kheAC/TQ7lGMBmAn5dHvg=
 		</data>
-		<key>CutifyPack36@2x.png</key>
+		<key>Captivated.png</key>
 		<data>
-		3A5Tz5Qqgf19J3O40tQYdZmNA0U=
+		cjYcDJrtYF/k1dgGOEEBR3Nmp4E=
 		</data>
-		<key>CutifyPack37@2x.png</key>
-		<data>
-		GBVht8IvhaoYts5SzKzgdAoZ/6A=
-		</data>
-		<key>CutifyPack38@2x.png</key>
-		<data>
-		PwIHyhHaWSOw2hVsi9nxolSe9+g=
-		</data>
-		<key>CutifyPack39@2x.png</key>
-		<data>
-		sy40hZZn+sShYfHKPY1vLiJlxgI=
-		</data>
-		<key>CutifyPack3@2x.png</key>
-		<data>
-		qT08j2zdNzVgsggd+LOp2mRMyi0=
-		</data>
-		<key>CutifyPack40@2x.png</key>
-		<data>
-		F74TRWhwuwiIeF4d0oUkDNQNkf8=
-		</data>
-		<key>CutifyPack41@2x.png</key>
-		<data>
-		dfIu4ItldfgRo+vOeekiwsjTa7Q=
-		</data>
-		<key>CutifyPack42@2x.png</key>
-		<data>
-		GEctyjVd8/qZdHIvZBVivrxF8Vo=
-		</data>
-		<key>CutifyPack43@2x.png</key>
-		<data>
-		gMHtNK73nQglivlNPqDQiv+MgOI=
-		</data>
-		<key>CutifyPack44@2x.png</key>
-		<data>
-		Pd1DTy1h1KOIVfn4z4m//FhVm20=
-		</data>
-		<key>CutifyPack45@2x.png</key>
-		<data>
-		1MWaXUn3o2BatKz/A7tS+GsC+/g=
-		</data>
-		<key>CutifyPack46@2x.png</key>
-		<data>
-		rrpicBl/j51P9k/AVekozr3eNnI=
-		</data>
-		<key>CutifyPack47@2x.png</key>
-		<data>
-		VCtCvAJX96ljBfuMBTvJmIRv8nc=
-		</data>
-		<key>CutifyPack48@2x.png</key>
-		<data>
-		UIOSpG+WC7oXta5RRYRLq1ylMEE=
-		</data>
-		<key>CutifyPack49@2x.png</key>
-		<data>
-		HvB4Mtkrxd2aFUPyK55yTUljq7I=
-		</data>
-		<key>CutifyPack4@2x.png</key>
-		<data>
-		rJ+BXiFyNx5kWUlMteDUfaWpA4M=
-		</data>
-		<key>CutifyPack50@2x.png</key>
-		<data>
-		0X87235/5R4LLgu8Cvm02qIAzHA=
-		</data>
-		<key>CutifyPack51@2x.png</key>
-		<data>
-		1RL55FPkPQ0E6bYAAbklpCnF/ug=
-		</data>
-		<key>CutifyPack52@2x.png</key>
-		<data>
-		QI4GwCBQdt0ydVFmsLLL4ajYT7s=
-		</data>
-		<key>CutifyPack53@2x.png</key>
-		<data>
-		x996pL8wW77uw6sFHu5KQuPculc=
-		</data>
-		<key>CutifyPack54@2x.png</key>
-		<data>
-		QHMVvef0VJBWmc3rmGdkEbZJ45k=
-		</data>
-		<key>CutifyPack55@2x.png</key>
-		<data>
-		O4amreOnYI1A4//AS6LCWYmwlwY=
-		</data>
-		<key>CutifyPack56@2x.png</key>
-		<data>
-		cJB70A3TdYgL3LOJ+8CsP8/GR2A=
-		</data>
-		<key>CutifyPack57@2x.png</key>
-		<data>
-		Vowzx4oWhxL6GD/jEaqAK6xZu8s=
-		</data>
-		<key>CutifyPack58@2x.png</key>
-		<data>
-		plphXBDND0u2F53ig0HurlDfjA8=
-		</data>
-		<key>CutifyPack59@2x.png</key>
-		<data>
-		b8ujLmPYbKD46pmJlq2wfa0YfBE=
-		</data>
-		<key>CutifyPack5@2x.png</key>
-		<data>
-		41qyEq+LVtZJoM6uJzmWVoZD0Vo=
-		</data>
-		<key>CutifyPack60@2x.png</key>
-		<data>
-		uva4UYNEP9JzWvuRlxuHNsIT9kk=
-		</data>
-		<key>CutifyPack61@2x.png</key>
-		<data>
-		scF0rDyDEwMsqKsSaDWNzGuN+hQ=
-		</data>
-		<key>CutifyPack62@2x.png</key>
+		<key>Captivated@2x.png</key>
 		<data>
 		PJt6H16YE3PJIK2D7e5jx2t4kVg=
 		</data>
-		<key>CutifyPack63@2x.png</key>
+		<key>Carefree.png</key>
 		<data>
-		e4nc5KRcYM9Er5aLmV/MvC9TTIQ=
+		DPYIl2yRfp0sV4O9PW+K/mLCmoc=
 		</data>
-		<key>CutifyPack64@2x.png</key>
-		<data>
-		qIrVjgek6hBYgFYyn836QvsQy5k=
-		</data>
-		<key>CutifyPack65@2x.png</key>
-		<data>
-		WH1Pm4KMt574pB1wfEiH7lc+U5g=
-		</data>
-		<key>CutifyPack66@2x.png</key>
-		<data>
-		+GtOLdFdL13m/iHdJBxAJ/BpeqU=
-		</data>
-		<key>CutifyPack67@2x.png</key>
-		<data>
-		MN6VR8DlHgfDz5lCpQZKAzGWI/E=
-		</data>
-		<key>CutifyPack68@2x.png</key>
-		<data>
-		fjwZ7tzrEdnPFJ5Lui3NxFUFac4=
-		</data>
-		<key>CutifyPack69@2x.png</key>
-		<data>
-		TX7s5OXyd1LktRa/KE5h61N+sOg=
-		</data>
-		<key>CutifyPack6@2x.png</key>
-		<data>
-		bAVetJHR64zTaW63ixnK29NnIUY=
-		</data>
-		<key>CutifyPack70@2x.png</key>
-		<data>
-		G+/zzr5KkyZTVH7WJQYjGHX4XFk=
-		</data>
-		<key>CutifyPack71@2x.png</key>
-		<data>
-		6m9ygcwWfTjpCBG+n/YUk4Djnsk=
-		</data>
-		<key>CutifyPack72@2x.png</key>
-		<data>
-		KijPiutknGGE33N1n8pwoekwf+E=
-		</data>
-		<key>CutifyPack73@2x.png</key>
-		<data>
-		fYZRJ983NfdmGg1hq1/rM59wVWg=
-		</data>
-		<key>CutifyPack74@2x.png</key>
-		<data>
-		lZk+4cXoiTfGEhGCiXkO3x12t3I=
-		</data>
-		<key>CutifyPack75@2x.png</key>
-		<data>
-		Yd5wEmx4nuXlUxnh12S6ze7fQvA=
-		</data>
-		<key>CutifyPack76@2x.png</key>
-		<data>
-		CEGuOP0vGzR3P4T2fqOYVrKSwLA=
-		</data>
-		<key>CutifyPack77@2x.png</key>
-		<data>
-		rTW5EUy1EbdTwvXPqfYZbjKCCd8=
-		</data>
-		<key>CutifyPack78@2x.png</key>
-		<data>
-		mXtt9BCWIxJpmPKhp32Fdc3NOUQ=
-		</data>
-		<key>CutifyPack79@2x.png</key>
-		<data>
-		pAQ+gTmu9vShjlnOgr5+BzfzvYU=
-		</data>
-		<key>CutifyPack7@2x.png</key>
-		<data>
-		q7aLJR+4YLZhCRPCTHB3eb5i0Mk=
-		</data>
-		<key>CutifyPack80@2x.png</key>
-		<data>
-		OJhPo05iDxFNK8B8Zgw3Aua2A8w=
-		</data>
-		<key>CutifyPack81@2x.png</key>
-		<data>
-		lm2jDhveFQgdgHICGZUks5uhOcM=
-		</data>
-		<key>CutifyPack82@2x.png</key>
-		<data>
-		pOyLw2uabIXCaio87x6Q1IXsqnI=
-		</data>
-		<key>CutifyPack83@2x.png</key>
-		<data>
-		6YIEz38imAoEj87LMLKfI0EcPU0=
-		</data>
-		<key>CutifyPack84@2x.png</key>
-		<data>
-		z/LvwureIG+Mw514b59ht7EV8ow=
-		</data>
-		<key>CutifyPack85@2x.png</key>
-		<data>
-		EJ6jy2El7pSETlWcEjPFSFdvuMk=
-		</data>
-		<key>CutifyPack86@2x.png</key>
-		<data>
-		QmuGOQT+PoHaRhxBrFrqP8f0ezM=
-		</data>
-		<key>CutifyPack87@2x.png</key>
-		<data>
-		wYcRq9JVgH/U2WzqdIQpFhjws9Q=
-		</data>
-		<key>CutifyPack88@2x.png</key>
-		<data>
-		C2Z/tWBZbFMdn950wp4+hNRqQ+s=
-		</data>
-		<key>CutifyPack89@2x.png</key>
-		<data>
-		BT7jS3R+8gg+D+svonQYuY3amK8=
-		</data>
-		<key>CutifyPack8@2x.png</key>
+		<key>Carefree@2x.png</key>
 		<data>
 		IT8Esrizp3jigdr/2iP8HMa5IUc=
 		</data>
-		<key>CutifyPack90@2x.png</key>
+		<key>Charming.png</key>
 		<data>
-		HZiLG2vwJlrx9uwxQbx6tb+k42c=
+		hG6kziS/YERi+hC7jZBFbvl6FCI=
 		</data>
-		<key>CutifyPack91@2x.png</key>
+		<key>Charming@2x.png</key>
 		<data>
-		n07/q6PKUNB+RDzHfFTnm3IGrwg=
+		IdzNLoDzMsmPfuFkf7pOx/ZjVqs=
 		</data>
-		<key>CutifyPack92@2x.png</key>
+		<key>Cheerful.png</key>
 		<data>
-		/bIEegBuYe24d+n/PuS+Cs+t9Wg=
+		2gOQRhidKU3McFD63rQM08rqhK4=
 		</data>
-		<key>CutifyPack93@2x.png</key>
+		<key>Cheerful@2x.png</key>
 		<data>
-		aYSqZ4rlyt/gJD0TtVNWPJLA3Dg=
+		bAVetJHR64zTaW63ixnK29NnIUY=
 		</data>
-		<key>CutifyPack94@2x.png</key>
+		<key>Chipper.png</key>
 		<data>
-		LezewgAbEs2CLksQ2/to0N7tXIg=
+		1brX9jTYXnypLbQp5ZsO3cSUT0Q=
 		</data>
-		<key>CutifyPack95@2x.png</key>
+		<key>Chipper@2x.png</key>
 		<data>
-		jFIyIjv1sLufRMo+1+spV4xclKE=
+		b42PA+U3gqmQfNkY1ikLoPNdEAs=
 		</data>
-		<key>CutifyPack96@2x.png</key>
+		<key>Chuckle.png</key>
 		<data>
-		VaQQgQb0Ic6FLrTp6jDBK37QUVY=
+		WOJWFVDjckSWkU3CcCpwHlzJ4cg=
 		</data>
-		<key>CutifyPack97@2x.png</key>
+		<key>Chuckle@2x.png</key>
 		<data>
-		yCcHp25AF8iL7DSj4bLkVmofiNs=
+		hC2BOzFY+EjPNzh6XhX9U2ji658=
 		</data>
-		<key>CutifyPack98@2x.png</key>
+		<key>Complacent.png</key>
 		<data>
-		DSqxUIWuNJyg/6bWnYr6yKfDIMM=
+		nnFSU9xofHgVgqTPhPC02a+qaLA=
 		</data>
-		<key>CutifyPack99@2x.png</key>
+		<key>Complacent@2x.png</key>
 		<data>
-		UB9uc/Ynq6OCTt5HR3t2gI622xE=
+		1MWaXUn3o2BatKz/A7tS+GsC+/g=
 		</data>
-		<key>CutifyPack9@2x.png</key>
+		<key>Content.png</key>
 		<data>
-		5Hcsr6bSwwkmHOSZ47w8Stv3a9g=
+		vTVqkdX3iXitYVg2Hk/qgNeMMHQ=
+		</data>
+		<key>Content@2x.png</key>
+		<data>
+		t0c7oMt47f5M/A7HjXe5xZRHKhs=
+		</data>
+		<key>Contented.png</key>
+		<data>
+		i7p8B5ymQSS9w3hVWkH4GW00XsM=
+		</data>
+		<key>Contented@2x.png</key>
+		<data>
+		6SmaYcR713mlBuxkPqCHWWWtgpQ=
+		</data>
+		<key>Cool.png</key>
+		<data>
+		+sZiDvL/x03lMfH1J71uF7CBAQM=
+		</data>
+		<key>Cool@2x.png</key>
+		<data>
+		O4amreOnYI1A4//AS6LCWYmwlwY=
+		</data>
+		<key>Creeped Out@2x.png</key>
+		<data>
+		v49H9sIhkjyRvxP2QNxTM+ieeGA=
+		</data>
+		<key>Crying.png</key>
+		<data>
+		AcWOSQala/QPhB7haJZ+IIaWckA=
+		</data>
+		<key>Crying@2x.png</key>
+		<data>
+		oYQkXpz0oE7q0PQjARquNvd5tPo=
+		</data>
+		<key>Curious.png</key>
+		<data>
+		3lY4axjyHIEr0XQoFog59j6+NjE=
+		</data>
+		<key>Curious@2x.png</key>
+		<data>
+		b8ujLmPYbKD46pmJlq2wfa0YfBE=
+		</data>
+		<key>Cute@2x.png</key>
+		<data>
+		GfU3np/SBdBmISicLw81nEOZ/S4=
+		</data>
+		<key>Dammit.png</key>
+		<data>
+		umPwwtAOluBVu9t8YmrY8bRF79o=
+		</data>
+		<key>Dammit@2x.png</key>
+		<data>
+		85JARRaFokfz9GvLMYp9xSWfWVc=
+		</data>
+		<key>Dazzled.png</key>
+		<data>
+		XnviHfDP3kMH12U3J9a7XOW8zaI=
+		</data>
+		<key>Dazzled@2x.png</key>
+		<data>
+		WW3/kL6FS711hD9YWJGB8BrNpdw=
+		</data>
+		<key>Dead.png</key>
+		<data>
+		VK6xkjDlAKkeL5oA6+SQCrbHbpw=
+		</data>
+		<key>Dead@2x.png</key>
+		<data>
+		aUQDLfcN1/AFZetGTDoH5iyDunE=
+		</data>
+		<key>Deadpan.png</key>
+		<data>
+		+aNY/e6cULOEbyvWrYR5GGAQWoY=
+		</data>
+		<key>Deadpan@2x.png</key>
+		<data>
+		KRkMlESzxhX2xvfnp4HyvJjkeTA=
+		</data>
+		<key>Default.png</key>
+		<data>
+		qecmJ+oXjBzNmYhEHZPDn8CpLdc=
 		</data>
 		<key>Default@2x.png</key>
 		<data>
 		BL6fHKUBltCm0QiNc9NOey1bq00=
 		</data>
+		<key>Dejected.png</key>
+		<data>
+		KGmxsgCWTP6xyEROpBomaZ0ZXgE=
+		</data>
+		<key>Dejected@2x.png</key>
+		<data>
+		qIrVjgek6hBYgFYyn836QvsQy5k=
+		</data>
+		<key>DeleteButton.png</key>
+		<data>
+		BMcMDB3WGlGyk2DYwPtG6tCeeVo=
+		</data>
 		<key>DeleteButton@2x.png</key>
 		<data>
 		4ckEWtoCTRntpkABZ+ovCpRGueY=
+		</data>
+		<key>Delighted.png</key>
+		<data>
+		qzMpmTs6d+HQKfi0K5fWqGqXm7w=
+		</data>
+		<key>Delighted@2x.png</key>
+		<data>
+		jNIT6HXMiT81uzODShvRwFUCYMc=
+		</data>
+		<key>Derpette.png</key>
+		<data>
+		ZEGBjf3Us5/EY/9mXyIYG4XQ5ic=
+		</data>
+		<key>Derpette@2x.png</key>
+		<data>
+		/v2j+YmXdnOwOFdrjDHAUOyYqZw=
+		</data>
+		<key>Derpina.png</key>
+		<data>
+		+TH5WF+s/wINDSWqhVDjEbi0fNU=
+		</data>
+		<key>Derpina@2x.png</key>
+		<data>
+		3txdaDGt/wwvEfc9ofN5PzhRBkQ=
+		</data>
+		<key>Devious.png</key>
+		<data>
+		IXss0VNrQMbooK7JZyrfSx33e1Q=
+		</data>
+		<key>Devious@2x.png</key>
+		<data>
+		LiDfxdJM/t4gTur6T+IG6q3gsR8=
+		</data>
+		<key>Disapproval.png</key>
+		<data>
+		FbSStpa8wMtl/NmSzKX34Vm3H9A=
+		</data>
+		<key>Disapproval@2x.png</key>
+		<data>
+		Qx1WzbZvz1CmJWuk91OhXINhOWQ=
+		</data>
+		<key>Disbelief.png</key>
+		<data>
+		N+2TZplWRJSlXWHP0bs8kzhovLA=
+		</data>
+		<key>Disbelief@2x.png</key>
+		<data>
+		aWgvwwLlUjX6UL2ZpfmmLUhX16w=
+		</data>
+		<key>Disgusted.png</key>
+		<data>
+		kww/Xvrsuy7SdjTkWSLaodPNkGA=
+		</data>
+		<key>Disgusted@2x.png</key>
+		<data>
+		aM33JeFwu/O+k9UwV5GkKdizslo=
+		</data>
+		<key>Displeased.png</key>
+		<data>
+		8To4p7OeTQ1NBWrRpcXMUzELAYM=
+		</data>
+		<key>Displeased@2x.png</key>
+		<data>
+		vz0FmG3BlUbXfZ4GojCsgv7nmks=
+		</data>
+		<key>Distraught.png</key>
+		<data>
+		0hgkqiHEDNE7YUvPVJmlpohq8jQ=
+		</data>
+		<key>Distraught@2x.png</key>
+		<data>
+		xr0AgKSQ8lp5qyvt3bxwYP2q5Pg=
+		</data>
+		<key>Distressed.png</key>
+		<data>
+		DZIeLvycnrOU/Tcrs54sKiCKgG0=
+		</data>
+		<key>Distressed@2x.png</key>
+		<data>
+		42O5r44D9+aoYAFIdndn1LGqqUg=
+		</data>
+		<key>Disturbed.png</key>
+		<data>
+		vk9mVdGlHrsR9WDzLEmhkVr+pM8=
+		</data>
+		<key>Disturbed@2x.png</key>
+		<data>
+		WH1Pm4KMt574pB1wfEiH7lc+U5g=
+		</data>
+		<key>DoneButton.png</key>
+		<data>
+		Fsoimcy6P4mEgvX2wzbB7uFjzy0=
 		</data>
 		<key>DoneButton@2x.png</key>
 		<data>
 		C83R7MhR8jdyYOMQiRjM+dVLKd8=
 		</data>
-		<key>EarlyDemo.plist</key>
+		<key>Down.png</key>
 		<data>
-		jzK7/n90kAkzQWk2yFTxixqdAwM=
+		2p8ogfQsHtoXn//2CaXL5yBWTnc=
 		</data>
-		<key>EmoticonAnnoyed1@2x.png</key>
+		<key>Down@2x.png</key>
 		<data>
-		pOfSCV3Y8+oZ3TvI2vt8xg63IHU=
+		Yd5wEmx4nuXlUxnh12S6ze7fQvA=
 		</data>
-		<key>EmoticonAnnoyed2@2x.png</key>
+		<key>Dreamy.png</key>
 		<data>
-		l9OBKw4BmYoPJCVb6CRdX6vdEaw=
+		V4bxuaAwc9UM3rR5wDDrWHaJ5yc=
 		</data>
-		<key>EmoticonAnnoyed3@2x.png</key>
+		<key>Dreamy@2x.png</key>
 		<data>
-		Pq0V/ziPs/erQI7V/04caXZUSmg=
+		K5QxlFExr1+rjW8oxnjsPHzBhr0=
 		</data>
-		<key>EmoticonAnnoyed4@2x.png</key>
+		<key>Durr.png</key>
 		<data>
-		FDJAsQ8XFKPaMFgTcbaLPLS6p2Q=
+		jZW5abJ+v6w9OHZvjU/K4NVAAs8=
 		</data>
-		<key>EmoticonAnnoyed5@2x.png</key>
+		<key>Durr@2x.png</key>
 		<data>
-		O0wmTgvqAb1aRyXF1VM2/sllNos=
+		xM1H2FIWh9ac0MJMYMKZUUdQKi4=
 		</data>
-		<key>EmoticonAnnoyed6@2x.png</key>
+		<key>Eager.png</key>
 		<data>
-		3VTH0BzbgRYOwvgDFlEnKXRkFiI=
+		xt6NdcQvJXa8YiEg4MX+xz5D6bM=
 		</data>
-		<key>EmoticonBlushing1@2x.png</key>
+		<key>Eager@2x.png</key>
 		<data>
-		ZngoPG4aHGlU14VWPKYAE6M8UMs=
+		GEctyjVd8/qZdHIvZBVivrxF8Vo=
 		</data>
-		<key>EmoticonBlushing2@2x.png</key>
+		<key>Easygoing.png</key>
+		<data>
+		9XkGMsj4W3bcpNCLEnWQpMS8yKA=
+		</data>
+		<key>Easygoing@2x.png</key>
+		<data>
+		q1s8DP6cFrEw/1bKvwF+xdXLqDs=
+		</data>
+		<key>Eeeee.png</key>
+		<data>
+		rfqsh9w2NZuS2AfetDgA2KLk/bA=
+		</data>
+		<key>Eeeee@2x.png</key>
+		<data>
+		5l/tLGsGL338uASm/TSIibDk3sI=
+		</data>
+		<key>Elated.png</key>
+		<data>
+		HmfI1vz7R5JHSATO+WsQT/Nyxfk=
+		</data>
+		<key>Elated@2x.png</key>
+		<data>
+		HLqEcatlqhHRWZCMva46sxmAZGM=
+		</data>
+		<key>Embarassed@2x.png</key>
 		<data>
 		aYB5K99U+Y0unumQhjgJPQuKldY=
 		</data>
-		<key>EmoticonBlushing3@2x.png</key>
+		<key>Excited.png</key>
 		<data>
-		oEVvpayQZz6AdASX25kiW0yY5ng=
+		y3xK5N3p3xsIb/nkxyQwLhgK7xw=
 		</data>
-		<key>EmoticonCrying1@2x.png</key>
+		<key>Excited@2x.png</key>
 		<data>
-		Oqx6t6W8SWAIb6krlxKVVRPmXyA=
+		HvB4Mtkrxd2aFUPyK55yTUljq7I=
 		</data>
-		<key>EmoticonCrying2@2x.png</key>
+		<key>Exhausted.png</key>
 		<data>
-		oYQkXpz0oE7q0PQjARquNvd5tPo=
+		mP7ChN/00R1KLGF+LP1fGCHoObI=
 		</data>
-		<key>EmoticonCrying3@2x.png</key>
+		<key>Exhausted@2x.png</key>
 		<data>
-		S+MDqkjeAX1x7t1j3xFitOzrV5g=
+		sy40hZZn+sShYfHKPY1vLiJlxgI=
 		</data>
-		<key>EmoticonCrying4@2x.png</key>
+		<key>Eye Roll.png</key>
 		<data>
-		2tFo09ShOZKlTmqWWfNi0phMvCk=
+		wPsGC0kMYfxskeaHSkI9gO4HyYc=
 		</data>
-		<key>EmoticonCrying5@2x.png</key>
-		<data>
-		MXq7fRVzmNNpzVyjIc12oQZm/io=
-		</data>
-		<key>EmoticonCrying6@2x.png</key>
-		<data>
-		SIh2UWH8/mH2lsf8MVA1REMPuaM=
-		</data>
-		<key>EmoticonCrying7@2x.png</key>
-		<data>
-		clP9kLGoBKcBDQ3zNCJxU1ee4C8=
-		</data>
-		<key>EmoticonDead1@2x.png</key>
-		<data>
-		YULWfvPEKncfeMwYisbi/OJAcao=
-		</data>
-		<key>EmoticonDead2@2x.png</key>
-		<data>
-		aUQDLfcN1/AFZetGTDoH5iyDunE=
-		</data>
-		<key>EmoticonDisappointed1@2x.png</key>
-		<data>
-		oj+b77cRRM9i1C8luUv02rS+AzM=
-		</data>
-		<key>EmoticonDisappointed2@2x.png</key>
-		<data>
-		64lF8e8T8VaEq2oaTzmTXtnD8YU=
-		</data>
-		<key>EmoticonExcited1@2x.png</key>
-		<data>
-		0oauFpi/5DxrmtfgTAQ6QxOwX0U=
-		</data>
-		<key>EmoticonExcited2@2x.png</key>
-		<data>
-		4KFzJfJwK4ao26ctzZV894T52yg=
-		</data>
-		<key>EmoticonExcited3@2x.png</key>
-		<data>
-		DQYes6iMCBxhoXOJuNv9ElmLPO0=
-		</data>
-		<key>EmoticonExcited4@2x.png</key>
-		<data>
-		D04q0zrslhhNJzOZHvOV00b6SAQ=
-		</data>
-		<key>EmoticonEyeRoll1@2x.png</key>
+		<key>Eye Roll@2x.png</key>
 		<data>
 		nT2sgZlKYTSX/B+vu8Bs7rJY/tU=
 		</data>
-		<key>EmoticonEyeRoll2@2x.png</key>
+		<key>FocusIndicator.png</key>
 		<data>
-		0KdCn8AHCPPv4jP6gDAHoMciQhU=
-		</data>
-		<key>EmoticonEyeRoll3@2x.png</key>
-		<data>
-		Rn7JHL02aFpOtRJWN9h8lgNkRsA=
-		</data>
-		<key>EmoticonHappy10@2x.png</key>
-		<data>
-		YKAye49quaWoILmMFnNWKPsYC74=
-		</data>
-		<key>EmoticonHappy11@2x.png</key>
-		<data>
-		0795f/UjK34FmJSVIyUtS88XSKY=
-		</data>
-		<key>EmoticonHappy1@2x.png</key>
-		<data>
-		XnY4v6WuqERoF9TAXRF0Hdn60pQ=
-		</data>
-		<key>EmoticonHappy2@2x.png</key>
-		<data>
-		yIbCCu/+jYu6Up6vRazLDbBTD/M=
-		</data>
-		<key>EmoticonHappy3@2x.png</key>
-		<data>
-		GYuxsNDYQevRrN1zVNVIuvBMqaQ=
-		</data>
-		<key>EmoticonHappy4@2x.png</key>
-		<data>
-		o0LLsJKnkNW0L9TWhCKolzd8Fi8=
-		</data>
-		<key>EmoticonHappy5@2x.png</key>
-		<data>
-		b42PA+U3gqmQfNkY1ikLoPNdEAs=
-		</data>
-		<key>EmoticonHappy6@2x.png</key>
-		<data>
-		jPS7UuCz2f62gfvC9oh+0wkjHkY=
-		</data>
-		<key>EmoticonHappy7@2x.png</key>
-		<data>
-		jNIT6HXMiT81uzODShvRwFUCYMc=
-		</data>
-		<key>EmoticonHappy8@2x.png</key>
-		<data>
-		TeOaaQvWp3DFn7sGC00/C8QOnms=
-		</data>
-		<key>EmoticonHappy9@2x.png</key>
-		<data>
-		2ZxS0Tw+zmpFur268pdRL1ttunI=
-		</data>
-		<key>EmoticonHeadphones1@2x.png</key>
-		<data>
-		a9JdLl4sMSWQDN3Rb5ZCkQ2Dmg4=
-		</data>
-		<key>EmoticonHeadphones2@2x.png</key>
-		<data>
-		D6f8PZ7ltGvSEx08seJceL90yvE=
-		</data>
-		<key>EmoticonKiss1@2x.png</key>
-		<data>
-		fhyG/6x3giFvnaTraOMzdvahims=
-		</data>
-		<key>EmoticonSad1@2x.png</key>
-		<data>
-		P2FUCmiNO6FjEEZ6Ra16bAWvbAg=
-		</data>
-		<key>EmoticonSad2@2x.png</key>
-		<data>
-		gun4A9J5iSB4e8n7KLxxUZYKXSE=
-		</data>
-		<key>EmoticonSad3@2x.png</key>
-		<data>
-		q5SUxOpRspqCAMV4H2jo2bCDJK4=
-		</data>
-		<key>EmoticonSad4@2x.png</key>
-		<data>
-		/aSvXNrK3xLoaPwzsNUDCqD+AWs=
-		</data>
-		<key>EmoticonSad5@2x.png</key>
-		<data>
-		LGac1wR+MhnlzoeCN98uH3XCZ+o=
-		</data>
-		<key>EmoticonSad6@2x.png</key>
-		<data>
-		cAydEWARUXALhPPqC4JbLblgSD8=
-		</data>
-		<key>EmoticonSad7@2x.png</key>
-		<data>
-		BE1EdFuC2zcKH3kXUoOsAsjEedQ=
-		</data>
-		<key>EmoticonSad8@2x.png</key>
-		<data>
-		q/BO/OSEdJpYyjQPz6nYPpEp5lU=
-		</data>
-		<key>EmoticonSealedLips1@2x.png</key>
-		<data>
-		3DwlR058hpt8NxmCGSEU/m/XFl4=
-		</data>
-		<key>EmoticonSealedLips2@2x.png</key>
-		<data>
-		tZllFKiGm0cEtKYxIGAbZFN7TOo=
-		</data>
-		<key>EmoticonSinging1@2x.png</key>
-		<data>
-		rGUgpL2i4gadl/YfPFpmjRaRR6Y=
-		</data>
-		<key>EmoticonStraightFace1@2x.png</key>
-		<data>
-		KRkMlESzxhX2xvfnp4HyvJjkeTA=
-		</data>
-		<key>EmoticonSurprise10@2x.png</key>
-		<data>
-		aWgvwwLlUjX6UL2ZpfmmLUhX16w=
-		</data>
-		<key>EmoticonSurprise1@2x.png</key>
-		<data>
-		esHdDEEaTVCPGxwEaEvO21DnKM4=
-		</data>
-		<key>EmoticonSurprise2@2x.png</key>
-		<data>
-		Xo+ZJpZHw+pUxQ8kUyEg3h24BUo=
-		</data>
-		<key>EmoticonSurprise3@2x.png</key>
-		<data>
-		MfFAk79FmPbum7fXFZpaoWnNukc=
-		</data>
-		<key>EmoticonSurprise4@2x.png</key>
-		<data>
-		efKeZHDZf9UgmBhK1nYox3uGefU=
-		</data>
-		<key>EmoticonSurprise5@2x.png</key>
-		<data>
-		eXTk2v7etY/cJ2Cw+93NABrENBM=
-		</data>
-		<key>EmoticonSurprise6@2x.png</key>
-		<data>
-		PpL82ytw5XAdtvxunYsjydO4Maw=
-		</data>
-		<key>EmoticonSurprise7@2x.png</key>
-		<data>
-		vVkAmt7u8QVi5z8wss72z6pzPyU=
-		</data>
-		<key>EmoticonSurprise8@2x.png</key>
-		<data>
-		Qx1WzbZvz1CmJWuk91OhXINhOWQ=
-		</data>
-		<key>EmoticonSurprise9@2x.png</key>
-		<data>
-		FHQIGalvGi+1jHTEwi5NYr4Pu0g=
-		</data>
-		<key>EmoticonSweatdrop1@2x.png</key>
-		<data>
-		wLu8tDPP8h0YhkUUqUY+44d5BNo=
-		</data>
-		<key>EmoticonTongue1@2x.png</key>
-		<data>
-		6AEugjGEm2fUIxLvg0YpjmEbMQ4=
-		</data>
-		<key>EmoticonTongue2@2x.png</key>
-		<data>
-		Ho7t6hovLt6GtpJiJeZ6sEQqP8g=
-		</data>
-		<key>EmoticonTongue3@2x.png</key>
-		<data>
-		N5cYnh9COoDW19fokYO8yNaGARM=
-		</data>
-		<key>EmoticonTongue4@2x.png</key>
-		<data>
-		qfc52FNKTXFqNqojW1YPp/WOaAg=
-		</data>
-		<key>EmoticonTongue5@2x.png</key>
-		<data>
-		wjM65Pg7+R2uPxHQwRSbTts3TXA=
-		</data>
-		<key>EmoticonUpset1@2x.png</key>
-		<data>
-		aM33JeFwu/O+k9UwV5GkKdizslo=
-		</data>
-		<key>EmoticonUpset2@2x.png</key>
-		<data>
-		pnEQ6OoXsB9qWfS7E5m5wAoOyFg=
-		</data>
-		<key>EmoticonUpset3@2x.png</key>
-		<data>
-		BpGtX0WIG/lyLlnCkpK5fACqoSI=
-		</data>
-		<key>EmoticonUpset4@2x.png</key>
-		<data>
-		XNFRq0C8Rbi5eiLPvw0CsTAZOf8=
-		</data>
-		<key>EmoticonUpset5@2x.png</key>
-		<data>
-		85JARRaFokfz9GvLMYp9xSWfWVc=
-		</data>
-		<key>EmoticonWink1@2x.png</key>
-		<data>
-		jZ8JtqfzYpf8hq8UEiVkAqJv3gw=
-		</data>
-		<key>EmoticonWink2@2x.png</key>
-		<data>
-		XMT0DJwB4iVRjSrky5NctBZSc7w=
-		</data>
-		<key>EmoticonWink3@2x.png</key>
-		<data>
-		WTCVvZa7pL7pAc0SWTM8XHQ9xag=
-		</data>
-		<key>EmoticonWink4@2x.png</key>
-		<data>
-		55SLNK+YugqbqLEb4jQJbpkHGyA=
-		</data>
-		<key>EmoticonWink5@2x.png</key>
-		<data>
-		guE2HWTo40ajc8Yv2fJteFnSm4w=
-		</data>
-		<key>EmoticonWink6@2x.png</key>
-		<data>
-		PNW0Awy3/0dTquhuzEFjsWhNuEQ=
-		</data>
-		<key>Eyes10@2x.png</key>
-		<data>
-		vRR0g1goqFIafXyQWGeNaXI9/Nc=
-		</data>
-		<key>Eyes11@2x.png</key>
-		<data>
-		jcR5CYgIxYD/6yg1nndB3Gompw0=
-		</data>
-		<key>Eyes12@2x.png</key>
-		<data>
-		+Ub0LwbhBNwK3G3UgSg80n+dvQU=
-		</data>
-		<key>Eyes13@2x.png</key>
-		<data>
-		gvfSqOkh+uOu/lhxegu1g7PjwFs=
-		</data>
-		<key>Eyes14@2x.png</key>
-		<data>
-		dP76nqBOzqI1hF/4ClXaOfJpHng=
-		</data>
-		<key>Eyes15@2x.png</key>
-		<data>
-		R1aijeg3zrvrtVxFYXI70OmYkE0=
-		</data>
-		<key>Eyes16@2x.png</key>
-		<data>
-		ljCLKt0etx6bBKNorkcyMAwArVg=
-		</data>
-		<key>Eyes1@2x.png</key>
-		<data>
-		MRiPcplIAAB+9PWRSzhJLaD8i7o=
-		</data>
-		<key>Eyes2@2x.png</key>
-		<data>
-		NmVUFL0nLAgbAbh9piKr8QUwpFQ=
-		</data>
-		<key>Eyes3@2x.png</key>
-		<data>
-		LRAMFzT4lzVSHXXLgV/8SDX81R0=
-		</data>
-		<key>Eyes4@2x.png</key>
-		<data>
-		r4vj9dPENzdntYZUYJJCcka/8cA=
-		</data>
-		<key>Eyes5@2x.png</key>
-		<data>
-		HVvNTpFi2YMM6j758Phqch4LJoM=
-		</data>
-		<key>Eyes6@2x.png</key>
-		<data>
-		wstl7XxmjMByaoiwkbII8oBClK8=
-		</data>
-		<key>Eyes7@2x.png</key>
-		<data>
-		CtYM1zzRyA4HKNP55YNmLPFMxJU=
-		</data>
-		<key>Eyes8@2x.png</key>
-		<data>
-		U5TY39NEWKcqYMr63UbAy3inxIs=
-		</data>
-		<key>Eyes9@2x.png</key>
-		<data>
-		mfcXVsUObzGoaPYw5ZCCVhhqh+s=
+		Yz3aFRRSNptCCyZR6xAPGMi1oTs=
 		</data>
 		<key>FocusIndicator@2x.png</key>
 		<data>
 		a3C/hfFEMIipma5xWmwYJbvlss4=
 		</data>
+		<key>Freaked Out@2x.png</key>
+		<data>
+		XEn+yR94Q5Ot93yfwHnC0UNxtRo=
+		</data>
+		<key>Freckled.png</key>
+		<data>
+		NMhRPwVby+W+IZu8aRh3yXHPvlY=
+		</data>
+		<key>Freckled@2x.png</key>
+		<data>
+		w1keAPnXGEAybrt/ySTg899SLj8=
+		</data>
+		<key>Frowning.png</key>
+		<data>
+		nfoQ2zhfRJ92ZQd3EeSHb2BFJ2Q=
+		</data>
+		<key>Frowning@2x.png</key>
+		<data>
+		P2FUCmiNO6FjEEZ6Ra16bAWvbAg=
+		</data>
+		<key>GetPackButton.png</key>
+		<data>
+		2U26z1IH0MI2Gpy4anG99HjPAxc=
+		</data>
 		<key>GetPackButton@2x.png</key>
 		<data>
 		khN8ZR+K1Ls3A5EspvwhDdDy0fk=
+		</data>
+		<key>Giggle.png</key>
+		<data>
+		7C1pcNxk1d9DgAnIKXXxkD2MEOM=
+		</data>
+		<key>Giggle@2x.png</key>
+		<data>
+		VIodq63v4upRZ/2L+UlHbKiTpaQ=
+		</data>
+		<key>Glad.png</key>
+		<data>
+		XYoBOsKlumhhmNsAScSmHulnwok=
+		</data>
+		<key>Glad@2x.png</key>
+		<data>
+		jPS7UuCz2f62gfvC9oh+0wkjHkY=
+		</data>
+		<key>Gleeful.png</key>
+		<data>
+		TJYSQOsXFCdpEspKGfSvcFHGsaQ=
+		</data>
+		<key>Gleeful@2x.png</key>
+		<data>
+		2ZxS0Tw+zmpFur268pdRL1ttunI=
+		</data>
+		<key>Gloomy.png</key>
+		<data>
+		Kuu/wxc1+XqIAT5eyWgJw2V/T44=
+		</data>
+		<key>Gloomy@2x.png</key>
+		<data>
+		64lF8e8T8VaEq2oaTzmTXtnD8YU=
+		</data>
+		<key>Glow@2x.png</key>
+		<data>
+		ZngoPG4aHGlU14VWPKYAE6M8UMs=
+		</data>
+		<key>Glum.png</key>
+		<data>
+		5Iv9xS1Qp5ey+eGj4R/fsmXV+I0=
+		</data>
+		<key>Glum@2x.png</key>
+		<data>
+		/aSvXNrK3xLoaPwzsNUDCqD+AWs=
+		</data>
+		<key>Grinning.png</key>
+		<data>
+		z/RWLEnyCgqDU13/ylEdYeNwIHs=
+		</data>
+		<key>Grinning@2x.png</key>
+		<data>
+		GYuxsNDYQevRrN1zVNVIuvBMqaQ=
+		</data>
+		<key>Happy Bear.png</key>
+		<data>
+		ljX/xherSjdQ7lM68KyJHsqvdqY=
+		</data>
+		<key>Happy Bear@2x.png</key>
+		<data>
+		6ml66+8bhaSCGOTDohLfQ4gRi0Y=
+		</data>
+		<key>Happy Face.png</key>
+		<data>
+		wKqOBfwwSRxzGCACGdp2HJcc3yE=
+		</data>
+		<key>Happy Face@2x.png</key>
+		<data>
+		DeanxkCo9SjpJXj00+POCCocsF8=
+		</data>
+		<key>Happy Pup.png</key>
+		<data>
+		jTlEzXplf+wq00QBRDHmZdrQkhQ=
+		</data>
+		<key>Happy Pup@2x.png</key>
+		<data>
+		MT4MwaWv5FGf+lUHHo6QQVP9kEY=
+		</data>
+		<key>Happy Tears.png</key>
+		<data>
+		ZOoUb0hjkS9hWZ5wUs3gHDSUZhQ=
+		</data>
+		<key>Happy Tears@2x.png</key>
+		<data>
+		c23G2KLlIu8P3yg6RNXUE15XuHU=
+		</data>
+		<key>Happy.png</key>
+		<data>
+		tmK7LoGsCEUqbCrxhWAuJWjcbd0=
+		</data>
+		<key>Happy@2x.png</key>
+		<data>
+		0oauFpi/5DxrmtfgTAQ6QxOwX0U=
+		</data>
+		<key>Harsh.png</key>
+		<data>
+		fIPUtoYt79EpzOktXxX+bPtCR8g=
+		</data>
+		<key>Harsh@2x.png</key>
+		<data>
+		m41UwGeBEnH2nC1TMGvU7Kd0UJw=
+		</data>
+		<key>Headphones.png</key>
+		<data>
+		2qM9TsvOH8m8Cc9oSxszw3kVV6s=
+		</data>
+		<key>Headphones@2x.png</key>
+		<data>
+		D6f8PZ7ltGvSEx08seJceL90yvE=
+		</data>
+		<key>Heartbroken.png</key>
+		<data>
+		Rw8ZrMSGTDebh41nItEOvxm2QBc=
+		</data>
+		<key>Heartbroken@2x.png</key>
+		<data>
+		GnLRnfctwVqOdAv08B+4syw2fBc=
+		</data>
+		<key>Hesitant@2x.png</key>
+		<data>
+		pOfSCV3Y8+oZ3TvI2vt8xg63IHU=
+		</data>
+		<key>Hmm.png</key>
+		<data>
+		QPCDTvCei0FxgdaB/DpkDE3pZ3c=
+		</data>
+		<key>Hmm@2x.png</key>
+		<data>
+		q/BO/OSEdJpYyjQPz6nYPpEp5lU=
+		</data>
+		<key>Horrified.png</key>
+		<data>
+		Q5FNcyT1dS6POgRmqlKnyhjPdyw=
+		</data>
+		<key>Horrified@2x.png</key>
+		<data>
+		pnEQ6OoXsB9qWfS7E5m5wAoOyFg=
+		</data>
+		<key>Hungry.png</key>
+		<data>
+		mOFTypbBcozdvc2FglT18i7c3cA=
+		</data>
+		<key>Hungry@2x.png</key>
+		<data>
+		qZbpvO8f6N575R1Z1NytSzlQhIk=
+		</data>
+		<key>Hurting.png</key>
+		<data>
+		M5P9cTIcvyX10DqcpBiI/w5ZeIw=
+		</data>
+		<key>Hurting@2x.png</key>
+		<data>
+		cAydEWARUXALhPPqC4JbLblgSD8=
+		</data>
+		<key>Icon.png</key>
+		<data>
+		xKDFIeEVttzoRTHnfNXt/jwrx2Q=
 		</data>
 		<key>Icon@2x.png</key>
 		<data>
 		rch0wsA5RmZX4tgTA5ZqAhZkIhk=
 		</data>
+		<key>In Love.png</key>
+		<data>
+		cschGojLJ7Wfzv2rUP3ZCVpRmmk=
+		</data>
+		<key>In Love@2x.png</key>
+		<data>
+		AILcZbuEKBAkhulfbtNvzXoDjjM=
+		</data>
+		<key>InAppPurchaseBackground.png</key>
+		<data>
+		KmNBKqdFs6lXBcz6Ocq7NzRl3hI=
+		</data>
 		<key>InAppPurchaseBackground@2x.png</key>
 		<data>
 		/rKuv5vReJ8ctn8qmS3ktn70Sfg=
+		</data>
+		<key>InAppPurchaseKittyPack.png</key>
+		<data>
+		2TztT239VS/c+Vl8thKm8dANrf0=
 		</data>
 		<key>InAppPurchaseKittyPack@2x.png</key>
 		<data>
 		jFUhBUf3dFxPOUGJrcjE/D35t5w=
 		</data>
+		<key>Indifferent.png</key>
+		<data>
+		MrB22pIiBiV1sL98UVX/gvKXygg=
+		</data>
+		<key>Indifferent@2x.png</key>
+		<data>
+		EWAVITW5mXRAK30ALBaoI8uqEJg=
+		</data>
+		<key>Interested.png</key>
+		<data>
+		ohnmRa8pM0OJDviJFCqX5L7Loeo=
+		</data>
+		<key>Interested@2x.png</key>
+		<data>
+		/ioFgKbD96vS1xtUGdFC73gbc0s=
+		</data>
+		<key>Irked.png</key>
+		<data>
+		LHIP14+DCoAcgL5ka1UCJY/VqEM=
+		</data>
+		<key>Irked@2x.png</key>
+		<data>
+		0KdCn8AHCPPv4jP6gDAHoMciQhU=
+		</data>
+		<key>Irritated.png</key>
+		<data>
+		vIYUrJCosJDv83E5SqtMpBVopA4=
+		</data>
+		<key>Irritated@2x.png</key>
+		<data>
+		+8iJC91zn56riBX96qMSaaw3oRc=
+		</data>
+		<key>Jocund.png</key>
+		<data>
+		ZLWV61PmdRMPUQ0c1LW5fk2kR3w=
+		</data>
+		<key>Jocund@2x.png</key>
+		<data>
+		n07/q6PKUNB+RDzHfFTnm3IGrwg=
+		</data>
+		<key>Joking.png</key>
+		<data>
+		Ayx3A8AtTJkygL3wjE9BWneze3k=
+		</data>
+		<key>Joking@2x.png</key>
+		<data>
+		N5cYnh9COoDW19fokYO8yNaGARM=
+		</data>
+		<key>Jolly.png</key>
+		<data>
+		ZJmO3e89OgZhZe5rIJrv1U8bXU4=
+		</data>
+		<key>Jolly@2x.png</key>
+		<data>
+		Pd1DTy1h1KOIVfn4z4m//FhVm20=
+		</data>
+		<key>Joyful.png</key>
+		<data>
+		rr3qLf60lJFcMOWoSrTLUMeZAH8=
+		</data>
+		<key>Joyful@2x.png</key>
+		<data>
+		6YIEz38imAoEj87LMLKfI0EcPU0=
+		</data>
+		<key>Joyous.png</key>
+		<data>
+		4n5bLjQkqEqNK+nGOazJvF0V+9Q=
+		</data>
+		<key>Joyous@2x.png</key>
+		<data>
+		GBVht8IvhaoYts5SzKzgdAoZ/6A=
+		</data>
+		<key>Kawaii Smile.png</key>
+		<data>
+		+mb8NN1jE3R8dMjzNxRvEkLKq/U=
+		</data>
+		<key>Kawaii Smile@2x.png</key>
+		<data>
+		YKAye49quaWoILmMFnNWKPsYC74=
+		</data>
+		<key>Kawaii Wink.png</key>
+		<data>
+		uW+29cFx/uY3T/YUbl8Cidr3Jho=
+		</data>
+		<key>Kawaii Wink@2x.png</key>
+		<data>
+		55SLNK+YugqbqLEb4jQJbpkHGyA=
+		</data>
+		<key>Kawaii@2x.png</key>
+		<data>
+		/v6wt9hydseqjcl9Lra1qkhShLk=
+		</data>
+		<key>Kisses.png</key>
+		<data>
+		HD9v+OpS0IcoZS04iiDHVD+qyIs=
+		</data>
+		<key>Kisses@2x.png</key>
+		<data>
+		fhyG/6x3giFvnaTraOMzdvahims=
+		</data>
+		<key>Kissy Wink.png</key>
+		<data>
+		ZYtLy3QfAWFAClIPR11szZsXpU4=
+		</data>
+		<key>Kissy Wink@2x.png</key>
+		<data>
+		guE2HWTo40ajc8Yv2fJteFnSm4w=
+		</data>
+		<key>Laid Back.png</key>
+		<data>
+		hR1AIydw6NCRMzst/Qh1GQ1aq0E=
+		</data>
+		<key>Laid Back@2x.png</key>
+		<data>
+		5Hcsr6bSwwkmHOSZ47w8Stv3a9g=
+		</data>
+		<key>Laughing.png</key>
+		<data>
+		5d6i9GTmyTCzje5W3APYvYW4IuI=
+		</data>
+		<key>Laughing@2x.png</key>
+		<data>
+		aDr59Xpp4C2/K96T0XC46IOrZGs=
+		</data>
+		<key>Lazy.png</key>
+		<data>
+		N4AP+lmmco7Y46tFZPZkX4Xlfwc=
+		</data>
+		<key>Lazy@2x.png</key>
+		<data>
+		V2/TJrH7oGGLgeEsDznViXTj/6Q=
+		</data>
+		<key>Let's Play.png</key>
+		<data>
+		mhb6xVapynCxC85ZZiursVKDiBc=
+		</data>
+		<key>Let's Play@2x.png</key>
+		<data>
+		rL+0I28o6QkJY3x0h6QMJ2+tK5w=
+		</data>
+		<key>Lively.png</key>
+		<data>
+		KurlNDnNieRCl2Zr7taoh7EDAuM=
+		</data>
+		<key>Lively@2x.png</key>
+		<data>
+		LezewgAbEs2CLksQ2/to0N7tXIg=
+		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		46lDPrNxlxH8SnC6RXmlRJvUDIY=
+		i7Z8RNy/fG5iWCUXvKBHipt8cHE=
 		</data>
-		<key>MidDemo.plist</key>
+		<key>Meh.png</key>
 		<data>
-		jzK7/n90kAkzQWk2yFTxixqdAwM=
+		DggFsBJdt22FJQ5vRxz8m0rGOuY=
+		</data>
+		<key>Meh@2x.png</key>
+		<data>
+		vuIlNvBWm8jlPl7Ws34yaPnkMaY=
+		</data>
+		<key>Mellow.png</key>
+		<data>
+		l35sp2Io1y5qiFlbA+aPgSv8zCg=
+		</data>
+		<key>Mellow@2x.png</key>
+		<data>
+		oZquULPPMUBUfTXHJBg4wZjllD0=
+		</data>
+		<key>Mwahaha.png</key>
+		<data>
+		WTbmjMA7Ps5ksJCQGA+owRs43tM=
+		</data>
+		<key>Mwahaha@2x.png</key>
+		<data>
+		ABICnWL5+PuoubmfLsvZFyZMtIw=
+		</data>
+		<key>NavigationBar.png</key>
+		<data>
+		VNrrh9k5b+zhgjNpiiZBC+mDzIs=
 		</data>
 		<key>NavigationBar@2x.png</key>
 		<data>
 		QLbarVTMFd5lw2DQqT5rldW9TpA=
 		</data>
-		<key>OLDDefault@2x.png</key>
+		<key>Nonchalant.png</key>
 		<data>
-		Rl8CNE+5Ht2BUHKzTYbzxdS+0ng=
+		+A+FPHaoYg+pKGLGODYOYxp4sDI=
 		</data>
-		<key>OLDIcon@2x.png</key>
+		<key>Nonchalant@2x.png</key>
 		<data>
-		fYDrBQlizEFniVsn2aWLryBIhqs=
+		VNJBQcMU/RmxSz4SRaViM0cCYGQ=
+		</data>
+		<key>Normal.png</key>
+		<data>
+		T0F//eTB1UHVbPRniSM/wjLLjRY=
+		</data>
+		<key>Normal@2x.png</key>
+		<data>
+		tixdiFjitjShc8z31Ep+6tx8TaQ=
+		</data>
+		<key>Not Amused.png</key>
+		<data>
+		b7OJscQxea5U3o2OcFdfWaBCEBw=
+		</data>
+		<key>Not Amused@2x.png</key>
+		<data>
+		6geGnQWMj9w4veNzPtIHw/pHhh8=
+		</data>
+		<key>Not Telling.png</key>
+		<data>
+		9j8S9ZoN0Iph1BSFZUF+6/ooIBU=
+		</data>
+		<key>Not Telling@2x.png</key>
+		<data>
+		tZllFKiGm0cEtKYxIGAbZFN7TOo=
+		</data>
+		<key>OLDDefault.png</key>
+		<data>
+		zviSwQ9gOc8/9CXwm+j1sNPJ6j0=
+		</data>
+		<key>OLDIcon.png</key>
+		<data>
+		opfOZflZYjEXhexU9Lkrv8C9FNU=
+		</data>
+		<key>OMG.png</key>
+		<data>
+		43cIENqk57/+mZfIK7FxhJeJYfw=
+		</data>
+		<key>OMG@2x.png</key>
+		<data>
+		eXTk2v7etY/cJ2Cw+93NABrENBM=
+		</data>
+		<key>Oh No.png</key>
+		<data>
+		fKJpGI9w0n18ckTz0hoLPQ/HREA=
+		</data>
+		<key>Oh No@2x.png</key>
+		<data>
+		pAQ+gTmu9vShjlnOgr5+BzfzvYU=
+		</data>
+		<key>Oh Oh.png</key>
+		<data>
+		IlMfa9+EU9CVLvHAup9IHutv3IE=
+		</data>
+		<key>Oh Oh@2x.png</key>
+		<data>
+		efKeZHDZf9UgmBhK1nYox3uGefU=
+		</data>
+		<key>Oops.png</key>
+		<data>
+		UL7E7eUx3mBHlKxnk9jGUnp5upQ=
+		</data>
+		<key>Oops@2x.png</key>
+		<data>
+		MN6VR8DlHgfDz5lCpQZKAzGWI/E=
+		</data>
+		<key>Overjoyed.png</key>
+		<data>
+		edZMWjEZmaLbUd9QpnSwuT+WkEY=
+		</data>
+		<key>Overjoyed@2x.png</key>
+		<data>
+		v8/a62uBGImNUr3uvMjqIAjiCsw=
+		</data>
+		<key>Peppy.png</key>
+		<data>
+		xzfkDWl7DH/mfd1m3xv//+bhtWI=
+		</data>
+		<key>Peppy@2x.png</key>
+		<data>
+		o0LLsJKnkNW0L9TWhCKolzd8Fi8=
+		</data>
+		<key>Perky.png</key>
+		<data>
+		8FXp8tUVJOE0SLv1eYIoDMJg91w=
+		</data>
+		<key>Perky@2x.png</key>
+		<data>
+		D04q0zrslhhNJzOZHvOV00b6SAQ=
 		</data>
 		<key>PhotoCaptureViewController.nib</key>
 		<data>
-		CT/FpKyRM+9oPpG9Kr2To9ItlXY=
+		CY3xAGrHmsl4tgnZB1emoMIhyrg=
 		</data>
 		<key>PhotoPreviewViewController.nib</key>
 		<data>
-		mQwLkn9F9UYvnzPe7DE3WV+3WII=
+		Tp0ZphygnjhV+xGzmdoyDVXO5Rg=
+		</data>
+		<key>Piqued.png</key>
+		<data>
+		ahM4sry6b3paNGDAe9d2FD0LlWo=
+		</data>
+		<key>Piqued@2x.png</key>
+		<data>
+		WapmAbTI/E2xB0gas2sbuBmc2+Y=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>Playful.png</key>
+		<data>
+		6/LtdirTLlbeVP1rKddYIDqZl+U=
+		</data>
+		<key>Playful@2x.png</key>
+		<data>
+		m3Uyeh4C8QWvzPGfPJVTbU7gnKE=
+		</data>
+		<key>Pleasant.png</key>
+		<data>
+		sv7W0nXRnCxw3B2JS1hI3oSAMYY=
+		</data>
+		<key>Pleasant@2x.png</key>
+		<data>
+		aYSqZ4rlyt/gJD0TtVNWPJLA3Dg=
+		</data>
+		<key>Poker Face.png</key>
+		<data>
+		Kj57edP/doIHHxLhEhflNVuyPzQ=
+		</data>
+		<key>Poker Face@2x.png</key>
+		<data>
+		MZnskoxQ8YxeDfD2eKXbaJ2gtM8=
+		</data>
+		<key>Refreshed.png</key>
+		<data>
+		tORUpgn/HBusYp6TYGQpT6uP6Gg=
+		</data>
+		<key>Refreshed@2x.png</key>
+		<data>
+		/MY1bwo8LfwctZb9L5O86PJgxtQ=
+		</data>
+		<key>Relaxed.png</key>
+		<data>
+		kPbxGIOwtsns0am/Mh6nUQz9BhI=
+		</data>
+		<key>Relaxed@2x.png</key>
+		<data>
+		TQDmQSqjPoUAGkEA11JjssD3HbY=
+		</data>
+		<key>Rhetorical@2x.png</key>
+		<data>
+		3VTH0BzbgRYOwvgDFlEnKXRkFiI=
+		</data>
+		<key>Sad.png</key>
+		<data>
+		DCE7f/Gi3u0FZGOfCN3lDQ/HPik=
+		</data>
+		<key>Sad@2x.png</key>
+		<data>
+		cp9rM+dzitgNhNckzH2Pc4X3t2s=
+		</data>
+		<key>Satisfied.png</key>
+		<data>
+		JrpTKmPv8uW4kroA2gvvCt8wv6Q=
+		</data>
+		<key>Satisfied@2x.png</key>
+		<data>
+		pOyLw2uabIXCaio87x6Q1IXsqnI=
+		</data>
+		<key>Scared.png</key>
+		<data>
+		2rPmIZEg7aeJTSy5qA6bOnIeDvY=
+		</data>
+		<key>Scared@2x.png</key>
+		<data>
+		BpGtX0WIG/lyLlnCkpK5fACqoSI=
+		</data>
+		<key>ScrollControlBackButton.png</key>
+		<data>
+		1Wl/QT+43pP/hq9WeWz5TITCFWU=
+		</data>
 		<key>ScrollControlBackButton@2x.png</key>
 		<data>
 		A+mQ+/f2dFRBYpPyM/bTEjmR0ts=
+		</data>
+		<key>ScrollControlBackground.png</key>
+		<data>
+		3jOr2H/bfG3eBlMxhnCUiXU00Kw=
 		</data>
 		<key>ScrollControlBackground@2x.png</key>
 		<data>
 		E524YpGsQKYiZUqRdVhY+NqjOzo=
 		</data>
+		<key>ScrollControlIconBackground.png</key>
+		<data>
+		snBVU6PI5Ecd0zuYk0XcFXYNdMM=
+		</data>
 		<key>ScrollControlIconBackground@2x.png</key>
 		<data>
 		bZ0nCSkCdIGPHJ5r4ddQkCETsG8=
+		</data>
+		<key>ScrollControlIconBackgroundSelected@2x.png</key>
+		<data>
+		3tgtKk3xiQ7xlD4tzm/G0yJV4a0=
+		</data>
+		<key>ScrollControlIconGloss.png</key>
+		<data>
+		CSKLyxmy7aEwE3CzFeRSh55BpH4=
 		</data>
 		<key>ScrollControlIconGloss@2x.png</key>
 		<data>
 		jEq7x/jHawA7yoWkjqZ9r36TETU=
 		</data>
+		<key>Sealed Lips.png</key>
+		<data>
+		EYjyTK34okiNQEY1V5XFflahqVQ=
+		</data>
+		<key>Sealed Lips@2x.png</key>
+		<data>
+		3DwlR058hpt8NxmCGSEU/m/XFl4=
+		</data>
+		<key>Serene.png</key>
+		<data>
+		LPtB09kx/tCD3GG39RrOEihBfqA=
+		</data>
+		<key>Serene@2x.png</key>
+		<data>
+		jFIyIjv1sLufRMo+1+spV4xclKE=
+		</data>
+		<key>SharePhotoButton.png</key>
+		<data>
+		KtUUKKgQoH5zQYtHgTg2AwOCI3I=
+		</data>
 		<key>SharePhotoButton@2x.png</key>
 		<data>
 		mL4GhuXQ/UKcP/optt+oC696hxE=
 		</data>
-		<key>StickerDemoPack.plist</key>
+		<key>Shifty Eyes.png</key>
 		<data>
-		7P+zxAEC6WnrD3SPhosy6xolxgM=
+		r7MK6AKzY7BjO1KLgNFR2eyefUg=
+		</data>
+		<key>Shifty Eyes@2x.png</key>
+		<data>
+		wYcRq9JVgH/U2WzqdIQpFhjws9Q=
+		</data>
+		<key>Shocked.png</key>
+		<data>
+		A2vib+7MmMVjrAGXjhhn4Mi61Dg=
+		</data>
+		<key>Shocked@2x.png</key>
+		<data>
+		bU0rO6XxGklmxnZvw58CnE1y7Yo=
+		</data>
+		<key>Shouting.png</key>
+		<data>
+		uGsbYQvHciwtEqk/5I3TJEfbxWk=
+		</data>
+		<key>Shouting@2x.png</key>
+		<data>
+		YNpkJXmn6Yzj3wJmtgojhapGcbY=
+		</data>
+		<key>Singing.png</key>
+		<data>
+		dgf8o2+6HEJO9irAjGohm/8Ru1c=
+		</data>
+		<key>Singing@2x.png</key>
+		<data>
+		rGUgpL2i4gadl/YfPFpmjRaRR6Y=
+		</data>
+		<key>Skeptical@2x.png</key>
+		<data>
+		FDJAsQ8XFKPaMFgTcbaLPLS6p2Q=
+		</data>
+		<key>Sleepy.png</key>
+		<data>
+		O5D/GRTWiGPQq9tZof5BeXizWrg=
+		</data>
+		<key>Sleepy@2x.png</key>
+		<data>
+		Xh4r3Y5rpy7KNaXL+tlgqq43XvI=
+		</data>
+		<key>Smiley Face.png</key>
+		<data>
+		hX0uUahZghcP3wanDsgYsHN0Wkw=
+		</data>
+		<key>Smiley Face@2x.png</key>
+		<data>
+		scF0rDyDEwMsqKsSaDWNzGuN+hQ=
+		</data>
+		<key>Smiley.png</key>
+		<data>
+		KOQew1pk2tKN/rr38gmeY6h2ooU=
+		</data>
+		<key>Smiley@2x.png</key>
+		<data>
+		yIbCCu/+jYu6Up6vRazLDbBTD/M=
+		</data>
+		<key>Smiling.png</key>
+		<data>
+		SI/mJcdCyF2n6Rs9LpTBrgBQFTA=
+		</data>
+		<key>Smiling@2x.png</key>
+		<data>
+		XnY4v6WuqERoF9TAXRF0Hdn60pQ=
+		</data>
+		<key>Snappy.png</key>
+		<data>
+		Tk1tA4eLrLoLgSy6HCOs/8kv5yQ=
+		</data>
+		<key>Snappy@2x.png</key>
+		<data>
+		rrpicBl/j51P9k/AVekozr3eNnI=
+		</data>
+		<key>Sneaky.png</key>
+		<data>
+		I/1pDElLfIqS5HEcpC5eKsh2fbE=
+		</data>
+		<key>Sneaky@2x.png</key>
+		<data>
+		VCtCvAJX96ljBfuMBTvJmIRv8nc=
+		</data>
+		<key>Sniff Sniff.png</key>
+		<data>
+		g59lkgSCN0Dih738UNKuhSjUyyk=
+		</data>
+		<key>Sniff Sniff@2x.png</key>
+		<data>
+		clP9kLGoBKcBDQ3zNCJxU1ee4C8=
+		</data>
+		<key>Snubbed.png</key>
+		<data>
+		XN7aejgSbzKmjLuHL6BAeCDQaB8=
+		</data>
+		<key>Snubbed@2x.png</key>
+		<data>
+		aCjgbaWo8axZg8G6lE6FnFb1R6Q=
+		</data>
+		<key>So Excited.png</key>
+		<data>
+		qZLPz3lu2HmOERF4zWT3tbmEorE=
+		</data>
+		<key>So Excited@2x.png</key>
+		<data>
+		DQYes6iMCBxhoXOJuNv9ElmLPO0=
+		</data>
+		<key>So Good.png</key>
+		<data>
+		Ok+I2m8gNx7MSmq8DIHNZQ5ISQg=
+		</data>
+		<key>So Good@2x.png</key>
+		<data>
+		qMSF8McqP8BOTcXpsktlI4nToeg=
+		</data>
+		<key>Sobbing.png</key>
+		<data>
+		x7GK1N94RMfGPRD1v7T84VXKto4=
+		</data>
+		<key>Sobbing@2x.png</key>
+		<data>
+		2tFo09ShOZKlTmqWWfNi0phMvCk=
+		</data>
+		<key>Somber.png</key>
+		<data>
+		zqrKYD/xXGWxvRLHv5JYfcQMeNs=
+		</data>
+		<key>Somber@2x.png</key>
+		<data>
+		BE1EdFuC2zcKH3kXUoOsAsjEedQ=
+		</data>
+		<key>Sorrowful.png</key>
+		<data>
+		nRhQrQ5Vregxu5L92zldT6jI0lE=
+		</data>
+		<key>Sorrowful@2x.png</key>
+		<data>
+		Oqx6t6W8SWAIb6krlxKVVRPmXyA=
+		</data>
+		<key>Sorry.png</key>
+		<data>
+		tKN3Ey03SNeghwedWX+s5HGk/78=
+		</data>
+		<key>Sorry@2x.png</key>
+		<data>
+		o+CMHcZ2+3XIcN07ZPFQfqYqCX4=
+		</data>
+		<key>Sour.png</key>
+		<data>
+		oRV7IS92Sb5GG4DCZVP/DPkrH3Q=
+		</data>
+		<key>Sour@2x.png</key>
+		<data>
+		x996pL8wW77uw6sFHu5KQuPculc=
+		</data>
+		<key>Spirited.png</key>
+		<data>
+		BaMIp2thj2m1vTkaFzABs3FaIzM=
+		</data>
+		<key>Spirited@2x.png</key>
+		<data>
+		t2VM8Ofg/mLjf4nzG0vnGVy1p40=
+		</data>
+		<key>Sprightly.png</key>
+		<data>
+		BJzY3iWGsSUlIqCIoDT9lT1+ybE=
+		</data>
+		<key>Sprightly@2x.png</key>
+		<data>
+		OJhPo05iDxFNK8B8Zgw3Aua2A8w=
+		</data>
+		<key>Startled.png</key>
+		<data>
+		Tz+3rprn5ZfnYhDa/gjd5U4pVKw=
+		</data>
+		<key>Startled@2x.png</key>
+		<data>
+		CZn0m78sOnJTdQ6kexMdn7Sv4mI=
+		</data>
+		<key>Stunned.png</key>
+		<data>
+		9kBySbo/RBK6BOoCSerulg4JrYY=
+		</data>
+		<key>Stunned@2x.png</key>
+		<data>
+		CFORilqLegjxLePvDAc38p5wjXM=
+		</data>
+		<key>Sunny.png</key>
+		<data>
+		6x5QTn3yD8OJejAQcPPsMU008uE=
+		</data>
+		<key>Sunny@2x.png</key>
+		<data>
+		HTvh/L3EFhv9kcj+1gicKi8TLWo=
+		</data>
+		<key>Surprised.png</key>
+		<data>
+		XHfjA/e6EwalkJSjnlz+ci4juIE=
+		</data>
+		<key>Surprised@2x.png</key>
+		<data>
+		aD+s/j+seTCh9V5RaaaLWgP7Juo=
+		</data>
+		<key>Sweatdrop@2x.png</key>
+		<data>
+		wLu8tDPP8h0YhkUUqUY+44d5BNo=
+		</data>
+		<key>TableviewBackground.png</key>
+		<data>
+		3YcroIzr+5+8gmLXFd13OVL4//E=
 		</data>
 		<key>TableviewBackground@2x.png</key>
 		<data>
 		ai9BkyuGnXZHjTQHkZAiO9eqUNU=
+		</data>
+		<key>Teary Eyed.png</key>
+		<data>
+		/S0zX7/W5Ulxi9UsaWZtmnDCWGc=
+		</data>
+		<key>Teary Eyed@2x.png</key>
+		<data>
+		MyI37Y1B/AsPD5HxANrQwvdDrs4=
+		</data>
+		<key>Teasing.png</key>
+		<data>
+		rdYLeiUbn3+oTz/+76ntvkmk8+Q=
+		</data>
+		<key>Teasing@2x.png</key>
+		<data>
+		6AEugjGEm2fUIxLvg0YpjmEbMQ4=
+		</data>
+		<key>That's Bad.png</key>
+		<data>
+		4GwMXjfDFC+rXtCVYpPBCSR7Bh0=
+		</data>
+		<key>That's Bad@2x.png</key>
+		<data>
+		Ii8obkR1V8BkBXEiW/cq4PfMymg=
+		</data>
+		<key>Thinking.png</key>
+		<data>
+		3RHx3pje4TYXjyi9sTaIkeGNGOg=
+		</data>
+		<key>Thinking@2x.png</key>
+		<data>
+		WSXWVwYuBTtIDrbLb9WbUuhImac=
+		</data>
+		<key>Thumbs Up.png</key>
+		<data>
+		RpchoLOiOS5JuaozUFZ4BNcJSaY=
+		</data>
+		<key>Thumbs Up@2x.png</key>
+		<data>
+		a9JdLl4sMSWQDN3Rb5ZCkQ2Dmg4=
+		</data>
+		<key>Tickled.png</key>
+		<data>
+		B8+1QtUgrOk15vrKFKDzCLVFrOI=
+		</data>
+		<key>Tickled@2x.png</key>
+		<data>
+		rB81BymTDjHItAW5cpy89oNlSr0=
+		</data>
+		<key>Time For Bed.png</key>
+		<data>
+		+73Ju+lj0PGxqr7avXzx/zhzmkY=
+		</data>
+		<key>Time For Bed@2x.png</key>
+		<data>
+		4xR4xlFFBSywsDmw+g4dNUhit6s=
+		</data>
+		<key>Timorous.png</key>
+		<data>
+		7lygBAdSB7D7+sZR9IDNKBS5MOw=
+		</data>
+		<key>Timorous@2x.png</key>
+		<data>
+		4OjiCZBM7PTM8dqCqvBF20qOlOA=
+		</data>
+		<key>Tired.png</key>
+		<data>
+		pRxriuJC5sQUMIuX9qrThrhTxBM=
+		</data>
+		<key>Tired@2x.png</key>
+		<data>
+		JjoYrdwCOnpARuA8aooNmQU9cIk=
+		</data>
+		<key>Tranquil.png</key>
+		<data>
+		mL8DRKve9vPKYodyPQBn7BE3TJI=
+		</data>
+		<key>Tranquil@2x.png</key>
+		<data>
+		UIOSpG+WC7oXta5RRYRLq1ylMEE=
+		</data>
+		<key>Troubled.png</key>
+		<data>
+		A1Y7zJ770nYTP87vKn0qJUARr9Q=
+		</data>
+		<key>Troubled@2x.png</key>
+		<data>
+		gun4A9J5iSB4e8n7KLxxUZYKXSE=
+		</data>
+		<key>Uh-Oh.png</key>
+		<data>
+		RfTgCXDnjE6dEtVL/5s8t4h6jSw=
+		</data>
+		<key>Uh-Oh@2x.png</key>
+		<data>
+		C2Z/tWBZbFMdn950wp4+hNRqQ+s=
+		</data>
+		<key>Undecided.png</key>
+		<data>
+		3gy9WNFXgFAsiOr7bc/3hVWjMFg=
+		</data>
+		<key>Undecided@2x.png</key>
+		<data>
+		+GtOLdFdL13m/iHdJBxAJ/BpeqU=
+		</data>
+		<key>Unhappy.png</key>
+		<data>
+		8Xi8GsBgb3OzJqg1smN4WVrQr2Q=
+		</data>
+		<key>Unhappy@2x.png</key>
+		<data>
+		QmuGOQT+PoHaRhxBrFrqP8f0ezM=
+		</data>
+		<key>Upbeat.png</key>
+		<data>
+		AJsAwtZfAQ9/XC+ZZKkp2LYHCf4=
+		</data>
+		<key>Upbeat@2x.png</key>
+		<data>
+		2Cwl7NWcuE3eqqDEQHX/Xk7bfOA=
+		</data>
+		<key>Upset.png</key>
+		<data>
+		ZwtmBr50Lo1Ll5DxgIOGDOHDd+g=
+		</data>
+		<key>Upset@2x.png</key>
+		<data>
+		XNFRq0C8Rbi5eiLPvw0CsTAZOf8=
+		</data>
+		<key>Very Happy.png</key>
+		<data>
+		sBoy2Mr5GxyKOvs6xw2m1EYUQ+I=
+		</data>
+		<key>Very Happy@2x.png</key>
+		<data>
+		q7aLJR+4YLZhCRPCTHB3eb5i0Mk=
+		</data>
+		<key>Vivacious.png</key>
+		<data>
+		g3gbTKWm9pzLWshx9Xt0OIxr7L8=
+		</data>
+		<key>Vivacious@2x.png</key>
+		<data>
+		DSqxUIWuNJyg/6bWnYr6yKfDIMM=
+		</data>
+		<key>Weeping.png</key>
+		<data>
+		jE5EYDy6fOrjxpUocmnt72w37JU=
+		</data>
+		<key>Weeping@2x.png</key>
+		<data>
+		S+MDqkjeAX1x7t1j3xFitOzrV5g=
+		</data>
+		<key>What.png</key>
+		<data>
+		SGNUjQF3tVr9gPWDSTosJc5RU40=
+		</data>
+		<key>What@2x.png</key>
+		<data>
+		MfFAk79FmPbum7fXFZpaoWnNukc=
+		</data>
+		<key>Whimsical.png</key>
+		<data>
+		sBzQ9wB1HN1KneYtGcprCZii9uo=
+		</data>
+		<key>Whimsical@2x.png</key>
+		<data>
+		N4d6CB9ndKfSmNBB6F+0ByNnt54=
+		</data>
+		<key>Whoops.png</key>
+		<data>
+		HKf9NEOhyI3o8Z6j/kc5craJI78=
+		</data>
+		<key>Whoops@2x.png</key>
+		<data>
+		cJB70A3TdYgL3LOJ+8CsP8/GR2A=
+		</data>
+		<key>Wink.png</key>
+		<data>
+		WqGMHuPcU3cgtBTIxbUA4r9EPJo=
+		</data>
+		<key>Wink@2x.png</key>
+		<data>
+		r+UEaIrXbBLjqw1L/ZAKEB2K6Rg=
+		</data>
+		<key>Winking.png</key>
+		<data>
+		i7ZNs2795o3oHr0m4OkMjX8cJ+c=
+		</data>
+		<key>Winking@2x.png</key>
+		<data>
+		SVh+/KpMGWPBHm0biNJinmuNwig=
+		</data>
+		<key>Wow.png</key>
+		<data>
+		s4Co0OBy8DQpf2UiPqn/fAMXFR0=
+		</data>
+		<key>Wow@2x.png</key>
+		<data>
+		VaQQgQb0Ic6FLrTp6jDBK37QUVY=
+		</data>
+		<key>Yawn.png</key>
+		<data>
+		eXP2S6pAH4ihvjWM+0XYTFpufKw=
+		</data>
+		<key>Yawn@2x.png</key>
+		<data>
+		dfIu4ItldfgRo+vOeekiwsjTa7Q=
+		</data>
+		<key>Yay.png</key>
+		<data>
+		5L/GCK9Q9U8nfqq7+z+2b6UW4IQ=
+		</data>
+		<key>Yay@2x.png</key>
+		<data>
+		1RL55FPkPQ0E6bYAAbklpCnF/ug=
+		</data>
+		<key>defaultnavbar.png</key>
+		<data>
+		L0gbefFbeAe5YuwZ5/2uIq9rnC0=
 		</data>
 		<key>defaultnavbar@2x.png</key>
 		<data>
@@ -1027,6 +1803,10 @@
 		<key>test.plist</key>
 		<data>
 		JIONM20ITszS1XOQ7P1Zf+p+Lkw=
+		</data>
+		<key>test82911.plist</key>
+		<data>
+		xgwrdZgv+s1wUFexz1kxu3bGxno=
 		</data>
 	</dict>
 	<key>rules</key>

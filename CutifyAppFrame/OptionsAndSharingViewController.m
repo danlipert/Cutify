@@ -37,7 +37,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	
 	TwitterViewController *twVC = [[TwitterViewController alloc] init];
 	twVC.delegate = self;
 	self.twitterVC = twVC;
@@ -52,7 +51,6 @@
 	tmbVC.delegate = self;
 	self.tumblrVC = tmbVC;
 	[tmbVC release];
-	
 	
 	//setup buttons
 	UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -90,6 +88,8 @@
 	[containerView release];
 	
 	NSLog(@"Image loaded (%f x %f)", self.image.size.width, self.image.size.height);
+	
+	self.txtField = nil;
 }
 
 -(void)cancelButtonPressed:(id)sender
@@ -127,6 +127,9 @@
 
 -(void)savePhoto
 {
+	//this always gets called on background thread
+	serverRequestPool = [[NSAutoreleasePool alloc] init];
+
 	NSLog(@"Saving image...");
 	//save file
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -213,7 +216,7 @@
     
     static NSString *CellIdentifier = @"Cell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    UITableViewCell *cell = nil;
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
@@ -227,22 +230,19 @@
 	{
 		if(self.txtField == nil)
 		{
-			if(self.txtField == nil)
-			{
-				UITextField *txtField_ =[[UITextField alloc]initWithFrame:CGRectMake(20, 10, 320, 30)];
-				[txtField_ setBorderStyle:UITextBorderStyleNone];
-				[txtField_ setPlaceholder:@"Enter your caption here..."];
-				[txtField_ setTextColor:[UIColor colorWithRed:137.0/255.0 green:137.0/255.0 blue:137.0/255.0 alpha:1.0]];
-				[txtField_ setDelegate:self];
-				self.txtField = txtField_;
-				[txtField_ release];
-				
-				[cell addSubview:self.txtField];
-				[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
-				
-			} else {
-				[cell addSubview:self.txtField];
-			}
+			UITextField *txtField_ =[[UITextField alloc]initWithFrame:CGRectMake(20, 10, 320, 30)];
+			[txtField_ setBorderStyle:UITextBorderStyleNone];
+			[txtField_ setPlaceholder:@"Enter your caption here..."];
+			[txtField_ setTextColor:[UIColor colorWithRed:137.0/255.0 green:137.0/255.0 blue:137.0/255.0 alpha:1.0]];
+			[txtField_ setDelegate:self];
+			self.txtField = txtField_;
+			[txtField_ release];
+			
+			[cell addSubview:self.txtField];
+			[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+			
+		} else {
+			[cell addSubview:self.txtField];
 		}
 	} 
 	else if (indexPath.section == 1) 
@@ -254,13 +254,13 @@
 			
 			if ([self.twitterVC isAuthorized]) {
 				self.twitterSwitch = [self getSharingSwitchWithTag:0];
+				[self.twitterSwitch addTarget:self action:@selector(switchToggled:) forControlEvents:UIControlEventValueChanged];
 				[cell addSubview:self.twitterSwitch];
 				cell.accessoryType = UITableViewCellAccessoryNone;
 				[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
 				if (shareOnTwitter_)
 				{
 					[self.twitterSwitch setOn:YES animated:NO];
-					[cell setSelectionStyle:UITableViewCellSelectionStyleBlue];
 				}
 			}
 			else {
@@ -274,13 +274,13 @@
 			if ([self.facebookVC isAuthorized])
 			{
 				self.facebookSwitch = [self getSharingSwitchWithTag:1];
+				[self.facebookSwitch addTarget:self action:@selector(switchToggled:) forControlEvents:UIControlEventValueChanged];
 				[cell addSubview:self.facebookSwitch];
 				cell.accessoryType = UITableViewCellAccessoryNone;
 				[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
 				if (shareOnFacebook_)
 				{
 					[self.facebookSwitch setOn:YES animated:NO];
-					[cell setSelectionStyle:UITableViewCellSelectionStyleBlue];
 				}
 			}
 			else 
@@ -295,13 +295,13 @@
 			if ([self.tumblrVC isAuthorized])
 			{
 				self.tumblrSwitch = [self getSharingSwitchWithTag:2];
+				[self.tumblrSwitch addTarget:self action:@selector(switchToggled:) forControlEvents:UIControlEventValueChanged];
 				[cell addSubview:self.tumblrSwitch];
 				cell.accessoryType = UITableViewCellAccessoryNone;
 				[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
 				if (shareOnTumblr_)
 				{
 					[self.tumblrSwitch setOn:YES animated:NO];
-					[cell setSelectionStyle:UITableViewCellSelectionStyleBlue];
 				}
 			}
 			else 
@@ -317,6 +317,18 @@
 	
     return cell;
 }
+
+-(void)switchToggled:(id)sender
+{
+	if (sender == self.twitterSwitch) {
+		shareOnTwitter_ = self.twitterSwitch.on;
+	} else if(sender == self.facebookSwitch) {
+		shareOnFacebook_ = self.facebookSwitch.on;
+	} else if(sender == self.tumblrSwitch) {
+		shareOnTumblr_ = self.tumblrSwitch.on;
+	}
+}
+
 
 //dismisses keyboard when user hits enter while writing caption
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
@@ -407,6 +419,7 @@
 
 -(void)makeRequestToServer
 {
+
 	if(self.twitterSwitch.on == YES || self.tumblrSwitch.on == YES || self.facebookSwitch.on == YES)
 	{
 		
@@ -424,7 +437,7 @@
 		[request setPostValue:@"Why is this necessary?" forKey:@"dummy_key"];
 		[request setPostValue:self.txtField.text forKey:@"photo_caption"];
 		
-		// Share if selected
+		// Share if selectedyout
 		if (self.facebookSwitch.on)
 		{
 			NSLog(@"Adding facebook");
@@ -455,6 +468,8 @@
 
 - (void)requestFinished:(ASIHTTPRequest *)request
 {
+	[serverRequestPool release];
+
 	[DSBezelActivityView removeViewAnimated:YES];
 
 	NSLog(@"%@", [request responseString]);
@@ -472,13 +487,14 @@
 - (void)requestFailed:(ASIHTTPRequest *)request
 {
 
-
 	NSLog(@"Failed with response: %@", [request responseString]);
 	[self uploadFailed];
 }
 
 - (void)uploadFailed
 {
+	[serverRequestPool release];
+
 	[DSBezelActivityView removeViewAnimated:YES];
 	
 	UIAlertView *alert = [[UIAlertView alloc]

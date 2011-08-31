@@ -30,7 +30,7 @@
 		[self addSubview:backgroundImage];
 		
 //		[self loadStickersFromPlist:@"StickerDemoPack"];
-		[self loadTreeFromPlistNamed:@"test"];
+		[self loadTreeFromPlistNamed:@"test82911"];
 		
 		[self loadStickersFromCurrentNode];
 		
@@ -64,7 +64,9 @@
 	{
 		NSDictionary *childDictionary = childNode.dictionary;
 		CutifyStickerMeta *stickerMeta = [[CutifyStickerMeta alloc] init];
+
 		stickerMeta.stickerImage = [UIImage imageNamed:[childDictionary objectForKey:@"Image"]];
+		NSLog(@"Loading sticker: %@", [childDictionary objectForKey:@"Image"]);
 		stickerMeta.stickerLabelString = [childDictionary objectForKey:@"Name"];
 		stickerMeta.type = [childDictionary objectForKey:@"Type"];
 		
@@ -141,6 +143,7 @@
 	}
 	
 	[rootNode release];
+	[plistArray release];
 }
 				
 	
@@ -177,7 +180,18 @@
 
 					//call method on delegate applyStickersViewController
 					[delegate stickerPickerDidPickSticker:button.stickerMeta];
-
+					
+					[UIView animateWithDuration:0.3f animations:
+						^{
+							[button.selectedImageView setAlpha:1.0f];
+							[button.backgroundImageView setAlpha:0.0f];
+						}
+						completion:^(BOOL finished){
+							[button.selectedImageView setAlpha:0.0f];
+							[button.backgroundImageView setAlpha:1.0f];
+						}
+					 ];
+					
 					return;
 				} 
 				
@@ -381,6 +395,7 @@
 	int contentHeight = 70;
 	
 	[self.s setContentSize:CGSizeMake(contentWidth, contentHeight)];
+	[self.s setContentOffset:CGPointMake(0,0) animated:YES];
 }
 
 

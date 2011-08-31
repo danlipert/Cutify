@@ -73,8 +73,6 @@
 	}
 }
 
-
-	
 #pragma mark Capture Session Configuration
 
 - (id)init {
@@ -110,23 +108,25 @@
 
 - (void)addStillImageOutput 
 {
-  [self setStillImageOutput:[[[AVCaptureStillImageOutput alloc] init] autorelease]];
-  NSDictionary *outputSettings = [[NSDictionary alloc] initWithObjectsAndKeys:AVVideoCodecJPEG,AVVideoCodecKey,nil];
-  [[self stillImageOutput] setOutputSettings:outputSettings];
-  
-  AVCaptureConnection *videoConnection = nil;
-  for (AVCaptureConnection *connection in [[self stillImageOutput] connections]) {
-    for (AVCaptureInputPort *port in [connection inputPorts]) {
-      if ([[port mediaType] isEqual:AVMediaTypeVideo] ) {
-        videoConnection = connection;
-        break;
-      }
-    }
+	[self setStillImageOutput:[[[AVCaptureStillImageOutput alloc] init] autorelease]];
+	NSDictionary *outputSettings = [[NSDictionary alloc] initWithObjectsAndKeys:AVVideoCodecJPEG,AVVideoCodecKey,nil];
+	[[self stillImageOutput] setOutputSettings:outputSettings];
+	
+	//BUGFIX - never released dictionary
+	[outputSettings release];
+	
+	AVCaptureConnection *videoConnection = nil;
+	for (AVCaptureConnection *connection in [[self stillImageOutput] connections]) {
+		for (AVCaptureInputPort *port in [connection inputPorts]) {
+			if ([[port mediaType] isEqual:AVMediaTypeVideo] ) {
+				videoConnection = connection;
+				break;
+			}
+		}
     if (videoConnection) { 
-      break; 
+		break; 
     }
-  }
-  
+	}
   [[self captureSession] addOutput:[self stillImageOutput]];
 }
 

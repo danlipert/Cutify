@@ -23,7 +23,9 @@
 		UIView *blocker_ = [[UIView alloc] initWithFrame:self.view.bounds];
 		blocker_.backgroundColor = [UIColor blackColor];
 		blocker_.alpha = 0.7;
-		UIActivityIndicatorView *activityInd_ = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+		
+		//BUGFIX - activity indicator view never released
+		UIActivityIndicatorView *activityInd_ = [[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge] autorelease];
 		activityInd_.center = CGPointMake((blocker_.bounds.size.width / 2.0), (blocker_.bounds.size.height / 2.0));
 		[blocker_ addSubview:activityInd_];
 		[activityInd_ startAnimating];

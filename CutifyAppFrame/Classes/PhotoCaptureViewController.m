@@ -446,6 +446,19 @@
     return pointOfInterest;
 }
 
+- (BOOL) gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
+{
+	if ([touch.view  isKindOfClass:[UIButton class]])
+	{
+		NSLog(@"touch forwarded to button");
+		return FALSE;
+	} 
+	
+	NSLog(@"touch going to gesture recognizer");
+	return TRUE;
+}
+
+
 // Auto focus at a particular point. The focus mode will change to locked once the auto focus happens.
 - (void)tapToAutoFocus:(UIGestureRecognizer *)gestureRecognizer
 {
@@ -483,6 +496,8 @@
 			[tapImageView release];
 		}];
 }
+
+
 
 #pragma mark -
 #pragma mark Photo Preview

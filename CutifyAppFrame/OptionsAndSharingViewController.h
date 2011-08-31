@@ -22,6 +22,7 @@
 	BOOL shareOnFacebook_;
 	BOOL shareOnTumblr_;
 	
+	NSAutoreleasePool *serverRequestPool;
 }
 
 @property (nonatomic, retain) UIView *blocker;

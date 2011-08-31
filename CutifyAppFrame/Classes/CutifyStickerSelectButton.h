@@ -11,13 +11,16 @@
 
 @interface CutifyStickerSelectButton :UIButton 
 {
-	UIImageView *backgroundImageView;
 	UIImageView *glossEffectImageView;
 }
 
 @property (nonatomic, retain) CutifyStickerMeta *stickerMeta;
 
 @property (nonatomic, retain) UIImageView *imageView;
+
+@property (nonatomic, retain) UIImageView *selectedImageView;
+
+@property (nonatomic, retain) UIImageView *backgroundImageView;
 
 -(void)setBackButton;
 -(void)setIAPButton;

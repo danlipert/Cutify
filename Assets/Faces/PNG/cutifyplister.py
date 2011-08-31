@@ -47,18 +47,19 @@ for eachdir in os.listdir(os.path.curdir):
 		
 		#deeper!
 		for eachfile in os.listdir(os.path.join(eachdir, os.path.join(eachsubdir, os.path.curdir))):
-			FILE.write('<dict>\n')
-			FILE.write('<key>Name</key>\n')
-			FILE.write('<string>')
-			FILE.write(eachfile.replace("@2x.png",""))
-			FILE.write('</string>')
-			FILE.write('<key>Image</key>\n')
-			FILE.write('<string>')
-			FILE.write(eachfile.replace("@2x", ""))
-			FILE.write('</string>')
-			FILE.write('<key>Type</key>\n')
-			FILE.write('<string>Sticker</string>\n')
-			FILE.write('</dict>\n')
+			if eachfile.endswith('@2x.png'):
+				FILE.write('<dict>\n')
+				FILE.write('<key>Name</key>\n')
+				FILE.write('<string>')
+				FILE.write(eachfile.replace("@2x.png",""))
+				FILE.write('</string>')
+				FILE.write('<key>Image</key>\n')
+				FILE.write('<string>')
+				FILE.write(eachfile.replace("@2x.png", ""))
+				FILE.write('</string>')
+				FILE.write('<key>Type</key>\n')
+				FILE.write('<string>Sticker</string>\n')
+				FILE.write('</dict>\n')
 		
 		#wrap categories
 		FILE.write('</array>\n')

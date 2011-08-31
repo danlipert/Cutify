@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CutifyStickerView.h"
+#import "CutifyScrollView.h"
 
 @interface ApplyStickersViewController : UIViewController <UIScrollViewDelegate, UIAlertViewDelegate>
 {
@@ -18,7 +19,7 @@
 @property (nonatomic, retain) UIView *stickerContainerView;
 @property (nonatomic, retain) UIView *masterContainerView;
 @property (nonatomic, retain) UIImage *photoImage;
-@property (nonatomic, retain) UIScrollView *photoScrollView;
+@property (nonatomic, retain) CutifyScrollView *photoScrollView;
 @property (nonatomic, retain) CutifyStickerView *stickerForReset;
 @property (nonatomic, retain) NSMutableArray *stickersArray;
 

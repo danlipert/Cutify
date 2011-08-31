@@ -103,7 +103,10 @@
 	NSURL *url = [NSURL URLWithString:url_string];
 	NSURLRequest *request = [NSURLRequest requestWithURL:url];
 	
-	UIWebView *_loginWebview = [[UIWebView alloc] initWithFrame:self.view.frame];
+	//attempting visual bug fix
+//	UIWebView *_loginWebview = [[UIWebView alloc] initWithFrame:self.view.frame];
+	UIWebView *_loginWebview = [[UIWebView alloc] initWithFrame:CGRectMake(0,0,320,480)];
+
 	self.loginWebview = _loginWebview;
 	[_loginWebview release];
 	[self.loginWebview setDelegate:self];
@@ -128,6 +131,18 @@
 	NSString *url_string = [((_webView.request).URL) absoluteString];
 	
 	NSLog(@"response: %@", url_string);
+	
+	//adjust for visual glitch with facebook demanding full screen real estate
+	NSRange permissionsRequestRange = [url_string rangeOfString:@"method=permissions.request"];
+	if(permissionsRequestRange.length > 0)
+	{
+		[self.navigationController setNavigationBarHidden:YES animated:YES];
+		[[UIApplication sharedApplication] setStatusBarHidden:YES animated:YES];
+	} else {
+		[[UIApplication sharedApplication] setStatusBarHidden:NO animated:YES];
+		[self.navigationController setNavigationBarHidden:NO animated:YES];
+
+	}
 	
 	//looking for "access_token="
 	NSRange access_token_range = [url_string rangeOfString:@"access_token="];

@@ -59,7 +59,7 @@
 		
 		self.rotationDegrees = 0.0f;
 
-		self.scale = 0.5f;
+		self.scale = 1.0f;
 		
 //		self.scale = self.stickerImageView.frame.size.width / self.stickerImageView.image.size.width;
 		

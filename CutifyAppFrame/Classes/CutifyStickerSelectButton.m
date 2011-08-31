@@ -11,7 +11,7 @@
 
 @implementation CutifyStickerSelectButton
 
-@synthesize stickerMeta, imageView;
+@synthesize stickerMeta, imageView, selectedImageView, backgroundImageView;
 
 -(id)initWithFrame:(CGRect)frame
 {
@@ -22,7 +22,8 @@
 		
 		self.imageView = nil;
 		glossEffectImageView = nil;
-		backgroundImageView = nil;
+		self.backgroundImageView = nil;
+		self.selectedImageView = nil;
 	}
 	return self;
 }
@@ -35,10 +36,10 @@
 //	[_imageView setCenter:self.center];
 	[_imageView setContentMode:UIViewContentModeScaleAspectFit];
 	
-	if(backgroundImageView == nil)
+	if(self.backgroundImageView == nil)
 	{
-		backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ScrollControlIconBackground.png"]];
-		[self addSubview:backgroundImageView];
+		self.backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ScrollControlIconBackground.png"]];
+		[self addSubview:self.backgroundImageView];
 	}
 	
 	if(self.imageView == nil)
@@ -49,6 +50,13 @@
 		self.imageView = _imageView;
 	}
 	
+	if(selectedImageView == nil)
+	{
+		selectedImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ScrollControlIconBackgroundSelected.png"]];
+		[selectedImageView setAlpha:0.0f];
+		[self addSubview:selectedImageView];
+	}
+	
 	if(glossEffectImageView == nil)
 	{
 		glossEffectImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ScrollControlIconGloss.png"]];
@@ -56,6 +64,8 @@
 	}  else {
 		[self bringSubviewToFront:glossEffectImageView];
 	}
+	
+
 }
 
 -(void)setBackButton
@@ -85,7 +95,7 @@
 	self.imageView = nil;
 	
 	[glossEffectImageView release];
-	[backgroundImageView release];
+	self.backgroundImageView = nil;
 }
 	
 	

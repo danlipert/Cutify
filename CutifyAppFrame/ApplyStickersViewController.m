@@ -12,6 +12,7 @@
 #import "CutifyStickerPicker.h"
 #import "CutifyStickerMeta.h"
 #import "CutifyStickerView.h"
+#import "CutifyScrollView.h"
 #import <QuartzCore/QuartzCore.h>
 
 @implementation ApplyStickersViewController
@@ -69,7 +70,7 @@
 	[_masterContainerView release];
 	
 	//setup scrollview
-	UIScrollView *_photoScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(7,5,306,306)];
+	CutifyScrollView *_photoScrollView = [[CutifyScrollView alloc] initWithFrame:CGRectMake(7,5,306,306)];
 	self.photoScrollView = _photoScrollView;
 	[_photoScrollView release];
 	
@@ -98,8 +99,8 @@
 	
 	[self.photoScrollView setContentSize:self.photoImageView.frame.size];
 	[self.photoScrollView addSubview:self.masterContainerView];
-	[self.photoScrollView setDelaysContentTouches:FALSE];
-	[self.photoScrollView setCanCancelContentTouches:TRUE];
+	[self.photoScrollView setDelaysContentTouches:NO];
+	[self.photoScrollView setCanCancelContentTouches:YES];
 	
 	CGFloat offsetX = (self.photoScrollView.bounds.size.width > self.photoScrollView.contentSize.width)? 
 	(self.photoScrollView.bounds.size.width - self.photoScrollView.contentSize.width) * 0.5 : 0.0;
@@ -131,6 +132,7 @@
 {	
 	[self resetCenter];
 }
+
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
 {
@@ -383,6 +385,7 @@
 //	[iapViewController release];
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"PRERELEASE" message:@"In-app purchase is not yet implemented." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
 	[alert show];
+	[alert release];
 }
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
@@ -396,7 +399,7 @@
 	
 	CutifyStickerView *stickerView = [[CutifyStickerView alloc] initWithStickerMeta:stickerMeta];
 	[self addGestureRecognizersToSticker:stickerView];
-	[stickerView setFrame:CGRectMake(0,0,stickerView.frame.size.width/2.0, stickerView.frame.size.height/2.0)];
+//	[stickerView setFrame:CGRectMake(0,0,stickerView.frame.size.width/2.0, stickerView.frame.size.height/2.0)];
 	[stickerView setCenter:self.view.center];
 	[stickerView setUserInteractionEnabled:YES];
 	[self.masterContainerView addSubview:stickerView];
