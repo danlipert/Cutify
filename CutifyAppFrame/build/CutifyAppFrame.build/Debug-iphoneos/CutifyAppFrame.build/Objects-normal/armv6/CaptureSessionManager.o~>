@@ -1,0 +1,16 @@
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m: In function '-[CaptureSessionManager setFlashMode:]':
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m:34: error: expected identifier before '[' token
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m: In function '-[CaptureSessionManager autoFocusAtPoint:]':
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m:55: warning: no '-captureManager:didFailWithError:' method found
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m:55: warning: (Messages without a matching method signature
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m:55: warning: will be assumed to return 'id' and accept
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m:55: warning: '...' as arguments.)
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m: In function '-[CaptureSessionManager continuousFocusAtPoint:]':
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m:74: warning: no '-captureManager:didFailWithError:' method found
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m: In function '__-[CaptureSessionManager captureStillImage]_block_invoke_1':
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m:167: warning: no '-photoCaptureSessionDidCaptureImage:' method found
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m: In function '-[CaptureSessionManager toggleCamera]':
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m:176: warning: 'CaptureSessionManager' may not respond to '-cameraCount'
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m:176: warning: comparison between pointer and integer
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m:182: warning: 'CaptureSessionManager' may not respond to '-frontFacingCamera'
+/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m:184: warning: 'CaptureSessionManager' may not respond to '-backFacingCamera'
