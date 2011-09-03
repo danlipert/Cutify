@@ -1328,9 +1328,9 @@ i<CoreMedia/CoreMedia.h>
 i<AVFoundation/AVFoundation.h>
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/Classes/CaptureSessionManager.m
-c000000004E5D59A000000000000021D3
-t1314740640
-s8659
+c000000004E5DA19400000000000021FC
+t1314759060
+s8700
 i"CaptureSessionManager.h"
 i<ImageIO/ImageIO.h>
 
@@ -8436,7 +8436,7 @@ s6819
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/CutifyAppFrame
 t1314744569
-s1263228
+s1284400
 
 N/Users/danlipert/github/Cutify/CutifyAppFrame/build/Debug-iphoneos/CutifyAppFrame.app/CutifyPack100@2x.png
 t1314591167

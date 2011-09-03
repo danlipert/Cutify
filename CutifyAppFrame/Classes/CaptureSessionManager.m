@@ -23,10 +23,14 @@
 			[device lockForConfiguration:nil];
 
 			device.flashMode = _flashMode;
-			if(_flashMode == AVCaptureFlashModeOn)
-			{
-				NSLog(@"Flash on!");
-			}
+//			if(_flashMode == AVCaptureFlashModeOn)
+//			{
+//				NSLog(@"Flash on!");
+//			}
+			
+			//set zoom
+			device.
+			
 			[device unlockForConfiguration];
 		}
     }
